@@ -259,6 +259,13 @@ La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite vi
 
 Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a los actores principales (usuarios) y los sistemas externos con los que Glottia debe interactuar para cumplir sus objetivos.
 
+> [!IMPORTANT] Descripción de Interacciones:
+> - **Aprendiz**: Utiliza Glottia para buscar, reservar y participar en encuentros de idiomas, así como para gestionar su perfil y progreso.
+> - **Local Aliado**: Usa la plataforma para registrar sus establecimientos, gestionar la disponibilidad, crear eventos y consultar analíticas de rendimiento.
+> - **Administrador**: Supervisa y gestiona el sistema, los usuarios y los locales aliados para asegurar el correcto funcionamiento de la plataforma.
+> - **Sistema de Email**: Es utilizado por Glottia para enviar notificaciones transaccionales, como confirmaciones de registro, recordatorios de eventos y recuperación de contraseñas.
+> - **Stripe**: Se integra con Glottia (post-MVP) para procesar los pagos de las suscripciones de los locales y las funcionalidades premium para los aprendices.
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
