@@ -270,6 +270,12 @@ Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a lo
 
 Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, una API web o una base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
 
+> [!IMPORTANT] Descripción de Contenedores:
+> - **Aplicación Móvil**: Construida en Flutter, es la interfaz principal para los Aprendices. Permite buscar eventos, reservar, hacer check-in y gestionar el perfil. Se comunica con el API Backend.
+> - **Aplicación de Página Única (SPA)**: Un dashboard desarrollado en React para los Locales Aliados y Administradores. Ofrece herramientas para gestionar locales, eventos y visualizar analíticas.  También consume el API Backend.
+> - **API Backend**: El núcleo del sistema. Un monolito modular desarrollado en Java/Spring Boot que contiene toda la lógica de negocio, gestiona los datos y se comunica con sistemas externos.
+> - **Base de Datos**: Un servidor PostgreSQL que persiste toda la información del sistema, organizada en esquemas lógicos, uno por cada Bounded Context.
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
