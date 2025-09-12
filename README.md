@@ -278,6 +278,8 @@ Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un co
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
+Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada componente corresponde a uno de los Bounded Contexts definidos en tu documentación. Muestra cómo estos componentes colaboran para implementar la lógica de negocio, comunicándose a través de eventos internos de Spring (`ApplicationEvents`) como especificaste.
+
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
