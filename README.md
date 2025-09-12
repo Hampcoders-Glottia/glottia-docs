@@ -259,7 +259,9 @@ La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite vi
 
 Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a los actores principales (usuarios) y los sistemas externos con los que Glottia debe interactuar para cumplir sus objetivos.
 
-> [!IMPORTANT] Descripción de Interacciones:
+> [!IMPORTANT]
+> Descripción de Interacciones:
+> 
 > - **Aprendiz**: Utiliza Glottia para buscar, reservar y participar en encuentros de idiomas, así como para gestionar su perfil y progreso.
 > - **Local Aliado**: Usa la plataforma para registrar sus establecimientos, gestionar la disponibilidad, crear eventos y consultar analíticas de rendimiento.
 > - **Administrador**: Supervisa y gestiona el sistema, los usuarios y los locales aliados para asegurar el correcto funcionamiento de la plataforma.
@@ -270,7 +272,9 @@ Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a lo
 
 Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, una API web o una base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
 
-> [!IMPORTANT] Descripción de Contenedores:
+> [!IMPORTANT]
+> Descripción de Contenedores:
+> 
 > - **Aplicación Móvil**: Construida en Flutter, es la interfaz principal para los Aprendices. Permite buscar eventos, reservar, hacer check-in y gestionar el perfil. Se comunica con el API Backend.
 > - **Aplicación de Página Única (SPA)**: Un dashboard desarrollado en React para los Locales Aliados y Administradores. Ofrece herramientas para gestionar locales, eventos y visualizar analíticas.  También consume el API Backend.
 > - **API Backend**: El núcleo del sistema. Un monolito modular desarrollado en Java/Spring Boot que contiene toda la lógica de negocio, gestiona los datos y se comunica con sistemas externos.
@@ -280,7 +284,9 @@ Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un co
 
 Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada componente corresponde a uno de los Bounded Contexts definidos en tu documentación. Muestra cómo estos componentes colaboran para implementar la lógica de negocio, comunicándose a través de eventos internos de Spring (`ApplicationEvents`) como especificaste.
 
-> [!IMPORTANT] Descripción de Componentes (Bounded Contexts):
+> [!IMPORTANT]
+> Descripción de Componentes (Bounded Contexts):
+> 
 > - **Identity & Access Management (IAM)**: Gestiona el registro, login (JWT) y roles. Es el punto de entrada para la autenticación.
 > - **Profiles & Preferences Management**: Administra los perfiles de usuario, sus idiomas y disponibilidad.
 > - **Partner - Venues Management**: Responsable del ciclo de vida de los locales aliados y sus espacios.
