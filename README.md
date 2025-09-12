@@ -280,6 +280,14 @@ Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un co
 
 Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada componente corresponde a uno de los Bounded Contexts definidos en tu documentación. Muestra cómo estos componentes colaboran para implementar la lógica de negocio, comunicándose a través de eventos internos de Spring (`ApplicationEvents`) como especificaste.
 
+> [!IMPORTANT] Descripción de Componentes (Bounded Contexts):
+> - **Identity & Access Management (IAM)**: Gestiona el registro, login (JWT) y roles. Es el punto de entrada para la autenticación.
+> - **Profiles & Preferences Management**: Administra los perfiles de usuario, sus idiomas y disponibilidad.
+> - **Partner - Venues Management**: Responsable del ciclo de vida de los locales aliados y sus espacios.
+> - **Meeting Management**: Componente central que gestiona la creación, reserva y check-in de los encuentros. Orquesta interacciones con otros componentes.
+> - **Loyalty & Engagement**: Gestiona la lógica de gamificación, como puntos y badges, reaccionando a eventos de check-in.
+> - **Analytics - Dashboard & KPI's **: Recopila y procesa métricas de negocio para los dashboards de los locales.
+
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
