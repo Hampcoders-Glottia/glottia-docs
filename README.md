@@ -249,6 +249,9 @@ En esta sección, el equipo presenta a los user personas de acuerdo a los segmen
 
 La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite visualizar el sistema en diferentes niveles de abstracción. Esto facilita la comprensión de la estructura, las responsabilidades y las interacciones tanto para perfiles técnicos como no técnicos. Los niveles que se detallan a continuación son: Contexto (Nivel 1), Contenedores (Nivel 2) y Componentes (Nivel 3).
 
+- Nivel 1 (Contexto): Muestra el sistema como una caja negra, enfocándose en sus interacciones con los usuarios y otros sistemas externos.
+
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 #### 2.5.3.3. Software Architecture Deployment Diagrams
