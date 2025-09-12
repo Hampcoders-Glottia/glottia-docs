@@ -267,6 +267,9 @@ Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a lo
 > - **Stripe**: Se integra con Glottia (post-MVP) para procesar los pagos de las suscripciones de los locales y las funcionalidades premium para los aprendices.
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, una API web o una base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
