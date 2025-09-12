@@ -181,10 +181,10 @@
 ### 1.1.1. Descripción de la Startup
 HampCoders es una startup innovadora que se enfoca en el desarrollo de soluciones empleando una arquitectura orientada a servicios, haciendo uso de tecnologías open-source. Mediante esta startup, buscamos conectar personas que desean practicar la comunicación en distintos idiomas, en grupo de manera presencial, en locales públicos que ofrezcan sus espacios como puntos de reunión. Es por eso que presentamos el proyecto “Glottia”.
 
-###Misión:
+### Misión:
 Facilitar la práctica oral de idiomas a través de experiencias conversacionales reales, seguras y entretenidas, tanto en espacios públicos como virtuales, impulsando la confianza, la fluidez y la conexión entre personas con intereses lingüísticos comunes.
 
-###Visión:
+### Visión:
 Convertirse en la comunidad global de referencia para la práctica de idiomas a través de conversaciones naturales, generando encuentros significativos entre personas que buscan mantener vivo un idioma a través del habla cotidiana y el intercambio cultural.
 
 
