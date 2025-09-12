@@ -208,38 +208,38 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
-###Segmento objetivo #1: Usuarios aprendices de idiomas
+### Segmento objetivo #1: Usuarios aprendices de idiomas
 
-####Aspectos demográficos:
+#### Aspectos demográficos:
 Sexo: Masculino, femenino y no binario.
 Edad: Entre 16 y 40 años (desde estudiantes de secundaria superior hasta jóvenes/adultos profesionales).
 Nivel socioeconómico: Medio a medio-alto.
 
-####Aspectos geográficos:
+#### Aspectos geográficos:
 Residen en áreas urbanas o metropolitanas con buena conectividad y vida cultural activa.
 Se concentran en ciudades con alta población estudiantil, diversidad cultural o presencia de comunidades extranjeras.
 Frecuentan espacios como universidades, bibliotecas, coworkings, cafeterías, bares, centros culturales y parques urbanos.
 
-####Aspectos psicográficos:
+#### Aspectos psicográficos:
 Tienen motivación tanto académica/profesional (certificaciones, prácticas, empleabilidad) como social/personal (viajar, conocer culturas, socializar).
 Buscan fluidez, vocabulario conversacional y confianza al hablar en un entorno real.
 Valoran experiencias auténticas, accesibles y presenciales fuera de un aula tradicional.
 Son curiosos, abiertos, sociables y dispuestos a salir de su zona de confort.
 
 
-##Segmento objetivo #2: Administradores que ofrecen su establecimiento como punto de reunión
+## Segmento objetivo #2: Administradores que ofrecen su establecimiento como punto de reunión
 
-####Aspectos demográficos:
+#### Aspectos demográficos:
 Perfil: Administradores, dueños o encargados de cafeterías, bares, restaurantes, coworkings y centros culturales.
 Tipo de negocio: Establecimientos con espacios adecuados para grupos pequeños o medianos.
 Ubicación: Zonas céntricas, estudiantiles o con alto tránsito de jóvenes/adultos interesados en socializar y aprender idiomas.
 
-####Aspectos geográficos:
+#### Aspectos geográficos:
 Se encuentran en áreas urbanas y metropolitanas con vida cultural activa.
 Están ubicados en distritos o barrios con alta concentración de estudiantes, profesionales jóvenes y comunidades extranjeras.
 Sus locales suelen estar cerca de universidades, residencias estudiantiles, coworkings o zonas de ocio.
 
-####Aspectos psicográficos:
+#### Aspectos psicográficos:
 Buscan atraer nuevos clientes mediante experiencias innovadoras.
 Están interesados en diferenciar su local con propuestas culturales y sociales.
 Valoran el posicionamiento digital y la visibilidad que les brinda la app.
