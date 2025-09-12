@@ -268,6 +268,8 @@ Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a lo
 > - **Sistema de Email**: Es utilizado por Glottia para enviar notificaciones transaccionales, como confirmaciones de registro, recordatorios de eventos y recuperación de contraseñas.
 > - **Stripe**: Se integra con Glottia (post-MVP) para procesar los pagos de las suscripciones de los locales y las funcionalidades premium para los aprendices.
 
+<img src = "https://i.postimg.cc/pLwrq6Xw/structurizr-System-Context.png"/>
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, una API web o una base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
@@ -279,6 +281,8 @@ Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un co
 > - **Aplicación de Página Única (SPA)**: Un dashboard desarrollado en React para los Locales Aliados y Administradores. Ofrece herramientas para gestionar locales, eventos y visualizar analíticas.  También consume el API Backend.
 > - **API Backend**: El núcleo del sistema. Un monolito modular desarrollado en Java/Spring Boot que contiene toda la lógica de negocio, gestiona los datos y se comunica con sistemas externos.
 > - **Base de Datos**: Un servidor PostgreSQL que persiste toda la información del sistema, organizada en esquemas lógicos, uno por cada Bounded Context.
+
+<img src = "https://i.postimg.cc/rmFkJ1x6/structurizr-Containers.png" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -293,6 +297,10 @@ Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada c
 > - **Meeting Management**: Componente central que gestiona la creación, reserva y check-in de los encuentros. Orquesta interacciones con otros componentes.
 > - **Loyalty & Engagement**: Gestiona la lógica de gamificación, como puntos y badges, reaccionando a eventos de check-in.
 > - **Analytics - Dashboard & KPI's **: Recopila y procesa métricas de negocio para los dashboards de los locales.
+
+<img src="https://i.postimg.cc/J0DS6PhF/structurizr-Components.png" />
+
+<br>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
