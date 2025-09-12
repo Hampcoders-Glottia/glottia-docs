@@ -216,8 +216,20 @@
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+En esta sección, el equipo presenta los elementos del needfinding
+
 ### 2.3.1. User Personas
+En esta sección, el equipo presenta a los user personas de acuerdo a los segmenots objetivos
+
+**Segmento #1**
+<img src="https://i.postimg.cc/kMQV14BS/Sofia-Ram-rez-1.png"/>
+
+**Segmento #2**
+<img src="https://i.postimg.cc/bwQFd1JJ/Carlos-M-ndez-1.png"/>
+
+
 ### 2.3.2. User Task Matrix
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Ubiquitous Language
