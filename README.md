@@ -255,7 +255,51 @@ Desean fidelizar clientes al vincular su espacio con un ambiente inclusivo, cult
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
+De acuerdo con Easwaramoorthy y Zarinpoush (2006), las entrevistas son un método de investigación, en el que se lleva a cabo “una conversación para recolectar información”. En esta, se realizan una serie de preguntas sobre el agente que queremos llegar a conocer mejor y profundizar en su sentir y punto de vista. Para HampCoders, la información recogida a través de las entrevistas es esencial para identificar cómo ElectroLink aportaría a solucionar el problema relacionado a la instalación y mantenimiento preventivo sobre el consumo de energía, en qué medida y en qué aspectos específicos. Por ello, realizamos un total de 3 entrevistas por segmento. Todas las entrevistas se realizaron a larga distancia (Google Meet, Zoom y Discord), y de manera presencial, en un espacio cómodo y silencioso y dentro del ámbito informal. 
+
 ### 2.2.1. Diseño de entrevistas
+
+## Segmento objetivo #1: Usuarios aprendices de idiomas
+
+### Preguntas principales:
+- ¿Qué métodos usas actualmente para practicar un idioma (apps, clases, grupos, amigos)?
+- ¿Qué limitaciones encuentras al practicar un idioma en tu día a día?
+- ¿Qué tan cómodo te resulta hablar en otro idioma en público o con desconocidos?
+- ¿En qué tipo de entornos prefieres practicar un idioma (formal, informal, académico, social)?
+- ¿Qué valor tendría para ti contar con un espacio físico donde practicar idiomas con otras personas?
+- ¿Qué te motivaría más: mejorar tu fluidez para fines académicos/profesionales o para socializar/viajar?
+- ¿Con qué frecuencia estarías dispuesto a asistir a reuniones presenciales de práctica de idiomas?
+- ¿Qué tipo de locales te parecerían más adecuados para reunirte (cafeterías, bares, coworkings, parques, etc.)?
+- ¿Qué esperas de una aplicación que organice encuentros presenciales para practicar idiomas?
+- ¿Qué factores te harían confiar en una app de este tipo (seguridad, calidad de participantes, facilidad de uso, precio)?
+
+### Preguntas complementarias:
+
+- ¿Qué experiencias negativas has tenido al intentar practicar idiomas antes?
+- ¿Te motiva más practicar con nativos o con personas en tu mismo nivel?
+- ¿Qué rol sueles tomar en una conversación en otro idioma: hablar mucho, escuchar más, participar poco?
+
+## Segmento objetivo #2: Administradores que ofrecen su establecimiento como punto de reunión
+
+### Preguntas principales:
+
+- ¿Cómo atraes actualmente nuevos clientes a tu establecimiento?
+- ¿Qué opinas de ofrecer tu local como punto de reunión para actividades sociales o culturales?
+- ¿Qué beneficios crees que podría tener para tu negocio recibir grupos que se reúnan a practicar idiomas?
+- ¿Qué preocupaciones tendrías al permitir que tu establecimiento sea usado para reuniones de este tipo?
+- ¿Qué tipo de consumo esperarías que hagan los asistentes durante estas reuniones?
+- ¿Qué días y horarios consideras más convenientes para albergar encuentros de práctica de idiomas?
+- ¿Qué valor tendría para ti que tu local aparezca en una app como espacio recomendado para estas actividades?
+- ¿Qué condiciones pondrías para aceptar que tu local sea un punto de reunión?
+- ¿Qué otros eventos o actividades culturales sueles organizar en tu establecimiento?
+- ¿Qué expectativas tendrías de la plataforma respecto a la promoción de tu local?
+
+### Preguntas complementarias:
+
+- ¿Qué tipo de clientes quieres atraer más a tu local (jóvenes, profesionales, extranjeros)?
+- ¿Estarías dispuesto a ofrecer descuentos o promociones a los grupos que asistan?
+- ¿Qué te haría confiar en una asociación con una app de este estilo?
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
