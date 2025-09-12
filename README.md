@@ -253,6 +253,8 @@ La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite vi
 
 - Nivel 2 (Contenedores): Descompone el sistema en sus elementos desplegables de alto nivel, como aplicaciones cliente, APIs y bases de datos.
 
+- Nivel 3 (Componentes): Detalla los componentes internos de un contenedor específico, en este caso, los Bounded Contexts que conforman el API Backend.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 #### 2.5.3.3. Software Architecture Deployment Diagrams
