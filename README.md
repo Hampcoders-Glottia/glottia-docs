@@ -179,7 +179,14 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-> Misión, visión, nombre de la startup, descripción general del producto.
+HampCoders es una startup innovadora que se enfoca en el desarrollo de soluciones empleando una arquitectura orientada a servicios, haciendo uso de tecnologías open-source. Mediante esta startup, buscamos conectar personas que desean practicar la comunicación en distintos idiomas, en grupo de manera presencial, en locales públicos que ofrezcan sus espacios como puntos de reunión. Es por eso que presentamos el proyecto “Glottia”.
+
+###Misión:
+Facilitar la práctica oral de idiomas a través de experiencias conversacionales reales, seguras y entretenidas, tanto en espacios públicos como virtuales, impulsando la confianza, la fluidez y la conexión entre personas con intereses lingüísticos comunes.
+
+###Visión:
+Convertirse en la comunidad global de referencia para la práctica de idiomas a través de conversaciones naturales, generando encuentros significativos entre personas que buscan mantener vivo un idioma a través del habla cotidiana y el intercambio cultural.
+
 
 ### 1.1.2. Perfiles de integrantes del equipo
 | Foto | Código | Descripción |
@@ -201,7 +208,44 @@
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
-> Describir los segmentos de usuarios objetivo (ya tienes una versión previa, puedes reutilizarla aquí).
+###Segmento objetivo #1: Usuarios aprendices de idiomas
+
+####Aspectos demográficos:
+Sexo: Masculino, femenino y no binario.
+Edad: Entre 16 y 40 años (desde estudiantes de secundaria superior hasta jóvenes/adultos profesionales).
+Nivel socioeconómico: Medio a medio-alto.
+
+####Aspectos geográficos:
+Residen en áreas urbanas o metropolitanas con buena conectividad y vida cultural activa.
+Se concentran en ciudades con alta población estudiantil, diversidad cultural o presencia de comunidades extranjeras.
+Frecuentan espacios como universidades, bibliotecas, coworkings, cafeterías, bares, centros culturales y parques urbanos.
+
+####Aspectos psicográficos:
+Tienen motivación tanto académica/profesional (certificaciones, prácticas, empleabilidad) como social/personal (viajar, conocer culturas, socializar).
+Buscan fluidez, vocabulario conversacional y confianza al hablar en un entorno real.
+Valoran experiencias auténticas, accesibles y presenciales fuera de un aula tradicional.
+Son curiosos, abiertos, sociables y dispuestos a salir de su zona de confort.
+
+
+##Segmento objetivo #2: Administradores que ofrecen su establecimiento como punto de reunión
+
+####Aspectos demográficos:
+Perfil: Administradores, dueños o encargados de cafeterías, bares, restaurantes, coworkings y centros culturales.
+Tipo de negocio: Establecimientos con espacios adecuados para grupos pequeños o medianos.
+Ubicación: Zonas céntricas, estudiantiles o con alto tránsito de jóvenes/adultos interesados en socializar y aprender idiomas.
+
+####Aspectos geográficos:
+Se encuentran en áreas urbanas y metropolitanas con vida cultural activa.
+Están ubicados en distritos o barrios con alta concentración de estudiantes, profesionales jóvenes y comunidades extranjeras.
+Sus locales suelen estar cerca de universidades, residencias estudiantiles, coworkings o zonas de ocio.
+
+####Aspectos psicográficos:
+Buscan atraer nuevos clientes mediante experiencias innovadoras.
+Están interesados en diferenciar su local con propuestas culturales y sociales.
+Valoran el posicionamiento digital y la visibilidad que les brinda la app.
+Quieren generar mayor consumo en su establecimiento a través de las reuniones organizadas.
+Desean fidelizar clientes al vincular su espacio con un ambiente inclusivo, cultural e internacional.
+
 
 ---
 
