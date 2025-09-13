@@ -230,6 +230,43 @@ En esta sección, el equipo presenta a los user personas de acuerdo a los segmen
 
 ### 2.3.2. User Task Matrix
 
+En esta sección se detallan las tareas que realizan los diferentes segmentos de usuarios representados por los User Personas de Glottia, con el objetivo de cumplir sus metas relacionadas con el mantenimiento preventivo de sistemas eléctricos en hogares, oficinas o como parte de su actividad profesional.
+
+---
+
+### Sofia Ramirez – Usuarios aprendices de idiomas
+
+| Actividades                                               | Frecuencia        | Importancia |
+|-----------------------------------------------------------|-------------------|-------------|
+| Buscar espacios de práctica de idiomas                    | Frecuentemente    | Alta        |
+| Participar en encuentros presenciales o virtuales         | Frecuentemente    | Alta        |
+| Agendar y coordinar sesiones de conversación con otros    | Frecuentemente    | Alta        |
+| Buscar eventos temáticos relacionados con idiomas         | Ocasionalmente    | Media       |
+| Participar en juegos o dinámicas de gamificación          | Ocasionalmente    | Media       |
+| Reservar encuentros por idioma o nivel de fluidez         | Frecuentemente    | Alta        |
+| Investigar sobre nuevas plataformas de intercambio lingüístico | Ocasionalmente | Media       |
+| Pedir recomendaciones sobre buenas prácticas lingüísticas | Rara vez          | Media       |
+| Evaluar su progreso en el aprendizaje del idioma          | Frecuentemente    | Alta        |
+
+
+---
+
+### Carlos Mendoza – Administradores que ofrecen su establecimiento como punto de reunión
+
+| Actividades                                                | Frecuencia        | Importancia |
+|------------------------------------------------------------|-------------------|-------------|
+| Promover el establecimiento en la plataforma Glottia       | Frecuentemente    | Alta        |
+| Coordinar y gestionar reservas de reuniones de idiomas     | Frecuentemente    | Alta        |
+| Organizar y preparar el espacio para las reuniones        | Frecuentemente    | Alta        |
+| Ofrecer descuentos o promociones para usuarios recurrentes | Ocasionalmente    | Media       |
+| Evaluar el rendimiento de las reuniones y el feedback de los participantes | Ocasionalmente | Alta       |
+| Actualizar el perfil del establecimiento en la plataforma  | Ocasionalmente    | Media       |
+| Participar en eventos de gamificación o colaboraciones     | Rara vez          | Media       |
+| Crear promociones o paquetes especiales para grupos       | Ocasionalmente    | Media       |
+| Establecer alianzas con otras instituciones (universidades, centros culturales) | Rara vez | Media       |
+
+
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Ubiquitous Language
