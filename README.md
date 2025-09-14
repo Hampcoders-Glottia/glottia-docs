@@ -288,7 +288,106 @@ En esta sección, el equipo presenta el empathy mapping para cada user persona
 
 ### 2.3.5. Ubiquitous Language
 
+# Glosario del Dominio del Negocio - Glottia
+
+Este glosario contiene términos clave relacionados al dominio del proyecto **Glottia**. Cada término está en inglés, seguido de su equivalente en español entre paréntesis.  
+Las definiciones están redactadas en español de forma clara y sin ambigüedades, para facilitar la comunicación entre todos los miembros del equipo y stakeholders.
+
+---
+
+## 1. Stakeholders & Roles
+
+Language Learner (Aprendiz de idiomas)  
+Persona que busca mejorar su fluidez, vocabulario y confianza al hablar un idioma extranjero mediante la práctica conversacional.
+
+Host Administrator (Administrador de establecimiento)  
+Dueño o encargado de un espacio físico (cafetería, coworking, bar, centro cultural) que ofrece su local como punto de encuentro para sesiones de práctica de idiomas.
+
+Conversation Partner (Compañero de conversación)  
+Usuario con quien se interactúa durante una sesión, emparejado según idioma, nivel de fluidez e intereses.
+
+Event Organizer (Organizador de eventos)  
+Persona o equipo responsable de coordinar encuentros temáticos, actividades culturales o dinámicas grupales dentro de Glottia.
+
+Platform Administrator (Administrador de plataforma)  
+Miembro del equipo de Glottia que gestiona usuarios, supervisa el cumplimiento de normas, valida perfiles y asegura el correcto funcionamiento del sistema.
+
+---
+
+## 2. Servicios y Experiencias
+
+Language Meetup (Encuentro de idiomas)  
+Reunión presencial en espacios públicos o locales aliados para practicar un idioma de manera informal y social.
+
+Virtual Session (Sesión virtual)  
+Conversación en línea, en tiempo real, entre dos o más usuarios de la plataforma.
+
+Language Matchmaking (Emparejamiento lingüístico)  
+Proceso de conectar a un aprendiz con compañeros de conversación adecuados según idioma, nivel y disponibilidad.
+
+Cultural Event (Evento cultural)  
+Actividad organizada que integra dinámicas multiculturales, juegos o celebraciones temáticas para enriquecer la práctica de idiomas.
+
+Gamification Activity (Actividad de gamificación)  
+Dinámica lúdica integrada en la plataforma para motivar la participación y el progreso del usuario.
+
+---
+
+## 3. Funcionalidades de la Plataforma
+
+Booking (Reserva)  
+Acción de un usuario para apartar un lugar en una sesión de práctica (presencial o virtual).
+
+Verified Space (Espacio verificado)  
+Estado de un establecimiento que ha sido validado por la plataforma como un lugar seguro y adecuado para encuentros.
+
+Progress Tracking (Seguimiento de progreso)  
+Registro del avance del usuario en términos de participación, niveles de fluidez y logros obtenidos.
+
+Rating & Review (Calificación y reseña)  
+Sistema de puntuación y comentarios que permite evaluar tanto la experiencia del usuario como del establecimiento anfitrión.
+
+Loyalty Benefits (Beneficios de fidelización)  
+Recompensas o ventajas otorgadas a usuarios recurrentes, como descuentos, accesos preferentes o reconocimientos.
+
+---
+
+## 4. Seguridad y Confianza
+
+Safe Environment (Entorno seguro)  
+Condición de que los encuentros —presenciales o virtuales— se desarrollan en espacios supervisados, confiables y respetuosos.
+
+Community Guidelines (Normas de la comunidad)  
+Reglas que regulan la conducta de los usuarios y administradores dentro de Glottia, promoviendo respeto e inclusión.
+
+Identity Verification (Verificación de identidad)  
+Proceso mediante el cual la plataforma confirma que el usuario o administrador es auténtico, evitando perfiles falsos.
+
+Trust Badge (Insignia de confianza)  
+Distintivo otorgado a usuarios o establecimientos que cumplen con los estándares de seguridad y calidad de Glottia.
+
+---
+
+## 5. Otros conceptos del dominio
+
+Language Flow (Fluidez lingüística)  
+Capacidad progresiva de expresarse de manera natural y coherente en un idioma extranjero.
+
+Cultural Exchange (Intercambio cultural)  
+Interacción entre personas de diferentes contextos culturales que fomenta el entendimiento mutuo y el aprendizaje más allá del idioma.
+
+Hybrid Practice (Práctica híbrida)  
+Modelo que combina encuentros presenciales con sesiones virtuales para ofrecer mayor flexibilidad a los usuarios.
+
+Digital Presence (Presencia digital)  
+Visibilidad de usuarios, establecimientos y eventos dentro de la aplicación y en los canales asociados a Glottia.
+
+
+
 ## 2.4. Requirements Specification
+
+En este apartado se formalizan los requerimientos del sistema en formato estructurado y verificable. Se presenta el catálogo de requisitos, modelos de casos de uso, restricciones técnicas y condiciones de aceptación. Esta especificación servirá como base contractual entre el equipo de desarrollo y los interesados.
+
 ### 2.4.1. User Stories
 ### 2.4.2. Impact Mapping
 ### 2.4.3. Product Backlog
