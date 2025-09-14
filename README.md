@@ -268,6 +268,13 @@ En esta sección se detallan las tareas que realizan los diferentes segmentos de
 
 
 ### 2.3.3. User Journey Mapping
+En esta sección, el equipo muestra el journey map por cada segmento realizado 
+
+
+<img src="https://i.postimg.cc/XY0dKz84/Customer-journey.png"/>
+<img src="https://i.postimg.cc/85qbrBPY/Customer-journey-1.png"/>
+
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Ubiquitous Language
 
