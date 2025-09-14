@@ -277,8 +277,13 @@ En esta sección, el equipo muestra el journey map por cada segmento realizado
 
 ### 2.3.4. Empathy Mapping
 
+
 En esta sección, el equipo presenta el empathy mapping para cada user persona
+
 <img src="https://i.postimg.cc/brLbzQMW/Empathy-map.png"/>
+
+---
+
 <img src="https://i.postimg.cc/9QkdRYMj/Carlos-Mendez.png"/>
 
 ### 2.3.5. Ubiquitous Language
