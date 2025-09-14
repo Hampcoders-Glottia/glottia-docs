@@ -482,7 +482,7 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 
 ## Tabla de User Stories por Epic
 
-| Story ID | User | Priority | Epic |
+| Story ID | User | Story Points | Epic |
 |----------|------|----------|------|
 | US01 | Persona interesada en practicar idiomas | High | Gestión de Identidad y Acceso (IAM) |
 | **Title** | **Registro de nuevo aprendiz** |
