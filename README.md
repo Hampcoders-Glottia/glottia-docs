@@ -251,7 +251,18 @@ Desean fidelizar clientes al vincular su espacio con un ambiente inclusivo, cult
 
 # Capítulo II: Requirements Development & Software Solution Design
 ## 2.1. Competidores
+Glottia se ubica en un punto intermedio entre las apps para aprender idiomas y las plataformas de eventos sociales. Por eso no solo compite con apps similares, sino también con redes para hacer networking y métodos más tradicionales.
 ### 2.1.1. Análisis competitivo
+##Competidores directos: Son aquellas plataformas que, al igual que Glottia, conectan a personas para practicar idiomas en encuentros presenciales.
+###Meetup
+Es una de las plataformas más grandes para crear grupos y eventos con intereses específicos. Hay muchos grupos de “language exchange” que se reúnen en bares, cafés o parques. No es exclusiva de idiomas, pero su tamaño, popularidad y facilidad para organizar eventos la hacen el rival más fuerte.
+###Tandem y HelloTalk
+Aunque se enfocan sobre todo en el intercambio virtual (chat o videollamadas), ya integran geolocalización y “eventos” para encontrar gente cercana. Son una amenaza porque tienen una base de usuarios muy grande y reconocida en el aprendizaje de idiomas.
+##Competidores indirectos: Son servicios que no ofrecen exactamente lo mismo, pero cubren la misma necesidad que es practicar idiomas en un entorno social o encontrar eventos para ello.
+###Escuelas y academias de idiomas
+Aunque su modelo es formal y educativo, suelen organizar cafés de idiomas, clubes de conversación u otros eventos sociales para estudiantes. Estos espacios compiten con las reuniones de Glottia porque ofrecen práctica guiada y en un ambiente conocido.
+###Apps de citas o redes sociales con geolocalización
+Plataformas como Bumble o grupos de Facebook específicos para aprender idiomas se usan mucho para conocer gente con intereses parecidos. Los usuarios pueden crear eventos informales o buscar amigos para practicar, reduciendo la necesidad de una app especializada como Glottia.
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
