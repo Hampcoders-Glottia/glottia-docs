@@ -264,6 +264,17 @@ Aunque su modelo es formal y educativo, suelen organizar cafés de idiomas, club
 ### Apps de citas o redes sociales con geolocalización
 Plataformas como Bumble o grupos de Facebook específicos para aprender idiomas se usan mucho para conocer gente con intereses parecidos. Los usuarios pueden crear eventos informales o buscar amigos para practicar, reduciendo la necesidad de una app especializada como Glottia.
 ### 2.1.2. Estrategias y tácticas frente a competidores
+Para sobresalir, Glottia necesita aprovechar su propuesta de valor: la conexión directa con locales físicos y la experiencia del evento.
+### Frente a competidores directos:
+## Alianzas con locales asociados
+A diferencia de Meetup, que es genérica, Glottia puede firmar acuerdos con bares, cafés u otros espacios. Así ofrece lugares seguros, organizados y con beneficios (por ejemplo, descuentos). Para los locales, la app significa visibilidad y más clientes, algo que Meetup no garantiza.
+## Cuidar la experiencia del evento
+Mientras otras apps solo conectan, Glottia puede garantizar la experiencia: temas preestablecidos, voluntarios que faciliten la conversación, para que cada encuentro sea más divertido y productivo que una reunión informal.
+### Frente a competidores indirectos:
+## Ser complemento, no sustituto
+Glottia puede mostrarse como el complemento perfecto a la educación formal. Puede asociarse con escuelas y universidades para que recomienden la app como espacio de práctica fuera del aula.
+## Construir comunidad y marca
+A diferencia de un grupo suelto en Facebook, Glottia puede crear una comunidad sólida y confiable, cuidando la seguridad, la calidad de los encuentros y la cultura alrededor de la app. Eso genera confianza y preferencia.
 
 ## 2.2. Entrevistas
 De acuerdo con Easwaramoorthy y Zarinpoush (2006), las entrevistas son un método de investigación, en el que se lleva a cabo “una conversación para recolectar información”. En esta, se realizan una serie de preguntas sobre el agente que queremos llegar a conocer mejor y profundizar en su sentir y punto de vista. Para HampCoders, la información recogida a través de las entrevistas es esencial para identificar cómo ElectroLink aportaría a solucionar el problema relacionado a la instalación y mantenimiento preventivo sobre el consumo de energía, en qué medida y en qué aspectos específicos. Por ello, realizamos un total de 3 entrevistas por segmento. Todas las entrevistas se realizaron a larga distancia (Google Meet, Zoom y Discord), y de manera presencial, en un espacio cómodo y silencioso y dentro del ámbito informal. 
