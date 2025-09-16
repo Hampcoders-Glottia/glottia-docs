@@ -256,22 +256,22 @@ Lograremos que nuestros clientes pasen una agradable experiencia usando nuestra 
 Podremos ganar popularidad y expandirnos a mayor nivel con el tiempo.
 
 #### Users Assumptions:
-**¿Quiénes son nuestros usuarios?**
+**¿Quiénes son nuestros usuarios?** <br>
 Nuestros usuarios son personas que buscan practicar su idioma de forma conversacional, especialmente en un entorno social. Suelen ser jóvenes y adultos interesados en mejorar su fluidez, hacer networking o conocer nuevas personas con intereses similares.
 
-**¿Dónde encaja nuestro producto?**
+**¿Dónde encaja nuestro producto?** <br>
 Nuestro producto encaja en su vida como una actividad social y de desarrollo personal, ocupando un espacio similar al de ir a clases de conversación, asistir a meetups o realizar actividades recreativas con propósito.
 
-**¿Qué problema tiene nuestro producto a resolver?**
+**¿Qué problema tiene nuestro producto a resolver?** <br>
 Nuestro producto busca resolver el problema de que muchas personas no tienen con quién practicar un idioma que ya han aprendido, lo que les impide ganar fluidez, confianza y mantener lo aprendido.
 
-**¿Cuándo y cómo es usado nuestro producto?**
+**¿Cuándo y cómo es usado nuestro producto?** <br>
 Nuestro producto se usa principalmente en horarios libres de los clientes, cuando los usuarios buscan actividades recreativas o de crecimiento personal. Se accede a través de una app, donde el usuario se registra, completa su perfil y se une a reuniones temáticas, ya sean presenciales en lugares públicos o virtuales por videollamada.
 
-**¿Qué características son importantes?**
+**¿Qué características son importantes?** <br>
 Emparejamiento inteligente por intereses, edad, ubicación y nivel de idioma, reuniones temáticas estructuradas con dinámicas para guiar la conversación, opciones presenciales y virtuales.
 
-**¿Cómo debería verse y comportarse nuestro producto?**
+**¿Cómo debería verse y comportarse nuestro producto?** <br>
 Nuestro producto debería verse moderno, amigable y social, con una interfaz intuitiva, clara y cálida que invite a participar. Colores suaves, ilustraciones o íconos relacionados al idioma y la cultura pueden reforzar la experiencia.
 
 #### User Outcome:
@@ -283,7 +283,17 @@ Acceso a experiencias prácticas y entretenidas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Creemos que** al emparejar a los usuarios por nivel de idioma, intereses y cercanía, mejoraremos la calidad de las interacciones en las reuniones. <br>
+**Sabremos que** conseguimos excelentes resultados. <br> 
+**Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes. <br>
 
+**Creemos que** ofreciendo reuniones temáticas con dinámicas y juegos relacionados al idioma, los usuarios estarán más comprometidos y motivados. <br>
+**Sabremos que** conseguimos excelentes resultados. <br>
+**Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes. <br>
+
+**Creemos que** brindando la opción de participar tanto de forma presencial como virtual, ampliaremos la accesibilidad y comodidad para los usuarios. <br>
+**Sabremos que** conseguimos excelentes resultados. <br>
+**Cuando** al menos el 40% de los usuarios utilicen ambas modalidades durante su primer trimestre en la app.
 
 #### 1.2.2.4. Lean UX Canvas
 
