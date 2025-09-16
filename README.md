@@ -199,9 +199,40 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
-> Contexto del problema que se quiere resolver.
+
+Con el propósito de obtener una comprensión más profunda de las necesidades de nuestros usuarios, hemos investigado sus antecedentes históricos y los desafíos que enfrentan mediante la metodología de las 5W`S y 2H`S. Este enfoque nos asegura que la información recopilada sea pertinente y nos permita desarrollar soluciones precisas y eficaces que satisfagan sus necesidades.
+
+#### What: 
+La problemática que como equipo buscamos solucionar,  es que cada vez más los jóvenes adultos se interesan en aprender nuevos idiomas y establecer conexiones con personas de diferente cultura, ya sea para mejorar sus oportunidades laborales o ampliar sus horizontes personales. Sin embargo, encontrar espacios adecuados para practicar idiomas de manera regular social puede ser un reto. Las academias tradicionales suelen ser costosas o tener horarios poco flexibles, mientras que muchas plataformas en línea carecen de la interacción. Además tras la pandemia muchos jóvenes se han visto afectadas sus habilidades sociales o anhelan espacios ideales donde puedan relacionarse con personas que compartan su interés por contextos urbanos con acceso limitado a comunidades multiculturales. Esto es de suma importancia porque nos abre una oportunidad para mejorar nuestro aprendizaje de idiomas a través de entornos sociales que sean accesibles, inclusivos, seguros y dinámicos. Para eso debe ser en un lugar donde la gente pueda sentir satisfacción y comodidad para poder interactuar en este entorno. Según Cáceres (2022) implica que para poder aprender otros idiomas es adecuado poder encontrar un entorno donde la gente se encuentre cómoda y esté motivada a aprender,  de acuerdo con su investigación a la gente a la que ha estudiado un total de 374 personas el 28,10% suelen participar de forma voluntaria. Otro tema que se tiene en cuenta es la interacción con las personas ya que el 20,9% son quienes pueden interactuar mejor con las personas y aprender inglés en conjunto y aprender más acerca de las demás personas internacionalmente hablando dando a entender si se pone en práctica su conclusión se podrá enfrentar a esta situación. 
+
+#### When:
+El problema ocurre cuando una persona desea practicar un nuevo idioma de forma real y no encuentra un entorno adecuado para hacerlo. Según investigaciones pueden ser los siguientes casos: cuando se buscan alternativas a los institutos y academias tradicionales, requiere mejorar su fluidez oral así mismo  cuando experimentan frustración por la falta de un ambiente convencional para el aprendizaje. Segun Soncco (2022), afirma que los estudiantes encuentran una mejor forma de poder aprender su inglés mediante las tecnologías móviles así como también empleando muchas estrategias de evaluación para medir el nivel de 325 estudiantes de los cuales un 51,8% tiene un nivel medio asimismo se demostró que un 53,4% demostró tener mejoras en el inglés mediante estos aplicativos web en base a esta investigación demostraría que se puede aplicar landing page en especializada para potenciar las habilidades con respecto a otros idiomas. 
+
+#### Where:
+En cualquier lugar donde no existan espacios accesibles que se ajusten a las necesidades de los usuarios por lo que la landing page que estamos desarrollado permitirá que los usuarios no tengan problemas en elegir sus lugares de estudio con sus respectivos compañeros de aprendizaje y digamos la experiencia sea agradable y le brinde al estudiante las herramientas para poder mejorar. Estos entonces pueden ser desde cafeterías, departamentos, lugares públicos, salones etc. Además contamos con un entorno virtual en el que el usuario puede organizar su clase a distancia al horario que le sea más flexible al estudiante. Según Soto (2018) señaló que el involucrarse con personas de otros países, ciudades y culturas es sumamente fundamental para el desarrollo del inglés independientemente del nivel que la persona tenga. Asimismo Idiomas PUCP (2028) señaló que la virtualidad puede ayudar a los estudiar inglés a los demás garantizando resultados positivos, pero qué hay del lugar nosotros planteamos que el usuario siempre esté satisfecho por el lugar y tiempo que invierte por ello también enfocamos en que el alumno pueda administrar de manera efectiva su horario.    
+
+#### Who:
+Nuestros usuarios son por lo general jóvenes adultos entre 18 y 35 años con interés en mejorar su fluidez oral al hablar en otros idiomas, asimismo también buscamos ayudar a los jóvenes universitarios o recién egresados que desean mejorar su empleabilidad, así como a profesionales que necesitan practicar otros idiomas en su entorno laboral, por último tenemos a las personas de otras culturas que buscan ampliar sus horizontes conociendo y enseñando sus costumbres e idiomas. 
+
+#### Why:
+Las causas de este problema que como startup buscamos solucionar son  : Las academias de idioma suelen ser costosas, Las plataformas online carecen de lucidez y espontaneidad y los espacios informales para prácticas suelen ser escasos o desorganizados. Por ello nuestro proyecto nace como una respuesta directa a esa necesidad insatisfecha, promoviendo un entorno dinámico, inclusivo y eficaz para practicar idiomas mediante la conversación constante. 
+
+#### How:
+A través de una plataforma digital donde los usuarios pueden registrarse, seleccionar el idioma que desean practicar, emparejarse con otras personas según nivel y disponibilidad, y asistir a encuentros organizados o espontáneos, presenciales o virtuales. 
+Registro de creación de perfil con intereses, nivel de idioma y disponibilidad. 
+Selección del idioma a practicar y emparejamiento inteligente.
+Reserva de encuentros temáticos o asistencia a sesiones abiertas.
+Participación en retos lingüísticos, eventos  y dinámicas gamificadas.
+Acumulación de puntos, logros y beneficios por participación.
+Organización de eventos con embajadores locales y moderadores certificados. 
+
+#### How Much:
+En una investigación por parte de Segovia (2021), en el Perú se selecciponó una muestra de 37 estudiantes de un instituto de educación superior.  Esto con el fin de hacer una evaluación para medir las causas que pueden generar el problema con el aprendizaje de una nueva lengua por esta razón según la investigación que de los estudiantes seleccionados por lo que se puede tomar en cuenta el 75,7% quienes conforman a los hombres y el 24,3% quienes conforman a las mujeres cuyas edades son entre los 18 y 25 años. Dieron como resultado que el temor a la evaluación negativa de compañeros y la ansiedad son los principales factores así mismo según el gráfico estadístico para medir el problema principal de la ansiedad nos revela que el 89,20% de la muestra, revela una aprehensión comunicativa grande y un 59,5% a la evaluación negativa. asimismo otra investigación realizada por Muñoz (2020) quien tomó un total de 210 estudiantes demostró que al tener buen hábito de estudio y gente que complementa dichas habilidades, como hábitos de organización, estudio y controles para exámenes etc. Estos estudios demuestran que sí podemos tomar en cuenta el problema y aplicar soluciones podremos lograr un producto que satisfaga correctamente la necesidad del usuario. Se revela que un 43, 4% no tiene muchos hábitos de estudio y solo el 27,2% cuenta con buenas maneras de poner en práctica otros idiomas, siendo únicamente el 15% los más destacables dentro de los 210 estudiantes destacando que en esta manera hay aun más casos de personas con problemas de aprendizaje de idiomas que no logran encontrar la metodología perfecta para poder desarrollarse social y académicamente. 
+
 
 ### 1.2.2. Lean UX Process
+
+
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
