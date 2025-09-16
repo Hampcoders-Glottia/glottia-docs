@@ -268,7 +268,7 @@ Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a lo
 > - **Sistema de Email**: Es utilizado por Glottia para enviar notificaciones transaccionales, como confirmaciones de registro, recordatorios de eventos y recuperación de contraseñas.
 > - **Stripe**: Se integra con Glottia (post-MVP) para procesar los pagos de las suscripciones de los locales y las funcionalidades premium para los aprendices.
 
-<img src = "https://i.postimg.cc/pLwrq6Xw/structurizr-System-Context.png"/>
+<img src = "https://i.postimg.cc/J4NmY9xS/structurizr-System-Context-1.png"/>
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -282,7 +282,7 @@ Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un co
 > - **API Backend**: El núcleo del sistema. Un monolito modular desarrollado en Java/Spring Boot que contiene toda la lógica de negocio, gestiona los datos y se comunica con sistemas externos.
 > - **Base de Datos**: Un servidor PostgreSQL que persiste toda la información del sistema, organizada en esquemas lógicos, uno por cada Bounded Context.
 
-<img src = "https://i.postimg.cc/rmFkJ1x6/structurizr-Containers.png" />
+<img src = "https://i.postimg.cc/BnmrdsK7/structurizr-Containers.png" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -296,9 +296,9 @@ Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada c
 > - **Partner - Venues Management**: Responsable del ciclo de vida de los locales aliados y sus espacios.
 > - **Meeting Management**: Componente central que gestiona la creación, reserva y check-in de los encuentros. Orquesta interacciones con otros componentes.
 > - **Loyalty & Engagement**: Gestiona la lógica de gamificación, como puntos y badges, reaccionando a eventos de check-in.
-> - **Analytics - Dashboard & KPI's **: Recopila y procesa métricas de negocio para los dashboards de los locales.
+> - **Analytics - Dashboard & KPI's**: Recopila y procesa métricas de negocio para los dashboards de los locales.
 
-<img src="https://i.postimg.cc/J0DS6PhF/structurizr-Components.png" />
+<img src="https://i.postimg.cc/jjCpT96x/structurizr-Components.png" />
 
 <br>
 
