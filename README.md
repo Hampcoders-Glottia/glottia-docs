@@ -246,9 +246,61 @@ En esta sección, el equipo presenta a los user personas de acuerdo a los segmen
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
+
+La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite visualizar el sistema en diferentes niveles de abstracción. Esto facilita la comprensión de la estructura, las responsabilidades y las interacciones tanto para perfiles técnicos como no técnicos. Los niveles que se detallan a continuación son: Contexto (Nivel 1), Contenedores (Nivel 2) y Componentes (Nivel 3).
+
+- Nivel 1 (Contexto): Muestra el sistema como una caja negra, enfocándose en sus interacciones con los usuarios y otros sistemas externos.
+
+- Nivel 2 (Contenedores): Descompone el sistema en sus elementos desplegables de alto nivel, como aplicaciones cliente, APIs y bases de datos.
+
+- Nivel 3 (Componentes): Detalla los componentes internos de un contenedor específico, en este caso, los Bounded Contexts que conforman el API Backend.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a los actores principales (usuarios) y los sistemas externos con los que Glottia debe interactuar para cumplir sus objetivos.
+
+> [!IMPORTANT]
+> Descripción de Interacciones:
+> 
+> - **Aprendiz**: Utiliza Glottia para buscar, reservar y participar en encuentros de idiomas, así como para gestionar su perfil y progreso.
+> - **Local Aliado**: Usa la plataforma para registrar sus establecimientos, gestionar la disponibilidad, crear eventos y consultar analíticas de rendimiento.
+> - **Administrador**: Supervisa y gestiona el sistema, los usuarios y los locales aliados para asegurar el correcto funcionamiento de la plataforma.
+> - **Sistema de Email**: Es utilizado por Glottia para enviar notificaciones transaccionales, como confirmaciones de registro, recordatorios de eventos y recuperación de contraseñas.
+> - **Stripe**: Se integra con Glottia (post-MVP) para procesar los pagos de las suscripciones de los locales y las funcionalidades premium para los aprendices.
+
+<img src = "https://i.postimg.cc/J4NmY9xS/structurizr-System-Context-1.png"/>
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, una API web o una base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
+
+> [!IMPORTANT]
+> Descripción de Contenedores:
+> 
+> - **Aplicación Móvil**: Construida en Flutter, es la interfaz principal para los Aprendices. Permite buscar eventos, reservar, hacer check-in y gestionar el perfil. Se comunica con el API Backend.
+> - **Aplicación de Página Única (SPA)**: Un dashboard desarrollado en React para los Locales Aliados y Administradores. Ofrece herramientas para gestionar locales, eventos y visualizar analíticas.  También consume el API Backend.
+> - **API Backend**: El núcleo del sistema. Un monolito modular desarrollado en Java/Spring Boot que contiene toda la lógica de negocio, gestiona los datos y se comunica con sistemas externos.
+> - **Base de Datos**: Un servidor PostgreSQL que persiste toda la información del sistema, organizada en esquemas lógicos, uno por cada Bounded Context.
+
+<img src = "https://i.postimg.cc/BnmrdsK7/structurizr-Containers.png" />
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada componente corresponde a uno de los Bounded Contexts definidos en tu documentación. Muestra cómo estos componentes colaboran para implementar la lógica de negocio, comunicándose a través de eventos internos de Spring (`ApplicationEvents`) como especificaste.
+
+> [!IMPORTANT]
+> Descripción de Componentes (Bounded Contexts):
+> 
+> - **Identity & Access Management (IAM)**: Gestiona el registro, login (JWT) y roles. Es el punto de entrada para la autenticación.
+> - **Profiles & Preferences Management**: Administra los perfiles de usuario, sus idiomas y disponibilidad.
+> - **Partner - Venues Management**: Responsable del ciclo de vida de los locales aliados y sus espacios.
+> - **Meeting Management**: Componente central que gestiona la creación, reserva y check-in de los encuentros. Orquesta interacciones con otros componentes.
+> - **Loyalty & Engagement**: Gestiona la lógica de gamificación, como puntos y badges, reaccionando a eventos de check-in.
+> - **Analytics - Dashboard & KPI's**: Recopila y procesa métricas de negocio para los dashboards de los locales.
+
+<img src="https://i.postimg.cc/jjCpT96x/structurizr-Components.png" />
+
+<br>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
