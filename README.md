@@ -251,8 +251,30 @@ Desean fidelizar clientes al vincular su espacio con un ambiente inclusivo, cult
 
 # Capítulo II: Requirements Development & Software Solution Design
 ## 2.1. Competidores
+Glottia se ubica en un punto intermedio entre las apps para aprender idiomas y las plataformas de eventos sociales. Por eso no solo compite con apps similares, sino también con redes para hacer networking y métodos más tradicionales.
 ### 2.1.1. Análisis competitivo
+## Competidores directos: Son aquellas plataformas que, al igual que Glottia, conectan a personas para practicar idiomas en encuentros presenciales.
+### Meetup
+Es una de las plataformas más grandes para crear grupos y eventos con intereses específicos. Hay muchos grupos de “language exchange” que se reúnen en bares, cafés o parques. No es exclusiva de idiomas, pero su tamaño, popularidad y facilidad para organizar eventos la hacen el rival más fuerte.
+### Tandem y HelloTalk
+Aunque se enfocan sobre todo en el intercambio virtual (chat o videollamadas), ya integran geolocalización y “eventos” para encontrar gente cercana. Son una amenaza porque tienen una base de usuarios muy grande y reconocida en el aprendizaje de idiomas.
+## Competidores indirectos: Son servicios que no ofrecen exactamente lo mismo, pero cubren la misma necesidad que es practicar idiomas en un entorno social o encontrar eventos para ello.
+### Escuelas y academias de idiomas
+Aunque su modelo es formal y educativo, suelen organizar cafés de idiomas, clubes de conversación u otros eventos sociales para estudiantes. Estos espacios compiten con las reuniones de Glottia porque ofrecen práctica guiada y en un ambiente conocido.
+### Apps de citas o redes sociales con geolocalización
+Plataformas como Bumble o grupos de Facebook específicos para aprender idiomas se usan mucho para conocer gente con intereses parecidos. Los usuarios pueden crear eventos informales o buscar amigos para practicar, reduciendo la necesidad de una app especializada como Glottia.
 ### 2.1.2. Estrategias y tácticas frente a competidores
+Para sobresalir, Glottia necesita aprovechar su propuesta de valor: la conexión directa con locales físicos y la experiencia del evento.
+## Frente a competidores directos:
+### Alianzas con locales asociados
+A diferencia de Meetup, que es genérica, Glottia puede firmar acuerdos con bares, cafés u otros espacios. Así ofrece lugares seguros, organizados y con beneficios (por ejemplo, descuentos). Para los locales, la app significa visibilidad y más clientes, algo que Meetup no garantiza.
+### Cuidar la experiencia del evento
+Mientras otras apps solo conectan, Glottia puede garantizar la experiencia: temas preestablecidos, voluntarios que faciliten la conversación, para que cada encuentro sea más divertido y productivo que una reunión informal.
+## Frente a competidores indirectos:
+### Ser complemento, no sustituto
+Glottia puede mostrarse como el complemento perfecto a la educación formal. Puede asociarse con escuelas y universidades para que recomienden la app como espacio de práctica fuera del aula.
+### Construir comunidad y marca
+A diferencia de un grupo suelto en Facebook, Glottia puede crear una comunidad sólida y confiable, cuidando la seguridad, la calidad de los encuentros y la cultura alrededor de la app. Eso genera confianza y preferencia.
 
 ## 2.2. Entrevistas
 De acuerdo con Easwaramoorthy y Zarinpoush (2006), las entrevistas son un método de investigación, en el que se lleva a cabo “una conversación para recolectar información”. En esta, se realizan una serie de preguntas sobre el agente que queremos llegar a conocer mejor y profundizar en su sentir y punto de vista. Para HampCoders, la información recogida a través de las entrevistas es esencial para identificar cómo ElectroLink aportaría a solucionar el problema relacionado a la instalación y mantenimiento preventivo sobre el consumo de energía, en qué medida y en qué aspectos específicos. Por ello, realizamos un total de 3 entrevistas por segmento. Todas las entrevistas se realizaron a larga distancia (Google Meet, Zoom y Discord), y de manera presencial, en un espacio cómodo y silencioso y dentro del ámbito informal. 
@@ -828,9 +850,61 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
+
+La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite visualizar el sistema en diferentes niveles de abstracción. Esto facilita la comprensión de la estructura, las responsabilidades y las interacciones tanto para perfiles técnicos como no técnicos. Los niveles que se detallan a continuación son: Contexto (Nivel 1), Contenedores (Nivel 2) y Componentes (Nivel 3).
+
+- Nivel 1 (Contexto): Muestra el sistema como una caja negra, enfocándose en sus interacciones con los usuarios y otros sistemas externos.
+
+- Nivel 2 (Contenedores): Descompone el sistema en sus elementos desplegables de alto nivel, como aplicaciones cliente, APIs y bases de datos.
+
+- Nivel 3 (Componentes): Detalla los componentes internos de un contenedor específico, en este caso, los Bounded Contexts que conforman el API Backend.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a los actores principales (usuarios) y los sistemas externos con los que Glottia debe interactuar para cumplir sus objetivos.
+
+> [!IMPORTANT]
+> Descripción de Interacciones:
+> 
+> - **Aprendiz**: Utiliza Glottia para buscar, reservar y participar en encuentros de idiomas, así como para gestionar su perfil y progreso.
+> - **Local Aliado**: Usa la plataforma para registrar sus establecimientos, gestionar la disponibilidad, crear eventos y consultar analíticas de rendimiento.
+> - **Administrador**: Supervisa y gestiona el sistema, los usuarios y los locales aliados para asegurar el correcto funcionamiento de la plataforma.
+> - **Sistema de Email**: Es utilizado por Glottia para enviar notificaciones transaccionales, como confirmaciones de registro, recordatorios de eventos y recuperación de contraseñas.
+> - **Stripe**: Se integra con Glottia (post-MVP) para procesar los pagos de las suscripciones de los locales y las funcionalidades premium para los aprendices.
+
+<img src = "https://i.postimg.cc/J4NmY9xS/structurizr-System-Context-1.png"/>
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, una API web o una base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
+
+> [!IMPORTANT]
+> Descripción de Contenedores:
+> 
+> - **Aplicación Móvil**: Construida en Flutter, es la interfaz principal para los Aprendices. Permite buscar eventos, reservar, hacer check-in y gestionar el perfil. Se comunica con el API Backend.
+> - **Aplicación de Página Única (SPA)**: Un dashboard desarrollado en React para los Locales Aliados y Administradores. Ofrece herramientas para gestionar locales, eventos y visualizar analíticas.  También consume el API Backend.
+> - **API Backend**: El núcleo del sistema. Un monolito modular desarrollado en Java/Spring Boot que contiene toda la lógica de negocio, gestiona los datos y se comunica con sistemas externos.
+> - **Base de Datos**: Un servidor PostgreSQL que persiste toda la información del sistema, organizada en esquemas lógicos, uno por cada Bounded Context.
+
+<img src = "https://i.postimg.cc/BnmrdsK7/structurizr-Containers.png" />
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada componente corresponde a uno de los Bounded Contexts definidos en tu documentación. Muestra cómo estos componentes colaboran para implementar la lógica de negocio, comunicándose a través de eventos internos de Spring (`ApplicationEvents`) como especificaste.
+
+> [!IMPORTANT]
+> Descripción de Componentes (Bounded Contexts):
+> 
+> - **Identity & Access Management (IAM)**: Gestiona el registro, login (JWT) y roles. Es el punto de entrada para la autenticación.
+> - **Profiles & Preferences Management**: Administra los perfiles de usuario, sus idiomas y disponibilidad.
+> - **Partner - Venues Management**: Responsable del ciclo de vida de los locales aliados y sus espacios.
+> - **Meeting Management**: Componente central que gestiona la creación, reserva y check-in de los encuentros. Orquesta interacciones con otros componentes.
+> - **Loyalty & Engagement**: Gestiona la lógica de gamificación, como puntos y badges, reaccionando a eventos de check-in.
+> - **Analytics - Dashboard & KPI's**: Recopila y procesa métricas de negocio para los dashboards de los locales.
+
+<img src="https://i.postimg.cc/jjCpT96x/structurizr-Components.png" />
+
+<br>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
