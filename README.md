@@ -200,7 +200,7 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
-Con el propósito de obtener una comprensión más profunda de las necesidades de nuestros usuarios, hemos investigado sus antecedentes históricos y los desafíos que enfrentan mediante la metodología de las 5W`S y 2H`S. Este enfoque nos asegura que la información recopilada sea pertinente y nos permita desarrollar soluciones precisas y eficaces que satisfagan sus necesidades.
+Con el propósito de obtener una comprensión más profunda de las necesidades de nuestros usuarios, hemos investigado sus antecedentes históricos y los desafíos que enfrentan mediante la metodología de las `5W'S y 2H'S`. Este enfoque nos asegura que la información recopilada sea pertinente y nos permita desarrollar soluciones precisas y eficaces que satisfagan sus necesidades.
 
 #### What: 
 La problemática que como equipo buscamos solucionar,  es que cada vez más los jóvenes adultos se interesan en aprender nuevos idiomas y establecer conexiones con personas de diferente cultura, ya sea para mejorar sus oportunidades laborales o ampliar sus horizontes personales. Sin embargo, encontrar espacios adecuados para practicar idiomas de manera regular social puede ser un reto. Las academias tradicionales suelen ser costosas o tener horarios poco flexibles, mientras que muchas plataformas en línea carecen de la interacción. Además tras la pandemia muchos jóvenes se han visto afectadas sus habilidades sociales o anhelan espacios ideales donde puedan relacionarse con personas que compartan su interés por contextos urbanos con acceso limitado a comunidades multiculturales. Esto es de suma importancia porque nos abre una oportunidad para mejorar nuestro aprendizaje de idiomas a través de entornos sociales que sean accesibles, inclusivos, seguros y dinámicos. Para eso debe ser en un lugar donde la gente pueda sentir satisfacción y comodidad para poder interactuar en este entorno. Según Cáceres (2022) implica que para poder aprender otros idiomas es adecuado poder encontrar un entorno donde la gente se encuentre cómoda y esté motivada a aprender,  de acuerdo con su investigación a la gente a la que ha estudiado un total de 374 personas el 28,10% suelen participar de forma voluntaria. Otro tema que se tiene en cuenta es la interacción con las personas ya que el 20,9% son quienes pueden interactuar mejor con las personas y aprender inglés en conjunto y aprender más acerca de las demás personas internacionalmente hablando dando a entender si se pone en práctica su conclusión se podrá enfrentar a esta situación. 
@@ -231,11 +231,60 @@ En una investigación por parte de Segovia (2021), en el Perú se selecciponó u
 
 
 ### 1.2.2. Lean UX Process
-
-
 #### 1.2.2.1. Lean UX Problem Statements
+
+Nuestra plataforma tiene como propósito brindar oportunidades de práctica conversacional en distintos idiomas, eliminando barreras económicas y geográficas. Buscamos que cualquier persona, sin importar su ubicación o condición económica, pueda mejorar su fluidez y confianza al comunicarse en otra lengua.
+
+Hemos observado que los jóvenes adultos enfrentan cada vez mayores obstáculos para acceder a prácticas lingüísticas constantes, principalmente debido al alto costo de las academias tradicionales o la ausencia de espacios organizados cerca de sus zonas de residencia o estudio.
+
+Ante este desafío, surge la pregunta: ¿Cómo podemos proporcionar opciones accesibles (económicamente y geográficamente) para practicar idiomas sin depender de instituciones costosas o ubicaciones limitadas?
+
 #### 1.2.2.2. Lean UX Assumptions
+
+#### Business Assumptions:
+Creemos que las personas que ya han aprendido un idioma (como inglés) necesitan practicarlo de forma conversacional para dominarlo completamente.
+Nuestra idea servirá para que las personas que necesiten practicar su idioma verbalmente, lo hagan con mucha más facilidad y comodidad.
+Creemos que un formato de reunión con temas específicos y actividades lúdicas (juegos, dinámicas) es más atractivo que una conversación libre sin estructura.
+La segmentación por intereses, edad, cercanía geográfica y nivel de idioma (datos proporcionados por el cliente), mejorará la calidad de la experiencia y la satisfacción del usuario.
+Si los usuarios que no pueden asistir presencialmente encontrarán igual valor en sesiones virtuales bien estructuradas y moderadas.
+
+#### Business Outcome:
+Seremos una plataforma confiable para practicar idiomas.
+Conseguiremos una mayor cantidad de usuarios utilizando nuestra plataforma progresivamente.
+Estableceremos alianzas estratégicas con locales comerciales (cafeterías, coworkings, restaurantes), generando acuerdos de patrocinio o comisiones por consumo.
+Lograremos que nuestros clientes pasen una agradable experiencia usando nuestra plataforma, garantizando su seguridad y nivel de satisfacción.
+Podremos ganar popularidad y expandirnos a mayor nivel con el tiempo.
+
+#### Users Assumptions:
+**¿Quiénes son nuestros usuarios?**
+Nuestros usuarios son personas que buscan practicar su idioma de forma conversacional, especialmente en un entorno social. Suelen ser jóvenes y adultos interesados en mejorar su fluidez, hacer networking o conocer nuevas personas con intereses similares.
+
+**¿Dónde encaja nuestro producto?**
+Nuestro producto encaja en su vida como una actividad social y de desarrollo personal, ocupando un espacio similar al de ir a clases de conversación, asistir a meetups o realizar actividades recreativas con propósito.
+
+**¿Qué problema tiene nuestro producto a resolver?**
+Nuestro producto busca resolver el problema de que muchas personas no tienen con quién practicar un idioma que ya han aprendido, lo que les impide ganar fluidez, confianza y mantener lo aprendido.
+
+**¿Cuándo y cómo es usado nuestro producto?**
+Nuestro producto se usa principalmente en horarios libres de los clientes, cuando los usuarios buscan actividades recreativas o de crecimiento personal. Se accede a través de una app, donde el usuario se registra, completa su perfil y se une a reuniones temáticas, ya sean presenciales en lugares públicos o virtuales por videollamada.
+
+**¿Qué características son importantes?**
+Emparejamiento inteligente por intereses, edad, ubicación y nivel de idioma, reuniones temáticas estructuradas con dinámicas para guiar la conversación, opciones presenciales y virtuales.
+
+**¿Cómo debería verse y comportarse nuestro producto?**
+Nuestro producto debería verse moderno, amigable y social, con una interfaz intuitiva, clara y cálida que invite a participar. Colores suaves, ilustraciones o íconos relacionados al idioma y la cultura pueden reforzar la experiencia.
+
+#### User Outcome:
+Mejora en la fluidez y confianza al hablar el idioma, gracias a la práctica regular con personas reales en contextos reales.
+Conexión social significativa, al conocer personas con intereses similares y compartir experiencias en un ambiente relajado.
+Aumento de la motivación para seguir practicando.
+Flexibilidad para practicar de forma presencial o virtual.
+Acceso a experiencias prácticas y entretenidas.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
