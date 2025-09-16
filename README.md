@@ -967,6 +967,124 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 | **Title** | **Enviar comunicaciones globales** |
 | **Description** | **Como** administrador **Quiero** poder enviar notificaciones o correos electrónicos a todos los usuarios **Para** comunicar novedades o mantenimientos de la plataforma. **Escenario #1: Anuncio de nueva funcionalidad** - Dado que se necesita comunicar una novedad a todos los usuarios, Cuando el administrador envía una comunicación global, Entonces todos los usuarios registrados reciben la notificación. |
 
+| TS-01 | API Endpoint para Registro de Usuarios | IAM |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/auth/register Para que los nuevos usuarios (aprendices o partners) puedan crear una cuenta en el sistema. Criterios de Aceptación Escenario #1: Registro exitoso de un aprendiz Dado que un usuario no registrado desea unirse como aprendiz, Cuando se envía una petición POST a /api/auth/register con un body JSON válido que incluye email, password y role: "aprendiz", Entonces el sistema responde con un código de estado 201 Created, crea el nuevo user y su user_profile asociado, y devuelve un token JWT en el cuerpo de la respuesta. Escenario #2: Correo electrónico ya existe Dado que un correo electrónico "user@example.com" ya existe en la base de datos, Cuando se envía una petición POST a /api/auth/register con el mismo correo, Entonces el sistema responde con un código de estado 409 Conflict y un mensaje de error indicando que el email ya está en uso. |  |
+
+| Story ID | Título | Epic |
+| TS-02 | API Endpoint para Autenticación de Usuarios | IAM |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/auth/login Para que los usuarios registrados puedan autenticarse y obtener un token de acceso. Criterios de Aceptación Escenario #1: Autenticación exitosa Dado que un usuario existe con credenciales válidas, Cuando se envía una petición POST a /api/auth/login con su email y password correctos, Entonces el sistema responde con un código de estado 200 OK y un cuerpo de respuesta JSON que contiene un accessToken JWT válido. Escenario #2: Credenciales incorrectas Dado que un usuario intenta iniciar sesión, Cuando se envía una petición POST a /api/auth/login con una contraseña incorrecta, Entonces el sistema responde con un código de estado 401 Unauthorized y un mensaje de error. |  |
+
+| Story ID | Título | Epic |
+| TS-03 | API Endpoint para Obtener Datos del Usuario Autenticado | IAM |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/users/me Para que el frontend pueda obtener los datos del perfil del usuario actualmente autenticado. Criterios de Aceptación Escenario #1: Obtener perfil de usuario exitosamente Dado que un usuario está autenticado con un JWT válido, Cuando envía una petición GET a /api/users/me, Entonces el sistema responde con 200 OK y el objeto JSON completo de su perfil (sea user_profile o partner_profile). |  |
+
+| Story ID | Título | Epic |
+| TS-04 | API Endpoint para Actualizar el Perfil de un Aprendiz | Profiles |
+| Descripción | Como Developer, Quiero implementar un endpoint PUT /api/profiles/user Para que un aprendiz autenticado pueda actualizar su información personal y preferencias de idioma. Criterios de Aceptación Escenario #1: Actualización exitosa Dado que un aprendiz está autenticado, Cuando envía una petición PUT a /api/profiles/user con un body JSON que contiene los campos a actualizar (ej: full_name, languages), Entonces el sistema responde con 200 OK, actualiza la información en la base de datos y devuelve el perfil actualizado. |  |
+
+| Story ID | Título | Epic |
+| TS-05 | API Endpoint para Obtener un Perfil Público de Aprendiz | Profiles |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/profiles/user/{profileId} Para que los usuarios puedan ver la información pública de otros aprendices. Criterios de Aceptación Escenario #1: Perfil encontrado Dado que un aprendiz con profileId=456 existe, Cuando un usuario autenticado envía una petición GET a /api/profiles/user/456, Entonces el sistema responde con 200 OK y un objeto JSON con los datos públicos del perfil (nombre, foto, idiomas, insignias). |  |
+
+| Story ID | Título | Epic |
+| TS-06 | API Endpoint para que un Partner añada un Local | Partner |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/venues Para que un usuario autenticado con rol "Partner" pueda registrar un nuevo local. Criterios de Aceptación Escenario #1: Partner registra un local exitosamente Dado que un usuario está autenticado con un JWT válido y tiene el rol "Partner", Cuando envía una petición POST a /api/venues con los datos del local (nombre, dirección, aforo) en el body, Entonces el sistema responde con 201 Created, crea el nuevo registro en la tabla venues asociándolo al partner (con estado pending_approval), y devuelve el objeto del local creado. Escenario #2: Usuario no autorizado intenta registrar un local Dado que un usuario está autenticado pero tiene el rol "aprendiz", Cuando intenta enviar una petición POST a /api/venues, Entonces el sistema responde con un código de estado 403 Forbidden. |  |
+
+| Story ID | Título | Epic |
+| TS-07 | API Endpoint para que un Partner obtenga sus Locales | Partner |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/partners/me/venues Para que un Partner pueda ver la lista de todos los locales que ha registrado. Criterios de Aceptación Escenario #1: Obtener lista de locales Dado que un Partner autenticado ha registrado 3 locales, Cuando envía una petición GET a /api/partners/me/venues, Entonces el sistema responde con 200 OK y un array JSON que contiene los 3 objetos de sus locales. |  |
+
+| Story ID | Título | Epic |
+| TS-08 | API Endpoint para que un Partner actualice un Local | Partner |
+| Descripción | Como Developer, Quiero implementar un endpoint PUT /api/venues/{venueId} Para que un Partner pueda actualizar la información de un local que le pertenece. Criterios de Aceptación Escenario #1: Actualización exitosa Dado que un Partner es dueño del local con venueId=789, Cuando envía una petición PUT a /api/venues/789 con los nuevos datos, Entonces el sistema responde con 200 OK y devuelve el objeto del local actualizado. Escenario #2: Intento de actualizar un local ajeno Dado que un Partner NO es dueño del local con venueId=789, Cuando intenta enviar una petición PUT a /api/venues/789, Entonces el sistema responde con 403 Forbidden. |  |
+
+| Story ID | Título | Epic |
+| TS-09 | API Endpoint para Obtener Catálogos | Catalogs |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/catalogs Para que el frontend pueda obtener las listas de idiomas, niveles e intereses disponibles. Criterios de Aceptación Escenario #1: Obtener todos los catálogos Cuando se envía una petición GET a /api/catalogs, Entonces el sistema responde con 200 OK y un objeto JSON que contiene tres arrays: languages, levels, e interests. |  |
+
+| Story ID | Título | Epic |
+| TS-10 | API Endpoint para Buscar Encuentros | Event |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/encounters que soporte filtros Para que los usuarios puedan buscar encuentros según sus preferencias. Criterios de Aceptación Escenario #1: Búsqueda con filtros Dado que existen varios encuentros programados en la base de datos, Cuando se envía una petición GET a /api/encounters?languageId=1&city=Lima, Entonces el sistema responde con un 200 OK y una lista de los encuentros que coinciden con los filtros. Escenario #2: Búsqueda sin resultados Cuando se envía una petición GET a /api/encounters con filtros que no coinciden con ningún encuentro, Entonces el sistema responde con un 200 OK y una lista vacía []. |  |
+
+| Story ID | Título | Epic |
+| TS-11 | API Endpoint para Crear un Encuentro | Event |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/encounters Para que un aprendiz autenticado pueda crear un nuevo encuentro. Criterios de Aceptación Escenario #1: Creación exitosa Dado que un aprendiz está autenticado, Cuando envía una petición POST a /api/encounters con los detalles del evento (venue_id, language_id, start_time, etc.), Entonces el sistema responde con 201 Created, crea el encuentro y la primera attendance para el creador, y devuelve el objeto del encuentro creado. |  |
+
+| Story ID | Título | Epic |
+| TS-12 | API Endpoint para Obtener Detalles de un Encuentro | Event |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/encounters/{encounterId} Para que los usuarios puedan ver la información completa de un evento específico. Criterios de Aceptación Escenario #1: Encuentro encontrado Dado que un encuentro con id=123 existe, Cuando se envía una petición GET a /api/encounters/123, Entonces el sistema responde con 200 OK y el objeto JSON del encuentro, incluyendo detalles del local y una lista de los perfiles de los asistentes. |  |
+
+| Story ID | Título | Epic |
+| TS-13 | API Endpoint para Reservar un Cupo en un Encuentro | Event |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/encounters/{encounterId}/attendances Para que un aprendiz pueda reservar su asistencia a un encuentro. Criterios de Aceptación Escenario #1: Reserva exitosa Dado que un aprendiz está autenticado y un encuentro con id=123 tiene cupos disponibles, Cuando envía una petición POST a /api/encounters/123/attendances, Entonces el sistema responde con 201 Created, crea un registro en la tabla attendances con estado "confirmed", y devuelve el objeto de la reserva incluyendo un código QR. Escenario #2: Encuentro sin cupos disponibles Dado que el encuentro con id=123 no tiene cupos disponibles, Cuando un aprendiz envía una petición POST a /api/encounters/123/attendances, Entonces el sistema responde con un 409 Conflict y un mensaje indicando que el encuentro está lleno. |  |
+
+| Story ID | Título | Epic |
+| TS-14 | API Endpoint para Cancelar una Reserva | Event |
+| Descripción | Como Developer, Quiero implementar un endpoint DELETE /api/attendances/{attendanceId} Para que un aprendiz pueda cancelar su asistencia a un encuentro. Criterios de Aceptación Escenario #1: Cancelación exitosa Dado que un aprendiz es el dueño de la reserva con attendanceId=999, Cuando envía una petición DELETE a /api/attendances/999, Entonces el sistema responde con 204 No Content y elimina el registro de la asistencia. |  |
+
+| Story ID | Título | Epic |
+| TS-15 | API Endpoint para realizar el Check-in | Event |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/attendances/check-in Para validar la asistencia de un aprendiz a un encuentro a través de su código QR. Criterios de Aceptación Escenario #1: Check-in exitoso Dado que un Partner está autenticado y un aprendiz tiene una reserva confirmada con un qr_code válido, Cuando el Partner envía una petición POST a /api/attendances/check-in con el qr_code del aprendiz, Entonces el sistema responde con 200 OK, actualiza el estado de la attendance a "attended", y dispara un evento interno UserCheckedInEvent. |  |
+
+| Story ID | Título | Epic |
+| TS-16 | API Endpoint para Enviar Feedback | Feedback |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/attendances/{attendanceId}/feedback Para que un aprendiz pueda calificar un encuentro al que asistió. Criterios de Aceptación Escenario #1: Feedback enviado exitosamente Dado que un aprendiz asistió a un encuentro (su attendance tiene estado "attended"), Cuando envía una petición POST a /api/attendances/{attendanceId}/feedback con rating y comment, Entonces el sistema responde con 201 Created y guarda el feedback en la base de datos. Escenario #2: Intento de dar feedback sin haber asistido Dado que la attendance de un aprendiz no tiene el estado "attended", Cuando intenta enviar feedback, Entonces el sistema responde con 403 Forbidden. |  |
+
+| Story ID | Título | Epic |
+| TS-17 | Listener de Eventos para Asignar Puntos de Lealtad | Loyalty |
+| Descripción | Como Developer, Quiero implementar un listener de eventos que reaccione al UserCheckedInEvent Para asignar puntos de lealtad al usuario de forma automática y desacoplada del flujo de check-in. Criterios de Aceptación Escenario #1: Usuario gana puntos por asistencia Dado que el sistema de Lealtad está escuchando eventos de la aplicación, Cuando se dispara un evento UserCheckedInEvent con el profile_id de un aprendiz, Entonces el listener de Lealtad captura el evento y crea un nuevo registro en la tabla loyalty_points para ese profile_id con la cantidad de puntos correspondiente por asistencia. |  |
+
+| Story ID | Título | Epic |
+| TS-18 | Listener de Eventos para Desbloquear Insignias | Loyalty |
+| Descripción | Como Developer, Quiero implementar una lógica de negocio que se ejecute después de asignar puntos Para verificar si un usuario ha cumplido los criterios para desbloquear una nueva insignia. Criterios de Aceptación Escenario #1: Usuario desbloquea insignia de "Primer Encuentro" Dado que un usuario no tiene asistencias previas, Cuando el sistema de lealtad procesa su primer UserCheckedInEvent, Entonces después de asignar los puntos, el sistema verifica sus logros, le asigna la insignia "Primer Encuentro" creando un registro en user_badges y le envía una notificación. |  |
+
+| Story ID | Título | Epic |
+| TS-19 | API Endpoint para Obtener Puntos e Insignias de un Perfil | Loyalty |
+| Descripción | Como Developer, Quiero que el endpoint de perfil GET /api/profiles/user/{profileId} incluya la información de lealtad Para que pueda ser mostrada en la vista del perfil. Criterios de Aceptación Escenario #1: Perfil incluye datos de lealtad Dado que un usuario ha ganado 50 puntos y 2 insignias, Cuando se solicita su perfil a través de la API, Entonces la respuesta JSON del perfil contiene un objeto loyalty con el total de puntos y un array de las insignias ganadas. |  |
+
+| Story ID | Título | Epic |
+| TS-20 | API Endpoint para Enviar Solicitud de Contacto | Community |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/contacts/requests Para que un aprendiz pueda enviar una solicitud de contacto a otro. Criterios de Aceptación Escenario #1: Solicitud enviada exitosamente Dado que el usuario A (id=1) y el usuario B (id=2) no son contactos, Cuando el usuario A envía una petición POST a /api/contacts/requests con { "receiver_profile_id": 2 }, Entonces el sistema responde con 201 Created y crea un registro en la tabla contacts con estado "pending". |  |
+
+| Story ID | Título | Epic |
+| TS-21 | API Endpoint para Responder Solicitud de Contacto | Community |
+| Descripción | Como Developer, Quiero implementar un endpoint PUT /api/contacts/requests/{requestId} Para que un usuario pueda aceptar o rechazar una solicitud de contacto. Criterios de Aceptación Escenario #1: Aceptar una solicitud Dado que el usuario B ha recibido una solicitud de contacto del usuario A (requestId=5), Cuando el usuario B envía una petición PUT a /api/contacts/requests/5 con { "status": "accepted" }, Entonces el sistema responde con 200 OK y actualiza el estado del registro en la tabla contacts. |  |
+
+| Story ID | Título | Epic |
+| TS-22 | API Endpoint para Listar Contactos | Community |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/contacts Para que un usuario pueda ver su lista de contactos aceptados. Criterios de Aceptación Escenario #1: Obtener lista de contactos Dado que un usuario autenticado tiene 5 contactos aceptados, Cuando envía una petición GET a /api/contacts, Entonces el sistema responde con 200 OK y un array con los 5 perfiles de sus contactos. |  |
+
+| Story ID | Título | Epic |
+| TS-23 | API Endpoint para Enviar un Mensaje | Messaging |
+| Descripción | Como Developer, Quiero implementar un endpoint POST /api/messages Para que un usuario pueda enviar un mensaje privado a uno de sus contactos. Criterios de Aceptación Escenario #1: Mensaje enviado exitosamente Dado que el usuario A y el usuario B son contactos, Cuando el usuario A envía una petición POST a /api/messages con { "receiver_profile_id": B, "content": "Hola!" }, Entonces el sistema responde con 201 Created, guarda el mensaje y envía una notificación al usuario B. |  |
+
+| Story ID | Título | Epic |
+| TS-24 | API Endpoint para Obtener Historial de una Conversación | Messaging |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/messages/{contactId} Para que un usuario pueda ver todos los mensajes intercambiados con un contacto. Criterios de Aceptación Escenario #1: Cargar historial de chat Dado que el usuario A y el contacto B (contactId=25) han intercambiado mensajes, Cuando el usuario A envía una petición GET a /api/messages/25, Entonces el sistema responde con 200 OK y un array de todos los mensajes entre ellos, ordenados por fecha. |  |
+
+| Story ID | Título | Epic |
+| TS-25 | API Endpoint para que un Admin vea Locales Pendientes | Admin |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/admin/venues/pending Para que un administrador pueda ver todos los locales que necesitan ser validados. Criterios de Aceptación Escenario #1: Hay locales pendientes Dado que un usuario con rol "Admin" está autenticado, Cuando envía una petición GET a /api/admin/venues/pending, Entonces el sistema responde con 200 OK y una lista de los locales con estado "pending_approval". |  |
+
+| Story ID | Título | Epic |
+| TS-26 | API Endpoint para que un Admin Apruebe o Rechace un Local | Admin |
+| Descripción | Como Developer, Quiero implementar un endpoint PUT /api/admin/venues/{venueId}/status Para que un administrador pueda cambiar el estado de un local. Criterios de Aceptación Escenario #1: Aprobar un local Dado que un local está pendiente de aprobación, Cuando un Admin envía una petición PUT a /api/admin/venues/{venueId}/status con { "status": "active" }, Entonces el sistema responde con 200 OK y actualiza el estado del local en la base de datos. |  |
+
+| Story ID | Título | Epic |
+| TS-27 | API Endpoint para que un Admin Gestione Reportes | Admin |
+| Descripción | Como Developer, Quiero implementar endpoints GET /api/admin/reports y PUT /api/admin/reports/{reportId} Para que un admin pueda ver y gestionar los reportes de usuarios. Criterios de Aceptación Escenario #1: Marcar un reporte como resuelto Dado que un reporte con reportId=33 está abierto, Cuando un Admin envía una petición PUT a /api/admin/reports/33 con { "status": "resolved" }, Entonces el sistema responde con 200 OK y actualiza el estado del reporte. |  |
+
+| Story ID | Título | Epic |
+| TS-28 | API Endpoint para que un Partner vea sus Analíticas | Analytics |
+| Descripción | Como Developer, Quiero implementar un endpoint GET /api/partners/me/analytics Para que un Partner pueda ver las métricas de sus locales. Criterios de Aceptación Escenario #1: Obtener métricas Dado que un Partner está autenticado, Cuando envía una petición GET a /api/partners/me/analytics?period=monthly, Entonces el sistema responde con 200 OK y un objeto JSON con las métricas relevantes (total de asistentes, calificación promedio, etc.). |  |
+
+| Story ID | Título | Epic |
+| TS-29 | Servicio de Notificaciones Push/Email | Notifications |
+| Descripción | Como Developer, Quiero implementar un servicio de notificaciones desacoplado Para que diferentes partes del sistema puedan enviar notificaciones a los usuarios (recordatorios de eventos, mensajes nuevos, etc.). Criterios de Aceptación Escenario #1: Enviar recordatorio de encuentro Dado que un encuentro está programado para ocurrir en 24 horas, Cuando un job programado (cron job) se ejecuta, Entonces el job identifica a todos los asistentes confirmados y delega al servicio de notificaciones el envío de un recordatorio a cada uno. |  |
+
+| Story ID | Título | Epic |
+| TS-30 | Job Programado para Limpiar Tokens Expirados | System |
+| Descripción | Como Developer, Quiero implementar un job programado que se ejecute diariamente Para eliminar tokens de refresco o de reseteo de contraseña que hayan expirado. Criterios de Aceptación Escenario #1: Ejecución diaria del job Dado que existen tokens expirados en la base de datos, Cuando el job programado se ejecuta a la hora definida, Entonces los |  |
 ---
 
 ## Resumen del Proyecto
