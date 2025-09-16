@@ -1012,7 +1012,7 @@ Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada c
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.x.6.2. Bounded Context Database Design Diagram
 
-<img src="[https://i.postimg.cc/kMQV14BS/Sofia-Ram-rez-1.png](https://postimg.cc/H84nrgd9](https://postimg.cc/H84nrgd9)"/>
+<img src="https://i.postimg.cc/kMQV14BS/Sofia-Ram-rez-1.png](https://postimg.cc/H84nrgd9](https://postimg.cc/H84nrgd9)](https://i.postimg.cc/MHgQr6LN/diagrama-glottia.png"/>
 
 ---
 
