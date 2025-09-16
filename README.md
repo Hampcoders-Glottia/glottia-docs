@@ -931,6 +931,7 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 - Sistema de mensajería y networking social
 - Panel de administración completo
   
+
 ### 2.4.2. Impact Mapping
 En este sección , el equipo presenta los mapas de impacto realizados
 
