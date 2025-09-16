@@ -840,8 +840,52 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 - Analíticas detalladas para partners
 - Sistema de mensajería y networking social
 - Panel de administración completo
+  
 ### 2.4.2. Impact Mapping
+En este sección , el equipo presenta los mapas de impacto realizados
+
+<img src="https://i.postimg.cc/xCn5wTz8/Impact-map-1.png"/>
+<img src="https://i.postimg.cc/FztLMTqZ/Impact-map-Carlos-1.png"/>
+
 ### 2.4.3. Product Backlog
+
+En esta sección, el equipo organiza el Product Backlog incluyendo Historias de Usuario e Historias Técnicas en base a su valor para el negocio y su peso en Story Points.
+
+<hr>
+
+| StoryID | Título                           | Descripción                                                                                                                                       | Story Points (1/3/5/8) |
+|---------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
+| US-01   | Registro de Usuario (Aprendiz)   | Como aprendiz de idiomas, quiero registrarme con mi correo y contraseña, para crear una cuenta en la plataforma.                                   | 3                      |
+| US-02   | Registro de Usuario (Partner)    | Como administrador de local, quiero registrar mi cafetería en la plataforma, para ofrecer mi espacio para eventos.                                 | 3                      |
+| US-03   | Inicio de Sesión                 | Como usuario registrado, quiero iniciar sesión con mis credenciales, para acceder a mis funcionalidades personalizadas.                            | 3                      |
+| US-04   | Cierre de Sesión                 | Como usuario autenticado, quiero cerrar mi sesión de forma segura, para proteger mis datos.                                                        | 1                      |
+| US-05   | Recuperación de Contraseña       | Como usuario, quiero recuperar mi contraseña olvidada mediante correo electrónico, para restablecer el acceso.                                     | 3                      |
+| TS-01   | Endpoint Registro Usuario        | Como desarrollador, quiero crear un endpoint para registrar usuarios en el sistema.                                                                | 3                      |
+| TS-02   | Endpoint Login JWT               | Como desarrollador, quiero implementar un endpoint de login con JWT, para autenticación segura.                                                     | 3                      |
+| US-06   | Completar Perfil Aprendiz        | Como aprendiz, quiero llenar mi perfil con idiomas, nivel y disponibilidad, para personalizar mi experiencia.                                       | 3                      |
+| US-07   | Editar Perfil Aprendiz           | Como aprendiz, quiero actualizar mis datos personales y de idioma, para mantener mi información al día.                                            | 3                      |
+| US-10   | Registro de Local                | Como partner, quiero registrar mi local con nombre, dirección y fotos, para atraer aprendices a mis eventos.                                        | 3                      |
+| US-12   | Editar Información de Local      | Como partner, quiero actualizar los datos de mi local, para mantenerlos actualizados y atractivos.                                                 | 3                      |
+| US-15   | Buscar Encuentros                | Como aprendiz, quiero buscar encuentros disponibles según fecha, idioma y ubicación, para participar en los que me interesen.                      | 5                      |
+| US-16   | Reservar Encuentro               | Como aprendiz, quiero reservar un lugar en un encuentro, para asegurar mi participación.                                                            | 5                      |
+| US-17   | Cancelar Reserva                 | Como aprendiz, quiero cancelar una reserva, para liberar mi espacio si no puedo asistir.                                                            | 3                      |
+| US-18   | Check-in en Evento               | Como aprendiz, quiero confirmar mi asistencia al llegar, para validar mi participación.                                                             | 3                      |
+| US-19   | Ver Lista de Asistentes          | Como partner, quiero visualizar la lista de asistentes de un encuentro, para planificar el espacio y logística.                                     | 3                      |
+| TS-03   | Endpoint Gestión de Encuentros   | Como desarrollador, quiero crear endpoints CRUD para la gestión de encuentros (crear, listar, editar, eliminar).                                    | 5                      |
+| US-29   | Recompensas por Asistencia       | Como aprendiz, quiero ganar puntos por asistir a encuentros, para motivarme y acumular beneficios.                                                  | 5                      |
+| US-30   | Canjear Recompensas              | Como aprendiz, quiero canjear mis puntos acumulados por descuentos u ofertas, para sentirme motivado a seguir participando.                         | 5                      |
+| US-34   | Beneficios para Aprendices Leales| Como partner, quiero ofrecer beneficios especiales a aprendices con alta asistencia, para fidelizar clientes.                                       | 5                      |
+| TS-04   | Módulo Gamificación              | Como desarrollador, quiero implementar un sistema de puntos y recompensas, para dar soporte a la lealtad.                                           | 5                      |
+| US-36   | Reporte de Participación (Partner)| Como partner, quiero visualizar estadísticas de asistencia a mis eventos, para evaluar su impacto.                                                 | 5                      |
+| US-37   | Reporte General de Encuentros    | Como administrador, quiero acceder a estadísticas globales de eventos, para medir el crecimiento de la plataforma.                                  | 5                      |
+| US-41   | Agregar Contactos                | Como aprendiz, quiero poder agregar contactos que conocí en los eventos, para mantenerme en contacto.                                               | 3                      |
+| US-42   | Mensajería Básica                | Como aprendiz, quiero enviar y recibir mensajes con mis contactos, para organizar prácticas fuera de los encuentros.                                | 5                      |
+| TS-05   | Chat en Tiempo Real              | Como desarrollador, quiero integrar un sistema básico de chat, para habilitar la mensajería entre usuarios.                                         | 5                      |
+| US-46   | Reporte de Actividad Global      | Como administrador, quiero acceder a reportes sobre la actividad de la comunidad, para tomar decisiones estratégicas.                               | 5                      |
+| TS-06   | Dashboard Analytics              | Como desarrollador, quiero crear un dashboard con métricas de usuarios, eventos y recompensas, para apoyar decisiones del negocio.                   | 8                      |
+
+<hr>
+
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
