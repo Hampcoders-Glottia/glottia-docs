@@ -845,6 +845,11 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
+
+El EventStorming es una técnica de brainstorming colaborativa y visual que se utiliza en el desarrollo de software, especialmente en el contexto de Domain-Driven Design (DDD). Su objetivo principal es ayudar a un equipo a entender y modelar un dominio de negocio complejo, identificando los eventos de dominio que ocurren en él. A continuación el equipo presenta el diseño del EventStorming.
+
+![EventStorming](https://github.com/user-attachments/assets/7b4f333f-54bf-4ed7-abc0-a3d2c33a3238)
+
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
