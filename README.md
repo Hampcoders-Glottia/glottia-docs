@@ -845,6 +845,8 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
+![EventStorming](https://github.com/user-attachments/assets/7b4f333f-54bf-4ed7-abc0-a3d2c33a3238)
+
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
