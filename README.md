@@ -283,7 +283,17 @@ Acceso a experiencias prácticas y entretenidas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Creemos que** al emparejar a los usuarios por nivel de idioma, intereses y cercanía, mejoraremos la calidad de las interacciones en las reuniones.
+**Sabremos que** conseguimos excelentes resultados.
+**Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes.
 
+**Creemos que** ofreciendo reuniones temáticas con dinámicas y juegos relacionados al idioma, los usuarios estarán más comprometidos y motivados.
+**Sabremos que** conseguimos excelentes resultados.
+**Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes.
+
+**Creemos que** brindando la opción de participar tanto de forma presencial como virtual, ampliaremos la accesibilidad y comodidad para los usuarios.
+**Sabremos que** conseguimos excelentes resultados.
+**Cuando** al menos el 40% de los usuarios utilicen ambas modalidades durante su primer trimestre en la app.
 
 #### 1.2.2.4. Lean UX Canvas
 
