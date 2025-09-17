@@ -300,7 +300,7 @@ Acceso a experiencias prácticas y entretenidas.
 
 **Creemos que** brindando la opción de participar tanto de forma presencial como virtual, ampliaremos la accesibilidad y comodidad para los usuarios. <br>
 **Sabremos que** conseguimos excelentes resultados. <br>
-=========
+
 **Creemos que** al emparejar a los usuarios por nivel de idioma, intereses y cercanía, mejoraremos la calidad de las interacciones en las reuniones.
 **Sabremos que** conseguimos excelentes resultados.
 **Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes.
@@ -439,6 +439,145 @@ De acuerdo con Easwaramoorthy y Zarinpoush (2006), las entrevistas son un métod
 - ¿Qué te haría confiar en una asociación con una app de este estilo?
 
 ### 2.2.2. Registro de entrevistas
+
+En esta sección, el equipo realiza el registro de las entrevistas realizadas
+### Segmento #1: Usuarios aprendices de idiomas
+
+**Entrevista: Pablo Pedro Medina**  
+- **Sexo:** Masculino  
+- **Edad:** 17
+- **Link:** [Ver entrevista](https://www.youtube.com/watch?v=up8_ieASldk&lc=Ugze5itcZxsrASv5_P54AaABAg)  
+- **Inicia en:** 0:05  
+- **Duración:** 7:15
+  
+<img src="https://i.postimg.cc/9FVrzZJg/4234234.png"/>
+
+
+### Resumen de entrevista
+
+**Datos objetivos y perfil general**
+
+Pablo Pedro Medina, 17 años, estudiante de la carrera de Comunicación en la Universidad César Vallejo. Es sociable, le gusta el fútbol y compartir tiempo con amigos en actividades recreativas como pichangas, cine y salidas al parque. Declara un nivel C1 en ruso, aprendido en gran medida por convivencia con personas hablantes nativas, aunque no por completo formal. También muestra interés por interactuar en inglés.
+
+**Características subjetivas – Personalidad y comportamiento**
+
+Pablo se muestra extrovertido, curioso y motivado por experiencias sociales. Considera que practicar idiomas es esencial para evitar situaciones incómodas o burlas, lo cual relaciona directamente con su confianza personal. Aunque le gusta relacionarse, indica que salir de su zona de confort para practicar con desconocidos le resulta un reto (5/10 en disposición), en parte por las limitaciones de su entorno. Sin embargo, la motivación de aprender y mejorar lo impulsa a aceptar desafíos.
+
+**Relación con la propuesta de Glottia**
+
+Encuentra valor en espacios organizados para practicar idiomas, tanto virtuales como presenciales, siempre que se brinden condiciones de seguridad, confianza y paciencia. Destaca que le gustaría que los encuentros sean en lugares públicos y accesibles, con un ambiente cómodo y con posibilidades de socializar. Reconoce que no ha participado antes en intercambios de idiomas, lo que evidencia una necesidad no cubierta que Glottia podría resolver.
+
+**Canales de búsqueda y decisión**
+
+Actualmente practica mediante internet, redes sociales y academias. Utiliza la tecnología de forma intensiva para conectar con personas (relaciones, amistades, incluso entretenimiento), lo que muestra que un canal digital como Glottia sería percibido como natural y atractivo para él.
+
+**Dispositivos y tecnología utilizada**
+
+Declara sentirse totalmente cómodo (10/10) con el uso de herramientas digitales para conocer nuevas personas. Considera que los avances tecnológicos han sido clave para su socialización y aprendizaje.
+
+**Criterios de participación y expectativas**
+
+- Ambientes públicos con sensación de seguridad.
+
+- Lugares cómodos, con aire acondicionado y posibilidad de consumir bebidas (incluso alcohólicas).
+
+- Paciencia y comprensión por parte de los interlocutores.
+
+- Menor ruido ambiental para favorecer la escucha y la práctica.
+
+- Actitud frente a plataformas de intermediación
+
+Pablo estaría dispuesto a participar en Glottia tanto en encuentros virtuales como presenciales. Su expectativa es que la plataforma facilite un entorno seguro, accesible y diverso, donde pueda conocer nuevas personas, practicar idiomas y vivir experiencias culturales enriquecedoras.
+
+---
+### Segmento #2: Administradores que ofrecen su establecimiento como punto de reunión
+
+**Entrevista: Ariana Calderón**  
+- **Sexo:** Femenino  
+- **Edad:** 24  
+- **Link:** [Ver entrevista](https://www.youtube.com/watch?v=mSrdbDVvqAQ)  
+- **Inicia en:** 0:01  
+- **Duración:** 4:46
+  
+<img src="https://i.postimg.cc/MTQ8m3K0/sdadas.png"/>
+
+
+### Resumen de entrevista
+
+**Datos objetivos y perfil general** 
+
+Ariana Calderón es administradora de un café ubicado en una zona urbana. Su rol principal consiste en la gestión operativa y administrativa del establecimiento, así como en la atracción de nuevos clientes mediante redes sociales, recomendaciones y colaboraciones locales. Organiza también actividades culturales y promociones para mantener la afluencia del público.
+
+**Características subjetivas – Personalidad y comportamiento** 
+
+Ariana se muestra receptiva e interesada en iniciativas que fortalezcan la comunidad y generen experiencias enriquecedoras para sus clientes. Su visión es estratégica, pues reconoce el potencial de abrir su espacio a actividades culturales y sociales como una forma de atraer público diverso y fidelizar clientes. Al mismo tiempo, evidencia una personalidad práctica y previsora, manifestando preocupaciones claras sobre aspectos de organización, consumo mínimo y control del ruido.
+
+**Relación con la propuesta de Glottia** 
+
+La entrevistada ve de forma positiva que su local sea un punto de encuentro para prácticas de idiomas, ya que esto incrementaría la afluencia en horarios menos concurridos y aportaría un público nuevo, como jóvenes, profesionales y extranjeros. Sin embargo, plantea condiciones: que los grupos reserven previamente, que cada asistente consuma al menos una bebida (preferiblemente con un snack), que el tiempo de permanencia sea razonable y que el número de participantes se ajuste a la capacidad del café.
+
+**Canales de búsqueda y decisión** 
+
+Ariana utiliza principalmente redes sociales y colaboraciones locales para dar visibilidad a su negocio. Considera que aparecer en una aplicación que promueva su establecimiento como espacio recomendado tendría un valor alto, ya que le daría exposición gratuita o de bajo costo y la conectaría con un público que todavía no la conoce.
+
+**Dispositivos y tecnología utilizada** 
+
+Aunque no se profundizó en los dispositivos que usa, se deduce que depende de herramientas digitales y redes sociales para la promoción de su local. Está abierta a integrarse a nuevas plataformas que difundan de manera clara horarios, condiciones de consumo y ubicación de su establecimiento.
+
+**Criterios de colaboración y expectativas** 
+
+Ariana espera que los asistentes tengan un consumo mínimo y respeten las normas del local. Valora que la plataforma garantice transparencia en las condiciones, canales de comunicación claros y promociones constantes. También estaría dispuesta a ofrecer descuentos o combos para grupos, siempre que se cumpla el consumo mínimo.
+
+**Actitud frente a plataformas de intermediación** 
+
+La entrevistada expresó interés en asociarse con una aplicación como Glottia, siempre que esta ofrezca confianza, organización y proyección de su local como un espacio cultural y acogedor. Destaca que el éxito de la colaboración dependerá de la claridad en las reglas, la comunicación fluida y la capacidad de atraer a su público objetivo: jóvenes, profesionales y extranjeros interesados en experiencias multiculturales.
+
+---
+
+### Segmento #2: Administradores que ofrecen su establecimiento como punto de reunión
+
+**Entrevista: Leonardo Donarie**  
+- **Sexo:** Masculino  
+- **Edad:** 28  
+- **Link:** [Ver entrevista](https://www.youtube.com/watch?v=DZAXVHlCj70)  
+- **Inicia en:** 0:05  
+- **Duración:** 9:20
+  
+<img src="https://i.postimg.cc/gJ8222RP/4534rfr.png"/>
+
+
+### Resumen de entrevista
+
+**Datos objetivos y perfil general**
+
+Leonardo Don es dueño y administrador de un restaurante–café que ofrece platillos sencillos, postres, snacks y café en un ambiente acogedor con espacio interior adecuado para reuniones pequeñas o medianas. Su negocio se encuentra en un área urbana y actualmente atrae clientes principalmente mediante redes sociales y el boca a boca, lo que le ha permitido crecer progresivamente.
+
+**Características subjetivas – Personalidad y comportamiento**
+
+Leonardo se muestra abierto a innovar y valora iniciativas que le generen un valor añadido a su negocio. Considera positivo que su local se use como punto de encuentro para prácticas de idiomas, ya que percibe que esto puede fidelizar a clientes y darle mayor visibilidad. Al mismo tiempo, es precavido respecto a aspectos prácticos como el consumo mínimo, el orden y el nivel de ruido dentro de su establecimiento.
+
+**Relación con la propuesta de Glottia**
+
+El entrevistado identifica beneficios directos en participar con Glottia: atraer un público más diverso (jóvenes, estudiantes y extranjeros), aumentar la afluencia en horarios de menor demanda y reforzar la difusión de su local. Entre sus preocupaciones, menciona la posibilidad de que algunos asistentes usen el espacio sin consumir, el exceso de ruido y la falta de organización del grupo. Establece como condiciones para aceptar los encuentros la obligatoriedad de consumo, respeto de horarios específicos y un ambiente ordenado.
+
+**Canales de búsqueda y decisión**
+
+Actualmente, Leonardo utiliza redes sociales y recomendaciones de clientes para atraer público. Reconoce que no es muy activo en plataformas digitales, por lo que considera de gran valor que su local aparezca en una aplicación como Glottia, al darle mayor visibilidad y exposición virtual que complementa sus esfuerzos actuales de promoción.
+
+**Dispositivos y tecnología utilizada**
+
+No se detallaron dispositivos específicos, pero se desprende que utiliza redes sociales de forma básica para promocionar el restaurante–café. Ve en Glottia una oportunidad de profesionalizar y reforzar su presencia digital con bajo esfuerzo de su parte.
+
+**Criterios de colaboración y expectativas**
+
+Leonardo espera que cada participante consuma al menos una bebida o un snack, que los encuentros se realicen en horarios menos concurridos (tardes o noches) y que se mantenga el orden dentro del local. Está dispuesto a considerar el espacio para estos grupos si se cumplen esas condiciones básicas. Valora también que la plataforma difunda su local de manera clara y atractiva para captar nuevos clientes.
+
+**Actitud frente a plataformas de intermediación**
+
+El entrevistado ve con buenos ojos colaborar con Glottia, ya que le otorgaría mayor visibilidad y le permitiría atraer un público interesado en idiomas y experiencias culturales. Destaca la importancia de la comunicación transparente y constante con la plataforma, así como de establecer reglas claras que aseguren una convivencia armónica entre los asistentes y el resto de clientes del local.
+
+---
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
@@ -1314,7 +1453,20 @@ El EventStorming es una técnica de brainstorming colaborativa y visual que se u
 |     Community & Cultural Exchange    |Publicación de normas, moderación de interacciones, actividades culturales   |Comunidad Glottia, moderadores           |Conductas inapropiadas, ambiente inseguro                          |
 
 #### 2.5.1.2. Domain Message Flows Modeling
+| Flujo              | Contexto Origen                 | Mensaje/Event / Comando         | Contexto Destino                  | Resultado                                                                 |
+|--------------------|---------------------------------|---------------------------------|-----------------------------------|---------------------------------------------------------------------------|
+| Registro y Confianza | User Identity & Trust           | Evento: Usuario verificado       | Community & Cultural Exchange      | El usuario obtiene acceso completo a la comunidad y puede participar en eventos. |
+| Reserva de Sesión  | Language Exchange Session        | Evento: Sesión creada            | Venue Partnership                  | Se notifica al local asociado que habrá un encuentro y se bloquea el espacio. |
+| Matchmaking        | Language Exchange Session        | Comando: Emparejar aprendiz      | User Identity & Trust              | El sistema consulta idioma, nivel y disponibilidad antes de asignar compañero. |
+| Gamificación       | Learning Progress & Gamification | Evento: Logro desbloqueado       | Community & Cultural Exchange      | El sistema muestra insignias y motiva la participación en próximos eventos. |
+| Calificación       | Community & Cultural Exchange    | Evento: Reseña creada            | Venue Partnership + User Identity & Trust | Se actualiza la reputación tanto del local como del usuario anfitrión. |
+
 #### 2.5.1.3. Bounded Context Canvases
+![The Bounded Context Canvas - User Identity & Trust](https://github.com/user-attachments/assets/e09a500e-4a55-4de6-96b1-dfc7caa8d66b)
+![The Bounded Context Canvas - Language Exchange Session](https://github.com/user-attachments/assets/85ad1409-3898-49e8-84a9-66997d43f9cf)
+![The Bounded Context Canvas - Venue Partnership](https://github.com/user-attachments/assets/0cf487fe-5c39-44fb-a258-67e4ead8b580)
+![The Bounded Context Canvas - Learning Progress & Gamification](https://github.com/user-attachments/assets/1acfc8b3-5f61-42a7-b6ab-c547db50bcba)
+![The Bounded Context Canvas -Community & Cultural Exchange](https://github.com/user-attachments/assets/2331ded6-8caa-4cad-ad35-6986b841b618)
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 
