@@ -1584,7 +1584,7 @@ Esta sección presenta diagramas a nivel de componentes que ilustran la arquitec
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
 
-<img src=="https://i.postimg.cc/8P8k01D7/IAMCD.png">
+<img src="https://i.postimg.cc/8P8k01D7/IAMCD.png">
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
