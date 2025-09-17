@@ -2006,7 +2006,31 @@ En esta sección se muestran los diagramas de diseño de base de datos correspon
 ---
 
 # Conclusiones
-# Conclusiones y recomendaciones
-# Video About-the-Team
+
+El análisis de entrevistas y hallazgos evidencia que existe una necesidad real y no cubierta en torno a la práctica de idiomas en contextos sociales. Los usuarios aprendices de idiomas expresan entusiasmo por mejorar su fluidez y confianza, pero enfrentan limitaciones en el acceso a espacios seguros, accesibles y organizados donde practicar. Asimismo, aunque utilizan tecnología en su vida diaria, la mayoría no cuenta con plataformas específicas para encuentros lingüísticos, lo que posiciona a Glottia como una oportunidad innovadora para liderar este nicho.
+
+Por otro lado, los administradores de locales (cafeterías, restaurantes, coworkings y espacios culturales) perciben un valor positivo en ofrecer sus establecimientos como puntos de encuentro, ya que les permite atraer un público diverso, aumentar la afluencia en horarios valle y reforzar el posicionamiento cultural de sus marcas. Sin embargo, muestran preocupaciones claras respecto al consumo mínimo, control del tiempo y manejo del ruido, aspectos que deben ser regulados mediante las políticas de la plataforma para generar confianza y sostenibilidad en las alianzas.
+
+En conjunto, los hallazgos indican que Glottia puede convertirse en un ecosistema de confianza y beneficio mutuo, donde los usuarios encuentren oportunidades inclusivas y accesibles para practicar idiomas, mientras los establecimientos ganan visibilidad y fidelización de clientes. La propuesta se fortalece al estar orientada a la construcción de comunidad, la seguridad de los espacios y la experiencia cultural compartida, factores que la diferencian de academias tradicionales y de aplicaciones exclusivamente virtuales.
+
+---
+#  Recomendaciones
+
+- Fomentar una distribución más equitativa de tareas técnicas y documentales para asegurar un esfuerzo balanceado entre todos los miembros.
+- Continuar con la validación frecuente de los avances con usuarios reales, especialmente antes de cada iteración, para mantener la alineación entre desarrollo y necesidades reales.
+- Aprovechar las fortalezas individuales del equipo para asignar responsabilidades específicas que optimicen los tiempos de desarrollo.
+- Documentar de manera más sistemática los aprendizajes y desafíos encontrados en cada sprint, para mejorar continuamente el proceso.
+  
 # Bibliografía
+
+Carrillo-García, M. E., Cascales-Martínez, A., & Valero, A. L. (2018). Apps para el aprendizaje de idiomas en la Universidad de Murcia. Revista de Educación a Distancia (RED), (58). 
+[https://revistas.um.es/red/article/view/351511/](https://revistas.um.es/red/article/view/351511/)
+
+Palma, D. G. D., & Vázquez, M. E. M. (2023). Uso de aplicaciones móviles como herramienta de apoyo en el aprendizaje del idioma inglés. Ciencia Latina Revista Científica Multidisciplinar, 7(4), 2773-2788.
+[https://ciencialatina.org/index.php/cienciala/article/view/7139/](https://ciencialatina.org/index.php/cienciala/article/view/7139/)
+
+Cobos Guillén, C. G. (2023). Azuay Café: propuesta de una escuela cafetería en base de la metodología del aprender haciendo para las prácticas preprofesionales de los estudiantes de una carrera de turismo (Master's thesis, Universidad del Azuay).[https://dspace.uazuay.edu.ec/handle/datos/13362/](https://dspace.uazuay.edu.ec/handle/datos/13362/)
+
+Dueñas-Mendoza, A. S., & Zaldumbide-Peralvo, D. A. Estrategias de marketing digital para cafeterías-restaurantes en Esmeraldas, Ecuador. Obtenido de, 593.
+[https://www.academia.edu/download/117711219/2011.pdf/](https://www.academia.edu/download/117711219/2011.pdf/)
 # Anexos
