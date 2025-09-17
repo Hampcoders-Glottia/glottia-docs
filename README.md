@@ -57,9 +57,34 @@
 |   TB1   | 16/09/2025  | **Arnold Gabriel Morales Sosa**               | Configuración del repositorio en GitHub. Propuesta de flujo de control de versiones (*branching strategy*). Documentación del uso de herramientas colaborativas. Apoyo en la integración de *Software Architecture Diagrams*. |
 
 
+---
+
 </div>
 
-# Project Report Collaboration Insights  
+# Project Report Collaboration Insights
+
+El informe del proyecto se ha gestionado de forma colaborativa mediante el siguiente repositorio en la organización de GitHub del equipo:
+
+[Repositorio del Informe - GitHub](https://github.com/Hampcoders-Glottia/glottia-docs)
+
+Este repositorio ha servido como espacio central para la redacción estructurada del informe final, el control de versiones, y la coordinación de contribuciones técnicas por parte de todos los integrantes del equipo.
+
+A continuación, se presentan las evidencias de colaboración durante las distintas entregas, destacando el aporte activo de todos los miembros, en coherencia con el Registro de Versiones del Informe.
+
+---
+
+### TB1 – Inicio de Redacción y Estructura General del Informe
+
+Durante la primera entrega se definió la estructura base del informe, incluyendo introducción, objetivos, justificación y marco metodológico. Se asignaron secciones de forma equitativa y se establecieron ramas para cada sección.
+
+- Se registraron contribuciones constantes por parte de **Rexest01**, **MatFragg**, **ItaloSanche**, **ivommb11** y **lvonmb11**.
+- La colaboración fue paralela y coordinada, sin conflictos de fusión.
+- Se gestionaron ramas específicas por integrante para mantener un flujo limpio.
+
+Captura de commits semanales por integrante:
+
+<img src="https://i.postimg.cc/jjNBmwPP/commitsss.png"/>
+
 
 ---
 
