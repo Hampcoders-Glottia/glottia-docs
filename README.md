@@ -949,6 +949,14 @@ El EventStorming es una técnica de brainstorming colaborativa y visual que se u
 ![EventStorming](https://github.com/user-attachments/assets/7b4f333f-54bf-4ed7-abc0-a3d2c33a3238)
 
 #### 2.5.1.1. Candidate Context Discovery
+|     <b>Contexto Candidato</b>        |                         <b>Eventos Principales</b>                          |            <b>Responsable(s)</b>               |                  <b>Riesgos Asociados</b>                               |
+|:------------------------------------:|:---------------------------------------------------------------------------:|:----------------------------------------:|:---------------------------------------------------------------:|
+|     User Identity & Trust            |Usuario se registra, valida identidad, obtiene insignias de confianza        |Usuario aprendiz, sistema de verificación |Suplantación de identidad, baja confianza en la comunidad          |
+|     Language Exchange Session        |Creación de sesión, emparejamiento de aprendices, confirmación de asistencia |Usuario aprendiz, app Glottia |Cancelaciones frecuentes, baja asistencia                          |
+|     Venue Partnership                |Registro de local asociado, disponibilidad de espacios, reseñas de usuarios  |Administradores de locales, sistema      |Baja atracción de clientes, incumplimiento de condiciones del local|
+|     Learning Progress & Gamification |Registro de participación, asignación de puntos, logros desbloqueados        |Usuario aprendiz, sistema                |Desmotivación si no hay recompensas claras                         |
+|     Community & Cultural Exchange    |Publicación de normas, moderación de interacciones, actividades culturales   |Comunidad Glottia, moderadores           |Conductas inapropiadas, ambiente inseguro                          |
+
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
