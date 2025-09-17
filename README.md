@@ -1315,7 +1315,20 @@ El EventStorming es una técnica de brainstorming colaborativa y visual que se u
 |     Community & Cultural Exchange    |Publicación de normas, moderación de interacciones, actividades culturales   |Comunidad Glottia, moderadores           |Conductas inapropiadas, ambiente inseguro                          |
 
 #### 2.5.1.2. Domain Message Flows Modeling
+| Flujo              | Contexto Origen                 | Mensaje/Event / Comando         | Contexto Destino                  | Resultado                                                                 |
+|--------------------|---------------------------------|---------------------------------|-----------------------------------|---------------------------------------------------------------------------|
+| Registro y Confianza | User Identity & Trust           | Evento: Usuario verificado       | Community & Cultural Exchange      | El usuario obtiene acceso completo a la comunidad y puede participar en eventos. |
+| Reserva de Sesión  | Language Exchange Session        | Evento: Sesión creada            | Venue Partnership                  | Se notifica al local asociado que habrá un encuentro y se bloquea el espacio. |
+| Matchmaking        | Language Exchange Session        | Comando: Emparejar aprendiz      | User Identity & Trust              | El sistema consulta idioma, nivel y disponibilidad antes de asignar compañero. |
+| Gamificación       | Learning Progress & Gamification | Evento: Logro desbloqueado       | Community & Cultural Exchange      | El sistema muestra insignias y motiva la participación en próximos eventos. |
+| Calificación       | Community & Cultural Exchange    | Evento: Reseña creada            | Venue Partnership + User Identity & Trust | Se actualiza la reputación tanto del local como del usuario anfitrión. |
+
 #### 2.5.1.3. Bounded Context Canvases
+![The Bounded Context Canvas - User Identity & Trust](https://github.com/user-attachments/assets/e09a500e-4a55-4de6-96b1-dfc7caa8d66b)
+![The Bounded Context Canvas - Language Exchange Session](https://github.com/user-attachments/assets/85ad1409-3898-49e8-84a9-66997d43f9cf)
+![The Bounded Context Canvas - Venue Partnership](https://github.com/user-attachments/assets/0cf487fe-5c39-44fb-a258-67e4ead8b580)
+![The Bounded Context Canvas - Learning Progress & Gamification](https://github.com/user-attachments/assets/1acfc8b3-5f61-42a7-b6ab-c547db50bcba)
+![The Bounded Context Canvas -Community & Cultural Exchange](https://github.com/user-attachments/assets/2331ded6-8caa-4cad-ad35-6986b841b618)
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 
