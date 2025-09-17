@@ -232,6 +232,11 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 
   
 ## 1.2. Solution Profile
+
+Glottia es una solución que busca conectar a personas interesadas en practicar distintos idiomas con espacios públicos que ofrezcan sus locales como puntos de reunión. Nuestra plataforma busca facilitar encuentros conversacionales presenciales y virtuales, resolviendo la falta de espacios seguros y accesibles para la práctica oral.
+
+De esta manera, Glottia impulsa la confianza, la fluidez y la conexión cultural entre los usuarios, al mismo tiempo que brinda a los establecimientos aliados una oportunidad de atraer nuevos clientes y posicionarse como centros de intercambio cultural.
+
 ### 1.2.1. Antecedentes y problemática
 
 Con el propósito de obtener una comprensión más profunda de las necesidades de nuestros usuarios, hemos investigado sus antecedentes históricos y los desafíos que enfrentan mediante la metodología de las `5W'S y 2H'S`. Este enfoque nos asegura que la información recopilada sea pertinente y nos permita desarrollar soluciones precisas y eficaces que satisfagan sus necesidades.
