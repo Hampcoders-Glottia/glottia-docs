@@ -220,6 +220,7 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
 | Miembros del equipo                             | Codigo Estudiante | Descripcion            |
 | ----------------------------------------------- | ----------------- | ---------------------- |
 | Italo Ludwing Sanchez Manrique	![Imagen del compañero](https://i.imgur.com/R1iMW0N.png)   | U202316967            | Mi nombre es Italo Ludwing Sanchez Manrique, soy estudiante de Ingeniería de Software en la UPC, tengo 19 años y actualmente curso el sexto ciclo académico. Destaco por mi perseverancia, tolerancia y compromiso con mis metas. En este proyecto, mi objetivo es buscar soluciones que beneficien al grupo, ya que tengo experiencia en trabajar de forma proactiva y colaborativa. Además, poseo sólidos conocimientos en lenguajes de programación como Java y C++. | 
@@ -227,9 +228,9 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 | Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png)   | U20231E215            | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
 | Ivo Marcelo Machado Bracamonte	![Imagen del compañero](https://i.imgur.com/n8LhONl.png)   | U20231C368            | Mi nombre es Ivo Machado, tengo 19 años, soy estudiante y actualmente estudio en el sexto ciclo de ingeniería de software en la UPC. Mis fuertes son la mentalidad, no me rindo con facilidad y no le tengo miedo al error, tengo empatía con los demás, me gusta resolver problemas y siempre intento mejorar en lo que hago y seguir aprendiendo. Tengo conocimientos del lenguaje de programación C++, Java y un poco de Python, HTML, CSS y JavaScript, también domino el Inglés y sé Portugués. | 
 |       Rodrigo Jesus Miraval Pomalaya        |            u202311082                       | |
-|       Arnold Gabriel Morales Sosa           |            u201822516                       ||
+| Arnold Gabriel Morales Sosa   ![Image](https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655)        | U201822516           | Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.  | 
 
-
+  
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
@@ -1594,6 +1595,25 @@ El EventStorming es una técnica de brainstorming colaborativa y visual que se u
 ![The Bounded Context Canvas - Learning Progress & Gamification](https://github.com/user-attachments/assets/1acfc8b3-5f61-42a7-b6ab-c547db50bcba)
 ![The Bounded Context Canvas -Community & Cultural Exchange](https://github.com/user-attachments/assets/2331ded6-8caa-4cad-ad35-6986b841b618)
 ### 2.5.2. Context Mapping
+## Relaciones entre Contextos
+
+| Contexto Origen                 | Relación (DDD)      | Contexto Destino                | Descripción                                                                 |
+|---------------------------------|----------------------|----------------------------------|-----------------------------------------------------------------------------|
+| User Identity & Trust            | Supplier             | Community & Cultural Exchange    | La verificación de usuario habilita acceso y confianza en la comunidad.     |
+| User Identity & Trust            | Supplier             | Language Exchange Session        | Los datos de idioma y nivel alimentan el proceso de matchmaking.            |
+| User Identity & Trust            | Shared Kernel        | Venue Partnership                | Se comparten datos básicos de reputación y verificación de usuarios.        |
+| Language Exchange Session        | Partnership          | Venue Partnership                | Una sesión programada bloquea espacio en un local asociado.                 |
+| Language Exchange Session        | Customer             | User Identity & Trust            | Consulta disponibilidad y nivel de idioma de los usuarios.                  |
+| Learning Progress & Gamification | Supplier             | Community & Cultural Exchange    | Los logros desbloqueados se publican en la comunidad para motivar.          |
+| Community & Cultural Exchange    | Supplier             | Venue Partnership                | Las reseñas de usuarios impactan en la reputación de los locales.           |
+| Community & Cultural Exchange    | Supplier             | User Identity & Trust            | Actualiza la reputación del usuario anfitrión con base en reseñas.          |
+
+## Notas
+- **User Identity & Trust** es el **núcleo**, provee información confiable a los demás contextos.  
+- **Language Exchange Session** y **Venue Partnership** funcionan en **partnership**, porque ambos dependen mutuamente para habilitar encuentros.  
+- **Community & Cultural Exchange** es un **hub**, recibe y redistribuye información (reseñas, logros).  
+- **Learning Progress & Gamification** es un **supplier secundario**, motiva con logros que alimentan a la comunidad.
+- 
 ### 2.5.3. Software Architecture
 
 La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite visualizar el sistema en diferentes niveles de abstracción. Esto facilita la comprensión de la estructura, las responsabilidades y las interacciones tanto para perfiles técnicos como no técnicos. Los niveles que se detallan a continuación son: Contexto (Nivel 1), Contenedores (Nivel 2) y Componentes (Nivel 3).
