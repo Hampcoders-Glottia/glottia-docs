@@ -1117,6 +1117,75 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 | **TS-30** | Job Programado para Limpiar Tokens Expirados | System |
 | **Descripción** | **Como** Developer, **Quiero** implementar un job programado que se ejecute diariamente **Para** eliminar tokens de refresco o de reseteo de contraseña que hayan expirado. **Criterios de Aceptación** **Escenario \#1: Ejecución diaria del job** **Dado que** existen tokens expirados en la base de datos, **Cuando** el job programado se ejecuta a la hora definida, **Entonces** los tokens que han superado su tiempo de vida son eliminados de la base de datos para mantener la higiene del sistema. |  |
 
+# **Spike Stories**
+
+Este documento contiene las historias de investigación (Spikes) necesarias para reducir la incertidumbre técnica en funcionalidades clave del proyecto. El objetivo es analizar, investigar o prototipar soluciones antes de su implementación en un sprint.
+
+### **Spike: Investigación de Generación y Validación de Códigos QR**
+
+**Contexto**
+
+La plataforma Glottia consta de un backend monolito modular construido con **Java 23 y Spring Boot 3.5.x**, una aplicación móvil para aprendices en **Flutter**, y un dashboard web para partners en **React**. El proceso de check-in (US20) es una funcionalidad central del MVP que requiere que un aprendiz presente un código QR desde su app Flutter, y que un partner (o un empleado del local) lo valide, posiblemente a través de una vista simple en el dashboard de React accedida desde un dispositivo móvil. Este flujo debe ser rápido, seguro y fiable.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-01** | **Investigación de Generación y Validación de Códigos QR** | Event |
+| **Descripción** | **Como** Developer, **Quiero** investigar y crear un prototipo del flujo de generación y escaneo de códigos QR **Para** validar la viabilidad técnica del proceso de check-in y elegir las librerías adecuadas para nuestro stack tecnológico. **Objetivo de Investigación:** Definir el flujo técnico completo desde que el backend genera un QR para una reserva, hasta que el cliente (React) lo valida, identificando las mejores herramientas (librerías Java para backend, librerías JS para frontend) y los posibles puntos de fallo (ej. condiciones de baja luz, cámaras de baja resolución). **Criterios de Aceptación:** 1\. Un documento que compare al menos dos librerías Java (ej. ZXing, QRGen) para la generación de QR en el servidor. 2\. Un prototipo funcional (Proof of Concept) que consista en: \- Un endpoint de API Spring Boot que genere un QR para una reserva ficticia. \- Una página web simple en React que pueda usar la cámara de un dispositivo para escanear el QR y enviar su contenido a otro endpoint de validación. 3\. Documentación con la recomendación técnica final y un diagrama de secuencia del flujo de datos. |  |
+
+### **Spike: Análisis de Estrategias para Notificaciones en Tiempo Real**
+
+**Contexto**
+
+El backend de Glottia (Java 23, Spring Boot 3.5.x) necesita comunicar eventos urgentes a los clientes (app Flutter y dashboard React). Los casos de uso críticos son notificar a un aprendiz en lista de espera cuando un cupo se libera (US24) y alertar sobre nuevos mensajes en el chat (US45). La solución debe ser eficiente para no perder la oportunidad de la notificación y debe ser compatible tanto con plataformas móviles (iOS/Android vía Flutter) como web (React).
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-02** | **Análisis de Estrategias para Notificaciones en Tiempo Real** | Notifications / Community |
+| **Descripción** | **Como** Developer, **Quiero** analizar diferentes tecnologías para notificaciones en tiempo real (WebSockets vs. Servicios de Push Notifications como Firebase Cloud Messaging) **Para** decidir la arquitectura más eficiente y escalable para el stack de Glottia. **Objetivo de Investigación:** Comprender la complejidad de implementación, costos de infraestructura y beneficios de cada enfoque. Evaluar cómo se integra cada solución con Spring Boot en el backend y con Flutter/React en los clientes. **Criterios de Aceptación:** 1\. Un documento comparativo detallando pros y contras de WebSockets (ej. con Spring WebSocket) y FCM para nuestro caso de uso. 2\. Una conclusión técnica documentada que recomiende una estrategia para el MVP. 3\. Un prototipo simple que demuestre la recepción de una notificación en un cliente Flutter y uno React al ocurrir un evento en el servidor. |  |
+
+### **Spike: Prueba de Viabilidad de Búsquedas Geoespaciales en PostgreSQL**
+
+**Contexto**
+
+La funcionalidad de búsqueda de encuentros (US15) y el mapa de locales (US28) requieren filtrar por ubicación. El backend utiliza **Spring Boot 3.5.x con Spring Data JPA** y una base de datos **PostgreSQL 16**. Para que la experiencia de usuario sea fluida, las consultas que busquen locales "en una ciudad" o "cerca de mi ubicación" deben tener un rendimiento óptimo, incluso cuando la base de datos crezca a miles de locales.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-03** | **Prueba de Viabilidad de Búsquedas Geoespaciales** | Event / Partner |
+| **Descripción** | **Como** Developer, **Quiero** investigar y probar el rendimiento de las consultas geoespaciales en PostgreSQL **Para** asegurar que la búsqueda de locales y encuentros por cercanía sea rápida y eficiente. **Objetivo de Investigación:** Determinar si es necesaria la extensión **PostGIS** para PostgreSQL. Definir la forma óptima de almacenar coordenadas (latitud/longitud) y estructurar las consultas y los índices de la base de datos. **Criterios de Aceptación:** 1\. Una base de datos de prueba poblada con miles de locales ficticios en diferentes ubicaciones. 2\. Un conjunto de consultas de ejemplo (SQL nativo y/o JPQL) para buscar locales "a X km de un punto" y "dentro de un polígono de ciudad". 3\. Un reporte con los benchmarks de rendimiento de dichas consultas, con y sin índices espaciales (ej. GiST). 4\. Una recomendación final sobre si usar PostGIS en el MVP y la estrategia de indexación a seguir. |  |
+
+### **Spike: Validación del Patrón de Eventos Internos en un Monolito Modular**
+
+**Contexto**
+
+La arquitectura de Glottia es un **monolito modular con Java 23 y Spring Boot 3.5.x**. Para mantener un bajo acoplamiento entre los diferentes módulos (Bounded Contexts), se planea usar **Spring ApplicationEvents** para la comunicación asíncrona. Un ejemplo clave es el flujo de Check-in (módulo Event), que debe notificar al módulo de Loyalty para asignar puntos (US29), sin que el proceso de lealtad retrase la respuesta de la API de check-in.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-04** | **Validación del Patrón de Eventos Internos (Spring Events)** | System / Loyalty |
+| **Descripción** | **Como** Developer, **Quiero** crear un prototipo de la comunicación entre módulos usando Spring ApplicationEvents **Para** validar que el desacoplamiento entre funcionalidades funciona de manera asíncrona y no afecta el rendimiento del request principal. **Objetivo de Investigación:** Asegurar que la comunicación por eventos se beneficie del manejo de transacciones de Spring y que los errores en un "listener" (ej. en el módulo de lealtad) no reviertan la transacción principal (el check-in). **Criterios de Aceptación:** 1\. Un mini-proyecto en Spring Boot con dos servicios (EventService y LoyaltyService) en paquetes separados para simular los módulos. 2\. El EventService publica un evento personalizado (UserCheckedInEvent) al ser llamado. 3\. El LoyaltyService contiene un @EventListener que escucha dicho evento (en modo asíncrono @Async) y simula una operación. 4\. Conclusiones documentadas que expliquen cómo manejar las transacciones (@TransactionalEventListener) y los errores en este flujo asíncrono para garantizar la consistencia de los datos. |  |
+
+### **Spike: Investigación de Optimización de Consultas para el Dashboard de Analíticas**
+
+**Contexto**
+
+El dashboard de partners (desarrollado en **React**) debe presentar varias métricas de negocio, como el número de asistentes por mes (US36) y la proporción de clientes nuevos vs. recurrentes (US39). Estas métricas requieren consultas de agregación complejas sobre las tablas de encounters y attendances en nuestra base de datos **PostgreSQL 16**. El backend **Spring Boot** debe servir estos datos rápidamente sin impactar el rendimiento de las operaciones transaccionales de la aplicación.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-05** | **Investigación de Optimización de Consultas para Analíticas** | Analytics |
+| **Descripción** | **Como** Developer, **Quiero** analizar las mejores estrategias para generar las métricas del dashboard del Partner **Para** garantizar que las consultas de analíticas no sobrecarguen la base de datos y respondan en un tiempo aceptable. **Objetivo de Investigación:** Evaluar y comparar diferentes enfoques: consultas SQL nativas optimizadas con JPQL, el uso de Vistas Materializadas en PostgreSQL para prec-alcular resultados, o una capa de caché (ej. Caffeine) en Spring Boot para los datos agregados. **Criterios de Aceptación:** 1\. Un script SQL que genere datos de prueba masivos (miles de encuentros y asistencias durante un año). 2\. Versiones alternativas de las consultas necesarias para los reportes. 3\. Un documento que compare el rendimiento (tiempo de ejecución), la complejidad de implementación y la "frescura" de los datos de cada enfoque. 4\. Una recomendación final sobre la estrategia a seguir para el MVP. |  |
+
+### **Spike: Análisis de Integración con Pasarela de Pagos Stripe**
+
+**Contexto**
+
+Aunque la monetización es post-MVP, es un riesgo técnico significativo. La plataforma Glottia (**backend Spring Boot 3.5.x, Java 23**) necesitará integrar un sistema de pagos para gestionar suscripciones de partners y, potencialmente, funcionalidades premium para aprendices. Se considera **Stripe** como la principal opción por su robusta API y documentación. La integración debe ser segura, cumplir con los estándares PCI y ser manejada enteramente en el backend.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-06** | **Análisis de Integración con Pasarela de Pagos (Stripe)** | Monetization |
+| **Descripción** | **Como** Developer, **Quiero** investigar la API de Stripe y crear un prototipo básico de su integración con nuestro backend Spring Boot **Para** entender el esfuerzo, la complejidad y los requerimientos técnicos para implementar las suscripciones. **Objetivo de Investigación:** Mapear el flujo de datos necesario para crear suscripciones, manejar webhooks de pago (para confirmaciones, renovaciones y fallos), y asociar un plan de Stripe a un partner\_profile en nuestra base de datos. **Criterios de Aceptación:** 1\. Un documento que resuma los pasos clave para integrar Stripe Subscriptions, utilizando la librería stripe-java. 2\. Un prototipo funcional que logre: \- Crear un "Customer" en Stripe cuando un Partner se registra. \- Iniciar una sesión de "Stripe Checkout" para un plan de suscripción predefinido. \- Un endpoint en nuestro backend que reciba y valide un webhook de Stripe cuando el pago es exitoso. 3\. Una estimación de esfuerzo más precisa (en Story Points) para las User Stories de monetización del backlog. |  |
 ---
 
 ## Resumen del Proyecto
