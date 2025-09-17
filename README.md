@@ -1010,15 +1010,332 @@ Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada c
 <br>
 
 ## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+Esta sección describe el diseño táctico basado en DDD, detallando cómo se estructuran los diferentes Bounded Contexts de la plataforma. Incluye la organización de las capas de dominio, aplicación, infraestructura e interfaz, así como los diagramas que facilitan la comprensión técnica y funcional del sistema.
+
+### 2.6.1. Bounded Context: Identity & Access Management
+Esta sección describe la arquitectura y los componentes clave del contexto de gestión de identidad y acceso. Se detallan las entidades, servicios y repositorios necesarios para el registro, autenticación y administración de roles de usuario, asegurando la seguridad y el control de acceso en la plataforma.
+#### 2.6.1.1. Domain Layer
+| Class / Interface | Type      | Responsability                                       |
+| ----------------- | --------- | ---------------------------------------------------- |
+| User              | Entity    | Root aggregate: unique email, role, password hash    |
+| Role              | Enum      | USER, PARTNER, ADMIN                                 |
+| Credential        | VO        | Wraps email + hashed password; enforces format rules |
+| UserRepository    | Interface | Persistence port (load/save/exists)                  |
+
+Business rules
+- Email debe de ser único (repository enforces).
+- Password ≥ 8 chars, 1 uppercase, 1 digit (Credential VO).
+- Solo un ADMIN puede crear otro adming (domain service).
+
+#### 2.6.1.2. Interface Layer
+| Component                | Technology  | Responsibility                     |
+| ------------------------ | ----------- | ---------------------------------- |
+| AuthenticationController | Spring REST | POST /auth/register & /auth/login  |
+| UserController           | Spring REST | GET /users/{id}, PATCH /users/{id} |
+| RoleController           | Spring REST | GET /roles, PUT /users/{id}/role   |
+
+
+#### 2.6.1.3. Application Layer
+
+| Component                    | Type     | Responsibility                                |
+| ---------------------------- | -------- | --------------------------------------------- |
+| AuthenticationCommandService | @Service | Handles RegisterCommand, emits UserRegistered |
+| AuthenticationQueryService   | @Service | Login flow, token generation                  |
+| UserCommandService           | @Service | Change email, deactivate, assign role         |
+| UserQueryService             | @Service | Read models for users & roles                 |
+
+
+
+#### 2.6.1.4. Infrastructure Layer
+| Component           | Type        | Responsibility            |
+| ------------------- | ----------- | ------------------------- |
+| UserRepository      | Interface   | Port outward              |
+| RoleRepository      | Interface   | Port outward              |
+| BCryptHasherAdapter | @Component  | Password hashing (BCrypt) |
+| UserJpaRepository   | Spring-Data | Implements UserRepository |
+| RoleJpaRepository   | Spring-Data | Implements RoleRepository |
+
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
+
+<img src="https://i.postimg.cc/qBYszCrz/IAM.png">
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
+
+<img src=="https://i.postimg.cc/8P8k01D7/IAMCD.png">
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
+
+<br>
+
+[![iam.jpg](https://i.postimg.cc/PqfGPqsF/iam.jpg)](https://postimg.cc/WdyYyT4M)
+
+
+### 2.6.2. Bounded Context: Profiles & Preferences Management
+Aquí se presenta el diseño del contexto encargado de la administración de perfiles de usuario, incluyendo idiomas y disponibilidad. Se explican las reglas de negocio, los servicios de aplicación y los componentes de infraestructura que permiten a los usuarios personalizar su experiencia y gestionar su información personal.
+
+#### 2.6.2.1. Domain Layer
+| Artefact          | Type      | Responsibility                      |
+| ----------------- | --------- | ----------------------------------- |
+| Profile           | Aggregate | Root; owns languages & availability |
+| Language          | VO        | ISO-639-1 code + name               |
+| AvailabilitySlot  | VO        | day-of-week + start/end time        |
+| ProfileRepository | Interface | Port outward                        |
+
+Rules
+- One profile per user (userId unique).
+- Slots must not overlap (validated in Profile).
+
+#### 2.6.2.2. Interface Layer
+| Component         | Responsibility                                                     |
+| ----------------- | ------------------------------------------------------------------ |
+| ProfileController | GET /profiles, PUT /profiles, PATCH /profiles/{id}/languages, etc. |
+
+#### 2.6.2.3. Application Layer
+| Component             | Responsibility                                   |
+| --------------------- | ------------------------------------------------ |
+| ProfileCommandService | Create / update profile, languages, availability |
+| ProfileQueryService   | Read profile, list profiles by language, etc.    |
+
+
+#### 2.6.2.4. Infrastructure Layer
+| Component            | Responsibility             |
+| -------------------- | -------------------------- |
+| ProfileRepository    | Port                       |
+| ProfileJpaRepository | Spring-Data implementation |
+| ProfileMapper        | Map Entity ↔ JPA           |
+
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
+<img src="https://i.postimg.cc/C1rjCRfr/Profiles.png">
+<br>
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
+
+<img src="https://i.postimg.cc/j5mqKT7k/Profiles-CD.png">
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
+
+[![profiles.jpg](https://i.postimg.cc/bNbf5M9L/profiles.jpg)](https://postimg.cc/ykVGgL5S)
+
+### 2.6.3. Bounded Context: Partner & Venue Management 
+Esta sección aborda la estructura y los procesos para la gestión de partners (locales aliados) y sus espacios. Se describen los artefactos principales, los controladores y los servicios que permiten registrar, activar y administrar locales, así como gestionar la relación entre partners y sus venues.
+
+#### 2.6.3.1. Domain Layer
+| Artefact         | Responsibility                                                                     |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| Partner          | Aggregate root; owns venues, manages activation                                    |
+| Venue            | Entity; belongs to one partner; has capacity, min. consumption, availability slots |
+| MembershipStatus | Enum: PENDING / ACTIVE / SUSPENDED                                                 |
+
+
+#### 2.6.3.2. Interface Layer
+| Component         | Responsibility                                |
+| ----------------- | --------------------------------------------- |
+| PartnerController | POST /partners, PATCH /partners/{id}/activate |
+| VenueController   | POST /venues, PUT /venues/{id}                |
+
+
+#### 2.6.3.3. Application Layer
+| Component             | Responsibility                      |
+| --------------------- | ----------------------------------- |
+| PartnerCommandService | Register partner, activate, suspend |
+| PartnerQueryService   | Get partner, list venues            |
+| VenueCommandService   | Add venue, update details           |
+| VenueQueryService     | Get venue, list by partner          |
+
+#### 2.6.3.4. Infrastructure Layer
+| Component            | Responsibility   |
+| -------------------- | ---------------- |
+| PartnerRepository    | Port             |
+| VenueRepository      | Port             |
+| PartnerJpaRepository | Spring-Data impl |
+| VenueJpaRepository   | Spring-Data impl |
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
+
+<img src="https://i.postimg.cc/4dx6h6nh/Partner.png">
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
+
+<img src="https://i.postimg.cc/V6ds3vdC/Partner-CD.png">
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
+
+[![venue.jpg](https://i.postimg.cc/RC2zX9KN/venue.jpg)](https://postimg.cc/dDRXVbWY)
+
+### 2.6.4. Bounded Context: Encounter Management
+En esta sección se detalla el contexto responsable de la creación, reserva y control de asistencia a los encuentros. Se incluyen los modelos de dominio, los flujos de reserva y check-in, la gestión de listas de espera y los componentes técnicos que soportan estas funcionalidades.
+
+#### 2.6.4.1. Domain Layer
+| Artefact      | Responsibility                                           |
+| ------------- | -------------------------------------------------------- |
+| Encounter     | Aggregate root; manages seats, wait-list, check-in rules |
+| Attendance    | Entity; seat reservation state machine                   |
+| WaitListEntry | Entity; position inside wait-list                        |
+| QRCode        | Value-Object; encodes encounterId + userId               |
+
+#### 2.6.4.2. Interface Layer
+| Component            | Technology  | Responsibility                                                                                                                    |
+| -------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| EncounterController  | Spring REST | `POST /encounters` crear, `GET /encounters` búsqueda con filtros, `PATCH /encounters/{id}/join`, `POST /encounters/{id}/check-in` |
+| AttendanceController | Spring REST | `GET /attendances/{encounterId}` lista de asistentes, `PATCH /attendances/{id}/cancel` cancelar reserva                           |
+| WaitListController   | Spring REST | `POST /wait-lists` unirse a lista de espera, `PATCH /wait-lists/{id}/accept` aceptar promoción                                    |
+
+#### 2.6.4.3. Application Layer
+| Component                | Type     | Responsibility                                                          |
+| ------------------------ | -------- | ----------------------------------------------------------------------- |
+| EncounterCommandService  | @Service | Orquesta JoinEncounterCommand, CancelReservationCommand, CheckInCommand |
+| EncounterQueryService    | @Service | Orquesta SearchEncountersQuery, GetEncounterQuery                       |
+| AttendanceCommandService | @Service | CancelAttendanceCommand, MarkAttendedCommand                            |
+| AttendanceQueryService   | @Service | ListAttendancesQuery, GetAttendanceQuery                                |
+| WaitListCommandService   | @Service | JoinWaitListCommand, AcceptPromotionCommand, DeclinePromotionCommand    |
+| WaitListQueryService     | @Service | GetWaitListQuery, GetPositionQuery                                      |
+
+
+#### 2.6.4.4. Infrastructure Layer
+| Component               | Type        | Responsibility                               |
+| ----------------------- | ----------- | -------------------------------------------- |
+| EncounterRepository     | Interface   | Port outward – load/save Encounter aggregate |
+| AttendanceRepository    | Interface   | Port outward – load/save Attendance          |
+| WaitListRepository      | Interface   | Port outward – load/save WaitListEntry       |
+| EncounterJpaRepository  | Spring-Data | Implements EncounterRepository               |
+| AttendanceJpaRepository | Spring-Data | Implements AttendanceRepository              |
+| WaitListJpaRepository   | Spring-Data | Implements WaitListRepository                |
+| QRGeneratorAdapter      | @Component  | Generates QR code bytes for check-in         |
+
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
+
+<img src="https://i.postimg.cc/fy6mF1Cx/Encounter.png">
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
+<img src="https://i.postimg.cc/65d6sD5Y/Encounter-CD.png">
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
+
+<img src="https://i.postimg.cc/sg4djh8h/encounters.jpg">
+
+
+### 2.6.5. Bounded Context: Loyalty and Engagement 
+Esta sección explica el sistema de lealtad y gamificación, que incentiva la participación de los usuarios mediante puntos e insignias. Se describen los artefactos de dominio, los servicios de aplicación y los mecanismos de integración con otros contextos para otorgar recompensas y reconocer logros.
+
+#### 2.6.5.1. Domain Layer
+| Artefact             | Responsibility                            |
+| -------------------- | ----------------------------------------- |
+| LoyaltyAccount       | Aggregate root; points & badge collection |
+| Badge                | Entity; achievement definition            |
+| CheckInEventListener | Event handler (in application layer)      |
+
+
+#### 2.6.5.2. Interface Layer
+| Component                | Responsibility                                                              |
+| ------------------------ | --------------------------------------------------------------------------- |
+| LoyaltyAccountController | `GET /loyalty-accounts/{userId}`, `PATCH /loyalty-accounts/{userId}/points` |
+| BadgeController          | `GET /badges`, `GET /badges/{id}`, `POST /badges` (admin)                   |
+
+#### 2.6.5.3. Application Layer
+| Component                    | Responsibility                                                                                            |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------- |
+| CheckInEventListener         | @EventListener – listens to PractitionerCheckedInEvent and calls LoyaltyAccountCommandService.addPoints() |
+| LoyaltyAccountCommandService | AwardPointsCommand, UnlockBadgeCommand                                                                    |
+| LoyaltyAccountQueryService   | GetAccountQuery, GetPointsQuery                                                                           |
+| BadgeCommandService          | CreateBadgeCommand (admin)                                                                                |
+| BadgeQueryService            | ListBadgesQuery, GetBadgeQuery                                                                            |
+
+
+#### 2.6.5.4. Infrastructure Layer
+| Component                   | Responsibility                            |
+| --------------------------- | ----------------------------------------- |
+| LoyaltyAccountRepository    | Port – load/save LoyaltyAccount aggregate |
+| BadgeRepository             | Port – load/save Badge definitions        |
+| LoyaltyAccountJpaRepository | Spring-Data impl                          |
+| BadgeJpaRepository          | Spring-Data impl                          |
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
+<img src="https://i.postimg.cc/fy3Y8Mcz/Loyalty.png">
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
+<img src="https://i.postimg.cc/gjhz27yc/Loyality-CD.png">
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
+
+[![loyalty.jpg](https://i.postimg.cc/2SDNNwHY/loyalty.jpg)](https://postimg.cc/LnNbzzKQ)
+
+### 2.6.6. Bounded Context: Analytics & Dashboard
+Aquí se expone el diseño del contexto de analíticas, encargado de recopilar, procesar y presentar métricas clave del sistema. Se detallan los modelos de datos, los servicios de generación de reportes y los componentes que permiten a los partners y administradores visualizar el desempeño y la actividad en la plataforma.
+
+#### 2.6.6.1. Domain Layer
+| Artefact        | Responsibility                                 |
+| --------------- | ---------------------------------------------- |
+| MonthlyReport   | Read-Model; pre-computed KPI line              |
+| AnalyticsEngine | Domain-service; aggregates events into metrics |
+
+
+#### 2.6.6.2. Interface Layer
+| Component            | Responsibility                                                        |
+| -------------------- | --------------------------------------------------------------------- |
+| ReportController     | `GET /reports/monthly`, `GET /reports/partner/{id}`, export endpoints |
+| ReportTypeController | `GET /report-types`, `POST /report-types` (admin CRUD)                |
+
+
+#### 2.6.6.3. Application Layer
+| Component                  | Responsibility                                                |
+| -------------------------- | ------------------------------------------------------------- |
+| ReportCommandService       | GenerateReportCommand, RefreshReportCommand                   |
+| ReportQueryService         | GetMonthlyReportQuery, DownloadReportQuery                    |
+| ReportTypeCommandService   | CreateReportTypeCommand, UpdateReportTypeCommand              |
+| ReportTypeQueryService     | ListReportTypesQuery, GetReportTypeQuery                      |
+| EncounterCompletedListener | @EventListener → calls ReportCommandService.generateMonthly() |
+| FeedbackSubmittedListener  | @EventListener → updates avg-rating                           |
+
+
+#### 2.6.6.4. Infrastructure Layer
+| Component               | Responsibility                            |
+| ----------------------- | ----------------------------------------- |
+| ReportRepository        | Port – load/save MonthlyReport read-model |
+| ReportTypeRepository    | Port – load/save ReportType definition    |
+| ReportJpaRepository     | Spring-Data impl                          |
+| ReportTypeJpaRepository | Spring-Data impl                          |
+
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
+
+<img src="https://i.postimg.cc/Bvg56YZ0/Analytics.png">
+
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
+<img src="https://i.postimg.cc/pV5XC9NN/Analytics.png">
+
+##### 2.6.6.6.2. Bounded Context Database Design Diagram
+En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
+
+[![loyalty.jpg](https://i.postimg.cc/2SDNNwHY/loyalty.jpg)](https://postimg.cc/LnNbzzKQ)
 
 ---
 
