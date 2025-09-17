@@ -201,7 +201,7 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 | ![Foto] | U202123843 | Soy Gianmarco Jiménez... |
 | ![Imagen del compañero](https://i.imgur.com/R1iMW0N.png) | u202316967 | Mi nombre es Italo Ludwing Sanchez Manrique, soy estudiante de Ingeniería de Software en la UPC, tengo 19 años y actualmente curso el tercer ciclo académico. Destaco por mi perseverancia, tolerancia y compromiso con mis metas. En este proyecto, mi objetivo es buscar soluciones que beneficien al grupo, ya que tengo experiencia en trabajar de forma proactiva y colaborativa. Además, poseo sólidos conocimientos en lenguajes de programación como Java y C++. |
 | ![Foto] | UXXXXXXX | Texto de descripción |
-| ![Foto] | UXXXXXXX | Texto de descripción |
+| ![Image](https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655) | U201822516 | Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
