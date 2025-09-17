@@ -579,6 +579,107 @@ El entrevistado ve con buenos ojos colaborar con Glottia, ya que le otorgaría m
 ---
 
 ### 2.2.3. Análisis de entrevistas
+En esta sección, el equipo realiza el análisis respectivo de las entrevistas, consolidándolo en un resumen de acuerdo a los segmentos entrevistados.
+
+### Segmento 1: Usuarios aprendices de idiomas
+
+**Total entrevistados:** 2
+**Edad promedio:** 20 años
+**Sexo:** Masculino
+**Ocupación:** Estudiante universitario
+
+#### Características objetivas:
+
+- **100%** practica idiomas principalmente mediante internet y academias.
+
+- **100%** se siente totalmente cómodo usando tecnología para conocer nuevas personas (10/10).
+
+- **100%** está interesado en encuentros presenciales y virtuales para practicar idiomas.
+
+- **100%** manifiesta interés en conocer nuevas personas y culturas a través de la práctica lingüística.
+
+- **0%** ha participado previamente en intercambios de idiomas organizados.
+
+#### Características subjetivas:
+
+- La motivación principal es mejorar fluidez y confianza social, evitando burlas o juicios.
+
+- Alta valoración del idioma como herramienta de integración social y cultural.
+
+- Percibe limitaciones en el entorno (ruido, falta de espacios adecuados, lejanía).
+
+- Muestra disposición media a salir de su zona de confort (5/10), aunque la motivación lo impulsa a hacerlo.
+
+- Busca entornos públicos, seguros y cómodos, con ambiente social agradable.
+
+---
+
+### Segmento 2: Administradores de establecimientos (cafeterías, bares, coworkings)
+
+**Total entrevistados:** 2
+**Edad promedio:** 26-37 años (aprox.)
+**Sexo:** Masculino y Femenino
+**Ocupación:** Dueño de restaurante-café
+
+### Características objetivas:
+
+- **100%** gestiona su clientela mediante redes sociales y boca a boca.
+
+- **100%** cuenta con un local físico con áreas internas adecuadas para grupos pequeños/medianos.
+
+- **100%** considera viable recibir grupos para prácticas de idiomas en horarios de baja afluencia (tardes/noches).
+
+- **100%** valora la visibilidad que una app puede brindar a su establecimiento.
+
+- **100%** condiciona la participación a que los asistentes consuman algo en el local.
+
+### Características subjetivas:
+
+- Interés en atraer nuevo público a través de experiencias culturales y sociales.
+
+- Percibe la propuesta como un valor agregado que diferencia su local de la competencia.
+
+- Preocupación por posibles problemas de ocupación de espacio sin consumo y exceso de ruido.
+
+- Considera importante mantener el orden y el respeto de normas para asegurar la convivencia en el local.
+
+- Ve en la app una oportunidad de posicionamiento digital y fidelización de clientes.
+
+## Síntesis de Hallazgos y Validación Cuantitativa
+
+A partir de los gráficos obtenidos del formulario post-entrevista, se destacan las siguientes tendencias cuantitativas que validan los hallazgos cualitativos anteriores:
+
+### 1. Usuarios aprendices – Espacios seguros
+
+<img src="https://i.postimg.cc/g0JP7k4K/hallazgo1.png"/>
+
+### Hallazgo para el gráfico:
+
+La mayoría de usuarios indica que no encuentra espacios seguros ni accesibles para practicar idiomas, lo que evidencia una necesidad que Glottia puede cubrir.
+
+### 2. Usuarios aprendices – Uso de tecnología
+
+<img src="https://i.postimg.cc/3NQV3KjV/hallazgo2.png"/>
+
+### Hallazgo para el gráfico:
+La mayoría de entrevistados no utiliza actualmente aplicaciones digitales para practicar idiomas, lo que muestra una oportunidad clara de posicionar a Glottia como primera opción.
+
+### 3. Administradores de locales – Valor de aparecer en app
+
+<img src="https://i.postimg.cc/qqrb914d/hallazgo3.png"/>
+
+### Hallazgo para el gráfico:
+
+La mayoría de administradores valora positivamente aparecer en una app, ya que reconocen que esto les daría visibilidad y llegada a nuevos públicos.
+
+### 4. Administradores de locales – Consumo mínimo
+
+<img src="https://i.postimg.cc/9QkxWmCb/hallazgo4.png"/>
+
+### Hallazgo para el gráfico:
+
+La mayoría de administradores indica que no aceptarían reuniones sin consumo mínimo, lo que confirma la necesidad de establecer reglas claras en la plataforma.
+
 
 ## 2.3. Needfinding
 En esta sección, el equipo presenta los elementos del needfinding
@@ -1856,53 +1957,6 @@ En esta sección se muestran los diagramas de diseño de base de datos correspon
 [![loyalty.jpg](https://i.postimg.cc/2SDNNwHY/loyalty.jpg)](https://postimg.cc/LnNbzzKQ)
 
 <img src="https://i.postimg.cc/MHgQr6LN/diagrama-glottia.png"/>
-
----
-
-# Capítulo III: Solution UI/UX Design
-## 3.1. Product Design
-### 3.1.1. Style Guidelines
-#### 3.1.1.1. General Style Guidelines
-### 3.1.2. Information Architecture
-#### 3.1.2.1. Organization Systems
-#### 3.1.2.2. Labelling Systems
-#### 3.1.2.3. SEO Tags and Meta Tags
-#### 3.1.2.4. Searching Systems
-#### 3.1.2.5. Navigation Systems
-### 3.1.3. Landing Page UI Design
-#### 3.1.3.1. Landing Page Wireframe
-#### 3.1.3.2. Landing Page Mock-up
-### 3.1.4. Mobile Applications UX/UI Design
-#### 3.1.4.1. Mobile Applications Wireframes
-#### 3.1.4.2. Mobile Applications Wireflow Diagrams
-#### 3.1.4.3. Mobile Applications Mock-ups
-#### 3.1.4.4. Mobile Applications User Flow Diagrams
-#### 3.1.4.5. Mobile Applications Prototyping
-
----
-
-# Capítulo IV: Product Implementation & Validation
-## 4.1. Software Configuration Management
-### 4.1.1. Software Development Environment Configuration
-### 4.1.2. Source Code Management
-### 4.1.3. Source Code Style Guide & Conventions
-### 4.1.4. Software Deployment Configuration
-
-## 4.2. Landing Page & Mobile Application Implementation
-### 4.2.1. Sprint n
-#### 4.2.1.1. Sprint Planning n
-#### 4.2.1.2. Sprint Backlog n
-#### 4.2.1.3. Development Evidence for Sprint Review
-#### 4.2.1.4. Testing Suite Evidence for Sprint Review
-#### 4.2.1.5. Execution Evidence for Sprint Review
-#### 4.2.1.6. Services Documentation Evidence for Sprint Review
-#### 4.2.1.7. Software Deployment Evidence for Sprint Review
-#### 4.2.1.8. Team Collaboration Insights during Sprint
-
-## 4.3. Validation Interviews
-### 4.3.1. Diseño de Entrevistas
-### 4.3.2. Registro de Entrevistas
-### 4.3.3. Evaluaciones según heurísticas
 
 ---
 
