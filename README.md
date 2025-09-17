@@ -46,15 +46,16 @@
 
 <div align="center">
 
-| Versión | Fecha       | Autor(es)                                                                 | Descripción de modificación |
-|---------|-------------|---------------------------------------------------------------------------|------------------------------|
-|   TB1   | XX/09/2025  | Ethan Matias Aliaga Aguirre                                               | Realicé ... |
-|   TB1   | XX/09/2025  | Leandro Saul Contreras López                                              | Realicé ... |
-|   TB1   | XX/09/2025  | Italo Ludwing Sanchez Manrique                                            | Realicé ... |
-|   TB1   | XX/09/2025  | Ivo Marcelo Machado Bracamonte                                            | Realicé ... |
-|   TB1   | XX/09/2025  | Rodrigo Jesus Miraval Pomalaya                                            | Realicé ... |
-|   TB1   | XX/09/2025  | Piero Francesco Tenorio Medina                                            | Realicé ... |
-|   TB1   | XX/09/2025  | Arnold Gabriel Morales Sosa                                               | Realicé ... |
+| Versión | Fecha       | Autor(es)                                    | Descripción de modificación |
+|---------|-------------|-----------------------------------------------|------------------------------|
+|   TB1   | 16/09/2025  | **Ethan Matías Aliaga Aguirre**               | Redacción del Capítulo I a V. Diseño de arquitectura usando *Domain-Driven Design*. Implementación inicial de la landing page. Documentación técnica de componentes. Diseño de historias de usuario. Coordinación general del enfoque técnico del proyecto. |
+|   TB1   | 16/09/2025  | **Leandro Saúl Contreras López**              | Elaboración de análisis competitivo y estrategias frente a competidores. Definición de *Lean UX Problem Statements* y *Assumptions*. Colaboración en entrevistas y registro de hallazgos. |
+|   TB1   | 16/09/2025  | **Ítalo Ludwing Sánchez Manrique**            | Configuración del entorno de desarrollo. Gestión inicial del *Product Backlog*. Aportes en la estructura general del documento y lineamientos de SEO. |
+|   TB1   | 16/09/2025  | **Ivo Marcelo Machado Bracamonte**            | Diseño de *User Personas*, *User Task Matrix* y flujos de usuario. Desarrollo de prototipos web y guía de estilos visuales. Apoyo en estructura narrativa del documento. |
+|   TB1   | 16/09/2025  | **Rodrigo Jesús Miraval Pomalaya**            | Investigación de bases de datos relacionales y no relacionales. Propuesta de modelo de datos inicial. Redacción de *Requirements Specification* y contribución en *EventStorming*. |
+|   TB1   | 16/09/2025  | **Piero Francesco Tenorio Medina**            | Apoyo en la definición de *User Journey Mapping* y *Empathy Mapping*. Contribución en la documentación de *Bounded Context Canvases*. Revisión de consistencia en *Context Mapping*. |
+|   TB1   | 16/09/2025  | **Arnold Gabriel Morales Sosa**               | Configuración del repositorio en GitHub. Propuesta de flujo de control de versiones (*branching strategy*). Documentación del uso de herramientas colaborativas. Apoyo en la integración de *Software Architecture Diagrams*. |
+
 
 </div>
 
@@ -198,7 +199,7 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 |------|--------|-------------|
 | ![Foto] | U202318731 | Soy Piero Tenorio... |
 | ![Foto] | U202123843 | Soy Gianmarco Jiménez... |
-| ![Foto] | UXXXXXXX | Texto de descripción |
+| ![Imagen del compañero](https://i.imgur.com/R1iMW0N.png) | u202316967 | Mi nombre es Italo Ludwing Sanchez Manrique, soy estudiante de Ingeniería de Software en la UPC, tengo 19 años y actualmente curso el tercer ciclo académico. Destaco por mi perseverancia, tolerancia y compromiso con mis metas. En este proyecto, mi objetivo es buscar soluciones que beneficien al grupo, ya que tengo experiencia en trabajar de forma proactiva y colaborativa. Además, poseo sólidos conocimientos en lenguajes de programación como Java y C++. |
 | ![Foto] | UXXXXXXX | Texto de descripción |
 | ![Foto] | UXXXXXXX | Texto de descripción |
 
@@ -500,90 +501,83 @@ Las definiciones están redactadas en español de forma clara y sin ambigüedade
 
 ## 1. Stakeholders & Roles
 
-Language Learner (Aprendiz de idiomas)  
-Persona que busca mejorar su fluidez, vocabulario y confianza al hablar un idioma extranjero mediante la práctica conversacional.
+**Language Learner (Aprendiz de idiomas)**  
+Persona que busca mejorar fluidez mediante *Encounter* presenciales.  
 
-Host Administrator (Administrador de establecimiento)  
-Dueño o encargado de un espacio físico (cafetería, coworking, bar, centro cultural) que ofrece su local como punto de encuentro para sesiones de práctica de idiomas.
+**Conversation Partner (Compañero de conversación)**  
+Usuario emparejado por *Language Matchmaking* dentro del *Encounter*.  
 
-Conversation Partner (Compañero de conversación)  
-Usuario con quien se interactúa durante una sesión, emparejado según idioma, nivel de fluidez e intereses.
-
-Event Organizer (Organizador de eventos)  
-Persona o equipo responsable de coordinar encuentros temáticos, actividades culturales o dinámicas grupales dentro de Glottia.
-
-Platform Administrator (Administrador de plataforma)  
-Miembro del equipo de Glottia que gestiona usuarios, supervisa el cumplimiento de normas, valida perfiles y asegura el correcto funcionamiento del sistema.
+**Platform Administrator (Administrador de plataforma)**  
+Valida *Venue*, asigna *Role* y gestiona *Community Guidelines*.  
 
 ---
 
 ## 2. Servicios y Experiencias
 
-Language Meetup (Encuentro de idiomas)  
-Reunión presencial en espacios públicos o locales aliados para practicar un idioma de manera informal y social.
+**Language Meetup (Encuentro de idiomas)**  
+*Encounter* presencial en *Venue*; práctica conversacional sin clases.  
 
-Virtual Session (Sesión virtual)  
-Conversación en línea, en tiempo real, entre dos o más usuarios de la plataforma.
+**Language Matchmaking (Emparejamiento lingüístico)**  
+Algoritmo que empareja *Language Learners* según *IdiomaMeta*, *NivelCEFR* y *Disponibilidad*.  
 
-Language Matchmaking (Emparejamiento lingüístico)  
-Proceso de conectar a un aprendiz con compañeros de conversación adecuados según idioma, nivel y disponibilidad.
-
-Cultural Event (Evento cultural)  
-Actividad organizada que integra dinámicas multiculturales, juegos o celebraciones temáticas para enriquecer la práctica de idiomas.
-
-Gamification Activity (Actividad de gamificación)  
-Dinámica lúdica integrada en la plataforma para motivar la participación y el progreso del usuario.
+**Cultural Exchange (Intercambio cultural)**  
+Resultado del emparejamiento entre *Language Learners* de distintos orígenes.  
 
 ---
 
 ## 3. Funcionalidades de la Plataforma
 
-Booking (Reserva)  
-Acción de un usuario para apartar un lugar en una sesión de práctica (presencial o virtual).
+**Booking (Reserva)**  
+*JoinEncounter* – confirma un *Attendance* dentro del *Encounter* (máximo *capacity*).  
 
-Verified Space (Espacio verificado)  
-Estado de un establecimiento que ha sido validado por la plataforma como un lugar seguro y adecuado para encuentros.
+**Verified Space (Espacio verificado)**  
+*Venue* validado; aparece en *ActiveVenues*.  
 
-Progress Tracking (Seguimiento de progreso)  
-Registro del avance del usuario en términos de participación, niveles de fluidez y logros obtenidos.
+**Progress Tracking (Seguimiento de progreso)**  
+*PartnerDashboard / AdminDashboard* – métricas de *PointsAwarded*, *MonthlyReport*.  
 
-Rating & Review (Calificación y reseña)  
-Sistema de puntuación y comentarios que permite evaluar tanto la experiencia del usuario como del establecimiento anfitrión.
+**Rating & Review (Calificación y reseña)**  
+*SubmitFeedback* – deja *rating* tras *EncounterCompleted*; actualiza *ReputationUpdated*.  
 
-Loyalty Benefits (Beneficios de fidelización)  
-Recompensas o ventajas otorgadas a usuarios recurrentes, como descuentos, accesos preferentes o reconocimientos.
+**Loyalty Benefits (Beneficios de fidelización)**  
+*BadgeUnlocked* – desbloquea *Badge* cuando *LoyaltyAccount* alcanza umbral.  
+
+**Wait-List Promotion (Promoción desde lista de espera)**  
+*WaitingListPromotionTriggered* – ofrece cupo libre al primer *WaitListEntry*.  
+
+**No-Show Penalty (Penalización por no-show)**  
+*NoShowPenaltyApplied* – descuenta puntos si *Attendance.status* ≠ *ATTENDED*.  
 
 ---
 
 ## 4. Seguridad y Confianza
 
-Safe Environment (Entorno seguro)  
-Condición de que los encuentros —presenciales o virtuales— se desarrollan en espacios supervisados, confiables y respetuosos.
+**Safe Environment (Entorno seguro)**  
+*ValidateQR + Time/Proximity* – garantiza *check-in* correcto.  
 
-Community Guidelines (Normas de la comunidad)  
-Reglas que regulan la conducta de los usuarios y administradores dentro de Glottia, promoviendo respeto e inclusión.
+**Community Guidelines (Normas de la comunidad)**  
+Incumplimiento puede generar *NoShowPenaltyApplied* o suspensión.  
 
-Identity Verification (Verificación de identidad)  
-Proceso mediante el cual la plataforma confirma que el usuario o administrador es auténtico, evitando perfiles falsos.
+**Identity Verification (Verificación de identidad)**  
+Valida email único y *Role* asignado por *Platform Administrator*.  
 
-Trust Badge (Insignia de confianza)  
-Distintivo otorgado a usuarios o establecimientos que cumplen con los estándares de seguridad y calidad de Glottia.
+**Trust Badge (Insignia de confianza)**  
+Visible en perfil de *User* o *Venue* que cumple estándares.  
 
 ---
 
 ## 5. Otros conceptos del dominio
 
-Language Flow (Fluidez lingüística)  
-Capacidad progresiva de expresarse de manera natural y coherente en un idioma extranjero.
+**Language Flow (Fluidez lingüística)**  
+Mejora continua medida por *FeedbackSubmitted* y *Level* dentro del *Profile*.  
 
-Cultural Exchange (Intercambio cultural)  
-Interacción entre personas de diferentes contextos culturales que fomenta el entendimiento mutuo y el aprendizaje más allá del idioma.
+**Hybrid Practice (Práctica híbrida)**  
+*Encounter* presencial + *Virtual Session* (post-MVP).  
 
-Hybrid Practice (Práctica híbrida)  
-Modelo que combina encuentros presenciales con sesiones virtuales para ofrecer mayor flexibilidad a los usuarios.
+**Digital Presence (Presencia digital)**  
+Visibilidad de *User*, *Partner*, *Encounter* dentro de la app y canales asociados.  
 
-Digital Presence (Presencia digital)  
-Visibilidad de usuarios, establecimientos y eventos dentro de la aplicación y en los canales asociados a Glottia.
+---
 
 
 
