@@ -1330,6 +1330,25 @@ El EventStorming es una técnica de brainstorming colaborativa y visual que se u
 ![The Bounded Context Canvas - Learning Progress & Gamification](https://github.com/user-attachments/assets/1acfc8b3-5f61-42a7-b6ab-c547db50bcba)
 ![The Bounded Context Canvas -Community & Cultural Exchange](https://github.com/user-attachments/assets/2331ded6-8caa-4cad-ad35-6986b841b618)
 ### 2.5.2. Context Mapping
+## Relaciones entre Contextos
+
+| Contexto Origen                 | Relación (DDD)      | Contexto Destino                | Descripción                                                                 |
+|---------------------------------|----------------------|----------------------------------|-----------------------------------------------------------------------------|
+| User Identity & Trust            | Supplier             | Community & Cultural Exchange    | La verificación de usuario habilita acceso y confianza en la comunidad.     |
+| User Identity & Trust            | Supplier             | Language Exchange Session        | Los datos de idioma y nivel alimentan el proceso de matchmaking.            |
+| User Identity & Trust            | Shared Kernel        | Venue Partnership                | Se comparten datos básicos de reputación y verificación de usuarios.        |
+| Language Exchange Session        | Partnership          | Venue Partnership                | Una sesión programada bloquea espacio en un local asociado.                 |
+| Language Exchange Session        | Customer             | User Identity & Trust            | Consulta disponibilidad y nivel de idioma de los usuarios.                  |
+| Learning Progress & Gamification | Supplier             | Community & Cultural Exchange    | Los logros desbloqueados se publican en la comunidad para motivar.          |
+| Community & Cultural Exchange    | Supplier             | Venue Partnership                | Las reseñas de usuarios impactan en la reputación de los locales.           |
+| Community & Cultural Exchange    | Supplier             | User Identity & Trust            | Actualiza la reputación del usuario anfitrión con base en reseñas.          |
+
+## Notas
+- **User Identity & Trust** es el **núcleo**, provee información confiable a los demás contextos.  
+- **Language Exchange Session** y **Venue Partnership** funcionan en **partnership**, porque ambos dependen mutuamente para habilitar encuentros.  
+- **Community & Cultural Exchange** es un **hub**, recibe y redistribuye información (reseñas, logros).  
+- **Learning Progress & Gamification** es un **supplier secundario**, motiva con logros que alimentan a la comunidad.
+- 
 ### 2.5.3. Software Architecture
 
 La arquitectura de Glottia se ha modelado siguiendo el modelo C4, que permite visualizar el sistema en diferentes niveles de abstracción. Esto facilita la comprensión de la estructura, las responsabilidades y las interacciones tanto para perfiles técnicos como no técnicos. Los niveles que se detallan a continuación son: Contexto (Nivel 1), Contenedores (Nivel 2) y Componentes (Nivel 3).
