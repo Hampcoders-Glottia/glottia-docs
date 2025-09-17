@@ -57,9 +57,34 @@
 |   TB1   | 16/09/2025  | **Arnold Gabriel Morales Sosa**               | Configuración del repositorio en GitHub. Propuesta de flujo de control de versiones (*branching strategy*). Documentación del uso de herramientas colaborativas. Apoyo en la integración de *Software Architecture Diagrams*. |
 
 
+---
+
 </div>
 
-# Project Report Collaboration Insights  
+# Project Report Collaboration Insights
+
+El informe del proyecto se ha gestionado de forma colaborativa mediante el siguiente repositorio en la organización de GitHub del equipo:
+
+[Repositorio del Informe - GitHub](https://github.com/Hampcoders-Glottia/glottia-docs)
+
+Este repositorio ha servido como espacio central para la redacción estructurada del informe final, el control de versiones, y la coordinación de contribuciones técnicas por parte de todos los integrantes del equipo.
+
+A continuación, se presentan las evidencias de colaboración durante las distintas entregas, destacando el aporte activo de todos los miembros, en coherencia con el Registro de Versiones del Informe.
+
+---
+
+### TB1 – Inicio de Redacción y Estructura General del Informe
+
+Durante la primera entrega se definió la estructura base del informe, incluyendo introducción, objetivos, justificación y marco metodológico. Se asignaron secciones de forma equitativa y se establecieron ramas para cada sección.
+
+- Se registraron contribuciones constantes por parte de **Rexest01**, **MatFragg**, **ItaloSanche**, **ivommb11** y **lvonmb11**.
+- La colaboración fue paralela y coordinada, sin conflictos de fusión.
+- Se gestionaron ramas específicas por integrante para mantener un flujo limpio.
+
+Captura de commits semanales por integrante:
+
+<img src="https://i.postimg.cc/jjNBmwPP/commitsss.png"/>
+
 
 ---
 
@@ -195,14 +220,17 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Foto | Código | Descripción |
-|------|--------|-------------|
-| ![Foto] | U202318731 | Soy Piero Tenorio... |
-| ![Foto] | U202123843 | Soy Gianmarco Jiménez... |
-| ![Imagen del compañero](https://i.imgur.com/R1iMW0N.png) | u202316967 | Mi nombre es Italo Ludwing Sanchez Manrique, soy estudiante de Ingeniería de Software en la UPC, tengo 19 años y actualmente curso el tercer ciclo académico. Destaco por mi perseverancia, tolerancia y compromiso con mis metas. En este proyecto, mi objetivo es buscar soluciones que beneficien al grupo, ya que tengo experiencia en trabajar de forma proactiva y colaborativa. Además, poseo sólidos conocimientos en lenguajes de programación como Java y C++. |
-| ![Foto] | UXXXXXXX | Texto de descripción |
-| ![Image](https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655) | U201822516 | Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins |
 
+| Miembros del equipo                             | Codigo Estudiante | Descripcion            |
+| ----------------------------------------------- | ----------------- | ---------------------- |
+| Italo Ludwing Sanchez Manrique	![Imagen del compañero](https://i.imgur.com/R1iMW0N.png)   | U202316967            | Mi nombre es Italo Ludwing Sanchez Manrique, soy estudiante de Ingeniería de Software en la UPC, tengo 19 años y actualmente curso el sexto ciclo académico. Destaco por mi perseverancia, tolerancia y compromiso con mis metas. En este proyecto, mi objetivo es buscar soluciones que beneficien al grupo, ya que tengo experiencia en trabajar de forma proactiva y colaborativa. Además, poseo sólidos conocimientos en lenguajes de programación como Java y C++. | 
+| Ethan Matias Aliaga Aguirre	[![image.png](https://i.postimg.cc/sXYKCY1B/image.png)](https://postimg.cc/jwjyzJHK)   | U202318323            | Soy Ethan Matias Aliaga Aguirre, estudiante de 5to ciclo de Ingeniería de Software en la UPC, sede San Miguel. Me caracterizo por mi compromiso, responsabilidad, habilidad para trabajar en equipo y comunicación. Mis conocimientos Incluyen arquitectura de Software , desarrollo de APIs y Experiencias Web Full Stack. Además, tengo experiencia en el uso de herramientas como Photoshop, Filmadora y Vegas Studio, lo que me permite aportar con soluciones creativas y técnicas en mis proyectos. Estoy comprometido con mi crecimiento personal y profesional, siempre buscando aprender y mejorar en cada oportunidad que se presente. | 
+| Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png)   | U20231E215            | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
+| Ivo Marcelo Machado Bracamonte	![Imagen del compañero](https://i.imgur.com/n8LhONl.png)   | U20231C368            | Mi nombre es Ivo Machado, tengo 19 años, soy estudiante y actualmente estudio en el sexto ciclo de ingeniería de software en la UPC. Mis fuertes son la mentalidad, no me rindo con facilidad y no le tengo miedo al error, tengo empatía con los demás, me gusta resolver problemas y siempre intento mejorar en lo que hago y seguir aprendiendo. Tengo conocimientos del lenguaje de programación C++, Java y un poco de Python, HTML, CSS y JavaScript, también domino el Inglés y sé Portugués. | 
+|       Rodrigo Jesus Miraval Pomalaya        |            u202311082                       | |
+| Arnold Gabriel Morales Sosa   ![Image](https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655)        | U201822516           | Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.  | 
+
+  
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
 
@@ -288,8 +316,6 @@ Flexibilidad para practicar de forma presencial o virtual.
 Acceso a experiencias prácticas y entretenidas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-
-<<<<<<<<< Temporary merge branch 1
 **Creemos que** al emparejar a los usuarios por nivel de idioma, intereses y cercanía, mejoraremos la calidad de las interacciones en las reuniones. <br>
 **Sabremos que** conseguimos excelentes resultados. <br> 
 **Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes. <br>
@@ -300,7 +326,7 @@ Acceso a experiencias prácticas y entretenidas.
 
 **Creemos que** brindando la opción de participar tanto de forma presencial como virtual, ampliaremos la accesibilidad y comodidad para los usuarios. <br>
 **Sabremos que** conseguimos excelentes resultados. <br>
-=========
+
 **Creemos que** al emparejar a los usuarios por nivel de idioma, intereses y cercanía, mejoraremos la calidad de las interacciones en las reuniones.
 **Sabremos que** conseguimos excelentes resultados.
 **Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes.
@@ -311,7 +337,6 @@ Acceso a experiencias prácticas y entretenidas.
 
 **Creemos que** brindando la opción de participar tanto de forma presencial como virtual, ampliaremos la accesibilidad y comodidad para los usuarios.
 **Sabremos que** conseguimos excelentes resultados.
->>>>>>>>> Temporary merge branch 2
 **Cuando** al menos el 40% de los usuarios utilicen ambas modalidades durante su primer trimestre en la app.
 
 #### 1.2.2.4. Lean UX Canvas
@@ -328,40 +353,40 @@ Acceso a experiencias prácticas y entretenidas.
 ### Segmento objetivo #1: Usuarios aprendices de idiomas
 
 #### Aspectos demográficos:
-Sexo: Masculino, femenino y no binario.
-Edad: Entre 16 y 40 años (desde estudiantes de secundaria superior hasta jóvenes/adultos profesionales).
-Nivel socioeconómico: Medio a medio-alto.
+- Sexo: Masculino, femenino y no binario.
+- Edad: Entre 16 y 40 años (desde estudiantes de secundaria superior hasta jóvenes/adultos profesionales).
+- Nivel socioeconómico: Medio a medio-alto.
 
 #### Aspectos geográficos:
-Residen en áreas urbanas o metropolitanas con buena conectividad y vida cultural activa.
-Se concentran en ciudades con alta población estudiantil, diversidad cultural o presencia de comunidades extranjeras.
-Frecuentan espacios como universidades, bibliotecas, coworkings, cafeterías, bares, centros culturales y parques urbanos.
+- Residen en áreas urbanas o metropolitanas con buena conectividad y vida cultural activa.
+- Se concentran en ciudades con alta población estudiantil, diversidad cultural o presencia de comunidades extranjeras.
+- Frecuentan espacios como universidades, bibliotecas, coworkings, cafeterías, bares, centros culturales y parques urbanos.
 
 #### Aspectos psicográficos:
-Tienen motivación tanto académica/profesional (certificaciones, prácticas, empleabilidad) como social/personal (viajar, conocer culturas, socializar).
-Buscan fluidez, vocabulario conversacional y confianza al hablar en un entorno real.
-Valoran experiencias auténticas, accesibles y presenciales fuera de un aula tradicional.
-Son curiosos, abiertos, sociables y dispuestos a salir de su zona de confort.
+- Tienen motivación tanto académica/profesional (certificaciones, prácticas, empleabilidad) como social/personal (viajar, conocer culturas, socializar).
+- Buscan fluidez, vocabulario conversacional y confianza al hablar en un entorno real.
+- Valoran experiencias auténticas, accesibles y presenciales fuera de un aula tradicional.
+- Son curiosos, abiertos, sociables y dispuestos a salir de su zona de confort.
 
 
 ## Segmento objetivo #2: Administradores que ofrecen su establecimiento como punto de reunión
 
 #### Aspectos demográficos:
-Perfil: Administradores, dueños o encargados de cafeterías, bares, restaurantes, coworkings y centros culturales.
-Tipo de negocio: Establecimientos con espacios adecuados para grupos pequeños o medianos.
-Ubicación: Zonas céntricas, estudiantiles o con alto tránsito de jóvenes/adultos interesados en socializar y aprender idiomas.
+- Perfil: Administradores, dueños o encargados de cafeterías, bares, restaurantes, coworkings y centros culturales.
+- Tipo de negocio: Establecimientos con espacios adecuados para grupos pequeños o medianos.
+- Ubicación: Zonas céntricas, estudiantiles o con alto tránsito de jóvenes/adultos interesados en socializar y aprender idiomas.
 
 #### Aspectos geográficos:
-Se encuentran en áreas urbanas y metropolitanas con vida cultural activa.
-Están ubicados en distritos o barrios con alta concentración de estudiantes, profesionales jóvenes y comunidades extranjeras.
-Sus locales suelen estar cerca de universidades, residencias estudiantiles, coworkings o zonas de ocio.
+- Se encuentran en áreas urbanas y metropolitanas con vida cultural activa.
+- Están ubicados en distritos o barrios con alta concentración de estudiantes, profesionales jóvenes y comunidades extranjeras.
+- Sus locales suelen estar cerca de universidades, residencias estudiantiles, coworkings o zonas de ocio.
 
 #### Aspectos psicográficos:
-Buscan atraer nuevos clientes mediante experiencias innovadoras.
-Están interesados en diferenciar su local con propuestas culturales y sociales.
-Valoran el posicionamiento digital y la visibilidad que les brinda la app.
-Quieren generar mayor consumo en su establecimiento a través de las reuniones organizadas.
-Desean fidelizar clientes al vincular su espacio con un ambiente inclusivo, cultural e internacional.
+- Buscan atraer nuevos clientes mediante experiencias innovadoras.
+- Están interesados en diferenciar su local con propuestas culturales y sociales.
+- Valoran el posicionamiento digital y la visibilidad que les brinda la app.
+- Quieren generar mayor consumo en su establecimiento a través de las reuniones organizadas.
+- Desean fidelizar clientes al vincular su espacio con un ambiente inclusivo, cultural e internacional.
 
 
 ---
@@ -440,7 +465,247 @@ De acuerdo con Easwaramoorthy y Zarinpoush (2006), las entrevistas son un métod
 - ¿Qué te haría confiar en una asociación con una app de este estilo?
 
 ### 2.2.2. Registro de entrevistas
+
+En esta sección, el equipo realiza el registro de las entrevistas realizadas
+### Segmento #1: Usuarios aprendices de idiomas
+
+**Entrevista: Pablo Pedro Medina**  
+- **Sexo:** Masculino  
+- **Edad:** 17
+- **Link:** [Ver entrevista](https://www.youtube.com/watch?v=up8_ieASldk&lc=Ugze5itcZxsrASv5_P54AaABAg)  
+- **Inicia en:** 0:05  
+- **Duración:** 7:15
+  
+<img src="https://i.postimg.cc/9FVrzZJg/4234234.png"/>
+
+
+### Resumen de entrevista
+
+**Datos objetivos y perfil general**
+
+Pablo Pedro Medina, 17 años, estudiante de la carrera de Comunicación en la Universidad César Vallejo. Es sociable, le gusta el fútbol y compartir tiempo con amigos en actividades recreativas como pichangas, cine y salidas al parque. Declara un nivel C1 en ruso, aprendido en gran medida por convivencia con personas hablantes nativas, aunque no por completo formal. También muestra interés por interactuar en inglés.
+
+**Características subjetivas – Personalidad y comportamiento**
+
+Pablo se muestra extrovertido, curioso y motivado por experiencias sociales. Considera que practicar idiomas es esencial para evitar situaciones incómodas o burlas, lo cual relaciona directamente con su confianza personal. Aunque le gusta relacionarse, indica que salir de su zona de confort para practicar con desconocidos le resulta un reto (5/10 en disposición), en parte por las limitaciones de su entorno. Sin embargo, la motivación de aprender y mejorar lo impulsa a aceptar desafíos.
+
+**Relación con la propuesta de Glottia**
+
+Encuentra valor en espacios organizados para practicar idiomas, tanto virtuales como presenciales, siempre que se brinden condiciones de seguridad, confianza y paciencia. Destaca que le gustaría que los encuentros sean en lugares públicos y accesibles, con un ambiente cómodo y con posibilidades de socializar. Reconoce que no ha participado antes en intercambios de idiomas, lo que evidencia una necesidad no cubierta que Glottia podría resolver.
+
+**Canales de búsqueda y decisión**
+
+Actualmente practica mediante internet, redes sociales y academias. Utiliza la tecnología de forma intensiva para conectar con personas (relaciones, amistades, incluso entretenimiento), lo que muestra que un canal digital como Glottia sería percibido como natural y atractivo para él.
+
+**Dispositivos y tecnología utilizada**
+
+Declara sentirse totalmente cómodo (10/10) con el uso de herramientas digitales para conocer nuevas personas. Considera que los avances tecnológicos han sido clave para su socialización y aprendizaje.
+
+**Criterios de participación y expectativas**
+
+- Ambientes públicos con sensación de seguridad.
+
+- Lugares cómodos, con aire acondicionado y posibilidad de consumir bebidas (incluso alcohólicas).
+
+- Paciencia y comprensión por parte de los interlocutores.
+
+- Menor ruido ambiental para favorecer la escucha y la práctica.
+
+- Actitud frente a plataformas de intermediación
+
+Pablo estaría dispuesto a participar en Glottia tanto en encuentros virtuales como presenciales. Su expectativa es que la plataforma facilite un entorno seguro, accesible y diverso, donde pueda conocer nuevas personas, practicar idiomas y vivir experiencias culturales enriquecedoras.
+
+---
+### Segmento #2: Administradores que ofrecen su establecimiento como punto de reunión
+
+**Entrevista: Ariana Calderón**  
+- **Sexo:** Femenino  
+- **Edad:** 24  
+- **Link:** [Ver entrevista](https://www.youtube.com/watch?v=mSrdbDVvqAQ)  
+- **Inicia en:** 0:01  
+- **Duración:** 4:46
+  
+<img src="https://i.postimg.cc/MTQ8m3K0/sdadas.png"/>
+
+
+### Resumen de entrevista
+
+**Datos objetivos y perfil general** 
+
+Ariana Calderón es administradora de un café ubicado en una zona urbana. Su rol principal consiste en la gestión operativa y administrativa del establecimiento, así como en la atracción de nuevos clientes mediante redes sociales, recomendaciones y colaboraciones locales. Organiza también actividades culturales y promociones para mantener la afluencia del público.
+
+**Características subjetivas – Personalidad y comportamiento** 
+
+Ariana se muestra receptiva e interesada en iniciativas que fortalezcan la comunidad y generen experiencias enriquecedoras para sus clientes. Su visión es estratégica, pues reconoce el potencial de abrir su espacio a actividades culturales y sociales como una forma de atraer público diverso y fidelizar clientes. Al mismo tiempo, evidencia una personalidad práctica y previsora, manifestando preocupaciones claras sobre aspectos de organización, consumo mínimo y control del ruido.
+
+**Relación con la propuesta de Glottia** 
+
+La entrevistada ve de forma positiva que su local sea un punto de encuentro para prácticas de idiomas, ya que esto incrementaría la afluencia en horarios menos concurridos y aportaría un público nuevo, como jóvenes, profesionales y extranjeros. Sin embargo, plantea condiciones: que los grupos reserven previamente, que cada asistente consuma al menos una bebida (preferiblemente con un snack), que el tiempo de permanencia sea razonable y que el número de participantes se ajuste a la capacidad del café.
+
+**Canales de búsqueda y decisión** 
+
+Ariana utiliza principalmente redes sociales y colaboraciones locales para dar visibilidad a su negocio. Considera que aparecer en una aplicación que promueva su establecimiento como espacio recomendado tendría un valor alto, ya que le daría exposición gratuita o de bajo costo y la conectaría con un público que todavía no la conoce.
+
+**Dispositivos y tecnología utilizada** 
+
+Aunque no se profundizó en los dispositivos que usa, se deduce que depende de herramientas digitales y redes sociales para la promoción de su local. Está abierta a integrarse a nuevas plataformas que difundan de manera clara horarios, condiciones de consumo y ubicación de su establecimiento.
+
+**Criterios de colaboración y expectativas** 
+
+Ariana espera que los asistentes tengan un consumo mínimo y respeten las normas del local. Valora que la plataforma garantice transparencia en las condiciones, canales de comunicación claros y promociones constantes. También estaría dispuesta a ofrecer descuentos o combos para grupos, siempre que se cumpla el consumo mínimo.
+
+**Actitud frente a plataformas de intermediación** 
+
+La entrevistada expresó interés en asociarse con una aplicación como Glottia, siempre que esta ofrezca confianza, organización y proyección de su local como un espacio cultural y acogedor. Destaca que el éxito de la colaboración dependerá de la claridad en las reglas, la comunicación fluida y la capacidad de atraer a su público objetivo: jóvenes, profesionales y extranjeros interesados en experiencias multiculturales.
+
+---
+
+### Segmento #2: Administradores que ofrecen su establecimiento como punto de reunión
+
+**Entrevista: Leonardo Donarie**  
+- **Sexo:** Masculino  
+- **Edad:** 28  
+- **Link:** [Ver entrevista](https://www.youtube.com/watch?v=DZAXVHlCj70)  
+- **Inicia en:** 0:05  
+- **Duración:** 9:20
+  
+<img src="https://i.postimg.cc/gJ8222RP/4534rfr.png"/>
+
+
+### Resumen de entrevista
+
+**Datos objetivos y perfil general**
+
+Leonardo Don es dueño y administrador de un restaurante–café que ofrece platillos sencillos, postres, snacks y café en un ambiente acogedor con espacio interior adecuado para reuniones pequeñas o medianas. Su negocio se encuentra en un área urbana y actualmente atrae clientes principalmente mediante redes sociales y el boca a boca, lo que le ha permitido crecer progresivamente.
+
+**Características subjetivas – Personalidad y comportamiento**
+
+Leonardo se muestra abierto a innovar y valora iniciativas que le generen un valor añadido a su negocio. Considera positivo que su local se use como punto de encuentro para prácticas de idiomas, ya que percibe que esto puede fidelizar a clientes y darle mayor visibilidad. Al mismo tiempo, es precavido respecto a aspectos prácticos como el consumo mínimo, el orden y el nivel de ruido dentro de su establecimiento.
+
+**Relación con la propuesta de Glottia**
+
+El entrevistado identifica beneficios directos en participar con Glottia: atraer un público más diverso (jóvenes, estudiantes y extranjeros), aumentar la afluencia en horarios de menor demanda y reforzar la difusión de su local. Entre sus preocupaciones, menciona la posibilidad de que algunos asistentes usen el espacio sin consumir, el exceso de ruido y la falta de organización del grupo. Establece como condiciones para aceptar los encuentros la obligatoriedad de consumo, respeto de horarios específicos y un ambiente ordenado.
+
+**Canales de búsqueda y decisión**
+
+Actualmente, Leonardo utiliza redes sociales y recomendaciones de clientes para atraer público. Reconoce que no es muy activo en plataformas digitales, por lo que considera de gran valor que su local aparezca en una aplicación como Glottia, al darle mayor visibilidad y exposición virtual que complementa sus esfuerzos actuales de promoción.
+
+**Dispositivos y tecnología utilizada**
+
+No se detallaron dispositivos específicos, pero se desprende que utiliza redes sociales de forma básica para promocionar el restaurante–café. Ve en Glottia una oportunidad de profesionalizar y reforzar su presencia digital con bajo esfuerzo de su parte.
+
+**Criterios de colaboración y expectativas**
+
+Leonardo espera que cada participante consuma al menos una bebida o un snack, que los encuentros se realicen en horarios menos concurridos (tardes o noches) y que se mantenga el orden dentro del local. Está dispuesto a considerar el espacio para estos grupos si se cumplen esas condiciones básicas. Valora también que la plataforma difunda su local de manera clara y atractiva para captar nuevos clientes.
+
+**Actitud frente a plataformas de intermediación**
+
+El entrevistado ve con buenos ojos colaborar con Glottia, ya que le otorgaría mayor visibilidad y le permitiría atraer un público interesado en idiomas y experiencias culturales. Destaca la importancia de la comunicación transparente y constante con la plataforma, así como de establecer reglas claras que aseguren una convivencia armónica entre los asistentes y el resto de clientes del local.
+
+---
+
 ### 2.2.3. Análisis de entrevistas
+En esta sección, el equipo realiza el análisis respectivo de las entrevistas, consolidándolo en un resumen de acuerdo a los segmentos entrevistados.
+
+### Segmento 1: Usuarios aprendices de idiomas
+
+**Total entrevistados:** 2
+**Edad promedio:** 20 años
+**Sexo:** Masculino
+**Ocupación:** Estudiante universitario
+
+#### Características objetivas:
+
+- **100%** practica idiomas principalmente mediante internet y academias.
+
+- **100%** se siente totalmente cómodo usando tecnología para conocer nuevas personas (10/10).
+
+- **100%** está interesado en encuentros presenciales y virtuales para practicar idiomas.
+
+- **100%** manifiesta interés en conocer nuevas personas y culturas a través de la práctica lingüística.
+
+- **0%** ha participado previamente en intercambios de idiomas organizados.
+
+#### Características subjetivas:
+
+- La motivación principal es mejorar fluidez y confianza social, evitando burlas o juicios.
+
+- Alta valoración del idioma como herramienta de integración social y cultural.
+
+- Percibe limitaciones en el entorno (ruido, falta de espacios adecuados, lejanía).
+
+- Muestra disposición media a salir de su zona de confort (5/10), aunque la motivación lo impulsa a hacerlo.
+
+- Busca entornos públicos, seguros y cómodos, con ambiente social agradable.
+
+---
+
+### Segmento 2: Administradores de establecimientos (cafeterías, bares, coworkings)
+
+**Total entrevistados:** 2
+**Edad promedio:** 26-37 años (aprox.)
+**Sexo:** Masculino y Femenino
+**Ocupación:** Dueño de restaurante-café
+
+### Características objetivas:
+
+- **100%** gestiona su clientela mediante redes sociales y boca a boca.
+
+- **100%** cuenta con un local físico con áreas internas adecuadas para grupos pequeños/medianos.
+
+- **100%** considera viable recibir grupos para prácticas de idiomas en horarios de baja afluencia (tardes/noches).
+
+- **100%** valora la visibilidad que una app puede brindar a su establecimiento.
+
+- **100%** condiciona la participación a que los asistentes consuman algo en el local.
+
+### Características subjetivas:
+
+- Interés en atraer nuevo público a través de experiencias culturales y sociales.
+
+- Percibe la propuesta como un valor agregado que diferencia su local de la competencia.
+
+- Preocupación por posibles problemas de ocupación de espacio sin consumo y exceso de ruido.
+
+- Considera importante mantener el orden y el respeto de normas para asegurar la convivencia en el local.
+
+- Ve en la app una oportunidad de posicionamiento digital y fidelización de clientes.
+
+## Síntesis de Hallazgos y Validación Cuantitativa
+
+A partir de los gráficos obtenidos del formulario post-entrevista, se destacan las siguientes tendencias cuantitativas que validan los hallazgos cualitativos anteriores:
+
+### 1. Usuarios aprendices – Espacios seguros
+
+<img src="https://i.postimg.cc/g0JP7k4K/hallazgo1.png"/>
+
+### Hallazgo para el gráfico:
+
+La mayoría de usuarios indica que no encuentra espacios seguros ni accesibles para practicar idiomas, lo que evidencia una necesidad que Glottia puede cubrir.
+
+### 2. Usuarios aprendices – Uso de tecnología
+
+<img src="https://i.postimg.cc/3NQV3KjV/hallazgo2.png"/>
+
+### Hallazgo para el gráfico:
+La mayoría de entrevistados no utiliza actualmente aplicaciones digitales para practicar idiomas, lo que muestra una oportunidad clara de posicionar a Glottia como primera opción.
+
+### 3. Administradores de locales – Valor de aparecer en app
+
+<img src="https://i.postimg.cc/qqrb914d/hallazgo3.png"/>
+
+### Hallazgo para el gráfico:
+
+La mayoría de administradores valora positivamente aparecer en una app, ya que reconocen que esto les daría visibilidad y llegada a nuevos públicos.
+
+### 4. Administradores de locales – Consumo mínimo
+
+<img src="https://i.postimg.cc/9QkxWmCb/hallazgo4.png"/>
+
+### Hallazgo para el gráfico:
+
+La mayoría de administradores indica que no aceptarían reuniones sin consumo mínimo, lo que confirma la necesidad de establecer reglas claras en la plataforma.
+
 
 ## 2.3. Needfinding
 En esta sección, el equipo presenta los elementos del needfinding
@@ -1457,14 +1722,15 @@ Business rules
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
 
-<img src="https://i.postimg.cc/qBYszCrz/IAM.png">
+[![IAMCD.png](https://i.postimg.cc/8P8k01D7/IAMCD.png)](https://postimg.cc/6T0N7x8K)
+<br>
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 Aquí se incluyen los diagramas de clases de la capa de dominio para cada Bounded Context. Estos diagramas detallan las entidades, objetos de valor y agregados principales, así como sus relaciones, proporcionando una visión clara del modelo de dominio y su lógica central.
 
-<img src=="https://i.postimg.cc/8P8k01D7/IAMCD.png">
+<img src="https://i.postimg.cc/8P8k01D7/IAMCD.png">
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 En esta sección se muestran los diagramas de diseño de base de datos correspondientes a cada Bounded Context. Los diagramas reflejan la estructura de las tablas, claves y relaciones, sirviendo como referencia para la implementación y el mantenimiento de la persistencia de datos.
@@ -1736,53 +2002,6 @@ En esta sección se muestran los diagramas de diseño de base de datos correspon
 [![loyalty.jpg](https://i.postimg.cc/2SDNNwHY/loyalty.jpg)](https://postimg.cc/LnNbzzKQ)
 
 <img src="https://i.postimg.cc/MHgQr6LN/diagrama-glottia.png"/>
-
----
-
-# Capítulo III: Solution UI/UX Design
-## 3.1. Product Design
-### 3.1.1. Style Guidelines
-#### 3.1.1.1. General Style Guidelines
-### 3.1.2. Information Architecture
-#### 3.1.2.1. Organization Systems
-#### 3.1.2.2. Labelling Systems
-#### 3.1.2.3. SEO Tags and Meta Tags
-#### 3.1.2.4. Searching Systems
-#### 3.1.2.5. Navigation Systems
-### 3.1.3. Landing Page UI Design
-#### 3.1.3.1. Landing Page Wireframe
-#### 3.1.3.2. Landing Page Mock-up
-### 3.1.4. Mobile Applications UX/UI Design
-#### 3.1.4.1. Mobile Applications Wireframes
-#### 3.1.4.2. Mobile Applications Wireflow Diagrams
-#### 3.1.4.3. Mobile Applications Mock-ups
-#### 3.1.4.4. Mobile Applications User Flow Diagrams
-#### 3.1.4.5. Mobile Applications Prototyping
-
----
-
-# Capítulo IV: Product Implementation & Validation
-## 4.1. Software Configuration Management
-### 4.1.1. Software Development Environment Configuration
-### 4.1.2. Source Code Management
-### 4.1.3. Source Code Style Guide & Conventions
-### 4.1.4. Software Deployment Configuration
-
-## 4.2. Landing Page & Mobile Application Implementation
-### 4.2.1. Sprint n
-#### 4.2.1.1. Sprint Planning n
-#### 4.2.1.2. Sprint Backlog n
-#### 4.2.1.3. Development Evidence for Sprint Review
-#### 4.2.1.4. Testing Suite Evidence for Sprint Review
-#### 4.2.1.5. Execution Evidence for Sprint Review
-#### 4.2.1.6. Services Documentation Evidence for Sprint Review
-#### 4.2.1.7. Software Deployment Evidence for Sprint Review
-#### 4.2.1.8. Team Collaboration Insights during Sprint
-
-## 4.3. Validation Interviews
-### 4.3.1. Diseño de Entrevistas
-### 4.3.2. Registro de Entrevistas
-### 4.3.3. Evaluaciones según heurísticas
 
 ---
 
