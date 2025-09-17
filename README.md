@@ -1422,7 +1422,7 @@ Business rules
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 Esta sección presenta diagramas a nivel de componentes que ilustran la arquitectura interna de cada Bounded Context. Los diagramas muestran cómo se organizan y relacionan los principales módulos y servicios dentro del contexto, facilitando la comprensión de la estructura y las interacciones técnicas clave.
 
-<img src="https://i.postimg.cc/qBYszCrz/IAM.png">
+[![IAMCD.png](https://i.postimg.cc/8P8k01D7/IAMCD.png)](https://postimg.cc/6T0N7x8K)
 <br>
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
