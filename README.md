@@ -168,11 +168,16 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-# Student Outcome
-| Criterio específico                                                   | Acciones realizadas                                                                                     | Conclusiones |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia   | **Nombre Apellido**<br>TB1<br>Texto<br><br>... | TB1: Texto   |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Nombre Apellido**<br>TB1<br>Texto<br><br>... | TB1: Texto   |
+
+## Student Outcome 7 – Aprendizaje Autónomo y Continuo
+
+En esta sección se evidencia cómo las actividades realizadas en el **Trabajo Final** han contribuido al desarrollo del **Outcome 7 de ABET – EAC**, referido a la *capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas*. Cada integrante del equipo ha asumido responsabilidades que implicaron la búsqueda, asimilación y aplicación de nuevos conceptos, metodologías y herramientas propias de la Ingeniería de Software. Estas acciones fortalecieron la autonomía del aprendizaje y la habilidad de adaptarse a desafíos técnicos y metodológicos reales.  
+
+> *Adquiere y aplica nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
+
+| **Criterio específico** | **Acciones realizadas (TB1)** | **Conclusiones (TB1)** |
+|-------------------------|-------------------------------|-------------------------|
+| **Demuestra capacidad de adquirir y aplicar nuevos conocimientos según sea necesario.** | **Aliaga Aguirre, Ethan Matías**<br>- Investigó y redactó la **Descripción de la Startup** y **Perfiles de Integrantes del Equipo**, aplicando metodologías de documentación empresarial.<br>- Contribuyó en la **Especificación de Requerimientos (User Stories, Impact Mapping, Product Backlog)**, investigando buenas prácticas en gestión de requisitos.<br><br>**Contreras López, Leandro Saúl**<br>- Elaboró la sección de **Antecedentes y Problemática**, contextualizando la solución en el marco de la industria EdTech.<br>- Participó en el **Diseño de Entrevistas y Registro**, aplicando técnicas de levantamiento de información para identificar necesidades reales de los usuarios.<br><br>**Machado Bracamonte, Ivo Marcelo**<br>- Desarrolló los entregables de **Lean UX Process** (Problem Statements, Assumptions, Hypothesis, Canvas), aprendiendo a aplicar esta metodología centrada en el usuario.<br>- Contribuyó en la construcción de **User Personas** y **User Task Matrix**, profundizando en técnicas de experiencia de usuario.<br><br>**Miraval Pomalaya, Rodrigo Jesús**<br>- Se encargó del **Análisis Competitivo** y de proponer **Estrategias frente a Competidores**, explorando marcos de referencia estratégicos en el desarrollo de software.<br>- Colaboró en la elaboración de **Context Mapping** y **EventStorming**, asimilando conceptos de Domain-Driven Design.<br><br>**Morales Sosa, Arnold Gabriel**<br>- Documentó y diagramó los apartados de **Arquitectura de Software** (Context Level, Container Level, Deployment), aprendiendo notación C4 y su aplicación en ingeniería de software.<br>- Participó en la redacción de **Ubiquitous Language**, vinculando conceptos técnicos con el dominio del negocio.<br><br>**Sánchez Manrique, Italo Ludwing**<br>- Lideró el diseño de **User Journey Mapping y Empathy Mapping**, investigando métodos de análisis de experiencia de usuario.<br>- Contribuyó en la construcción de los **Bounded Context Canvases** y en el modelado de capas de DDD (Domain, Interface, Application, Infrastructure). | **TB1:** El equipo demostró su capacidad de **aprender de manera autónoma** para abordar nuevas metodologías (Lean UX, Domain-Driven Design, C4, Needfinding) y herramientas de modelado. La investigación y aplicación práctica de estos enfoques redujo la incertidumbre en el diseño de la solución, permitió consolidar una base conceptual sólida y garantizó que cada entregable esté alineado con buenas prácticas de Ingeniería de Software. |
 
 ---
 
@@ -256,22 +261,22 @@ Lograremos que nuestros clientes pasen una agradable experiencia usando nuestra 
 Podremos ganar popularidad y expandirnos a mayor nivel con el tiempo.
 
 #### Users Assumptions:
-**¿Quiénes son nuestros usuarios?**
+**¿Quiénes son nuestros usuarios?** <br>
 Nuestros usuarios son personas que buscan practicar su idioma de forma conversacional, especialmente en un entorno social. Suelen ser jóvenes y adultos interesados en mejorar su fluidez, hacer networking o conocer nuevas personas con intereses similares.
 
-**¿Dónde encaja nuestro producto?**
+**¿Dónde encaja nuestro producto?** <br>
 Nuestro producto encaja en su vida como una actividad social y de desarrollo personal, ocupando un espacio similar al de ir a clases de conversación, asistir a meetups o realizar actividades recreativas con propósito.
 
-**¿Qué problema tiene nuestro producto a resolver?**
+**¿Qué problema tiene nuestro producto a resolver?** <br>
 Nuestro producto busca resolver el problema de que muchas personas no tienen con quién practicar un idioma que ya han aprendido, lo que les impide ganar fluidez, confianza y mantener lo aprendido.
 
-**¿Cuándo y cómo es usado nuestro producto?**
+**¿Cuándo y cómo es usado nuestro producto?** <br>
 Nuestro producto se usa principalmente en horarios libres de los clientes, cuando los usuarios buscan actividades recreativas o de crecimiento personal. Se accede a través de una app, donde el usuario se registra, completa su perfil y se une a reuniones temáticas, ya sean presenciales en lugares públicos o virtuales por videollamada.
 
-**¿Qué características son importantes?**
+**¿Qué características son importantes?** <br>
 Emparejamiento inteligente por intereses, edad, ubicación y nivel de idioma, reuniones temáticas estructuradas con dinámicas para guiar la conversación, opciones presenciales y virtuales.
 
-**¿Cómo debería verse y comportarse nuestro producto?**
+**¿Cómo debería verse y comportarse nuestro producto?** <br>
 Nuestro producto debería verse moderno, amigable y social, con una interfaz intuitiva, clara y cálida que invite a participar. Colores suaves, ilustraciones o íconos relacionados al idioma y la cultura pueden reforzar la experiencia.
 
 #### User Outcome:
@@ -283,17 +288,7 @@ Acceso a experiencias prácticas y entretenidas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Creemos que** al emparejar a los usuarios por nivel de idioma, intereses y cercanía, mejoraremos la calidad de las interacciones en las reuniones.
-**Sabremos que** conseguimos excelentes resultados.
-**Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes.
 
-**Creemos que** ofreciendo reuniones temáticas con dinámicas y juegos relacionados al idioma, los usuarios estarán más comprometidos y motivados.
-**Sabremos que** conseguimos excelentes resultados.
-**Cuando** el 60% de los usuarios participen en más de una reunión dentro del primer mes.
-
-**Creemos que** brindando la opción de participar tanto de forma presencial como virtual, ampliaremos la accesibilidad y comodidad para los usuarios.
-**Sabremos que** conseguimos excelentes resultados.
-**Cuando** al menos el 40% de los usuarios utilicen ambas modalidades durante su primer trimestre en la app.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -599,6 +594,68 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 ### 2.4.1. User Stories
 
 # User Stories - Plataforma de Intercambio de Idiomas
+
+## Tabla de User Stories de Landing Page
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-01 | Visitante de la página | 3 | Landing Page |
+| **Título** | **Visualización de la Propuesta de Valor** |  |  |
+| **Descripción** | **Como** visitante de la página **Quiero** ver una sección principal atractiva que resuma la idea del producto **Para** entender rápidamente de qué se trata el servicio. **Escenario \#1: Presentación del propósito de Glottia** \- Dado que un visitante accede a la landing page, Cuando la carga inicial se completa, Entonces se muestra un título claro que comunica el propósito: "Practica idiomas cara a cara", un subtítulo que resume el valor principal, y una llamada a la acción para registrarse. |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-02 | Visitante interesado en practicar idiomas | 2 | Landing Page |
+| **Título** | **Ver Beneficios para Aprendices** |  |  |
+| **Descripción** | **Como** visitante interesado en practicar idiomas **Quiero** ver claramente los beneficios específicos para aprendices **Para** entender cómo Glottia me puede ayudar a mejorar. **Escenario \#1: Visualización de beneficios para aprendices** \- Dado que un visitante explora la landing page, Cuando se desplaza a la sección de "Para Aprendices", Entonces identifica claramente beneficios como "Gana fluidez en conversaciones reales", "Conoce gente nueva" y "Acceso accesible sin academias", cada uno con una descripción breve. |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-03 | Dueño de un local | 2 | Landing Page |
+| **Título** | **Ver Beneficios para Locales** |  |  |
+| **Descripción** | **Como** dueño de un local **Quiero** ver claramente los beneficios que la plataforma ofrece a mi negocio **Para** comprender cómo puede aumentar mis clientes y visibilidad. **Escenario \#1: Visualización de beneficios para locales** \- Dado que un dueño de un local visita la landing page, Cuando navega a la sección de "Para Locales", Entonces ve beneficios destacados como "Atrae nuevos clientes", "Aumenta el consumo en horas valle" y "Publicidad gratuita para tu negocio". |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-04 | Visitante | 3 | Landing Page |
+| **Título** | **Explicación de Cómo Funciona** |  |  |
+| **Descripción** | **Como** visitante **Quiero** ver una explicación sencilla y visual de cómo funciona la plataforma **Para** entender los pasos necesarios para participar. **Escenario \#1: Pasos para el aprendiz** \- Dado que un visitante está en la sección "Cómo Funciona", Cuando revisa el flujo para aprendices, Entonces ve una secuencia de 3 o 4 pasos sencillos, como "1. Regístrate y completa tu perfil", "2. Busca un encuentro" y "3. ¡Asiste y practica\!". **Escenario \#2: Pasos para el local** \- Dado que un visitante está en la sección "Cómo Funciona", Cuando revisa el flujo para locales, Entonces ve los pasos correspondientes: "1. Registra tu local", "2. Ofrece tu espacio" y "3. Recibe a los practicantes". |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-05 | Visitante indeciso | 3 | Landing Page |
+| **Título** | **Visualización de Testimonios** |  |  |
+| **Descripción** | **Como** visitante indeciso **Quiero** ver testimonios de aprendices y dueños de locales reales **Para** aumentar mi confianza en el servicio. **Escenario \#1: Visualización de testimonios diversos** \- Dado que el visitante explora la landing page, Cuando accede a la sección de testimonios, Entonces debe ver al menos un testimonio de un aprendiz y uno de un dueño de local, mostrando su nombre, una foto, su rol y su comentario. |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-06 | Visitante | 2 | Landing Page |
+| **Título** | **Llamadas a la Acción (CTA) Diferenciadas** |  |  |
+| **Descripción** | **Como** visitante **Quiero** ver botones de llamada a la acción claros y separados, uno para aprendices y otro para locales **Para** poder registrarme fácilmente según mi interés. **Escenario \#1: Registro como aprendiz** \- Dado que un visitante está interesado en practicar idiomas, Cuando hace clic en el botón "Únete como Aprendiz", Entonces es redirigido a la página de registro para usuarios aprendices. **Escenario \#2: Registro como local** \- Dado que un visitante es dueño de un local, Cuando hace clic en el botón "Registra tu Local", Entonces es redirigido a la página de registro para partners. |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-07 | Visitante que accede desde diferentes dispositivos | 5 | Landing Page |
+| **Título** | **Adaptabilidad a Diferentes Dispositivos (Responsive)** |  |  |
+| **Descripción** | **Como** visitante que accede desde diferentes dispositivos **Quiero** que la landing page se adapte correctamente a mi pantalla **Para** tener una experiencia óptima independientemente del dispositivo que use. **Escenario \#1: Experiencia en dispositivo móvil** \- Dado que un visitante accede a la landing page desde un smartphone, Cuando la página se carga, Entonces todos los elementos se reorganizan en una sola columna, el texto es legible y los botones son fáciles de presionar, sin necesidad de hacer zoom o scroll horizontal. |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-08 | Visitante | 3 | Landing Page |
+| **Título** | **Navegación mediante Encabezado Fijo** |  |  |
+| **Descripción** | **Como** visitante **Quiero** un menú de navegación claro en el encabezado que permanezca visible mientras me desplazo **Para** acceder fácilmente a las diferentes secciones de la página. **Escenario \#1: Acceso a secciones desde el encabezado** \- Dado que un visitante explora la landing page, Cuando hace clic en una opción del menú de navegación (ej. "Beneficios"), Entonces la página se desplaza suavemente hasta esa sección, y el encabezado permanece fijo en la parte superior de la pantalla. |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-09 | Visitante con dudas | 2 | Landing Page |
+| **Título** | **Visualización de una Sección de Preguntas Frecuentes (FAQ)** |  |  |
+| **Descripción** | **Como** visitante con dudas **Quiero** encontrar una sección de preguntas frecuentes **Para** resolver rápidamente mis inquietudes más comunes. **Escenario \#1: Resolver una duda común** \- Dado que un visitante se pregunta si tiene que pagar para asistir, Cuando accede a la sección de FAQ y hace clic en la pregunta "¿Tiene algún costo?", Entonces se despliega una respuesta clara y concisa. |  |  |
+
+| Story ID | User | Story Points | Epic |
+| :---- | :---- | :---- | :---- |
+| US-LP-10 | Visitante | 1 | Landing Page |
+| **Título** | **Visualización del Pie de Página (Footer)** |  |  |
+| **Descripción** | **Como** visitante **Quiero** ver un pie de página organizado con enlaces de interés **Para** encontrar información adicional o contactar con la empresa. **Escenario \#1: Contenido completo del pie de página** \- Dado que un visitante se desplaza hasta el final de la landing page, Cuando llega al pie de página, Entonces debe ver enlaces a "Términos y Condiciones", "Política de Privacidad", y enlaces a las redes sociales del proyecto. |  |  |
 
 ## Tabla de User Stories por Epic
 
@@ -908,6 +965,225 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 | **Title** | **Enviar comunicaciones globales** |
 | **Description** | **Como** administrador **Quiero** poder enviar notificaciones o correos electrónicos a todos los usuarios **Para** comunicar novedades o mantenimientos de la plataforma. **Escenario #1: Anuncio de nueva funcionalidad** - Dado que se necesita comunicar una novedad a todos los usuarios, Cuando el administrador envía una comunicación global, Entonces todos los usuarios registrados reciben la notificación. |
 
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-01** | API Endpoint para Registro de Usuarios | IAM |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/auth/register **Para** que los nuevos usuarios (aprendices o partners) puedan crear una cuenta en el sistema. **Criterios de Aceptación** **Escenario \#1: Registro exitoso de un aprendiz** **Dado que** un usuario no registrado desea unirse como aprendiz, **Cuando** se envía una petición POST a /api/auth/register con un body JSON válido que incluye email, password y role: "aprendiz", **Entonces** el sistema responde con un código de estado 201 Created, crea el nuevo user y su user\_profile asociado, y devuelve un token JWT en el cuerpo de la respuesta. **Escenario \#2: Correo electrónico ya existe** **Dado que** un correo electrónico "user@example.com" ya existe en la base de datos, **Cuando** se envía una petición POST a /api/auth/register con el mismo correo, **Entonces** el sistema responde con un código de estado 409 Conflict y un mensaje de error indicando que el email ya está en uso. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-02** | API Endpoint para Autenticación de Usuarios | IAM |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/auth/login **Para** que los usuarios registrados puedan autenticarse y obtener un token de acceso. **Criterios de Aceptación** **Escenario \#1: Autenticación exitosa** **Dado que** un usuario existe con credenciales válidas, **Cuando** se envía una petición POST a /api/auth/login con su email y password correctos, **Entonces** el sistema responde con un código de estado 200 OK y un cuerpo de respuesta JSON que contiene un accessToken JWT válido. **Escenario \#2: Credenciales incorrectas** **Dado que** un usuario intenta iniciar sesión, **Cuando** se envía una petición POST a /api/auth/login con una contraseña incorrecta, **Entonces** el sistema responde con un código de estado 401 Unauthorized y un mensaje de error. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-03** | API Endpoint para Obtener Datos del Usuario Autenticado | IAM |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/users/me **Para** que el frontend pueda obtener los datos del perfil del usuario actualmente autenticado. **Criterios de Aceptación** **Escenario \#1: Obtener perfil de usuario exitosamente** **Dado que** un usuario está autenticado con un JWT válido, **Cuando** envía una petición GET a /api/users/me, **Entonces** el sistema responde con 200 OK y el objeto JSON completo de su perfil (sea user\_profile o partner\_profile). |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-04** | API Endpoint para Actualizar el Perfil de un Aprendiz | Profiles |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint PUT /api/profiles/user **Para** que un aprendiz autenticado pueda actualizar su información personal y preferencias de idioma. **Criterios de Aceptación** **Escenario \#1: Actualización exitosa** **Dado que** un aprendiz está autenticado, **Cuando** envía una petición PUT a /api/profiles/user con un body JSON que contiene los campos a actualizar (ej: full\_name, languages), **Entonces** el sistema responde con 200 OK, actualiza la información en la base de datos y devuelve el perfil actualizado. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-05** | API Endpoint para Obtener un Perfil Público de Aprendiz | Profiles |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/profiles/user/{profileId} **Para** que los usuarios puedan ver la información pública de otros aprendices. **Criterios de Aceptación** **Escenario \#1: Perfil encontrado** **Dado que** un aprendiz con profileId=456 existe, **Cuando** un usuario autenticado envía una petición GET a /api/profiles/user/456, **Entonces** el sistema responde con 200 OK y un objeto JSON con los datos públicos del perfil (nombre, foto, idiomas, insignias). |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-06** | API Endpoint para que un Partner añada un Local | Partner |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/venues **Para** que un usuario autenticado con rol "Partner" pueda registrar un nuevo local. **Criterios de Aceptación** **Escenario \#1: Partner registra un local exitosamente** **Dado que** un usuario está autenticado con un JWT válido y tiene el rol "Partner", **Cuando** envía una petición POST a /api/venues con los datos del local (nombre, dirección, aforo) en el body, **Entonces** el sistema responde con 201 Created, crea el nuevo registro en la tabla venues asociándolo al partner (con estado pending\_approval), y devuelve el objeto del local creado. **Escenario \#2: Usuario no autorizado intenta registrar un local** **Dado que** un usuario está autenticado pero tiene el rol "aprendiz", **Cuando** intenta enviar una petición POST a /api/venues, **Entonces** el sistema responde con un código de estado 403 Forbidden. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-07** | API Endpoint para que un Partner obtenga sus Locales | Partner |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/partners/me/venues **Para** que un Partner pueda ver la lista de todos los locales que ha registrado. **Criterios de Aceptación** **Escenario \#1: Obtener lista de locales** **Dado que** un Partner autenticado ha registrado 3 locales, **Cuando** envía una petición GET a /api/partners/me/venues, **Entonces** el sistema responde con 200 OK y un array JSON que contiene los 3 objetos de sus locales. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-08** | API Endpoint para que un Partner actualice un Local | Partner |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint PUT /api/venues/{venueId} **Para** que un Partner pueda actualizar la información de un local que le pertenece. **Criterios de Aceptación** **Escenario \#1: Actualización exitosa** **Dado que** un Partner es dueño del local con venueId=789, **Cuando** envía una petición PUT a /api/venues/789 con los nuevos datos, **Entonces** el sistema responde con 200 OK y devuelve el objeto del local actualizado. **Escenario \#2: Intento de actualizar un local ajeno** **Dado que** un Partner NO es dueño del local con venueId=789, **Cuando** intenta enviar una petición PUT a /api/venues/789, **Entonces** el sistema responde con 403 Forbidden. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-09** | API Endpoint para Obtener Catálogos | Catalogs |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/catalogs **Para** que el frontend pueda obtener las listas de idiomas, niveles e intereses disponibles. **Criterios de Aceptación** **Escenario \#1: Obtener todos los catálogos** **Cuando** se envía una petición GET a /api/catalogs, **Entonces** el sistema responde con 200 OK y un objeto JSON que contiene tres arrays: languages, levels, e interests. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-10** | API Endpoint para Buscar Encuentros | Event |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/encounters que soporte filtros **Para** que los usuarios puedan buscar encuentros según sus preferencias. **Criterios de Aceptación** **Escenario \#1: Búsqueda con filtros** **Dado que** existen varios encuentros programados en la base de datos, **Cuando** se envía una petición GET a /api/encounters?languageId=1\&city=Lima, **Entonces** el sistema responde con un 200 OK y una lista de los encuentros que coinciden con los filtros. **Escenario \#2: Búsqueda sin resultados** **Cuando** se envía una petición GET a /api/encounters con filtros que no coinciden con ningún encuentro, **Entonces** el sistema responde con un 200 OK y una lista vacía \[\]. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-11** | API Endpoint para Crear un Encuentro | Event |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/encounters **Para** que un aprendiz autenticado pueda crear un nuevo encuentro. **Criterios de Aceptación** **Escenario \#1: Creación exitosa** **Dado que** un aprendiz está autenticado, **Cuando** envía una petición POST a /api/encounters con los detalles del evento (venue\_id, language\_id, start\_time, etc.), **Entonces** el sistema responde con 201 Created, crea el encuentro y la primera attendance para el creador, y devuelve el objeto del encuentro creado. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-12** | API Endpoint para Obtener Detalles de un Encuentro | Event |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/encounters/{encounterId} **Para** que los usuarios puedan ver la información completa de un evento específico. **Criterios de Aceptación** **Escenario \#1: Encuentro encontrado** **Dado que** un encuentro con id=123 existe, **Cuando** se envía una petición GET a /api/encounters/123, **Entonces** el sistema responde con 200 OK y el objeto JSON del encuentro, incluyendo detalles del local y una lista de los perfiles de los asistentes. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-13** | API Endpoint para Reservar un Cupo en un Encuentro | Event |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/encounters/{encounterId}/attendances **Para** que un aprendiz pueda reservar su asistencia a un encuentro. **Criterios de Aceptación** **Escenario \#1: Reserva exitosa** **Dado que** un aprendiz está autenticado y un encuentro con id=123 tiene cupos disponibles, **Cuando** envía una petición POST a /api/encounters/123/attendances, **Entonces** el sistema responde con 201 Created, crea un registro en la tabla attendances con estado "confirmed", y devuelve el objeto de la reserva incluyendo un código QR. **Escenario \#2: Encuentro sin cupos disponibles** **Dado que** el encuentro con id=123 no tiene cupos disponibles, **Cuando** un aprendiz envía una petición POST a /api/encounters/123/attendances, **Entonces** el sistema responde con un 409 Conflict y un mensaje indicando que el encuentro está lleno. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-14** | API Endpoint para Cancelar una Reserva | Event |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint DELETE /api/attendances/{attendanceId} **Para** que un aprendiz pueda cancelar su asistencia a un encuentro. **Criterios de Aceptación** **Escenario \#1: Cancelación exitosa** **Dado que** un aprendiz es el dueño de la reserva con attendanceId=999, **Cuando** envía una petición DELETE a /api/attendances/999, **Entonces** el sistema responde con 204 No Content y elimina el registro de la asistencia. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-15** | API Endpoint para realizar el Check-in | Event |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/attendances/check-in **Para** validar la asistencia de un aprendiz a un encuentro a través de su código QR. **Criterios de Aceptación** **Escenario \#1: Check-in exitoso** **Dado que** un Partner está autenticado y un aprendiz tiene una reserva confirmada con un qr\_code válido, **Cuando** el Partner envía una petición POST a /api/attendances/check-in con el qr\_code del aprendiz, **Entonces** el sistema responde con 200 OK, actualiza el estado de la attendance a "attended", y dispara un evento interno UserCheckedInEvent. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-16** | API Endpoint para Enviar Feedback | Feedback |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/attendances/{attendanceId}/feedback **Para** que un aprendiz pueda calificar un encuentro al que asistió. **Criterios de Aceptación** **Escenario \#1: Feedback enviado exitosamente** **Dado que** un aprendiz asistió a un encuentro (su attendance tiene estado "attended"), **Cuando** envía una petición POST a /api/attendances/{attendanceId}/feedback con rating y comment, **Entonces** el sistema responde con 201 Created y guarda el feedback en la base de datos. **Escenario \#2: Intento de dar feedback sin haber asistido** **Dado que** la attendance de un aprendiz no tiene el estado "attended", **Cuando** intenta enviar feedback, **Entonces** el sistema responde con 403 Forbidden. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-17** | Listener de Eventos para Asignar Puntos de Lealtad | Loyalty |
+| **Descripción** | **Como** Developer, **Quiero** implementar un listener de eventos que reaccione al UserCheckedInEvent **Para** asignar puntos de lealtad al usuario de forma automática y desacoplada del flujo de check-in. **Criterios de Aceptación** **Escenario \#1: Usuario gana puntos por asistencia** **Dado que** el sistema de Lealtad está escuchando eventos de la aplicación, **Cuando** se dispara un evento UserCheckedInEvent con el profile\_id de un aprendiz, **Entonces** el listener de Lealtad captura el evento y crea un nuevo registro en la tabla loyalty\_points para ese profile\_id con la cantidad de puntos correspondiente por asistencia. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-18** | Listener de Eventos para Desbloquear Insignias | Loyalty |
+| **Descripción** | **Como** Developer, **Quiero** implementar una lógica de negocio que se ejecute después de asignar puntos **Para** verificar si un usuario ha cumplido los criterios para desbloquear una nueva insignia. **Criterios de Aceptación** **Escenario \#1: Usuario desbloquea insignia de "Primer Encuentro"** **Dado que** un usuario no tiene asistencias previas, **Cuando** el sistema de lealtad procesa su primer UserCheckedInEvent, **Entonces** después de asignar los puntos, el sistema verifica sus logros, le asigna la insignia "Primer Encuentro" creando un registro en user\_badges y le envía una notificación. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-19** | API Endpoint para Obtener Puntos e Insignias de un Perfil | Loyalty |
+| **Descripción** | **Como** Developer, **Quiero** que el endpoint de perfil GET /api/profiles/user/{profileId} incluya la información de lealtad **Para** que pueda ser mostrada en la vista del perfil. **Criterios de Aceptación** **Escenario \#1: Perfil incluye datos de lealtad** **Dado que** un usuario ha ganado 50 puntos y 2 insignias, **Cuando** se solicita su perfil a través de la API, **Entonces** la respuesta JSON del perfil contiene un objeto loyalty con el total de puntos y un array de las insignias ganadas. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-20** | API Endpoint para Enviar Solicitud de Contacto | Community |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/contacts/requests **Para** que un aprendiz pueda enviar una solicitud de contacto a otro. **Criterios de Aceptación** **Escenario \#1: Solicitud enviada exitosamente** **Dado que** el usuario A (id=1) y el usuario B (id=2) no son contactos, **Cuando** el usuario A envía una petición POST a /api/contacts/requests con { "receiver\_profile\_id": 2 }, **Entonces** el sistema responde con 201 Created y crea un registro en la tabla contacts con estado "pending". |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-21** | API Endpoint para Responder Solicitud de Contacto | Community |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint PUT /api/contacts/requests/{requestId} **Para** que un usuario pueda aceptar o rechazar una solicitud de contacto. **Criterios de Aceptación** **Escenario \#1: Aceptar una solicitud** **Dado que** el usuario B ha recibido una solicitud de contacto del usuario A (requestId=5), **Cuando** el usuario B envía una petición PUT a /api/contacts/requests/5 con { "status": "accepted" }, **Entonces** el sistema responde con 200 OK y actualiza el estado del registro en la tabla contacts. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-22** | API Endpoint para Listar Contactos | Community |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/contacts **Para** que un usuario pueda ver su lista de contactos aceptados. **Criterios de Aceptación** **Escenario \#1: Obtener lista de contactos** **Dado que** un usuario autenticado tiene 5 contactos aceptados, **Cuando** envía una petición GET a /api/contacts, **Entonces** el sistema responde con 200 OK y un array con los 5 perfiles de sus contactos. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-23** | API Endpoint para Enviar un Mensaje | Messaging |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint POST /api/messages **Para** que un usuario pueda enviar un mensaje privado a uno de sus contactos. **Criterios de Aceptación** **Escenario \#1: Mensaje enviado exitosamente** **Dado que** el usuario A y el usuario B son contactos, **Cuando** el usuario A envía una petición POST a /api/messages con { "receiver\_profile\_id": B, "content": "Hola\!" }, **Entonces** el sistema responde con 201 Created, guarda el mensaje y envía una notificación al usuario B. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-24** | API Endpoint para Obtener Historial de una Conversación | Messaging |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/messages/{contactId} **Para** que un usuario pueda ver todos los mensajes intercambiados con un contacto. **Criterios de Aceptación** **Escenario \#1: Cargar historial de chat** **Dado que** el usuario A y el contacto B (contactId=25) han intercambiado mensajes, **Cuando** el usuario A envía una petición GET a /api/messages/25, **Entonces** el sistema responde con 200 OK y un array de todos los mensajes entre ellos, ordenados por fecha. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-25** | API Endpoint para que un Admin vea Locales Pendientes | Admin |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/admin/venues/pending **Para** que un administrador pueda ver todos los locales que necesitan ser validados. **Criterios de Aceptación** **Escenario \#1: Hay locales pendientes** **Dado que** un usuario con rol "Admin" está autenticado, **Cuando** envía una petición GET a /api/admin/venues/pending, **Entonces** el sistema responde con 200 OK y una lista de los locales con estado "pending\_approval". |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-26** | API Endpoint para que un Admin Apruebe o Rechace un Local | Admin |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint PUT /api/admin/venues/{venueId}/status **Para** que un administrador pueda cambiar el estado de un local. **Criterios de Aceptación** **Escenario \#1: Aprobar un local** **Dado que** un local está pendiente de aprobación, **Cuando** un Admin envía una petición PUT a /api/admin/venues/{venueId}/status con { "status": "active" }, **Entonces** el sistema responde con 200 OK y actualiza el estado del local en la base de datos. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-27** | API Endpoint para que un Admin Gestione Reportes | Admin |
+| **Descripción** | **Como** Developer, **Quiero** implementar endpoints GET /api/admin/reports y PUT /api/admin/reports/{reportId} **Para** que un admin pueda ver y gestionar los reportes de usuarios. **Criterios de Aceptación** **Escenario \#1: Marcar un reporte como resuelto** **Dado que** un reporte con reportId=33 está abierto, **Cuando** un Admin envía una petición PUT a /api/admin/reports/33 con { "status": "resolved" }, **Entonces** el sistema responde con 200 OK y actualiza el estado del reporte. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-28** | API Endpoint para que un Partner vea sus Analíticas | Analytics |
+| **Descripción** | **Como** Developer, **Quiero** implementar un endpoint GET /api/partners/me/analytics **Para** que un Partner pueda ver las métricas de sus locales. **Criterios de Aceptación** **Escenario \#1: Obtener métricas** **Dado que** un Partner está autenticado, **Cuando** envía una petición GET a /api/partners/me/analytics?period=monthly, **Entonces** el sistema responde con 200 OK y un objeto JSON con las métricas relevantes (total de asistentes, calificación promedio, etc.). |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-29** | Servicio de Notificaciones Push/Email | Notifications |
+| **Descripción** | **Como** Developer, **Quiero** implementar un servicio de notificaciones desacoplado **Para** que diferentes partes del sistema puedan enviar notificaciones a los usuarios (recordatorios de eventos, mensajes nuevos, etc.). **Criterios de Aceptación** **Escenario \#1: Enviar recordatorio de encuentro** **Dado que** un encuentro está programado para ocurrir en 24 horas, **Cuando** un job programado (cron job) se ejecuta, **Entonces** el job identifica a todos los asistentes confirmados y delega al servicio de notificaciones el envío de un recordatorio a cada uno. |  |
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **TS-30** | Job Programado para Limpiar Tokens Expirados | System |
+| **Descripción** | **Como** Developer, **Quiero** implementar un job programado que se ejecute diariamente **Para** eliminar tokens de refresco o de reseteo de contraseña que hayan expirado. **Criterios de Aceptación** **Escenario \#1: Ejecución diaria del job** **Dado que** existen tokens expirados en la base de datos, **Cuando** el job programado se ejecuta a la hora definida, **Entonces** los tokens que han superado su tiempo de vida son eliminados de la base de datos para mantener la higiene del sistema. |  |
+
+# **Spike Stories**
+
+Este documento contiene las historias de investigación (Spikes) necesarias para reducir la incertidumbre técnica en funcionalidades clave del proyecto. El objetivo es analizar, investigar o prototipar soluciones antes de su implementación en un sprint.
+
+### **Spike: Investigación de Generación y Validación de Códigos QR**
+
+**Contexto**
+
+La plataforma Glottia consta de un backend monolito modular construido con **Java 23 y Spring Boot 3.5.x**, una aplicación móvil para aprendices en **Flutter**, y un dashboard web para partners en **React**. El proceso de check-in (US20) es una funcionalidad central del MVP que requiere que un aprendiz presente un código QR desde su app Flutter, y que un partner (o un empleado del local) lo valide, posiblemente a través de una vista simple en el dashboard de React accedida desde un dispositivo móvil. Este flujo debe ser rápido, seguro y fiable.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-01** | **Investigación de Generación y Validación de Códigos QR** | Event |
+| **Descripción** | **Como** Developer, **Quiero** investigar y crear un prototipo del flujo de generación y escaneo de códigos QR **Para** validar la viabilidad técnica del proceso de check-in y elegir las librerías adecuadas para nuestro stack tecnológico. **Objetivo de Investigación:** Definir el flujo técnico completo desde que el backend genera un QR para una reserva, hasta que el cliente (React) lo valida, identificando las mejores herramientas (librerías Java para backend, librerías JS para frontend) y los posibles puntos de fallo (ej. condiciones de baja luz, cámaras de baja resolución). **Criterios de Aceptación:** 1\. Un documento que compare al menos dos librerías Java (ej. ZXing, QRGen) para la generación de QR en el servidor. 2\. Un prototipo funcional (Proof of Concept) que consista en: \- Un endpoint de API Spring Boot que genere un QR para una reserva ficticia. \- Una página web simple en React que pueda usar la cámara de un dispositivo para escanear el QR y enviar su contenido a otro endpoint de validación. 3\. Documentación con la recomendación técnica final y un diagrama de secuencia del flujo de datos. |  |
+
+### **Spike: Análisis de Estrategias para Notificaciones en Tiempo Real**
+
+**Contexto**
+
+El backend de Glottia (Java 23, Spring Boot 3.5.x) necesita comunicar eventos urgentes a los clientes (app Flutter y dashboard React). Los casos de uso críticos son notificar a un aprendiz en lista de espera cuando un cupo se libera (US24) y alertar sobre nuevos mensajes en el chat (US45). La solución debe ser eficiente para no perder la oportunidad de la notificación y debe ser compatible tanto con plataformas móviles (iOS/Android vía Flutter) como web (React).
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-02** | **Análisis de Estrategias para Notificaciones en Tiempo Real** | Notifications / Community |
+| **Descripción** | **Como** Developer, **Quiero** analizar diferentes tecnologías para notificaciones en tiempo real (WebSockets vs. Servicios de Push Notifications como Firebase Cloud Messaging) **Para** decidir la arquitectura más eficiente y escalable para el stack de Glottia. **Objetivo de Investigación:** Comprender la complejidad de implementación, costos de infraestructura y beneficios de cada enfoque. Evaluar cómo se integra cada solución con Spring Boot en el backend y con Flutter/React en los clientes. **Criterios de Aceptación:** 1\. Un documento comparativo detallando pros y contras de WebSockets (ej. con Spring WebSocket) y FCM para nuestro caso de uso. 2\. Una conclusión técnica documentada que recomiende una estrategia para el MVP. 3\. Un prototipo simple que demuestre la recepción de una notificación en un cliente Flutter y uno React al ocurrir un evento en el servidor. |  |
+
+### **Spike: Prueba de Viabilidad de Búsquedas Geoespaciales en PostgreSQL**
+
+**Contexto**
+
+La funcionalidad de búsqueda de encuentros (US15) y el mapa de locales (US28) requieren filtrar por ubicación. El backend utiliza **Spring Boot 3.5.x con Spring Data JPA** y una base de datos **PostgreSQL 16**. Para que la experiencia de usuario sea fluida, las consultas que busquen locales "en una ciudad" o "cerca de mi ubicación" deben tener un rendimiento óptimo, incluso cuando la base de datos crezca a miles de locales.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-03** | **Prueba de Viabilidad de Búsquedas Geoespaciales** | Event / Partner |
+| **Descripción** | **Como** Developer, **Quiero** investigar y probar el rendimiento de las consultas geoespaciales en PostgreSQL **Para** asegurar que la búsqueda de locales y encuentros por cercanía sea rápida y eficiente. **Objetivo de Investigación:** Determinar si es necesaria la extensión **PostGIS** para PostgreSQL. Definir la forma óptima de almacenar coordenadas (latitud/longitud) y estructurar las consultas y los índices de la base de datos. **Criterios de Aceptación:** 1\. Una base de datos de prueba poblada con miles de locales ficticios en diferentes ubicaciones. 2\. Un conjunto de consultas de ejemplo (SQL nativo y/o JPQL) para buscar locales "a X km de un punto" y "dentro de un polígono de ciudad". 3\. Un reporte con los benchmarks de rendimiento de dichas consultas, con y sin índices espaciales (ej. GiST). 4\. Una recomendación final sobre si usar PostGIS en el MVP y la estrategia de indexación a seguir. |  |
+
+### **Spike: Validación del Patrón de Eventos Internos en un Monolito Modular**
+
+**Contexto**
+
+La arquitectura de Glottia es un **monolito modular con Java 23 y Spring Boot 3.5.x**. Para mantener un bajo acoplamiento entre los diferentes módulos (Bounded Contexts), se planea usar **Spring ApplicationEvents** para la comunicación asíncrona. Un ejemplo clave es el flujo de Check-in (módulo Event), que debe notificar al módulo de Loyalty para asignar puntos (US29), sin que el proceso de lealtad retrase la respuesta de la API de check-in.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-04** | **Validación del Patrón de Eventos Internos (Spring Events)** | System / Loyalty |
+| **Descripción** | **Como** Developer, **Quiero** crear un prototipo de la comunicación entre módulos usando Spring ApplicationEvents **Para** validar que el desacoplamiento entre funcionalidades funciona de manera asíncrona y no afecta el rendimiento del request principal. **Objetivo de Investigación:** Asegurar que la comunicación por eventos se beneficie del manejo de transacciones de Spring y que los errores en un "listener" (ej. en el módulo de lealtad) no reviertan la transacción principal (el check-in). **Criterios de Aceptación:** 1\. Un mini-proyecto en Spring Boot con dos servicios (EventService y LoyaltyService) en paquetes separados para simular los módulos. 2\. El EventService publica un evento personalizado (UserCheckedInEvent) al ser llamado. 3\. El LoyaltyService contiene un @EventListener que escucha dicho evento (en modo asíncrono @Async) y simula una operación. 4\. Conclusiones documentadas que expliquen cómo manejar las transacciones (@TransactionalEventListener) y los errores en este flujo asíncrono para garantizar la consistencia de los datos. |  |
+
+### **Spike: Investigación de Optimización de Consultas para el Dashboard de Analíticas**
+
+**Contexto**
+
+El dashboard de partners (desarrollado en **React**) debe presentar varias métricas de negocio, como el número de asistentes por mes (US36) y la proporción de clientes nuevos vs. recurrentes (US39). Estas métricas requieren consultas de agregación complejas sobre las tablas de encounters y attendances en nuestra base de datos **PostgreSQL 16**. El backend **Spring Boot** debe servir estos datos rápidamente sin impactar el rendimiento de las operaciones transaccionales de la aplicación.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-05** | **Investigación de Optimización de Consultas para Analíticas** | Analytics |
+| **Descripción** | **Como** Developer, **Quiero** analizar las mejores estrategias para generar las métricas del dashboard del Partner **Para** garantizar que las consultas de analíticas no sobrecarguen la base de datos y respondan en un tiempo aceptable. **Objetivo de Investigación:** Evaluar y comparar diferentes enfoques: consultas SQL nativas optimizadas con JPQL, el uso de Vistas Materializadas en PostgreSQL para prec-alcular resultados, o una capa de caché (ej. Caffeine) en Spring Boot para los datos agregados. **Criterios de Aceptación:** 1\. Un script SQL que genere datos de prueba masivos (miles de encuentros y asistencias durante un año). 2\. Versiones alternativas de las consultas necesarias para los reportes. 3\. Un documento que compare el rendimiento (tiempo de ejecución), la complejidad de implementación y la "frescura" de los datos de cada enfoque. 4\. Una recomendación final sobre la estrategia a seguir para el MVP. |  |
+
+### **Spike: Análisis de Integración con Pasarela de Pagos Stripe**
+
+**Contexto**
+
+Aunque la monetización es post-MVP, es un riesgo técnico significativo. La plataforma Glottia (**backend Spring Boot 3.5.x, Java 23**) necesitará integrar un sistema de pagos para gestionar suscripciones de partners y, potencialmente, funcionalidades premium para aprendices. Se considera **Stripe** como la principal opción por su robusta API y documentación. La integración debe ser segura, cumplir con los estándares PCI y ser manejada enteramente en el backend.
+
+| Story ID | Título | Epic |
+| :---- | :---- | :---- |
+| **SP-06** | **Análisis de Integración con Pasarela de Pagos (Stripe)** | Monetization |
+| **Descripción** | **Como** Developer, **Quiero** investigar la API de Stripe y crear un prototipo básico de su integración con nuestro backend Spring Boot **Para** entender el esfuerzo, la complejidad y los requerimientos técnicos para implementar las suscripciones. **Objetivo de Investigación:** Mapear el flujo de datos necesario para crear suscripciones, manejar webhooks de pago (para confirmaciones, renovaciones y fallos), y asociar un plan de Stripe a un partner\_profile en nuestra base de datos. **Criterios de Aceptación:** 1\. Un documento que resuma los pasos clave para integrar Stripe Subscriptions, utilizando la librería stripe-java. 2\. Un prototipo funcional que logre: \- Crear un "Customer" en Stripe cuando un Partner se registra. \- Iniciar una sesión de "Stripe Checkout" para un plan de suscripción predefinido. \- Un endpoint en nuestro backend que reciba y valide un webhook de Stripe cuando el pago es exitoso. 3\. Una estimación de esfuerzo más precisa (en Story Points) para las User Stories de monetización del backlog. |  |
 ---
 
 ## Resumen del Proyecto
@@ -938,8 +1214,72 @@ En este apartado se formalizan los requerimientos del sistema en formato estruct
 - Analíticas detalladas para partners
 - Sistema de mensajería y networking social
 - Panel de administración completo
+  
+
 ### 2.4.2. Impact Mapping
+En este sección , el equipo presenta los mapas de impacto realizados
+
+<img src="https://i.postimg.cc/xCn5wTz8/Impact-map-1.png"/>
+<img src="https://i.postimg.cc/FztLMTqZ/Impact-map-Carlos-1.png"/>
+
 ### 2.4.3. Product Backlog
+
+En esta sección, el equipo organiza el Product Backlog incluyendo Historias de Usuario e Historias Técnicas en base a su valor para el negocio y su peso en Story Points.
+
+| StoryID | Titulo | Descripción | Story Points |
+| :---- | :---- | :---- | :---- |
+| **US04** | Cierre de sesión | **Como** usuario autenticado **Quiero** poder cerrar mi sesión **Para** proteger la privacidad de mi cuenta en dispositivos compartidos. **Escenario \#1: Cierre de sesión exitoso** **Dado que** un usuario ha iniciado sesión en la plataforma, **Cuando** solicita finalizar su sesión, **Entonces** el sistema termina la sesión activa y lo devuelve a la página de inicio pública. | 1 |
+| **US30** | Ver mi total de puntos y nivel | **Como** aprendiz **Quiero** poder ver mi saldo total de puntos y mi nivel actual en mi perfil **Para** seguir mi progreso. **Escenario \#1: Consultar progreso** **Dado que** un aprendiz accede a su perfil, **Cuando** consulta su progreso de lealtad, **Entonces** el sistema le muestra sus puntos totales y su nivel actual. | 1 |
+| **US05** | Recuperación de contraseña | **Como** usuario registrado **Quiero** solicitar un enlace para restablecer mi contraseña si la he olvidado **Para** poder recuperar el acceso a mi cuenta. **Escenario \#1: Solicitud de recuperación exitosa** **Dado que** un usuario olvidó su contraseña, **Cuando** proporciona el correo electrónico de su cuenta para la recuperación, **Entonces** el sistema le envía un correo con las instrucciones para crear una nueva contraseña. | 2 |
+| **US07** | Editar perfil de aprendiz | **Como** aprendiz **Quiero** poder editar la información de mi perfil en cualquier momento **Para** mantenerla actualizada. **Escenario \#1: Actualización de idiomas** **Dado que** un aprendiz ha mejorado su nivel de inglés, **Cuando** actualiza su nivel de fluidez en su perfil, **Entonces** el sistema guarda los cambios y su perfil público refleja la nueva información. | 2 |
+| **US08** | Ver perfil de otro usuario | **Como** aprendiz **Quiero** ver el perfil de otros asistentes a un encuentro **Para** conocer sus idiomas de interés y conectar con ellos. **Escenario \#1: Visualización de perfil público** **Dado que** estoy viendo los detalles de un encuentro, **Cuando** solicito ver el perfil de otro asistente, **Entonces** se me muestra su información pública relevante (foto, nombre, idiomas). | 2 |
+| **US09** | Subir foto de perfil | **Como** usuario **Quiero** subir una foto de perfil **Para** personalizar mi cuenta y que otros me reconozcan más fácilmente. **Escenario \#1: Carga de imagen exitosa** **Dado que** estoy gestionando mi perfil, **Cuando** proporciono una nueva imagen para mi perfil, **Entonces** la imagen se actualiza y se muestra en toda la plataforma. | 2 |
+| **US13** | Definir consumo mínimo (Opcional) | **Como** Partner **Quiero** tener la opción de definir un consumo mínimo sugerido para los asistentes a encuentros en mi local **Para** asegurar un retorno económico. **Escenario \#1: Establecer consumo mínimo** **Dado que** un Partner desea incentivar el consumo, **Cuando** establece un consumo mínimo sugerido para los encuentros en su local, **Entonces** esta información es visible en los detalles de dichos encuentros. | 2 |
+| **US16** | Ver detalles de un encuentro | **Como** aprendiz **Quiero** ver los detalles completos de un encuentro **Para** saber el idioma, el tema, el lugar, la hora y quiénes más asistirán. **Escenario \#1: Acceder a la información del encuentro** **Dado que** un aprendiz ha encontrado un encuentro de su interés, **Cuando** selecciona ese encuentro de la lista, **Entonces** se le presenta toda la información detallada del evento. | 2 |
+| **US22** | Recibir recordatorio de encuentro | **Como** aprendiz con una reserva **Quiero** recibir una notificación de recordatorio 24 horas antes del encuentro **Para** no olvidarme de asistir. **Escenario \#1: Notificación automática** **Dado que** un aprendiz tiene una reserva para mañana, **Cuando** faltan 24 horas para el evento, **Entonces** el sistema le envía automáticamente un recordatorio. | 2 |
+| **US27** | Ver encuentros pasados | **Como** aprendiz **Quiero** tener un historial de los encuentros a los que he asistido **Para** recordar los lugares y las fechas. **Escenario \#1: Consultar historial** **Dado que** un aprendiz quiere revisar su actividad pasada, **Cuando** consulta su historial de encuentros, **Entonces** el sistema le muestra una lista de todos los eventos en los que participó. | 2 |
+| **US43** | Ver mi lista de contactos | **Como** aprendiz **Quiero** tener una lista de todos los usuarios con los que he conectado **Para** poder iniciar una conversación. **Escenario \#1: Acceder a mis conexiones** **Dado que** he establecido contactos en la plataforma, **Cuando** consulto mi lista de contactos, **Entonces** el sistema me muestra todos los usuarios con los que he conectado. | 2 |
+| **US01** | Registro de nuevo aprendiz | **Como** una persona interesada en practicar idiomas **Quiero** registrarme en la plataforma con mi correo y contraseña **Para** poder acceder a la comunidad y a los encuentros. **Escenario \#1: Registro exitoso** **Dado que** un nuevo usuario desea unirse a la plataforma, **Cuando** proporciona los datos requeridos para el registro y acepta los términos, **Entonces** el sistema crea su cuenta, le envía una bienvenida y lo guía para completar su perfil. | 3 |
+| **US03** | Inicio de sesión general | **Como** usuario registrado (aprendiz o dueño de local) **Quiero** iniciar sesión con mi correo y contraseña **Para** acceder a mis funcionalidades personalizadas. **Escenario \#1: Inicio de sesión exitoso** **Dado que** un usuario registrado desea acceder a su cuenta, **Cuando** proporciona sus credenciales de acceso correctas, **Entonces** el sistema lo autentica y le presenta su panel principal correspondiente. **Escenario \#2: Credenciales incorrectas** **Dado que** un usuario registrado desea acceder a su cuenta, **Cuando** proporciona credenciales incorrectas, **Entonces** el sistema le informa que el acceso ha sido denegado por credenciales inválidas. | 3 |
+| **US06** | Completar perfil de aprendiz | **Como** nuevo aprendiz **Quiero** completar mi perfil con mi idioma nativo, los idiomas que quiero practicar y mi nivel **Para** que otros usuarios me conozcan y el sistema me recomiende encuentros relevantes. **Escenario \#1: Primer llenado de perfil** **Dado que** un aprendiz se ha registrado, **Cuando** especifica sus idiomas, su nivel de fluidez y guarda la información, **Entonces** su perfil se actualiza y el sistema utiliza estas preferencias para recomendarle encuentros. | 3 |
+| **US11** | Editar información de un local | **Como** Partner **Quiero** poder editar los detalles de mi local registrado **Para** mantener la información actualizada (ej. cambio de horario). **Escenario \#1: Actualizar horario del local** **Dado que** un Partner necesita cambiar el horario de su cafetería, **Cuando** modifica la información del horario en los detalles del local, **Entonces** la nueva información se refleja inmediatamente en la plataforma. | 3 |
+| **US12** | Añadir fotos del local | **Como** Partner **Quiero** subir varias fotos de mi local **Para** hacerlo más atractivo y mostrar el ambiente a los aprendices. **Escenario \#1: Cargar galería de fotos** **Dado que** un Partner está gestionando el perfil de su local, **Cuando** proporciona un conjunto de imágenes del establecimiento, **Entonces** las fotos se asocian al perfil del local y se muestran en una galería. | 3 |
+| **US15** | Buscar encuentros disponibles | **Como** aprendiz **Quiero** buscar encuentros usando filtros por idioma, ciudad y fecha **Para** encontrar fácilmente una sesión de práctica que me interese. **Escenario \#1: Búsqueda con filtros** **Dado que** un aprendiz quiere encontrar un encuentro, **Cuando** aplica filtros de búsqueda por idioma, ciudad y fecha, **Entonces** el sistema le muestra una lista de resultados que coinciden con sus criterios. | 3 |
+| **US21** | Ver lista de asistentes (vista de Partner) | **Como** Partner **Quiero** ver la lista de personas que han reservado para un encuentro en mi local **Para** tener una idea del aforo esperado. **Escenario \#1: Consultar asistentes** **Dado que** un Partner tiene un encuentro programado, **Cuando** consulta los detalles de dicho evento, **Entonces** el sistema le muestra la lista de los aprendices que han confirmado su asistencia. | 3 |
+| **US23** | Unirse a la lista de espera | **Como** aprendiz **Quiero** unirme a una lista de espera si un encuentro está lleno **Para** tener la oportunidad de asistir si alguien cancela. **Escenario \#1: Encuentro lleno** **Dado que** un aprendiz desea asistir a un encuentro sin cupos, **Cuando** opta por unirse a la lista de espera, **Entonces** el sistema lo añade a la cola y le notifica su posición. | 3 |
+| **US25** | Dejar feedback de un encuentro | **Como** aprendiz que asistió a un encuentro **Quiero** dejar una calificación y un comentario sobre mi experiencia **Para** ayudar a otros usuarios y a los locales. **Escenario \#1: Calificar la experiencia** **Dado que** un aprendiz ha asistido a un encuentro, **Cuando** proporciona una calificación y un comentario sobre el evento, **Entonces** el sistema guarda su feedback y lo asocia al encuentro y al local. | 3 |
+| **US26** | Cancelar mi reserva | **Como** aprendiz **Quiero** poder cancelar mi reserva a un encuentro con antelación **Para** liberar mi cupo si no puedo asistir. **Escenario \#1: Cancelación a tiempo** **Dado que** un aprendiz tiene una reserva y no puede asistir, **Cuando** solicita la cancelación de su reserva antes del tiempo límite, **Entonces** su cupo se libera para otros usuarios. | 3 |
+| **US32** | Ver mis insignias desbloqueadas | **Como** aprendiz **Quiero** tener una sección en mi perfil donde pueda ver todas las insignias que he ganado **Para** mostrarlas a la comunidad. **Escenario \#1: Galería de logros** **Dado que** un aprendiz ha desbloqueado insignias, **Cuando** visita un perfil (suyo o de otro usuario), **Entonces** puede ver la colección de insignias ganadas. | 3 |
+| **US33** | Ver un ranking de usuarios | **Como** aprendiz **Quiero** ver una tabla de clasificación (leaderboard) semanal o mensual **Para** competir de forma amistosa con otros miembros de la comunidad. **Escenario \#1: Consultar el leaderboard** **Dado que** un aprendiz quiere ver su posición en la comunidad, **Cuando** accede a la tabla de clasificación, **Entonces** el sistema le muestra el ranking de usuarios basado en puntos. | 3 |
+| **US35** | Mantener una racha de asistencia | **Como** aprendiz **Quiero** que el sistema registre mi racha de asistencia semanal **Para** motivarme a participar de forma consistente. **Escenario \#1: Incrementar la racha** **Dado que** un aprendiz asistió a un encuentro la semana pasada, **Cuando** asiste a otro encuentro esta semana, **Entonces** el sistema incrementa su racha de asistencia y se lo notifica. | 3 |
+| **US37** | Ver calificación promedio de mi local | **Como** Partner **Quiero** ver la calificación promedio que los aprendices le han dado a los encuentros realizados en mi local **Para** evaluar la satisfacción del cliente. **Escenario \#1: Métrica de satisfacción** **Dado que** un Partner está en su dashboard, **Cuando** consulta el rendimiento de su local, **Entonces** el sistema le muestra la calificación promedio basada en el feedback de los usuarios. | 3 |
+| **US41** | Enviar solicitud de contacto | **Como** aprendiz **Quiero** poder enviar una solicitud de contacto a otra persona con la que interactué en un encuentro **Para** mantener la comunicación. **Escenario \#1: Conectar después de un evento** **Dado que** he interactuado con otro aprendiz en un encuentro, **Cuando** envío una solicitud de contacto a través de su perfil, **Entonces** el sistema notifica al otro usuario de mi solicitud. | 3 |
+| **US42** | Aceptar solicitud de contacto | **Como** aprendiz **Quiero** recibir notificaciones de nuevas solicitudes de contacto **Para** poder aceptarlas o rechazarlas. **Escenario \#1: Gestión de solicitudes** **Dado que** he recibido una solicitud de contacto, **Cuando** acepto la solicitud, **Entonces** ambos pasamos a formar parte de nuestras respectivas listas de contactos. | 3 |
+| **US02** | Registro de nuevo local | **Como** dueño de un local **Quiero** registrar mi negocio en la plataforma **Para** ofrecer mi espacio para los encuentros y ganar visibilidad. **Escenario \#1: Registro de local exitoso** **Dado que** el dueño de un local desea unirse a la plataforma, **Cuando** proporciona la información de su cuenta y los datos de su negocio, **Entonces** el sistema crea una cuenta de tipo "Partner", la asocia al local y le concede acceso al panel de gestión. | 5 |
+| **US10** | Dar de alta un nuevo local | **Como** dueño de negocio (Partner) **Quiero** añadir los detalles de mi local, incluyendo nombre, dirección, aforo y horario **Para** que aparezca en la plataforma como un lugar disponible para encuentros. **Escenario \#1: Registro de información del local** **Dado que** un Partner desea añadir un nuevo local, **Cuando** proporciona toda la información requerida del establecimiento y la guarda, **Entonces** el local se añade a su perfil y se vuelve visible en la plataforma. | 5 |
+| **US14** | Ver dashboard de mi local | **Como** Partner **Quiero** ver un dashboard con un resumen de la actividad en mi local **Para** entender rápidamente cuántos encuentros se han realizado y cuántas personas han asistido. **Escenario \#1: Visualización de métricas clave** **Dado que** un Partner accede a su panel, **Cuando** solicita ver el resumen de actividad, **Entonces** se le presentan las métricas clave de sus locales (encuentros, asistentes, calificación). | 5 |
+| **US17** | Reservar un cupo en un encuentro | **Como** aprendiz **Quiero** reservar mi cupo en un encuentro que tenga plazas disponibles **Para** asegurar mi asistencia. **Escenario \#1: Reserva exitosa** **Dado que** un aprendiz está viendo un encuentro con cupos disponibles, **Cuando** confirma su deseo de reservar un cupo, **Entonces** el sistema procesa su reserva, actualiza los cupos y le envía una notificación. | 5 |
+| **US18** | Recibir confirmación con código QR | **Como** aprendiz **Quiero** recibir una confirmación de mi reserva que incluya un código QR **Para** poder hacer check-in fácilmente al llegar al local. **Escenario \#1: Generación de QR tras reserva** **Dado que** un aprendiz ha completado una reserva, **Cuando** consulta los detalles de su reserva, **Entonces** el sistema le proporciona un código QR único para el check-in. | 5 |
+| **US24** | Recibir notificación de cupo liberado | **Como** aprendiz en una lista de espera **Quiero** recibir una notificación inmediata si un cupo se libera **Para** poder reservarlo rápidamente. **Escenario \#1: Alguien cancela** **Dado que** un aprendiz está en una lista de espera y se libera un cupo, **Cuando** le llega su turno, **Entonces** el sistema le envía una notificación para que pueda confirmar su asistencia en un tiempo limitado. | 5 |
+| **US28** | Ver el mapa de locales | **Como** aprendiz **Quiero** ver un mapa con la ubicación de todos los locales registrados **Para** descubrir lugares cercanos donde se organizan encuentros. **Escenario \#1: Exploración geográfica** **Dado que** un aprendiz quiere descubrir nuevos locales, **Cuando** explora la vista de mapa, **Entonces** el sistema le muestra la ubicación de todos los locales aliados. | 5 |
+| **US29** | Ganar puntos por asistencia | **Como** aprendiz **Quiero** ganar puntos de lealtad cada vez que hago check-in en un encuentro **Para** ser recompensado por mi participación activa. **Escenario \#1: Acumulación de puntos** **Dado que** un aprendiz ha hecho check-in exitosamente en un evento, **Cuando** el sistema procesa su asistencia, **Entonces** automáticamente se suman los puntos correspondientes a su cuenta. | 5 |
+| **US31** | Desbloquear una insignia (badge) | **Como** aprendiz **Quiero** desbloquear insignias al alcanzar ciertos hitos (ej. "Asistir a 5 encuentros de francés") **Para** sentir que logro algo. **Escenario \#1: Desbloqueo de insignia por asistencia** **Dado que** un aprendiz ha cumplido los requisitos para una insignia, **Cuando** el sistema verifica el hito, **Entonces** le otorga la insignia correspondiente y le muestra una notificación. | 5 |
+| **US34** | Recibir ofertas de locales por lealtad | **Como** aprendiz leal **Quiero** recibir ofertas especiales o descuentos de los locales asociados **Como** recompensa por mi participación. **Escenario \#1: Recompensa de un Partner** **Dado que** un aprendiz ha alcanzado un nivel de lealtad alto, **Cuando** un local ofrece una recompensa para ese nivel, **Entonces** el aprendiz recibe una notificación con la oferta especial. | 5 |
+| **US36** | Ver número de asistentes por mes | **Como** Partner **Quiero** ver un gráfico con el número total de asistentes a encuentros en mi local cada mes **Para** medir el impacto de la plataforma. **Escenario \#1: Reporte mensual de asistencia** **Dado que** un Partner está en su panel de analíticas, **Cuando** consulta el reporte de asistencia mensual, **Entonces** el sistema le presenta un gráfico con los datos de asistencia por mes. | 5 |
+| **US40** | Descargar reporte básico | **Como** Partner **Quiero** poder descargar un resumen de mis analíticas en formato PDF o CSV **Para** mis registros internos. **Escenario \#1: Exportar datos** **Dado que** un Partner necesita un informe de su actividad, **Cuando** solicita la descarga del reporte de analíticas, **Entonces** el sistema genera un archivo con los datos del período seleccionado. | 5 |
+| **US44** | Enviar mensaje a un contacto | **Como** aprendiz **Quiero** poder enviar un mensaje directo a uno de mis contactos **Para** organizar una futura práctica de idiomas. **Escenario \#1: Iniciar una conversación** **Dado que** deseo comunicarme con un contacto, **Cuando** le envío un mensaje privado, **Entonces** el sistema entrega el mensaje y le notifica al destinatario. | 5 |
+| **US45** | Recibir notificaciones de mensajes nuevos | **Como** usuario **Quiero** recibir una notificación cuando uno de mis contactos me envía un mensaje **Para** poder responder a tiempo. **Escenario \#1: Alerta de mensaje** **Dado que** estoy usando la aplicación, **Cuando** recibo un nuevo mensaje de un contacto, **Entonces** el sistema me alerta de la notificación. | 5 |
+| **US46** | Reportar un usuario | **Como** usuario **Quiero** tener la opción de reportar a otro usuario por comportamiento inapropiado **Para** mantener un ambiente seguro y respetuoso en la comunidad. **Escenario \#1: Denunciar comportamiento** **Dado que** he presenciado un comportamiento inapropiado, **Cuando** envío un reporte sobre un usuario especificando el motivo, **Entonces** el sistema envía el reporte a los administradores para su revisión. | 5 |
+| **US48** | Gestionar usuarios | **Como** administrador **Quiero** poder ver la lista de todos los usuarios y poder desactivar una cuenta en caso de abuso **Para** mantener la calidad de la comunidad. **Escenario \#1: Desactivar una cuenta** **Dado que** se ha verificado un reporte de abuso, **Cuando** el administrador ejecuta la acción de desactivar la cuenta del infractor, **Entonces** el usuario ya no puede acceder a la plataforma. | 5 |
+| **US49** | Validar nuevos locales | **Como** administrador **Quiero** tener un proceso para validar y aprobar los nuevos locales que se registran **Para** asegurar que son lugares apropiados y reales. **Escenario \#1: Aprobación de local** **Dado que** un nuevo local está pendiente de aprobación, **Cuando** el administrador verifica y aprueba la solicitud, **Entonces** el local se activa y se hace visible públicamente en la plataforma. | 5 |
+| **US19** | Crear un encuentro (iniciativa del aprendiz) | **Como** aprendiz **Quiero** proponer la creación de un nuevo encuentro en un local registrado **Para** organizar una sesión si no hay ninguna que se ajuste a mis necesidades. **Escenario \#1: Proponer nuevo encuentro** **Dado que** un aprendiz desea organizar un encuentro, **Cuando** proporciona los detalles del nuevo evento (local, fecha, idioma), **Entonces** el sistema crea el encuentro, lo registra como el primer asistente y lo hace visible para otros usuarios. | 8 |
+| **US20** | Check-in en un encuentro | **Como** aprendiz **Quiero** hacer check-in al llegar al encuentro mostrando mi código QR **Para** confirmar mi asistencia y ganar puntos de lealtad. **Escenario \#1: Check-in exitoso por parte del local** **Dado que** un aprendiz llega al local del encuentro, **Cuando** su código QR es validado por el organizador, **Entonces** el sistema registra su asistencia y le asigna los puntos correspondientes. | 8 |
+| **US38** | Identificar horas y días pico | **Como** Partner **Quiero** ver un reporte que me muestre qué días de la semana y a qué horas se realizan más encuentros en mi local **Para** optimizar mi personal. **Escenario \#1: Mapa de calor de actividad** **Dado que** un Partner quiere conocer sus horas más populares, **Cuando** consulta el reporte de horas pico, **Entonces** el sistema le presenta una visualización de los días y horas con mayor actividad. | 8 |
+| **US39** | Rastrear asistentes nuevos vs. recurrentes | **Como** Partner **Quiero** saber qué porcentaje de los asistentes son nuevos clientes versus personas que ya han venido antes **Para** medir la captación de nuevo público. **Escenario \#1: Reporte de retención** **Dado que** un Partner está analizando sus métricas, **Cuando** consulta el reporte de clientes, **Entonces** el sistema le muestra la proporción de asistentes nuevos vs. recurrentes. | 8 |
+| **US47** | Ver dashboard de administrador | **Como** administrador de la plataforma **Quiero** acceder a un dashboard con métricas generales de uso **Para** monitorear la salud del servicio. **Escenario \#1: Vista general del sistema** **Dado que** un administrador ha iniciado sesión, **Cuando** accede al panel de administración, **Entonces** el sistema le presenta las métricas clave de la plataforma. | 8 |
+| **US50** | Gestionar reportes de usuarios | **Como** administrador **Quiero** ver una lista de todos los reportes enviados por los usuarios **Para** poder investigarlos y tomar acciones. **Escenario \#1: Revisar una denuncia** **Dado que** un usuario ha sido reportado, **Cuando** el administrador consulta los reportes pendientes, **Entonces** puede ver todos los detalles de la denuncia para su investigación. | 8 |
+| **US51** | Enviar comunicaciones globales | **Como** administrador **Quiero** poder enviar notificaciones o correos electrónicos a todos los usuarios **Para** comunicar novedades o mantenimientos de la plataforma. **Escenario \#1: Anuncio de nueva funcionalidad** **Dado que** se necesita comunicar una novedad a todos los usuarios, **Cuando** el administrador envía una comunicación global, **Entonces** todos los usuarios registrados reciben la notificación. | 8 |
+
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
@@ -1017,6 +1357,7 @@ Este diagrama detalla la arquitectura interna del contenedor API Backend. Cada c
 
 <br>
 
+## 2.6. Tactical-Level Domain-Driven Design
 ## 2.6. Tactical-Level Domain-Driven Design
 Esta sección describe el diseño táctico basado en DDD, detallando cómo se estructuran los diferentes Bounded Contexts de la plataforma. Incluye la organización de las capas de dominio, aplicación, infraestructura e interfaz, así como los diagramas que facilitan la comprensión técnica y funcional del sistema.
 
