@@ -61,6 +61,8 @@
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights
 
 El informe del proyecto se ha gestionado de forma colaborativa mediante el siguiente repositorio en la organización de GitHub del equipo:
@@ -93,6 +95,7 @@ Captura de commits semanales por integrante:
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
+  
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -105,6 +108,7 @@ Captura de commits semanales por integrante:
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    
 - [Capítulo II: Requirements Development \& Software Solution Design](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -163,11 +167,7 @@ Captura de commits semanales por integrante:
         - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
         - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
         - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
-
     
-    
-
-
 - [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation-and-validation)
   - [4.1. Software Configuration Management](#41-style-guidelines)
     - [4.1.1. Software Development Environment Configuration](#411-general-style-guidelines)
@@ -193,7 +193,8 @@ Captura de commits semanales por integrante:
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-
+  
+<div style="page-break-after: always;"></div>
 
 ## Student Outcome 7 – Aprendizaje Autónomo y Continuo
 
@@ -206,6 +207,8 @@ En esta sección se evidencia cómo las actividades realizadas en el **Trabajo F
 | **Demuestra capacidad de adquirir y aplicar nuevos conocimientos según sea necesario.** | **Aliaga Aguirre, Ethan Matías**<br>- Investigó y redactó la **Descripción de la Startup** y **Perfiles de Integrantes del Equipo**, aplicando metodologías de documentación empresarial.<br>- Contribuyó en la **Especificación de Requerimientos (User Stories, Impact Mapping, Product Backlog)**, investigando buenas prácticas en gestión de requisitos.<br><br>**Contreras López, Leandro Saúl**<br>- Elaboró la sección de **Antecedentes y Problemática**, contextualizando la solución en el marco de la industria EdTech.<br>- Participó en el **Diseño de Entrevistas y Registro**, aplicando técnicas de levantamiento de información para identificar necesidades reales de los usuarios.<br><br>**Machado Bracamonte, Ivo Marcelo**<br>- Desarrolló los entregables de **Lean UX Process** (Problem Statements, Assumptions, Hypothesis, Canvas), aprendiendo a aplicar esta metodología centrada en el usuario.<br>- Contribuyó en la construcción de **User Personas** y **User Task Matrix**, profundizando en técnicas de experiencia de usuario.<br><br>**Miraval Pomalaya, Rodrigo Jesús**<br>- Se encargó del **Análisis Competitivo** y de proponer **Estrategias frente a Competidores**, explorando marcos de referencia estratégicos en el desarrollo de software.<br>- Colaboró en la elaboración de **Context Mapping** y **EventStorming**, asimilando conceptos de Domain-Driven Design.<br><br>**Morales Sosa, Arnold Gabriel**<br>- Documentó y diagramó los apartados de **Arquitectura de Software** (Context Level, Container Level, Deployment), aprendiendo notación C4 y su aplicación en ingeniería de software.<br>- Participó en la redacción de **Ubiquitous Language**, vinculando conceptos técnicos con el dominio del negocio.<br><br>**Sánchez Manrique, Italo Ludwing**<br>- Lideró el diseño de **User Journey Mapping y Empathy Mapping**, investigando métodos de análisis de experiencia de usuario.<br>- Contribuyó en la construcción de los **Bounded Context Canvases** y en el modelado de capas de DDD (Domain, Interface, Application, Infrastructure). | **TB1:** El equipo demostró su capacidad de **aprender de manera autónoma** para abordar nuevas metodologías (Lean UX, Domain-Driven Design, C4, Needfinding) y herramientas de modelado. La investigación y aplicación práctica de estos enfoques redujo la incertidumbre en el diseño de la solución, permitió consolidar una base conceptual sólida y garantizó que cada entregable esté alineado con buenas prácticas de Ingeniería de Software. |
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -395,6 +398,8 @@ Acceso a experiencias prácticas y entretenidas.
 
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Development & Software Solution Design
 ## 2.1. Competidores
