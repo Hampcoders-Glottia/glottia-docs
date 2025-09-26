@@ -1860,8 +1860,15 @@ En esta sección se muestran los diagramas de diseño de base de datos correspon
 
 # Capítulo III: Solution UI/UX Design
 ## 3.1. Product Design
+
+En esta capitulo, el equipo de Hampcoders presenta los artefactos de Diseño pertinentes para el diseño y prototipado de nuestros productos
+
 ### 3.1.1. Style Guidelines
+
+En esa sección el equipo pressenta la Guía de Estilos para Glottia
+
 #### 3.1.1.1. General Style Guidelines
+
 ### 3.1.2. Information Architecture
 #### 3.1.2.1. Organization Systems
 #### 3.1.2.2. Labelling Systems
