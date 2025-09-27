@@ -2072,7 +2072,40 @@ La paleta de colores de Glottia refuerza los valores de confianza, accesibilidad
 | Degradado azul-violeta | Títulos y frases destacadas (ej. “Practica idiomas”) | `#1E90FF → #B19CD9` |
 
 ### 3.1.2. Information Architecture
+
+La arquitectura de información que se implementará en Glottia está orientada a facilitar una experiencia clara, accesible y motivadora para dos tipos de usuarios principales: aprendices de idiomas y propietarios de locales aliados. El diseño busca que los aprendices encuentren encuentros conversacionales relevantes con el menor esfuerzo posible, y que los Partners gestionen sus espacios de forma sencilla y atractiva.
+
+Desde el Landing Page, los visitantes podrán acceder de manera inmediata a secciones clave como:
+
+- Descubre encuentros: listado de próximos eventos filtrados por idioma, ubicación y fecha.
+
+- Explora locales: directorio de cafeterías, bares, coworkings y espacios aliados, con mapa interactivo.
+
+- Cómo funciona: explicación breve y visual del modelo de Glottia (registro, reserva, práctica, recompensas).
+
+- Únete a la comunidad: llamadas a la acción diferenciadas para aprendices y partners.
+
+- Testimonios y cultura: experiencias de usuarios y beneficios para los establecimientos.
+
+En la Aplicación Móvil , la navegación se organiza en un menú principal con accesos a:
+
+- Inicio: resumen personalizado con próximos encuentros, notificaciones y recordatorios.
+
+- Encuentros: búsqueda avanzada con filtros por idioma, ciudad, fecha, disponibilidad y nivel.
+
+- Mapa: visualización geográfica de locales aliados.
+
+- Mi perfil: gestión de datos personales, idiomas, logros, puntos de lealtad e insignias.
+
+- Mensajes y contactos: chat directo y lista de conexiones.
+
+- Locales (vista Partner): gestión de establecimientos, creación/edición de fichas, carga de fotos, métricas y reportes.
+
+
 #### 3.1.2.1. Organization Systems
+
+Para representar la estructura de los usuario se han realizado diagramas para la explicación de la funcionalidades de la aplicación y el recorrido del usuario en la misma.
+
 #### 3.1.2.2. Labelling Systems
 #### 3.1.2.3. SEO Tags and Meta Tags
 #### 3.1.2.4. Searching Systems
