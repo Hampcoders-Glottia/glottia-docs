@@ -2011,6 +2011,107 @@ En esta sección se muestran los diagramas de diseño de base de datos correspon
 
 <img src="https://i.postimg.cc/MHgQr6LN/diagrama-glottia.png"/>
 
+
+# Capítulo III: Solution UI/UX Design
+
+## 3.1. Product Design
+
+En esta capitulo, el equipo de Hampcoders presenta los artefactos de Diseño pertinentes para el diseño y prototipado de nuestros producto
+
+### 3.1.1. Style Guidelines
+En esa sección el equipo pressenta la Guía de Estilos para Glottia
+
+
+#### 3.1.1.1. General Style Guidelines
+
+#### Branding:
+
+El logo de Glottia refleja la misión de la plataforma: ser un espacio de encuentro seguro, moderno y accesible para practicar idiomas de forma conversacional. Los dos globos de diálogo representan la interacción y el intercambio cultural, simbolizando tanto los encuentros presenciales como los virtuales. El azul vibrante transmite confianza, frescura y apertura, mientras que el negro aporta seriedad y profesionalismo. La composición minimalista asegura claridad y versatilidad en distintos formatos digitales e impresos. La tipografía en mayúsculas refuerza solidez y visibilidad, alineándose con la identidad de Glottia como un puente entre personas, culturas y lenguas.
+
+**Variantes de Logo:**
+
+*Logo Original*
+Con globos de diálogo y la palabra "GLOTTIA".
+
+*Logo OG*
+Versión simplificada para uso en fondos claros y digitales.
+
+*Logo sin Letras (Logo NL)*
+Solo con los globos de diálogo, ideal para favicons, app icons o avatares sociales.
+
+*Colores Invertidos (CI)*
+Fondo azul con globos y tipografía en blanco, para aplicaciones en superficies oscuras.
+
+**Typography:**
+
+La tipografía de Glottia es moderna, clara y amigable, alineada con su propósito de generar confianza y comodidad entre los usuarios. El lenguaje de marca será cercano, sencillo y motivador, para que los participantes sientan la plataforma como un espacio inclusivo y accesible.
+
+- Fuente primaria: Montserrat (Sans-serif)
+
+- Títulos y subtítulos: Montserrat Bold / Semibold, en tamaños mayores para jerarquía.
+
+- Cuerpo de texto: Montserrat Regular, fácil de leer en dispositivos móviles y de escritorio.
+
+- La consistencia tipográfica en toda la plataforma busca transmitir profesionalismo, pero con un tono humano y cálido.
+
+**Colors:**
+
+La paleta de colores de Glottia refuerza los valores de confianza, accesibilidad y dinamismo. El azul principal es el color guía, evocando comunicación y apertura cultural. Los tonos neutros (blanco y gris) equilibran la interfaz y garantizan legibilidad, mientras que acentos vibrantes pueden utilizarse para destacar interacciones clave (ej. botones de acción o estados positivos).
+
+### Paleta de Colores - Glottia
+
+### Paleta de Colores - Glottia
+
+| Color                  | Uso principal                                   | Código Hex          |
+|------------------------|------------------------------------------------|---------------------|
+| Azul principal         | Globos de diálogo, botones primarios            | `#1E90FF`           |
+| Negro profundo         | Texto principal, logotipo                      | `#1C1C1C`           |
+| Gris suave             | Fondos secundarios, bordes, texto auxiliar     | `#D9D9D9`           |
+| Blanco                 | Fondo principal, contraste universal            | `#FFFFFF`           |
+| Verde menta claro      | Confirmaciones, mensajes de éxito               | `#A8E6CF`           |
+| Degradado azul-violeta | Títulos y frases destacadas (ej. “Practica idiomas”) | `#1E90FF → #B19CD9` |
+
+### 3.1.2. Information Architecture
+#### 3.1.2.1. Organization Systems
+#### 3.1.2.2. Labelling Systems
+#### 3.1.2.3. SEO Tags and Meta Tags
+#### 3.1.2.4. Searching Systems
+#### 3.1.2.5. Navigation Systems
+### 3.1.3. Landing Page UI Design
+#### 3.1.3.1. Landing Page Wireframe
+#### 3.1.3.2. Landing Page Mock-up
+### 3.1.4. Mobile Applications UX/UI Design
+#### 3.1.4.1. Mobile Applications Wireframes
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+#### 3.1.4.3. Mobile Applications Mock-ups
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+#### 3.1.4.5. Mobile Applications Prototyping
+
+---
+
+# Capítulo IV: Product Implementation & Validation
+## 4.1. Software Configuration Management
+### 4.1.1. Software Development Environment Configuration
+### 4.1.2. Source Code Management
+### 4.1.3. Source Code Style Guide & Conventions
+### 4.1.4. Software Deployment Configuration
+
+## 4.2. Landing Page & Mobile Application Implementation
+### 4.2.1. Sprint n
+#### 4.2.1.1. Sprint Planning n
+#### 4.2.1.2. Sprint Backlog n
+#### 4.2.1.3. Development Evidence for Sprint Review
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+#### 4.2.1.5. Execution Evidence for Sprint Review
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+## 4.3. Validation Interviews
+### 4.3.1. Diseño de Entrevistas
+### 4.3.2. Registro de Entrevistas
+### 4.3.3. Evaluaciones según heurísticas
+
 ---
 
 # Conclusiones
