@@ -2104,11 +2104,104 @@ En la Aplicación Móvil , la navegación se organiza en un menú principal con 
 
 #### 3.1.2.1. Organization Systems
 
-Para representar la estructura de los usuario se han realizado diagramas para la explicación de la funcionalidades de la aplicación y el recorrido del usuario en la misma.
+La organización de la información en Glottia se ha diseñado para atender de manera clara y efectiva a sus dos audiencias principales: aprendices de idiomas y administradores de locales aliados. Se aplican distintos sistemas de organización visual y esquemas de categorización para garantizar que los usuarios encuentren lo que necesitan con rapidez y sin fricciones.
+
+#### 1. Organización visual del contenido:
+
+**Jerárquica (Visual Hierarchy):**
+
+- Se utiliza en la Landing Page y en la pantalla principal de la App, destacando primero las opciones más relevantes para el usuario: próximos encuentros, eventos recomendados y botones de acción (“Reservar”, “Explorar locales”, “Unirme”).
+
+- Los perfiles de usuarios y locales se presentan con una jerarquía visual clara: foto, nombre, idiomas, horarios, reseñas.
+
+**Secuencial (Step-by-step):**
+
+- En los procesos de registro, creación de eventos y reserva de encuentros, donde el usuario debe seguir pasos guiados (ejemplo: registro → selección de idioma → elección de local → confirmación).
+
+- Esto reduce la complejidad y ayuda a usuarios principiantes a completar acciones sin confundirse.
+
+**Matricial:**
+
+- Aplicado en la sección de búsqueda de encuentros y en el mapa de locales, donde se combinan filtros múltiples (idioma, fecha, nivel, ubicación, disponibilidad).
+
+- Este sistema permite comparar diferentes opciones en paralelo, ofreciendo flexibilidad para tomar decisiones.
+
+<img src="https://i.postimg.cc/PqdpLNcj/organizacion.png"/>
 
 #### 3.1.2.2. Labelling Systems
+
+### 3.1.2.2. Labelling Systems  
+
+| **Sección** | **Etiqueta** | **Descripción** |
+|-------------|--------------|-----------------|
+| **Landing** | Inicio | Pantalla principal que muestra la visión general de la plataforma y accesos rápidos a las funcionalidades clave (encuentros, mapa, perfil). |
+| | Cómo funciona | Explicación breve y visual del funcionamiento de Glottia: registro, búsqueda de encuentros y práctica de idiomas. |
+| | Contacto / Ayuda | Formulario y canales de soporte (FAQ, chat de ayuda, correo). |
+| **Botones de ingreso y salida de la plataforma** | Iniciar Sesión | Botón para acceder con cuenta registrada. |
+| | Iniciar con Google | Acceso rápido usando la cuenta de Google. |
+| | Iniciar con Facebook | Acceso rápido usando la cuenta de Facebook. |
+| | Registrarse | Botón para crear una nueva cuenta de aprendiz o Partner. |
+| | Cerrar Sesión | Botón para finalizar sesión de forma segura. |
+| **Menú del aprendiz (usuario)** | Encuentros | Lista de encuentros disponibles con filtros por idioma, ubicación, fecha y nivel. |
+| | Mapa de locales | Visualización de los locales registrados en un mapa interactivo. |
+| | Mi Perfil | Edición de datos personales, idiomas, foto y progreso de gamificación (puntos, insignias). |
+| | Mis reservas | Sección con los encuentros reservados y confirmaciones QR. |
+| | Historial | Registro de encuentros pasados y reseñas dadas. |
+| | Contactos | Lista de conexiones establecidas en la plataforma. |
+| | Mensajes | Chat con contactos y notificaciones de nuevas conversaciones. |
+| **Menú del Partner (dueño de local)** | Mi Local | Panel para gestionar la información del local (dirección, fotos, aforo, horarios). |
+| | Crear Encuentro | Opción para proponer o programar un encuentro en el local. |
+| | Dashboard | Visualización de métricas clave: asistentes, reseñas, fidelidad de usuarios. |
+| | Reseñas | Acceso a valoraciones y comentarios recibidos. |
+| | Ofertas y recompensas | Gestión de promociones especiales para usuarios frecuentes. |
+| **Menú de administración (interno)** | Dashboard Admin | Panel con métricas generales del sistema (usuarios activos, eventos, locales). |
+| | Gestionar usuarios | Opción para ver, aprobar o desactivar cuentas de usuarios y locales. |
+| | Reportes | Listado de reportes enviados por usuarios y acciones tomadas. |
+| | Comunicaciones globales | Envío de notificaciones o correos masivos a la comunidad. |
+
 #### 3.1.2.3. SEO Tags and Meta Tags
+### 3.1.2.3. SEO Tags and Meta Tags  
+
+#### Landing Page 
+- **Title**: Glottia | Practica idiomas con experiencias reales  
+- **Meta Description**: Glottia conecta a personas que desean mejorar sus idiomas mediante encuentros reales en espacios públicos y locales aliados. Vive experiencias auténticas, seguras y divertidas mientras practicas con hablantes de todo el mundo.  
+- **Keywords**: idiomas, práctica de idiomas, intercambio lingüístico, inglés, español, francés, conversación, encuentros, Glottia  
+- **Author**: Equipo Glottia  
+
+#### Mobile Application 
+- **Title**: Glottia Web App | Encuentros y práctica de idiomas  
+- **Meta Description**: Reserva encuentros, conecta con locales aliados y mejora tu fluidez en idiomas con Glottia. Una experiencia interactiva de aprendizaje y conexión.  
+- **Keywords**: Glottia app, practicar inglés, practicar español, intercambios, locales aliados, conversación en vivo  
+- **Author**: Equipo Glottia  
+
+#### App Store Optimization (ASO) – Aplicaciones móviles  
+- **App Title**: Glottia – Practica idiomas con experiencias reales  
+- **App Subtitle**: Conecta, conversa y aprende en encuentros reales  
+- **App Keywords**: idiomas, aprender idiomas, intercambio, conversación, inglés, español, práctica oral  
+- **App Description**:  
+  Glottia es la aplicación que te ayuda a ganar fluidez en idiomas a través de experiencias conversacionales reales.  
+  - Encuentra locales aliados y participa en encuentros de idiomas.  
+  - Conoce personas con tus mismos intereses.  
+  - Gana confianza, fluidez y motivación con cada experiencia.  
+  ¡Glottia convierte la práctica de idiomas en algo divertido y auténtico!  
+
+---
+
 #### 3.1.2.4. Searching Systems
+
+| **Filtro**                  | **Descripción** |
+|------------------------------|-----------------|
+| Idioma                       | Permite al usuario buscar encuentros o personas según el idioma que desea practicar (inglés, español, francés, etc.). |
+| Nivel de Fluidez             | Filtra por nivel de conversación (básico, intermedio, avanzado) para emparejar usuarios con mayor afinidad. |
+| Ubicación / Zona             | Filtro geográfico para encontrar encuentros o locales aliados cercanos a la ubicación del usuario. |
+| Fecha y Horario              | Permite seleccionar encuentros disponibles según día y hora que mejor se ajusten al usuario. |
+| Tipo de Encuentro            | Diferencia entre encuentros individuales, grupales o actividades especiales en locales aliados. |
+| Locales Aliados              | Muestra los espacios aliados disponibles, con información de ubicación, servicios y reseñas. |
+| Reseñas y Calificaciones     | Filtra encuentros y usuarios según la valoración de otros participantes, destacando los mejor evaluados. |
+| Intereses en Común           | Permite buscar usuarios o encuentros en función de intereses personales (música, viajes, negocios, cultura, etc.). |
+| Costo del Encuentro          | Filtra opciones gratuitas, con costo reducido o premium según el presupuesto del usuario. |
+| Historial de Participación   | Muestra y filtra encuentros previos en los que el usuario participó, para facilitar repetición o recomendaciones. |
+
 #### 3.1.2.5. Navigation Systems
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
