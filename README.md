@@ -2203,6 +2203,11 @@ La organización de la información en Glottia se ha diseñado para atender de m
 | Historial de Participación   | Muestra y filtra encuentros previos en los que el usuario participó, para facilitar repetición o recomendaciones. |
 
 #### 3.1.2.5. Navigation Systems
+
+Los sistemas de navegación de Glottia han sido diseñados para guiar de forma intuitiva a los usuarios a través del Landing Page y la aplicación, facilitando la exploración del contenido y el acceso a las funcionalidades clave. La estructura sigue una lógica clara que permite a cada tipo de usuario (aprendices de idiomas y administradores de locales ) encontrar rápidamente lo que necesita mediante menús jerárquicos, enlaces destacados y botones de acción visibles.
+
+<img src="https://i.postimg.cc/4xF817Cd/Captura.png"/>
+
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
 #### 3.1.3.2. Landing Page Mock-up
