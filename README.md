@@ -2210,7 +2210,43 @@ Los sistemas de navegación de Glottia han sido diseñados para guiar de forma i
 <img src="https://i.postimg.cc/4xF817Cd/Captura.png"/>
 
 ### 3.1.3. Landing Page UI Design
+En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario de la Landing Page del negocio
+
+
 #### 3.1.3.1. Landing Page Wireframe
+
+### Sección "Vista Principal y ¿Cómo funciona?" 
+<hr>
+
+<img src="https://i.postimg.cc/2yHqtXpR/principal.png"/>
+
+
+### Sección "Nuestra Solución: Glottia y Ve Glottia en Acción" 
+<hr>
+
+<img src="https://i.postimg.cc/FHvRZ4kT/nuestra-solucion.png"/>
+
+
+### Sección "Beneficios y Sobre Nosotros" 
+<hr>
+
+<img src="https://i.postimg.cc/k4RqC1tg/beneficios.png"/>
+
+### Sección "Nuestros Valores y Nuestro Equipo" 
+<hr>
+
+<img src="https://i.postimg.cc/9FJSxPrZ/valores.png"/>
+
+
+### Sección "Lo que dicen de nosotros y Preguntas Frecuentes" 
+<hr>
+
+<img src="https://i.postimg.cc/dQn4vsvb/lo-que-dicen-de-nosotros.png"/>
+
+
+
+
+
 #### 3.1.3.2. Landing Page Mock-up
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
