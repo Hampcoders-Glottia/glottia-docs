@@ -2244,10 +2244,41 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 <img src="https://i.postimg.cc/dQn4vsvb/lo-que-dicen-de-nosotros.png"/>
 
 
-
-
-
 #### 3.1.3.2. Landing Page Mock-up
+
+
+### Sección "Vista Principal y ¿Cómo funciona?" 
+<hr>
+
+<img src="https://i.postimg.cc/4y0TSj5b/principal2.png"/>
+
+
+### Sección "Nuestra Solución: Glottia y Ve Glottia en Acción" 
+<hr>
+
+<img src="https://i.postimg.cc/xjZDnDv0/solucion2.png"/>
+
+
+### Sección "Beneficios y Sobre Nosotros" 
+<hr>
+
+<img src="https://i.postimg.cc/DZjVSRRB/beneficios2.png"/>
+
+### Sección "Nuestros Valores y Nuestro Equipo" 
+<hr>
+
+<img src="https://i.postimg.cc/htTq2y74/valores2.png"/>
+
+
+### Sección "Lo que dicen de nosotros y Preguntas Frecuentes" 
+<hr>
+
+<img src="https://i.postimg.cc/44Y4z1w7/nosotros.png"/>
+
+--- 
+
+[https://glottia-landing-page-master.vercel.app/](https://glottia-landing-page-master.vercel.app/)
+
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
