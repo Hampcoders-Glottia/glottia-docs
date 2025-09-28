@@ -2068,8 +2068,9 @@ La paleta de colores de Glottia refuerza los valores de confianza, accesibilidad
 | Negro profundo         | Texto principal, logotipo                      | `#1C1C1C`           |
 | Gris suave             | Fondos secundarios, bordes, texto auxiliar     | `#D9D9D9`           |
 | Blanco                 | Fondo principal, contraste universal            | `#FFFFFF`           |
-| Verde menta claro      | Confirmaciones, mensajes de éxito               | `#A8E6CF`           |
-| Degradado azul-violeta | Títulos y frases destacadas (ej. “Practica idiomas”) | `#1E90FF → #B19CD9` |
+| Verde                  | Confirmaciones, mensajes de éxito               | `#0D7229`           |
+| Degradado azul-violeta | Títulos y frases destacadas (ej. “Practica idiomas”) | `#1E90FF → #6683F3` |
+| Naranja                | Títulos y frases secundarias (ej. “Sobre nosotros”) | `#FF9E` |
 
 ### 3.1.2. Information Architecture
 
