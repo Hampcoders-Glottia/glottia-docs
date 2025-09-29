@@ -614,6 +614,50 @@ El entrevistado ve con buenos ojos colaborar con Glottia, ya que le otorgaría m
 
 ---
 
+### Segmento #2: Administradores que ofrecen su establecimiento como punto de reunión
+
+**Entrevista: Alessandro Bravo**  
+- **Sexo:** Masculino  
+- **Edad:** 29  
+- **Link:** [Ver entrevista](https://youtu.be/r9YsPmAdfwI)  
+- **Inicia en:** 0:05  
+- **Duración:** 6:55
+  
+<img src="https://i.postimg.cc/gJ8222RP/4534rfr.png"/>
+
+
+### Resumen de entrevista
+
+**Datos objetivos y perfil general**
+
+Alessandro Bravo es dueño de una cafetería que ofrece café, postres y snacks en un ambiente cálido, con espacio interior adecuado para reuniones de grupos pequeños o medianos. Su negocio se ubica en una zona de San Martin de Porres y actualmente atrae clientes principalmente a través de redes sociales, el boca a boca y colaboraciones con pequeños emprendimientos locales, lo que le ha permitido mantener un crecimiento constante.
+
+**Características subjetivas – Personalidad y comportamiento**
+
+Alessandro se muestra abierto a innovar y busca que su cafetería sea también un punto de encuentro social y cultural. Considera positivo recibir grupos para prácticas de idiomas porque percibe que eso fideliza a los clientes y da mayor visibilidad al local. A la vez, es cuidadoso respecto a aspectos prácticos como mantener un consumo mínimo, evitar exceso de ruido y organizar bien los horarios para no afectar a otros clientes.
+
+**Relación con la propuesta de Glottia**
+
+El entrevistado identifica beneficios claros en colaborar con Glottia: atraer un público más variado, aumentar la afluencia en horarios de baja demanda y reforzar la difusión de su cafetería como espacio cultural. Entre sus preocupaciones menciona nque se generen molestias por ruido o que falte coordinación en la organización de los encuentros. Como condiciones básicas establece que debe existir un consumo por persona, respeto de horarios previamente definidos y mantener un ambiente ordenado.
+
+**Canales de búsqueda y decisión**
+
+Actualmente, Alessandro recurre a redes sociales y recomendaciones de clientes satisfechos para atraer nuevo público. Reconoce que sus esfuerzos digitales son limitados, por lo que valora mucho la posibilidad de que su cafetería aparezca en una aplicación como Glottia, al otorgarle visibilidad directa frente a un público específico interesado en actividades sociales y culturales.
+
+**Dispositivos y tecnología utilizada**
+
+No se detallaron dispositivos concretos, pero se infiere que utiliza de manera sencilla redes sociales para promocionar el negocio. Percibe en Glottia una oportunidad para reforzar y profesionalizar su presencia digital, con bajo esfuerzo adicional de su parte.
+
+**Criterios de colaboración y expectativas**
+
+Alessandro espera que cada asistente consuma al menos una bebida y, de ser posible, algún snack. Considera más conveniente que los encuentros se realicen en horarios menos concurridos, especialmente por las tardes de lunes a viernes entre las 4 a 7. También espera que la plataforma promocione el local y podría ayudar proporcionando ofertas exclusivas.
+
+**Actitud frente a plataformas de intermediación**
+
+El entrevistado muestra disposición a colaborar con Glottia, al verla como una forma de aumentar la visibilidad y atraer público interesado en idiomas y experiencias culturales. Señala la importancia de establecer reglas claras para asegurar un ambiente respetuoso y de mantener una comunicación transparente con la plataforma, lo que generaría confianza y permitiría una relación beneficiosa para ambas partes.
+
+---
+
 ### 2.2.3. Análisis de entrevistas
 En esta sección, el equipo realiza el análisis respectivo de las entrevistas, consolidándolo en un resumen de acuerdo a los segmentos entrevistados.
 
