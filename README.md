@@ -2446,8 +2446,8 @@ El enfoque principal fue **implementar la Landing Page y los primeros módulos f
 | **Date** | 2025-04-22 |
 | **Time** | 3:00 PM |
 | **Location** | Virtual – Google Meet |
-| **Prepared By** | Ricardo del Águila |
-| **Attendees (Planning Meeting)** | Ricardo del Águila, Matías Aliaga, Ivo Machado, Leandro Contreras, Ítalo Sánchez |
+| **Prepared By** | Matías Aliaga |
+| **Attendees (Planning Meeting)** |  Matías Aliaga, Ivo Machado, Leandro Contreras, Ítalo Sánchez |
 | **Sprint n - 1 Review Summary** | Durante esta fase inicial del proyecto **Glottia**, se establecieron las primeras historias de usuario centradas en el desarrollo de la **Landing Page** y en la implementación de la arquitectura base del **backend** utilizando **Java Spring Boot**. Se logró con éxito el despliegue inicial de la Landing Page dentro del plazo acordado, junto con la configuración del entorno de desarrollo y los primeros endpoints funcionales para registro y autenticación. Además, la documentación se enriqueció con la definición de la visión de negocio y la incorporación de artefactos técnicos y de diseño que consolidan la base del proyecto. |
 | **Sprint n - 1 Retrospective Summary** | En general, el equipo mantuvo una excelente organización y comunicación gracias al uso de herramientas colaborativas como **Slack** y **GitHub Projects**. No obstante, se identificó la necesidad de mejorar la estimación del tiempo de desarrollo para tareas relacionadas con la integración del backend y los wireframes del frontend, con el fin de optimizar la planificación en futuros sprints. También se acordó reforzar el uso del formato **Markdown** para la documentación técnica y la consistencia en los mensajes de commit, garantizando así una comunicación más clara y una trazabilidad efectiva del código. |
 | **Sprint 1 Goal** | **Our focus is on** establishing the technical and visual foundation of Glottia by developing the Landing Page and core backend modules for user registration and authentication. **We believe it delivers** credibility, accessibility, and a first interactive experience to early users and stakeholders. **This will be confirmed when** the Landing Page is deployed online and users can successfully register and log in using the backend system developed in Java Spring Boot.<br><br>**Outcome:** Desplegar la primera versión funcional del sistema.<br>**Impact:** Generar visibilidad y validar el interés inicial de los usuarios.<br>**Customer(s):** Visitantes interesados en practicar idiomas mediante Glottia.<br>**Event:** Los usuarios pueden registrarse, iniciar sesión y acceder al contenido inicial del sitio. |
@@ -2514,17 +2514,17 @@ En esta sección se presenta la evidencia de pruebas de aceptación realizadas d
 
 | Epic / Story ID | Título | Criterios de Aceptación | Resultado |
 |----------------|--------|--------------------------|-----------|
-| US-01 | Visualización de la Landing Page | **Escenario #1: Carga y estructura general**<br>Given que un usuario accede a la URL principal de Glottia<br>When la página termina de cargar<br>Then debe visualizar correctamente el hero banner, las secciones informativas y el pie de página<br>And no deben presentarse errores en consola ni fallos visuales. | ✅ Pasado |
-| US-01 | Visualización de la Landing Page | **Escenario #2: Contenido visible y coherente**<br>Given que el usuario explora la landing page<br>When se desplaza por las secciones principales<br>Then debe visualizar mensajes claros sobre la misión y objetivos del proyecto Glottia<br>And los botones de acción deben dirigir correctamente a las secciones correspondientes. | ✅ Pasado |
-| US-02 | Autenticación de Usuario (Backend) | **Escenario #1: Registro exitoso**<br>Given que un nuevo usuario envía sus datos válidos al endpoint `/api/auth/register`<br>When la solicitud es procesada por el backend Java Spring Boot<br>Then debe crearse un nuevo registro en la base de datos<br>And el sistema debe devolver una respuesta con código 201 y un mensaje de confirmación. | ✅ Pasado |
-| US-02 | Autenticación de Usuario (Backend) | **Escenario #2: Inicio de sesión correcto**<br>Given que un usuario registrado envía sus credenciales al endpoint `/api/auth/login`<br>When las credenciales son válidas<br>Then el sistema debe generar y devolver un token JWT<br>And el código de respuesta debe ser 200. | ✅ Pasado |
-| US-02 | Autenticación de Usuario (Backend) | **Escenario #3: Validación de credenciales erróneas**<br>Given que un usuario intenta iniciar sesión con datos incorrectos<br>When envía la solicitud al endpoint `/api/auth/login`<br>Then el backend debe responder con un código 401<br>And un mensaje de error indicando “Credenciales inválidas”. | ✅ Pasado |
-| US-03 | Responsividad del Sitio | **Escenario #1: Visualización en móviles**<br>Given que el usuario accede desde un smartphone<br>When se carga la landing page<br>Then todos los elementos deben ajustarse correctamente al ancho del dispositivo<br>And no debe existir desplazamiento horizontal<br>And los botones deben ser accesibles táctilmente. | ✅ Pasado |
-| US-03 | Responsividad del Sitio | **Escenario #2: Visualización en pantallas medianas (tablets)**<br>Given que el usuario accede desde una tablet<br>When se carga la landing page<br>Then el diseño debe reorganizar los elementos de manera proporcional<br>And mantener la legibilidad del contenido y la jerarquía visual. | ✅ Pasado |
-| US-04 | Comunicación Frontend–Backend | **Escenario #1: Consumo de endpoints**<br>Given que el frontend intenta conectarse con los endpoints del backend desplegado<br>When se realiza una solicitud desde la interfaz (por ejemplo, registro o login)<br>Then la API debe responder correctamente según los parámetros enviados<br>And no deben presentarse errores CORS ni fallos de conexión. | ✅ Pasado |
-| US-05 | Seguridad del Sistema | **Escenario #1: Validación de token JWT**<br>Given que un usuario intenta acceder a un endpoint protegido<br>When no incluye el token de autenticación<br>Then el backend debe devolver un código 403<br>And cuando el token es válido, el acceso debe concederse correctamente. | ✅ Pasado |
-| US-06 | Sección “Sobre Glottia” | **Escenario #1: Visualización de información corporativa**<br>Given que un visitante se desplaza hasta la sección “Sobre Glottia”<br>When se muestra el contenido<br>Then debe visualizarse la misión, visión y objetivo del proyecto<br>And el diseño debe mantener coherencia con la identidad visual general. | ✅ Pasado |
-| US-07 | Pie de Página | **Escenario #1: Verificación de enlaces funcionales**<br>Given que el usuario llega al pie de página<br>When hace clic en cualquiera de los enlaces o redes sociales<br>Then debe redirigir correctamente a la página o red externa<br>And no deben existir enlaces rotos. | ✅ Pasado |
+| US-01 | Visualización de la Landing Page | **Escenario #1: Carga y estructura general**<br>Given que un usuario accede a la URL principal de Glottia<br>When la página termina de cargar<br>Then debe visualizar correctamente el hero banner, las secciones informativas y el pie de página<br>And no deben presentarse errores en consola ni fallos visuales. |  Pasado |
+| US-01 | Visualización de la Landing Page | **Escenario #2: Contenido visible y coherente**<br>Given que el usuario explora la landing page<br>When se desplaza por las secciones principales<br>Then debe visualizar mensajes claros sobre la misión y objetivos del proyecto Glottia<br>And los botones de acción deben dirigir correctamente a las secciones correspondientes. |  Pasado |
+| US-02 | Autenticación de Usuario (Backend) | **Escenario #1: Registro exitoso**<br>Given que un nuevo usuario envía sus datos válidos al endpoint `/api/auth/register`<br>When la solicitud es procesada por el backend Java Spring Boot<br>Then debe crearse un nuevo registro en la base de datos<br>And el sistema debe devolver una respuesta con código 201 y un mensaje de confirmación. |  Pasado |
+| US-02 | Autenticación de Usuario (Backend) | **Escenario #2: Inicio de sesión correcto**<br>Given que un usuario registrado envía sus credenciales al endpoint `/api/auth/login`<br>When las credenciales son válidas<br>Then el sistema debe generar y devolver un token JWT<br>And el código de respuesta debe ser 200. |  Pasado |
+| US-02 | Autenticación de Usuario (Backend) | **Escenario #3: Validación de credenciales erróneas**<br>Given que un usuario intenta iniciar sesión con datos incorrectos<br>When envía la solicitud al endpoint `/api/auth/login`<br>Then el backend debe responder con un código 401<br>And un mensaje de error indicando “Credenciales inválidas”. |  Pasado |
+| US-03 | Responsividad del Sitio | **Escenario #1: Visualización en móviles**<br>Given que el usuario accede desde un smartphone<br>When se carga la landing page<br>Then todos los elementos deben ajustarse correctamente al ancho del dispositivo<br>And no debe existir desplazamiento horizontal<br>And los botones deben ser accesibles táctilmente. |  Pasado |
+| US-03 | Responsividad del Sitio | **Escenario #2: Visualización en pantallas medianas (tablets)**<br>Given que el usuario accede desde una tablet<br>When se carga la landing page<br>Then el diseño debe reorganizar los elementos de manera proporcional<br>And mantener la legibilidad del contenido y la jerarquía visual. |  Pasado |
+| US-04 | Comunicación Frontend–Backend | **Escenario #1: Consumo de endpoints**<br>Given que el frontend intenta conectarse con los endpoints del backend desplegado<br>When se realiza una solicitud desde la interfaz (por ejemplo, registro o login)<br>Then la API debe responder correctamente según los parámetros enviados<br>And no deben presentarse errores CORS ni fallos de conexión. | Pasado |
+| US-05 | Seguridad del Sistema | **Escenario #1: Validación de token JWT**<br>Given que un usuario intenta acceder a un endpoint protegido<br>When no incluye el token de autenticación<br>Then el backend debe devolver un código 403<br>And cuando el token es válido, el acceso debe concederse correctamente. | Pasado |
+| US-06 | Sección “Sobre Glottia” | **Escenario #1: Visualización de información corporativa**<br>Given que un visitante se desplaza hasta la sección “Sobre Glottia”<br>When se muestra el contenido<br>Then debe visualizarse la misión, visión y objetivo del proyecto<br>And el diseño debe mantener coherencia con la identidad visual general. |  Pasado |
+| US-07 | Pie de Página | **Escenario #1: Verificación de enlaces funcionales**<br>Given que el usuario llega al pie de página<br>When hace clic en cualquiera de los enlaces o redes sociales<br>Then debe redirigir correctamente a la página o red externa<br>And no deben existir enlaces rotos. |  Pasado |
 
 ---
 
@@ -2595,7 +2595,55 @@ A continuación, se muestran las capturas de los insights del repositorio.
 
 
 ## 4.3. Validation Interviews
+En esta sección, el equipo presenta la entrevistas de validación
+
 ### 4.3.1. Diseño de Entrevistas
+###  Segmento Objetivo #1: Usuarios Aprendices de Idiomas  
+
+
+**Objetivo de la entrevista:**  
+Evaluar la claridad de la propuesta de valor, la facilidad de uso de la landing page y la app, la motivación para participar en prácticas presenciales y la percepción de confianza y autenticidad de la experiencia Glottia.
+
+**Preguntas:**
+
+1. ¿Cómo llegaste a conocer Glottia (redes, recomendación, anuncio, evento, etc.)?
+2. ¿Qué impresión te dio Glottia al visitar la landing page por primera vez?
+3. ¿Pudiste entender de inmediato qué ofrece la plataforma y cómo funciona?
+4. ¿Qué tan fácil te resultó registrarte y navegar por la aplicación?
+5. ¿Qué fue lo que más te llamó la atención de la idea de practicar con otras personas en espacios reales?
+6. ¿Qué te motiva más a usar Glottia: mejorar tu fluidez, conocer gente nueva o ambas?
+7. ¿Te sentiste cómodo explorando los puntos de encuentro o prácticas disponibles?
+8. ¿Qué tan clara te pareció la información sobre los lugares de práctica y sus anfitriones?
+9. ¿Qué emociones sentiste antes y después de tu primera sesión (confianza, nervios, entusiasmo, curiosidad)?
+10. ¿Consideras que Glottia ofrece una experiencia distinta frente a clases o apps tradicionales?
+11. ¿Qué mejorarías en la app para sentirte más motivado o seguro al participar?
+12. ¿Recomendarías Glottia a otros que estén aprendiendo un idioma? ¿Por qué?
+
+---
+
+###  Segmento Objetivo #2: Administradores de Establecimientos Asociados  
+
+**Objetivo de la entrevista:**  
+Comprender el nivel de interés, las expectativas y las percepciones sobre la colaboración con Glottia como punto de encuentro para prácticas presenciales.
+
+**Preguntas:**
+
+1. ¿Cómo te enteraste de la propuesta de Glottia?
+2. ¿Qué opinas sobre la idea de que tu local sea un punto de encuentro para prácticas de idiomas?
+3. ¿Crees que este tipo de actividades puede atraer nuevos clientes o aumentar el consumo?
+4. ¿Qué tan alineada te parece la iniciativa de Glottia con la identidad y el ambiente de tu local?
+5. ¿Qué condiciones considerarías importantes para que estas reuniones sean cómodas y seguras?
+6. ¿Qué tipo de beneficios te motivarían a colaborar con Glottia (visibilidad, tráfico, reputación, fidelización)?
+7. ¿Te interesaría que tu local aparezca dentro del mapa interactivo de la app?
+8. ¿Qué tan importante consideras el posicionamiento digital o redes sociales para tu negocio?
+9. ¿Cómo te gustaría que Glottia comunique tu establecimiento dentro de la plataforma (estilo, fotos, descripciones)?
+10. ¿Has participado antes en iniciativas culturales o colaboraciones similares?
+11. ¿Qué preocupaciones o dudas tendrías al recibir grupos de práctica en tu local?
+12. ¿Qué expectativas tendrías sobre la organización y el comportamiento de los usuarios de Glottia?
+13. ¿Qué sugerencias aportarías para que esta alianza sea beneficiosa tanto para el local como para la comunidad de usuarios?
+
+---
+
 ### 4.3.2. Registro de Entrevistas
 ### 4.3.3. Evaluaciones según heurísticas
 
