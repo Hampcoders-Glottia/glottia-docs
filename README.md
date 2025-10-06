@@ -2290,21 +2290,265 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 # Capítulo IV: Product Implementation & Validation
 ## 4.1. Software Configuration Management
+A continuación, se va a realizar el proceso por el cual organizamos y gestionamos  los cambios desarrolados en el proyecto de Glottia
+
 ### 4.1.1. Software Development Environment Configuration
+Este este apartado vamos a describir la configuración del entorno de desarrollo de software establecida para el proyecto, con el propósito de garantizar la correcta integración, colaboración y trazabilidad de las actividades realizadas por los miembros del equipo.
+Se definen las herramientas, plataformas y productos de software utilizados a lo largo del ciclo de vida del desarrollo, desde la gestión del proyecto hasta el despliegue y documentación.
+
+
+| **Plataforma / Herramienta** | **Descripción** | **Enlace** |
+|------------------------------|-----------------|-------------|
+| **Trello** | Plataforma de gestión de proyectos que permite organizar tareas mediante tableros, listas y tarjetas. Facilita la asignación de responsables, seguimiento del progreso y comunicación entre los miembros del equipo. | [https://trello.com](https://trello.com) |
+| **UXPressia** | Herramienta en línea enfocada en el diseño de experiencias de usuario. Permite crear **User Personas**, **Customer Journey Maps**, **Empathy Maps** e **Impact Maps**, ofreciendo plantillas ágiles y colaborativas para el análisis del usuario. | [https://uxpressia.com](https://uxpressia.com) |
+| **Mural** | Plataforma visual colaborativa ideal para **brainstorming**, **scenario mapping** y desarrollo de **estrategias UX**. Permite trabajar en equipo de forma remota con plantillas interactivas y herramientas de diseño intuitivas. | [https://www.mural.co](https://www.mural.co) |
+| **Figma** | Herramienta de diseño colaborativo utilizada para la creación de **wireframes**, **mockups**, **prototipos interactivos** y **diseños de interfaces móviles/web**. Favorece la colaboración en tiempo real y la integración con flujos de trabajo ágiles. | [https://www.figma.com](https://www.figma.com) |
+| **Canva** | Aplicación web de diseño gráfico que permite crear materiales visuales (presentaciones, posters, publicaciones, etc.) con plantillas predefinidas y funciones colaborativas. Útil para diseño visual complementario. | [https://www.canva.com](https://www.canva.com) |
+| **Vertabelo** | Plataforma para el **diseño, documentación y gestión de bases de datos relacionales**. Permite modelar esquemas de datos, generar scripts SQL y trabajar colaborativamente en la estructura del sistema. | [https://vertabelo.com](https://vertabelo.com) |
+| **Lucidchart** | Herramienta de diagramación que facilita la creación de **diagramas de flujo**, **diagramas de clases**, **user flows** y **wireflows**. Ideal para la documentación visual y el análisis de procesos. | [https://lucidchart.com](https://lucidchart.com) |
+| **Structurizr** | Herramienta especializada para modelar **diagramas C4** de arquitectura de software. Permite representar de manera jerárquica los componentes del sistema y su relación con el entorno tecnológico. | [https://structurizr.com](https://structurizr.com) |
+| **C4 Model** | Modelo conceptual para documentar arquitecturas de software en diferentes niveles de abstracción (contexto, contenedor, componente y código), ayudando a comunicar decisiones de diseño de forma estructurada. | [https://c4model.com](https://c4model.com) |
+| **HTML5 / CSS3 / JavaScript** | Conjunto de tecnologías empleadas para el desarrollo de la **Landing Page** del proyecto. Permiten construir interfaces web responsivas y visualmente atractivas, integrando elementos interactivos y multimedia. | — |
+| **GitHub** | Plataforma de control de versiones basada en Git que permite la colaboración en el desarrollo del código fuente, manejo de ramas, control de cambios y despliegue continuo. | [https://github.com](https://github.com) |
+| **Postman** | Herramienta para **pruebas y validación de APIs REST**. Permite enviar solicitudes HTTP, automatizar test cases y analizar respuestas del servidor durante la etapa de integración del sistema. | [https://www.postman.com](https://www.postman.com) |
+| **Firebase / AWS IoT Core (opcional)** | Plataformas en la nube para el **despliegue y gestión de soluciones IoT**, ofreciendo servicios de base de datos en tiempo real, autenticación, almacenamiento y comunicación entre dispositivos conectados. | [https://firebase.google.com](https://firebase.google.com) / [https://aws.amazon.com/iot-core](https://aws.amazon.com/iot-core) |
+
+---
+
+
 ### 4.1.2. Source Code Management
+
+En esta sección se define el esquema de gestión del código fuente del proyecto **Glottia**, estableciendo los medios, convenciones y flujos de trabajo que el equipo empleará para garantizar la trazabilidad, integridad y control de versiones en todas las etapas del desarrollo.  
+
+El sistema de control de versiones seleccionado es **Git**, con **GitHub** como plataforma principal de alojamiento y colaboración.  
+GitHub permite la administración de ramas, el seguimiento de cambios, la revisión de código mediante *pull requests*, la integración continua y el control de versiones en cada uno de los módulos del sistema.
+
+El ecosistema Glottia está estructurado en tres repositorios principales, cada uno con un propósito definido dentro del desarrollo:
+
+| **Componente / Producto** | **Descripción** | **Repositorio (GitHub URL)** |
+|----------------------------|-----------------|-------------------------------|
+| **Landing Page** | Contiene el código fuente de la página principal del proyecto, desarrollada con HTML, CSS y JavaScript. Su objetivo es brindar información general sobre Glottia, sus funcionalidades y acceso a la plataforma. | [https://github.com/Hampcoders-Glottia/glottia-landing-page](https://github.com/Hampcoders-Glottia/glottia-landing-page) |
+| **Web Services (Back-End)** | Incluye la lógica del servidor, controladores de API REST, base de datos, autenticación y servicios IoT. Contiene también los archivos de **pruebas unitarias e integración**, asegurando la correcta funcionalidad del sistema. | [https://github.com/Hampcoders-Glottia/glottia-back-end](https://github.com/Hampcoders-Glottia/glottia-back-end) |
+| **Documentación Técnica (Docs)** | Contiene la documentación técnica, manuales de uso, diagramas, reportes y archivos Markdown relacionados con la planificación y desarrollo del proyecto. | [https://github.com/Hampcoders-Glottia/glottia-docs](https://github.com/Hampcoders-Glottia/glottia-docs) |
+
+#### **Modelo de Ramas — GitFlow Workflow**
+
+El equipo adoptará la metodología **GitFlow**, propuesta por Vincent Driessen, como modelo de ramificación (*branching model*) para organizar el ciclo de vida del código fuente.  
+Este flujo de trabajo permite mantener un desarrollo ordenado y paralelo entre funcionalidades nuevas, versiones estables y correcciones urgentes.
+
+**Estructura principal de ramas:**
+
+| **Rama** | **Propósito** |
+|-----------|---------------|
+| **main** | Contiene el código fuente estable y listo para producción. Cada versión publicada se etiqueta con una versión semántica. |
+| **develop** | Rama de integración principal para las funcionalidades en desarrollo. Aquí se fusionan los *feature branches* antes de ser liberados. |
+| **feature/** | Ramas creadas a partir de `develop` para implementar nuevas funcionalidades o mejoras específicas. |
+| **release/** | Ramas creadas desde `develop` cuando se prepara una nueva versión de producción. Se usan para pruebas y ajustes menores antes del despliegue. |
+| **hotfix/** | Ramas derivadas de `main` para corregir errores críticos detectados en producción. Una vez corregido, se fusionan tanto en `main` como en `develop`. |
+
 ### 4.1.3. Source Code Style Guide & Conventions
+Esta sección establece las convenciones de estilo y guías de codificación adoptadas por el equipo de desarrollo del proyecto **Glottia**, con el fin de asegurar la coherencia, mantenibilidad y legibilidad del código fuente en todos los módulos del sistema.
+
+Se adopta el principio de **Clean Code** y se exige el uso consistente del **idioma inglés** para nombres de variables, clases, métodos, funciones, comentarios y archivos, independientemente del lenguaje o tecnología empleada.
+
+#### **Lenguajes y Estándares Aplicados**
+
+El ecosistema Glottia utiliza múltiples lenguajes de programación y tecnologías para diferentes componentes del sistema. Cada uno adopta convenciones reconocidas y guías oficiales:
+
+| **Lenguaje / Tecnología** | **Guía de Estilo Adoptada** | **Referencia Oficial** |
+|----------------------------|------------------------------|-------------------------|
+| **HTML5 / CSS3** | Se siguen las convenciones de indentación, nombramiento semántico y estructura modular sugeridas por **Google HTML/CSS Style Guide**. | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
+| **JavaScript (Frontend)** | Uso del estándar **Airbnb JavaScript Style Guide**, promoviendo consistencia en variables, funciones y estructuras. | [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) |
+| **TypeScript (Frontend WebApp)** | Se adopta la **Google TypeScript Style Guide**, que enfatiza tipado estricto, uso de `interface` y separación clara de responsabilidades. | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
+| **Java (Backend - Spring Boot)** | Basado en las convenciones de **Google Java Style Guide** y las **Spring Boot Best Practices**, priorizando modularidad, claridad y consistencia. | [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) |
+| **SQL / Modelado de Datos (Vertabelo)** | Uso de nombres descriptivos en inglés, en singular, con prefijos claros según entidad. Palabras clave en mayúsculas. | [SQL Style Guide](https://www.sqlstyle.guide/) |
+| **Gherkin (.feature files - QA / BDD)** | Se siguen las convenciones de **Gherkin Conventions for Readable Specifications**, priorizando la claridad en los escenarios de prueba. | [Gherkin Syntax](https://cucumber.io/docs/gherkin/reference/) |
+| **HTML + CSS (Landing Page)** | Estructura jerárquica, uso de **BEM (Block-Element-Modifier)** para clases CSS y componentes reutilizables. | [BEM Naming Convention](http://getbem.com/naming/) |
+
+#### **Indentación y Estructura**
+
+- **Indentación:** 2 espacios para HTML, CSS, JavaScript y TypeScript; **4 espacios para Java**.  
+- **Longitud máxima de línea:** 120 caracteres.  
+- **Comillas:** Simples (`'`) por defecto en JavaScript/TypeScript; dobles (`"`) en Java y HTML.  
+- **Llaves:** En Java, se abren **en la misma línea** del bloque (`K&R style`).  
+- **Comentarios:**
+  - `//` para comentarios breves.
+  - `/** ... */` para documentación de métodos o clases.
+- **Bloques de código:** No más de 30 líneas por función o método. Se prioriza la modularidad y reutilización.
+
+---
+
 ### 4.1.4. Software Deployment Configuration
 
+**Consideraciones Preliminares al Despliegue:**
+
+* **Implementación de Archivos Web:** Se requiere la implementación completa de la página web utilizando archivos HTML, CSS y JS para garantizar su correcta operatividad. Se autoriza el uso de diversos formatos para los archivos de imagen (jpg, png, webp, etc.).
+* **Mecanismo de Publicación en Github:** En virtud del servicio Github Pages, todos los archivos necesarios para la funcionalidad de la aplicación se cargarán al repositorio compartido de Github, facilitando la colaboración simultánea entre los miembros del equipo.
+* **Protocolo de Pruebas de Funcionamiento:** Tras cada actualización e integración al repositorio, se ejecutarán pruebas internas para asegurar la correcta operación de la página. Asimismo, se someterá la página a pruebas por parte de usuarios externos al grupo de trabajo para obtener una evaluación imparcial.
+
 ## 4.2. Landing Page & Mobile Application Implementation
-### 4.2.1. Sprint n
-#### 4.2.1.1. Sprint Planning n
-#### 4.2.1.2. Sprint Backlog n
+### 4.2.1. Sprint 1
+
+Esta sección presenta los detalles de la primera reunión de planificación de Sprint del equipo **Hampcoders**, correspondiente al desarrollo de **Glottia**.  
+Durante esta sesión se definieron los objetivos principales del sprint, la capacidad del equipo y las historias de usuario priorizadas para esta iteración.  
+Al ser el primer Sprint del proyecto, no se incluyen resúmenes de revisión ni retrospectiva previos.  
+
+El enfoque principal fue **implementar la Landing Page y los primeros módulos funcionales del backend**, con el objetivo de validar la propuesta de valor del proyecto y preparar la infraestructura base para la interacción de usuarios (aprendices y locales).  
+
+#### 4.2.1.1. Sprint Planning 1 
+
+| **Sprint #** | Sprint 1 |
+|--------------|-----------|
+| **Date** | 2025-04-22 |
+| **Time** | 3:00 PM |
+| **Location** | Virtual – Google Meet |
+| **Prepared By** | Ricardo del Águila |
+| **Attendees (Planning Meeting)** | Ricardo del Águila, Matías Aliaga, Ivo Machado, Leandro Contreras, Ítalo Sánchez |
+| **Sprint n - 1 Review Summary** | Durante esta fase inicial del proyecto **Glottia**, se establecieron las primeras historias de usuario centradas en el desarrollo de la **Landing Page** y en la implementación de la arquitectura base del **backend** utilizando **Java Spring Boot**. Se logró con éxito el despliegue inicial de la Landing Page dentro del plazo acordado, junto con la configuración del entorno de desarrollo y los primeros endpoints funcionales para registro y autenticación. Además, la documentación se enriqueció con la definición de la visión de negocio y la incorporación de artefactos técnicos y de diseño que consolidan la base del proyecto. |
+| **Sprint n - 1 Retrospective Summary** | En general, el equipo mantuvo una excelente organización y comunicación gracias al uso de herramientas colaborativas como **Slack** y **GitHub Projects**. No obstante, se identificó la necesidad de mejorar la estimación del tiempo de desarrollo para tareas relacionadas con la integración del backend y los wireframes del frontend, con el fin de optimizar la planificación en futuros sprints. También se acordó reforzar el uso del formato **Markdown** para la documentación técnica y la consistencia en los mensajes de commit, garantizando así una comunicación más clara y una trazabilidad efectiva del código. |
+| **Sprint 1 Goal** | **Our focus is on** establishing the technical and visual foundation of Glottia by developing the Landing Page and core backend modules for user registration and authentication. **We believe it delivers** credibility, accessibility, and a first interactive experience to early users and stakeholders. **This will be confirmed when** the Landing Page is deployed online and users can successfully register and log in using the backend system developed in Java Spring Boot.<br><br>**Outcome:** Desplegar la primera versión funcional del sistema.<br>**Impact:** Generar visibilidad y validar el interés inicial de los usuarios.<br>**Customer(s):** Visitantes interesados en practicar idiomas mediante Glottia.<br>**Event:** Los usuarios pueden registrarse, iniciar sesión y acceder al contenido inicial del sitio. |
+| **Sprint 1 Velocity** | El equipo puede atender hasta **28 Story Points**. |
+| **Sum of Story Points** | La suma de Story Points planificados para este sprint es de **28 Story Points**. |
+
+
+#### 4.2.1.2. Sprint Backlog 1 
+
+El objetivo principal del Sprint 1 fue implementar la Landing Page de Glottia y establecer la arquitectura base del backend utilizando Java Spring Boot, incluyendo los primeros endpoints para autenticación, registro y gestión básica de usuarios. Este sprint se centró en construir la experiencia visual inicial del producto y sentar las bases técnicas para la integración entre el frontend y el backend.
+
+El equipo trabajó de manera colaborativa mediante Trello como herramienta de gestión ágil, dividiendo las historias de usuario en tareas específicas con sus responsables, estimaciones y estado de avance.
+
+
+
+| **Sprint #** | Sprint 1 |  |  |  |  |  |  |
+|---------|---------|---------|---------|---------|---------|---------|---------|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation (hrs)** | **Assigned To** | **Status** |
+| US-LP-01 | Visualización de la Propuesta de Valor | T01-1 | Diseñar hero section | Crear diseño visual de la sección principal con título, subtítulo y CTA. | 2 | Matías Aliaga | Done |
+| US-LP-01 | Visualización de la Propuesta de Valor | T01-2 | Implementar estructura HTML/CSS | Construir la sección principal en HTML y CSS. | 2 | Matías Aliaga | Done |
+| US-LP-01 | Visualización de la Propuesta de Valor | T01-3 | Integrar endpoint de registro | Conectar botón CTA con endpoint de registro del backend (Spring Boot). | 3 | Leandro Contreras | Done |
+| US-LP-02 | Ver Beneficios para Aprendices | T02-1 | Diseñar sección beneficios | Diseñar visualmente la sección “Para Aprendices”. | 1 | Matías Aliaga | Done |
+| US-LP-02 | Ver Beneficios para Aprendices | T02-2 | Implementar HTML/CSS | Implementar estructura y estilos de la sección. | 1 | Matías Aliaga | Done |
+| US-LP-02 | Ver Beneficios para Aprendices | T02-3 | Redactar contenido | Redactar textos claros sobre los beneficios de Glottia para aprendices. | 0.5 | Ivo Machado | Done |
+| US-LP-03 | Ver Beneficios para Locales | T03-1 | Diseñar sección “Para Locales” | Crear layout visual para locales asociados. | 1 | Matías Aliaga | Done |
+| US-LP-03 | Ver Beneficios para Locales | T03-2 | Implementar HTML/CSS | Implementar diseño en código. | 1 | Matías Aliaga | Done |
+| US-LP-03 | Ver Beneficios para Locales | T03-3 | Redactar contenido | Escribir beneficios claros para los dueños de locales. | 0.5 | Ivo Machado | Done |
+| US-LP-04 | Explicación de Cómo Funciona | T04-1 | Diseñar flujo visual | Crear diseño de pasos para aprendices y locales. | 2 | Matías Aliaga | Done |
+| US-LP-04 | Explicación de Cómo Funciona | T04-2 | Implementar HTML/CSS/JS | Implementar sección interactiva que muestre los pasos. | 3 | Matías Aliaga | Done |
+| US-LP-04 | Explicación de Cómo Funciona | T04-3 | Integrar datos dinámicos | Preparar estructura para cargar pasos desde el backend (mock API). | 2 | Leandro Contreras | In Progress |
+| US-LP-05 | Visualización de Testimonios | T05-1 | Diseñar sección de testimonios | Crear layout con fotos, nombres y comentarios. | 1 | Matías Aliaga | Done |
+| US-LP-05 | Visualización de Testimonios | T05-2 | Implementar carrusel dinámico | Implementar carrusel con JavaScript. | 2 | Ítalo Sánchez | Done |
+| US-LP-05 | Visualización de Testimonios | T05-3 | Endpoint de testimonios | Crear endpoint REST en Java Spring Boot para cargar testimonios desde base de datos. | 4 | Leandro Contreras | In Progress |
+| US-LP-06 | Llamadas a la Acción (CTA) Diferenciadas | T06-1 | Crear botones diferenciados | Implementar botones para “Aprendiz” y “Local”. | 1 | Matías Aliaga | Done |
+| US-LP-06 | Llamadas a la Acción (CTA) Diferenciadas | T06-2 | Conectar backend | Asociar los botones con rutas de registro del backend. | 2 | Leandro Contreras | Done |
+| US-LP-07 | Adaptabilidad a Diferentes Dispositivos | T07-1 | Implementar responsive design | Adaptar landing page a pantallas móviles. | 4 | Matías Aliaga | Done |
+| US-LP-07 | Adaptabilidad a Diferentes Dispositivos | T07-2 | Test de compatibilidad | Probar en distintos navegadores y dispositivos. | 2 | Ítalo Sánchez | Done |
+| US-LP-08 | Navegación mediante Encabezado Fijo | T08-1 | Diseñar header fijo | Diseñar barra de navegación con scroll sticky. | 1 | Matías Aliaga | Done |
+| US-LP-08 | Navegación mediante Encabezado Fijo | T08-2 | Implementar comportamiento JS | Programar desplazamiento suave y resaltado de secciones. | 2 | Ítalo Sánchez | Done |
+| US-LP-09 | Sección de Preguntas Frecuentes (FAQ) | T09-1 | Diseñar sección FAQ | Crear estructura de preguntas desplegables. | 1 | Matías Aliaga | Done |
+| US-LP-09 | Sección de Preguntas Frecuentes (FAQ) | T09-2 | Programar comportamiento | Implementar acordeón con JavaScript. | 1 | Ítalo Sánchez | Done |
+| US-LP-09 | Sección de Preguntas Frecuentes (FAQ) | T09-3 | Redactar contenido | Redactar preguntas y respuestas principales. | 1 | Ivo Machado | Done |
+| US-LP-10 | Visualización del Pie de Página | T10-1 | Diseñar footer | Diseñar estructura del pie de página. | 1 | Matías Aliaga | Done |
+| US-LP-10 | Visualización del Pie de Página | T10-2 | Implementar HTML/CSS | Crear pie de página con enlaces y redes. | 1 | Matías Aliaga | Done |
+| US-LP-10 | Visualización del Pie de Página | T10-3 | Agregar enlaces legales | Añadir enlaces a políticas de privacidad y condiciones. | 0.5 | Ítalo Sánchez | Done |
+| US-LP-10 | Visualización del Pie de Página | T10-4 | Verificar integración | Validar que el pie de página cargue correctamente en todas las vistas. | 0.5 | Ítalo Sánchez | Done |
+
 #### 4.2.1.3. Development Evidence for Sprint Review
+
+En esta sección presentamos el flujo de trabajo para la creación y actuallización de la landing page
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| glottia-landing-page | main | 01 | Landing Page | - | 29/09/2025 |
+
+
+[Repositorio Glottia – Landing Page](https://github.com/Hampcoders-Glottia/glottia-landing-page)
+
+
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de pruebas de aceptación realizadas durante el **Sprint 1** del proyecto **Glottia**, enfocadas en validar la correcta implementación de la **Landing Page** y los **endpoints iniciales del backend** desarrollados con **Java Spring Boot**.
+
+| Epic / Story ID | Título | Criterios de Aceptación | Resultado |
+|----------------|--------|--------------------------|-----------|
+| US-01 | Visualización de la Landing Page | **Escenario #1: Carga y estructura general**<br>Given que un usuario accede a la URL principal de Glottia<br>When la página termina de cargar<br>Then debe visualizar correctamente el hero banner, las secciones informativas y el pie de página<br>And no deben presentarse errores en consola ni fallos visuales. | ✅ Pasado |
+| US-01 | Visualización de la Landing Page | **Escenario #2: Contenido visible y coherente**<br>Given que el usuario explora la landing page<br>When se desplaza por las secciones principales<br>Then debe visualizar mensajes claros sobre la misión y objetivos del proyecto Glottia<br>And los botones de acción deben dirigir correctamente a las secciones correspondientes. | ✅ Pasado |
+| US-02 | Autenticación de Usuario (Backend) | **Escenario #1: Registro exitoso**<br>Given que un nuevo usuario envía sus datos válidos al endpoint `/api/auth/register`<br>When la solicitud es procesada por el backend Java Spring Boot<br>Then debe crearse un nuevo registro en la base de datos<br>And el sistema debe devolver una respuesta con código 201 y un mensaje de confirmación. | ✅ Pasado |
+| US-02 | Autenticación de Usuario (Backend) | **Escenario #2: Inicio de sesión correcto**<br>Given que un usuario registrado envía sus credenciales al endpoint `/api/auth/login`<br>When las credenciales son válidas<br>Then el sistema debe generar y devolver un token JWT<br>And el código de respuesta debe ser 200. | ✅ Pasado |
+| US-02 | Autenticación de Usuario (Backend) | **Escenario #3: Validación de credenciales erróneas**<br>Given que un usuario intenta iniciar sesión con datos incorrectos<br>When envía la solicitud al endpoint `/api/auth/login`<br>Then el backend debe responder con un código 401<br>And un mensaje de error indicando “Credenciales inválidas”. | ✅ Pasado |
+| US-03 | Responsividad del Sitio | **Escenario #1: Visualización en móviles**<br>Given que el usuario accede desde un smartphone<br>When se carga la landing page<br>Then todos los elementos deben ajustarse correctamente al ancho del dispositivo<br>And no debe existir desplazamiento horizontal<br>And los botones deben ser accesibles táctilmente. | ✅ Pasado |
+| US-03 | Responsividad del Sitio | **Escenario #2: Visualización en pantallas medianas (tablets)**<br>Given que el usuario accede desde una tablet<br>When se carga la landing page<br>Then el diseño debe reorganizar los elementos de manera proporcional<br>And mantener la legibilidad del contenido y la jerarquía visual. | ✅ Pasado |
+| US-04 | Comunicación Frontend–Backend | **Escenario #1: Consumo de endpoints**<br>Given que el frontend intenta conectarse con los endpoints del backend desplegado<br>When se realiza una solicitud desde la interfaz (por ejemplo, registro o login)<br>Then la API debe responder correctamente según los parámetros enviados<br>And no deben presentarse errores CORS ni fallos de conexión. | ✅ Pasado |
+| US-05 | Seguridad del Sistema | **Escenario #1: Validación de token JWT**<br>Given que un usuario intenta acceder a un endpoint protegido<br>When no incluye el token de autenticación<br>Then el backend debe devolver un código 403<br>And cuando el token es válido, el acceso debe concederse correctamente. | ✅ Pasado |
+| US-06 | Sección “Sobre Glottia” | **Escenario #1: Visualización de información corporativa**<br>Given que un visitante se desplaza hasta la sección “Sobre Glottia”<br>When se muestra el contenido<br>Then debe visualizarse la misión, visión y objetivo del proyecto<br>And el diseño debe mantener coherencia con la identidad visual general. | ✅ Pasado |
+| US-07 | Pie de Página | **Escenario #1: Verificación de enlaces funcionales**<br>Given que el usuario llega al pie de página<br>When hace clic en cualquiera de los enlaces o redes sociales<br>Then debe redirigir correctamente a la página o red externa<br>And no deben existir enlaces rotos. | ✅ Pasado |
+
+---
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
+
+En esta entrega, nuestro equipo ha desplegado con éxito la landing page.
+Enlace de la Landing Page: https://glottia-landing-page-master.vercel.app/
+
+<img src="https://i.postimg.cc/fT2VnLTz/landing1.png" />
+
+<img src="https://i.postimg.cc/j5txJ0dv/landing2.png" />
+
+<img src="https://i.postimg.cc/Mp1J0P4X/landing3.png" />
+
+<img src="https://i.postimg.cc/RC3S6RMq/landing-4.png" />
+
+<img src="https://i.postimg.cc/zfLtSV3G/lading5.png" />
+
+<img src="https://i.postimg.cc/Gm6JRzhd/landing6.png" />
+
+
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+api 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para este primer Sprint , como equipo logramos implementar satisfactoriamente la primera versión de la landing page.
+
+## Design
+
+Para realizar el diseño de los wireframes y mockups de la **Landing Page** para este Sprint, se hizo uso de la plataforma **Figma**.
+Para utilizar la plataforma:
+
+1. Se accede a través de la página oficial de Figma: https://www.figma.com/login
+    <img  src="https://i.postimg.cc/g2yX0rpY/65765.png"/>
+2. Luego, se crea un **Draft** que nos servirá como base para el proyecto colaborativo.
+   <img  src="https://i.postimg.cc/dQzjk7bd/76867.png"/>
+---
+
+## Deployment
+
+Para la landing page, se utilizará Netlify para el despliegue de la página.
+<img  src="https://i.postimg.cc/W3d0tjSX/9789789.png"/>
+<img  src="https://i.postimg.cc/6qd2GQZL/567567.png"/>
+<img  src="https://i.postimg.cc/3Jtrfp30/876876.png"/>
+<img  src="https://i.postimg.cc/FRTnX9zp/87876.png"/>
+
+<img  src="https://i.postimg.cc/tg2zYBbC/5456.png"/>
+
+<img  src="https://i.postimg.cc/KvPpmr14/45345.png"/>
+
+<img  src="https://i.postimg.cc/prNkHpxD/32143.png"/>
+
+
+Tras definir el repositorio , conectamos este mismo con el servicio de netlify para realizar el despliegue.
+
+<img  src="https://i.postimg.cc/kMxvSMqp/645.png"/>
+
+<img  src="https://i.postimg.cc/YqdgNhVb/44.png"/>
+
+
+Para nuestro proyecto se crearon **2 repositorios**, el cuál fue:
+
+- **Glottia** | https://github.com/Hampcoders-Glottia/glottia-landing-page: Este repositorio se usa para realizar el informe del proyecto de manera continua y subir la landing page. :
+- **Documentación** | https://github.com/Hampcoders-Glottia/glottia-docs : Este repositorio contiene el informe de nuestro proyecto.
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+A continuación, se muestran las capturas de los insights del repositorio.
+
 
 ## 4.3. Validation Interviews
 ### 4.3.1. Diseño de Entrevistas
