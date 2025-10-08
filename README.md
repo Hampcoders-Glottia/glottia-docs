@@ -1620,7 +1620,18 @@ En esta sección, el equipo organiza el Product Backlog incluyendo Historias de 
 
 El EventStorming es una técnica de brainstorming colaborativa y visual que se utiliza en el desarrollo de software, especialmente en el contexto de Domain-Driven Design (DDD). Su objetivo principal es ayudar a un equipo a entender y modelar un dominio de negocio complejo, identificando los eventos de dominio que ocurren en él. A continuación el equipo presenta el diseño del EventStorming.
 
+
+Event storming para el bounded context de Identity and Access Management:
+<img src="https://i.postimg.cc/K8HjgKLk/Screenshot-2025-10-08-001642.png"/>
+
+Event storming para Profiles and Preferences:
+<img src="https://i.postimg.cc/Z5Mny93q/Screenshot-2025-10-08-001630.png"/>
+
+Event storming para Venues Management:
+<img src="https://i.postimg.cc/jSF2JWNW/Screenshot-2025-10-08-001657.png"/>
+
 ![EventStorming](https://github.com/user-attachments/assets/7b4f333f-54bf-4ed7-abc0-a3d2c33a3238)
+
 
 #### 2.5.1.1. Candidate Context Discovery
 |     <b>Contexto Candidato</b>        |                         <b>Eventos Principales</b>                          |            <b>Responsable(s)</b>               |                  <b>Riesgos Asociados</b>                               |
