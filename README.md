@@ -2333,6 +2333,8 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 <img src = "https://i.postimg.cc/y825qkVJ/flow2.png" />
 
+<img src = "https://i.postimg.cc/pLjCFkHr/flow3.png" />
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 ---
