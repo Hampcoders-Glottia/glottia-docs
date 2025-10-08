@@ -2370,6 +2370,8 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 <img src = "https://i.postimg.cc/J4dmnN3b/6.png" />
 
+Link del figna : 
+[https://www.figma.com/board/IB0rlem6ToiF6vo88FiLOS/Mockups-Mobile-Design?node-id=0-1&t=iNvvsclDVlCNZqdx-1](https://www.figma.com/board/IB0rlem6ToiF6vo88FiLOS/Mockups-Mobile-Design?node-id=0-1&t=iNvvsclDVlCNZqdx-1)
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
@@ -2399,6 +2401,8 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 <img src = "https://i.postimg.cc/2SzzM9SW/g.png" />
 
+Link del figna : 
+[https://www.figma.com/board/IB0rlem6ToiF6vo88FiLOS/Mockups-Mobile-Design?node-id=0-1&t=iNvvsclDVlCNZqdx-1](https://www.figma.com/board/IB0rlem6ToiF6vo88FiLOS/Mockups-Mobile-Design?node-id=0-1&t=iNvvsclDVlCNZqdx-1)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -2414,6 +2418,13 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 
 #### 3.1.4.5. Mobile Applications Prototyping
+
+Esta sección presenta los prototipos de interfaz de usuario , los cuales incluyen simulaciones de interacción y navegación. Las decisiones de interacción son fundamentales para este proyecto, como la facilidad de uso, la accesibilidad y la optimización para distintos dispositivos.
+
+<img src = "https://i.postimg.cc/bNpBBt9V/figam.png" />
+
+Link del prototipo : 
+[https://www.figma.com/design/YfmmSOYeV6By23evfrgu2S/Glottia-Mockups?node-id=7-688&t=EnkftiBiuW0AMmOv-1](https://www.figma.com/design/YfmmSOYeV6By23evfrgu2S/Glottia-Mockups?node-id=7-688&t=EnkftiBiuW0AMmOv-1)
 
 ---
 
