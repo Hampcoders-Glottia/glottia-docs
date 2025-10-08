@@ -2339,10 +2339,6 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
-<img src = "https://i.postimg.cc/SK3mvyP5/Captura.png" />
-
-#### 3.1.4.4. Mobile Applications User Flow Diagrams
-
 <img src = "https://i.postimg.cc/B6JtgZPr/a.png" />
 
 <img src = "https://i.postimg.cc/sxhFG7Dp/b.png" />
@@ -2356,6 +2352,20 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 <img src = "https://i.postimg.cc/mZH2HFnD/f.png" />
 
 <img src = "https://i.postimg.cc/2SzzM9SW/g.png" />
+
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+<img src = "https://i.postimg.cc/SK3mvyP5/Captura.png" />
+
+<img src = "https://i.postimg.cc/y825qkVJ/flow2.png" />
+
+<img src = "https://i.postimg.cc/pLjCFkHr/flow3.png" />
+
+<img src = "https://i.postimg.cc/xd0m1PT8/flow4.png" />
+
+<img src = "https://i.postimg.cc/hPLb4vbz/flow5.png" />
+
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
