@@ -53,9 +53,12 @@
 |   TB1   | 16/09/2025  | **Ítalo Ludwing Sánchez Manrique**            | Configuración del entorno de desarrollo. Gestión inicial del *Product Backlog*. Aportes en la estructura general del documento y lineamientos de SEO. |
 |   TB1   | 16/09/2025  | **Ivo Marcelo Machado Bracamonte**            | Diseño de *User Personas*, *User Task Matrix* y flujos de usuario. Desarrollo de prototipos móviles y guía de estilos visuales. Apoyo en estructura narrativa del documento. |
 |   TB1   | 16/09/2025  | **Rodrigo Jesús Miraval Pomalaya**            | Investigación de bases de datos relacionales y no relacionales. Propuesta de modelo de datos inicial. Redacción de *Requirements Specification* y contribución en *EventStorming*. |
-|   TB1   | 16/09/2025  | **Piero Francesco Tenorio Medina**            | Apoyo en la definición de *User Journey Mapping* y *Empathy Mapping*. Contribución en la documentación de *Bounded Context Canvases*. Revisión de consistencia en *Context Mapping*. |
+|   TB1   | 16/09/2025  | **Ítalo Ludwing Sánchez Manrique**            | Apoyo en la definición de *User Journey Mapping* y *Empathy Mapping*. Contribución en la documentación de *Bounded Context Canvases*. Revisión de consistencia en *Context Mapping*. |
 |   TB1   | 16/09/2025  | **Arnold Gabriel Morales Sosa**               | Configuración del repositorio en GitHub. Propuesta de flujo de control de versiones (*branching strategy*). Documentación del uso de herramientas colaborativas. Apoyo en la integración de *Software Architecture Diagrams*. |
-
+|   TP1   | 07/10/2025  | **Ethan Matías Aliaga Aguirre**               | Implementación y planificación del Sprint 1 . Desarrollo del Backend API |
+|   TP1   | 07/10/2025  | **Leandro Saúl Contreras López**              | Desarrollo del Backend API. Desarrollo en el diseño de los Wireframes y Mockups |
+|   TP1   | 07/10/2025  | **Ítalo Ludwing Sánchez Manrique**            | Configuración general del documento, apoyo en el diseño de los wireframes y mockups. |
+|   TP1   | 07/10/2025  | **Ivo Marcelo Machado Bracamonte**            | Desarrollo de la landing page y aplicación movil en Android. |
 
 ---
 
