@@ -1625,23 +1625,23 @@ El EventStorming es una técnica de brainstorming colaborativa y visual que se u
 #### 2.5.1.1. Candidate Context Discovery
 |     <b>Contexto Candidato</b>        |                         <b>Eventos Principales</b>                          |            <b>Responsable(s)</b>               |                  <b>Riesgos Asociados</b>                               |
 |:------------------------------------:|:---------------------------------------------------------------------------:|:----------------------------------------:|:---------------------------------------------------------------:|
-|     User Identity & Trust            |Usuario se registra, valida identidad, obtiene insignias de confianza        |Usuario aprendiz, sistema de verificación |Suplantación de identidad, baja confianza en la comunidad          |
-|     Language Exchange Session        |Creación de sesión, emparejamiento de aprendices, confirmación de asistencia |Usuario aprendiz, app Glottia |Cancelaciones frecuentes, baja asistencia                          |
-|     Venue Partnership                |Registro de local asociado, disponibilidad de espacios, reseñas de usuarios  |Administradores de locales, sistema      |Baja atracción de clientes, incumplimiento de condiciones del local|
-|     Learning Progress & Gamification |Registro de participación, asignación de puntos, logros desbloqueados        |Usuario aprendiz, sistema                |Desmotivación si no hay recompensas claras                         |
+|     Identity & Access Management     |Usuario se registra, valida identidad, obtiene insignias de confianza        |Usuario aprendiz, sistema de verificación |Suplantación de identidad, baja confianza en la comunidad          |
+|     Encounter Management             |Creación de sesión, emparejamiento de aprendices, confirmación de asistencia |Usuario aprendiz, app Glottia |Cancelaciones frecuentes, baja asistencia                          |
+|     Venue Management                 |Registro de local asociado, disponibilidad de espacios, reseñas de usuarios  |Administradores de locales, sistema      |Baja atracción de clientes, incumplimiento de condiciones del local|
+|     Loyaly & Gamification            |Registro de participación, asignación de puntos, logros desbloqueados        |Usuario aprendiz, sistema                |Desmotivación si no hay recompensas claras                         |
 |     Community & Cultural Exchange    |Publicación de normas, moderación de interacciones, actividades culturales   |Comunidad Glottia, moderadores           |Conductas inapropiadas, ambiente inseguro                          |
 
 #### 2.5.1.2. Domain Message Flows Modeling
 | Flujo              | Contexto Origen                 | Mensaje/Event / Comando         | Contexto Destino                  | Resultado                                                                 |
 |--------------------|---------------------------------|---------------------------------|-----------------------------------|---------------------------------------------------------------------------|
-| Registro y Confianza | User Identity & Trust           | Evento: Usuario verificado       | Community & Cultural Exchange      | El usuario obtiene acceso completo a la comunidad y puede participar en eventos. |
-| Reserva de Sesión  | Language Exchange Session        | Evento: Sesión creada            | Venue Partnership                  | Se notifica al local asociado que habrá un encuentro y se bloquea el espacio. |
-| Matchmaking        | Language Exchange Session        | Comando: Emparejar aprendiz      | User Identity & Trust              | El sistema consulta idioma, nivel y disponibilidad antes de asignar compañero. |
-| Gamificación       | Learning Progress & Gamification | Evento: Logro desbloqueado       | Community & Cultural Exchange      | El sistema muestra insignias y motiva la participación en próximos eventos. |
+| Registro y Confianza | Identity & Access Management           | Evento: Usuario verificado       | Community & Cultural Exchange      | El usuario obtiene acceso completo a la comunidad y puede participar en eventos. |
+| Reserva de Sesión  | Encounter Management         | Evento: Sesión creada            | Venue Partnership                  | Se notifica al local asociado que habrá un encuentro y se bloquea el espacio. |
+| Matchmaking        | Encounter Management         | Comando: Emparejar aprendiz      | Identity & Access Management             | El sistema consulta idioma, nivel y disponibilidad antes de asignar compañero. |
+| Gamificación       | Loyaly & Gamification n | Evento: Logro desbloqueado       | Community & Cultural Exchange      | El sistema muestra insignias y motiva la participación en próximos eventos. |
 | Calificación       | Community & Cultural Exchange    | Evento: Reseña creada            | Venue Partnership + User Identity & Trust | Se actualiza la reputación tanto del local como del usuario anfitrión. |
 
 #### 2.5.1.3. Bounded Context Canvases
-![The Bounded Context Canvas - User Identity & Trust](https://github.com/user-attachments/assets/e09a500e-4a55-4de6-96b1-dfc7caa8d66b)
+![The Bounded Context Canvas - Identity & Access Management](https://github.com/user-attachments/assets/e09a500e-4a55-4de6-96b1-dfc7caa8d66b)
 ![The Bounded Context Canvas - Language Exchange Session](https://github.com/user-attachments/assets/85ad1409-3898-49e8-84a9-66997d43f9cf)
 ![The Bounded Context Canvas - Venue Partnership](https://github.com/user-attachments/assets/0cf487fe-5c39-44fb-a258-67e4ead8b580)
 ![The Bounded Context Canvas - Learning Progress & Gamification](https://github.com/user-attachments/assets/1acfc8b3-5f61-42a7-b6ab-c547db50bcba)
@@ -1651,14 +1651,14 @@ El EventStorming es una técnica de brainstorming colaborativa y visual que se u
 
 | Contexto Origen                 | Relación (DDD)      | Contexto Destino                | Descripción                                                                 |
 |---------------------------------|----------------------|----------------------------------|-----------------------------------------------------------------------------|
-| User Identity & Trust            | Supplier             | Community & Cultural Exchange    | La verificación de usuario habilita acceso y confianza en la comunidad.     |
-| User Identity & Trust            | Supplier             | Language Exchange Session        | Los datos de idioma y nivel alimentan el proceso de matchmaking.            |
-| User Identity & Trust            | Shared Kernel        | Venue Partnership                | Se comparten datos básicos de reputación y verificación de usuarios.        |
-| Language Exchange Session        | Partnership          | Venue Partnership                | Una sesión programada bloquea espacio en un local asociado.                 |
-| Language Exchange Session        | Customer             | User Identity & Trust            | Consulta disponibilidad y nivel de idioma de los usuarios.                  |
-| Learning Progress & Gamification | Supplier             | Community & Cultural Exchange    | Los logros desbloqueados se publican en la comunidad para motivar.          |
-| Community & Cultural Exchange    | Supplier             | Venue Partnership                | Las reseñas de usuarios impactan en la reputación de los locales.           |
-| Community & Cultural Exchange    | Supplier             | User Identity & Trust            | Actualiza la reputación del usuario anfitrión con base en reseñas.          |
+| Identity & Access Management            | Supplier             | Community & Cultural Exchange    | La verificación de usuario habilita acceso y confianza en la comunidad.     |
+| Identity & Access Management            | Supplier             | Encounter Management      | Los datos de idioma y nivel alimentan el proceso de matchmaking.            |
+| Identity & Access Management            | Shared Kernel        | Venue Partnership                | Se comparten datos básicos de reputación y verificación de usuarios.        |
+| Encounter Management                    | Partnership          | Venue Partnership                | Una sesión programada bloquea espacio en un local asociado.                 |
+| Encounter Management                    | Customer             | Identity & Access Management            | Consulta disponibilidad y nivel de idioma de los usuarios.                  |
+| Learning Progress & Gamification        | Supplier             | Community & Cultural Exchange    | Los logros desbloqueados se publican en la comunidad para motivar.          |
+| Loyaly & Gamification                   | Supplier             | Venue Partnership                | Las reseñas de usuarios impactan en la reputación de los locales.           |
+| Loyaly & Gamification                    | Supplier             | Identity & Access Management            | Actualiza la reputación del usuario anfitrión con base en reseñas.          |
 
 ## Notas
 - **User Identity & Trust** es el **núcleo**, provee información confiable a los demás contextos.  
@@ -2603,7 +2603,17 @@ Enlace de la Landing Page: https://glottia-landing-page-master.vercel.app/
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
-Backend API
+En esta sección, el equipo define los endpoints implementados en el desarrollo del Backend API
+
+Endpoints para el bounded context de IAM
+<img src="https://i.postimg.cc/YqTjvBMS/Screenshot-2025-10-08-001913.png" />
+
+Endpoints para el bounded context de Profiles Management
+<img src="https://i.postimg.cc/Gh694ndB/Screenshot-2025-10-08-001857.png" />
+
+Endpoints para el bounded context de Venues Management
+<img src="https://i.postimg.cc/BQRtjf4G/Screenshot-2025-10-08-002017.png" />
+
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
