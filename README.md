@@ -2325,6 +2325,22 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
+
+<img src = "https://i.postimg.cc/qvjKgZbj/1.png" />
+
+<img src = "https://i.postimg.cc/8C77ckr6/2.png" />
+
+<img src = "https://i.postimg.cc/vZNmJRSD/3.png" />
+
+<img src = "https://i.postimg.cc/fRpwHcJL/4.png" />
+
+<img src = "https://i.postimg.cc/fyzZ35gS/5.png" />
+
+<img src = "https://i.postimg.cc/fyzZ35gS/5.png" />
+
+<img src = "https://i.postimg.cc/J4dmnN3b/6.png" />
+
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 <img src = "https://i.postimg.cc/pdXgYgLM/diagram-de-usario-aprendiz.png" />
