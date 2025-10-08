@@ -2328,6 +2328,17 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+<img src = "https://i.postimg.cc/SK3mvyP5/Captura.png" />
+
+<img src = "https://i.postimg.cc/y825qkVJ/flow2.png" />
+
+<img src = "https://i.postimg.cc/pLjCFkHr/flow3.png" />
+
+<img src = "https://i.postimg.cc/xd0m1PT8/flow4.png" />
+
+<img src = "https://i.postimg.cc/hPLb4vbz/flow5.png" />
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 ---
@@ -2548,7 +2559,8 @@ Enlace de la Landing Page: https://glottia-landing-page-master.vercel.app/
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
-api 
+Backend API
+
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
 Para este primer Sprint , como equipo logramos implementar satisfactoriamente la primera versión de la landing page.
