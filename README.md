@@ -100,7 +100,7 @@ Se evidenció un aumento en la frecuencia de commits.
 Se añadieron nuevas secciones técnicas, validaciones y gráficos de arquitectura.
 La colaboración se mantuvo balanceada entre mobile y backend.
 
-<img src="https://i.postimg.cc/jjNBmwPP/commitsss.png"/>
+<img src="https://i.postimg.cc/DwtVDNNb/cc.png"/>
 
 # Contenido
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -240,7 +240,7 @@ Convertirse en la comunidad global de referencia para la práctica de idiomas a 
 | Miembros del equipo                             | Codigo Estudiante | Descripcion            |
 | ----------------------------------------------- | ----------------- | ---------------------- |
 | Italo Ludwing Sanchez Manrique	![Imagen del compañero](https://i.imgur.com/R1iMW0N.png)   | U202316967            | Mi nombre es Italo Ludwing Sanchez Manrique, soy estudiante de Ingeniería de Software en la UPC, tengo 19 años y actualmente curso el sexto ciclo académico. Destaco por mi perseverancia, tolerancia y compromiso con mis metas. En este proyecto, mi objetivo es buscar soluciones que beneficien al grupo, ya que tengo experiencia en trabajar de forma proactiva y colaborativa. Además, poseo sólidos conocimientos en lenguajes de programación como Java y C++. | 
-| Ethan Matias Aliaga Aguirre	[![image.png](https://i.postimg.cc/sXYKCY1B/image.png)](https://postimg.cc/jwjyzJHK)   | U202318323            | Soy Ethan Matias Aliaga Aguirre, estudiante de 5to ciclo de Ingeniería de Software en la UPC, sede San Miguel. Me caracterizo por mi compromiso, responsabilidad, habilidad para trabajar en equipo y comunicación. Mis conocimientos Incluyen arquitectura de Software , desarrollo de APIs y Experiencias Web Full Stack. Además, tengo experiencia en el uso de herramientas como Photoshop, Filmadora y Vegas Studio, lo que me permite aportar con soluciones creativas y técnicas en mis proyectos. Estoy comprometido con mi crecimiento personal y profesional, siempre buscando aprender y mejorar en cada oportunidad que se presente. | 
+| Ethan Matias Aliaga Aguirre	[![image.png](https://i.postimg.cc/sXYKCY1B/image.png)](https://postimg.cc/jwjyzJHK)   | U202318323            | Soy Ethan Matias Aliaga Aguirre, estudiante de 5to ciclo de Ingeniería de Software en la UPC, sede San Miguel. Me caracterizo por mi compromiso, responsabilidad, habilidad para trabajar en equipo y comunicación. Mis conocimientos Incluyen arquitectura de Software , desarrollo de APIs . Además, tengo experiencia en el uso de herramientas como Photoshop, Filmadora y Vegas Studio, lo que me permite aportar con soluciones creativas y técnicas en mis proyectos. Estoy comprometido con mi crecimiento personal y profesional, siempre buscando aprender y mejorar en cada oportunidad que se presente. | 
 | Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png)   | U20231E215            | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
 | Ivo Marcelo Machado Bracamonte	![Imagen del compañero](https://i.imgur.com/n8LhONl.png)   | U20231C368            | Mi nombre es Ivo Machado, tengo 19 años, soy estudiante y actualmente estudio en el sexto ciclo de ingeniería de software en la UPC. Mis fuertes son la mentalidad, no me rindo con facilidad y no le tengo miedo al error, tengo empatía con los demás, me gusta resolver problemas y siempre intento mejorar en lo que hago y seguir aprendiendo. Tengo conocimientos del lenguaje de programación C++, Java y un poco de Python, HTML, CSS y JavaScript, también domino el Inglés y sé Portugués. | 
 |       Rodrigo Jesus Miraval Pomalaya        |            u202311082                       | |
@@ -1486,7 +1486,7 @@ El backend de Glottia (Java 23, Spring Boot 3.5.x) necesita comunicar eventos ur
 | Story ID | Título | Epic |
 | :---- | :---- | :---- |
 | **SP-02** | **Análisis de Estrategias para Notificaciones en Tiempo Real** | Notifications / Community |
-| **Descripción** | **Como** Developer, **Quiero** analizar diferentes tecnologías para notificaciones en tiempo real (WebSockets vs. Servicios de Push Notifications como Firebase Cloud Messaging) **Para** decidir la arquitectura más eficiente y escalable para el stack de Glottia. **Objetivo de Investigación:** Comprender la complejidad de implementación, costos de infraestructura y beneficios de cada enfoque. Evaluar cómo se integra cada solución con Spring Boot en el backend y con Android Nativo/React en los clientes. **Criterios de Aceptación:** 1\. Un documento comparativo detallando pros y contras de WebSockets (ej. con Spring WebSocket) y FCM para nuestro caso de uso. 2\. Una conclusión técnica documentada que recomiende una estrategia para el MVP. 3\. Un prototipo simple que demuestre la recepción de una notificación en un cliente **móvil nativo de Android** y en el dashboard de React al ocurrir un evento en el servidor. |  |
+| **Descripción** | **Como** Developer, **Quiero** analizar diferentes tecnologías para notificaciones en tiempo real ( Servicios de Push Notifications como Firebase Cloud Messaging) **Para** decidir la arquitectura más eficiente y escalable para el stack de Glottia. **Objetivo de Investigación:** Comprender la complejidad de implementación, costos de infraestructura y beneficios de cada enfoque. Evaluar cómo se integra cada solución con Spring Boot en el backend y con Android Nativo/React en los clientes. **Criterios de Aceptación:** 1\. Un documento comparativo detallando pros  y FCM para nuestro caso de uso. 2\. Una conclusión técnica documentada que recomiende una estrategia para el MVP. 3\. Un prototipo simple que demuestre la recepción de una notificación en un cliente **móvil nativo de Android** y en el dashboard de React al ocurrir un evento en el servidor. |  |
 
 ### **Spike: Prueba de Viabilidad de Búsquedas Geoespaciales en PostgreSQL**
 
@@ -1530,7 +1530,7 @@ Aunque la monetización es post-MVP, es un riesgo técnico significativo. La pla
 | Story ID | Título | Epic |
 | :---- | :---- | :---- |
 | **SP-06** | **Análisis de Integración con Pasarela de Pagos (Stripe)** | Monetization |
-| **Descripción** | **Como** Developer, **Quiero** investigar la API de Stripe y crear un prototipo básico de su integración con nuestro backend Spring Boot **Para** entender el esfuerzo, la complejidad y los requerimientos técnicos para implementar las suscripciones. **Objetivo de Investigación:** Mapear el flujo de datos necesario para crear suscripciones, manejar webhooks de pago (para confirmaciones, renovaciones y fallos), y asociar un plan de Stripe a un partner\_profile en nuestra base de datos. **Criterios de Aceptación:** 1\. Un documento que resuma los pasos clave para integrar Stripe Subscriptions, utilizando la librería stripe-java. 2\. Un prototipo funcional que logre: \- Crear un "Customer" en Stripe cuando un Partner se registra. \- Iniciar una sesión de "Stripe Checkout" para un plan de suscripción predefinido. \- Un endpoint en nuestro backend que reciba y valide un webhook de Stripe cuando el pago es exitoso. 3\. Una estimación de esfuerzo más precisa (en Story Points) para las User Stories de monetización del backlog. |  |
+| **Descripción** | **Como** Developer, **Quiero** investigar la API de Stripe y crear un prototipo básico de su integración con nuestro backend Spring Boot **Para** entender el esfuerzo, la complejidad y los requerimientos técnicos para implementar las suscripciones. **Objetivo de Investigación:** Mapear el flujo de datos necesario para crear suscripciones, manejar  pago (para confirmaciones, renovaciones y fallos), y asociar un plan de Stripe a un partner\_profile en nuestra base de datos. **Criterios de Aceptación:** 1\. Un documento que resuma los pasos clave para integrar Stripe Subscriptions, utilizando la librería stripe-java. 2\. Un prototipo funcional que logre: \- Crear un "Customer" en Stripe cuando un Partner se registra. \- Iniciar una sesión de "Stripe Checkout" para un plan de suscripción predefinido. \- Un endpoint en nuestro backend que reciba y valide un Stripe cuando el pago es exitoso. 3\. Una estimación de esfuerzo más precisa (en Story Points) para las User Stories de monetización del backlog. |  |
 ---
 
 ## Resumen del Proyecto
@@ -1717,7 +1717,7 @@ Este diagrama ofrece una visión general del ecosistema de Glottia. Muestra a lo
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
-Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, landing page, API web o base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
+Este diagrama desglosa el sistema Glottia en sus contenedores principales. Un contenedor representa una unidad desplegable o ejecutable, como una aplicación móvil, landing page y base de datos. Muestra cómo se distribuyen las responsabilidades del sistema entre estos contenedores.
 
 > [!IMPORTANT]
 > Descripción de Contenedores:
@@ -2099,20 +2099,26 @@ El logo de Glottia refleja la misión de la plataforma: ser un espacio de encuen
 **Variantes de Logo:**
 
 *Logo Original*
+
+<img src="https://i.postimg.cc/02YcxBrK/s.png"/>
+
 Con globos de diálogo y la palabra "GLOTTIA".
 
-*Logo OG*
-Versión simplificada para uso en fondos claros y digitales.
+--
 
 *Logo sin Letras (Logo NL)*
+
+<img src="https://i.postimg.cc/6pS7P9wL/aaa.png"/>
+
 Solo con los globos de diálogo, ideal para favicons, app icons o avatares sociales.
 
+--
+
 *Colores Invertidos (CI)*
+
+<img src="https://i.postimg.cc/rmHY0RL9/ssss.png"/>
+
 Fondo azul con globos y tipografía en blanco, para aplicaciones en superficies oscuras.
-
-**Typography:**
-
-La tipografía de Glottia es moderna, clara y amigable, alineada con su propósito de generar confianza y comodidad entre los usuarios. El lenguaje de marca será cercano, sencillo y motivador, para que los participantes sientan la plataforma como un espacio inclusivo y accesible.
 
 - Fuente primaria: Montserrat (Sans-serif)
 
@@ -2238,7 +2244,7 @@ La organización de la información en Glottia se ha diseñado para atender de m
 - **Author**: Equipo Glottia  
 
 #### Mobile Application 
-- **Title**: Glottia Web App | Encuentros y práctica de idiomas  
+- **Title**: Glottia Mobile App | Encuentros y práctica de idiomas  
 - **Meta Description**: Reserva encuentros, conecta con locales aliados y mejora tu fluidez en idiomas con Glottia. Una experiencia interactiva de aprendizaje y conexión.  
 - **Keywords**: Glottia app, practicar inglés, practicar español, intercambios, locales aliados, conversación en vivo  
 - **Author**: Equipo Glottia  
@@ -2425,8 +2431,8 @@ Se definen las herramientas, plataformas y productos de software utilizados a lo
 | **Trello** | Plataforma de gestión de proyectos que permite organizar tareas mediante tableros, listas y tarjetas. Facilita la asignación de responsables, seguimiento del progreso y comunicación entre los miembros del equipo. | [https://trello.com](https://trello.com) |
 | **UXPressia** | Herramienta en línea enfocada en el diseño de experiencias de usuario. Permite crear **User Personas**, **Customer Journey Maps**, **Empathy Maps** e **Impact Maps**, ofreciendo plantillas ágiles y colaborativas para el análisis del usuario. | [https://uxpressia.com](https://uxpressia.com) |
 | **Mural** | Plataforma visual colaborativa ideal para **brainstorming**, **scenario mapping** y desarrollo de **estrategias UX**. Permite trabajar en equipo de forma remota con plantillas interactivas y herramientas de diseño intuitivas. | [https://www.mural.co](https://www.mural.co) |
-| **Figma** | Herramienta de diseño colaborativo utilizada para la creación de **wireframes**, **mockups**, **prototipos interactivos** y **diseños de interfaces móviles/web**. Favorece la colaboración en tiempo real y la integración con flujos de trabajo ágiles. | [https://www.figma.com](https://www.figma.com) |
-| **Canva** | Aplicación web de diseño gráfico que permite crear materiales visuales (presentaciones, posters, publicaciones, etc.) con plantillas predefinidas y funciones colaborativas. Útil para diseño visual complementario. | [https://www.canva.com](https://www.canva.com) |
+| **Figma** | Herramienta de diseño colaborativo utilizada para la creación de **wireframes**, **mockups**, **prototipos interactivos** y **diseños de interfaces móviles**. Favorece la colaboración en tiempo real y la integración con flujos de trabajo ágiles. | [https://www.figma.com](https://www.figma.com) |
+| **Canva** | Aplicación mobile de diseño gráfico que permite crear materiales visuales (presentaciones, posters, publicaciones, etc.) con plantillas predefinidas y funciones colaborativas. Útil para diseño visual complementario. | [https://www.canva.com](https://www.canva.com) |
 | **Vertabelo** | Plataforma para el **diseño, documentación y gestión de bases de datos relacionales**. Permite modelar esquemas de datos, generar scripts SQL y trabajar colaborativamente en la estructura del sistema. | [https://vertabelo.com](https://vertabelo.com) |
 | **Lucidchart** | Herramienta de diagramación que facilita la creación de **diagramas de flujo**, **diagramas de clases**, **user flows** y **wireflows**. Ideal para la documentación visual y el análisis de procesos. | [https://lucidchart.com](https://lucidchart.com) |
 | **Structurizr** | Herramienta especializada para modelar **diagramas C4** de arquitectura de software. Permite representar de manera jerárquica los componentes del sistema y su relación con el entorno tecnológico. | [https://structurizr.com](https://structurizr.com) |
@@ -2497,7 +2503,7 @@ El ecosistema **Glottia** emplea diversos lenguajes de programación, frameworks
 **Consideraciones Preliminares al Despliegue:**
 
 * **Despliegue del Frontend (Landing Page):**  
-  La landing page de **Glottia**, desarrollada con **React** y **Tailwind CSS**, se despliega utilizando **GitHub Pages**, garantizando accesibilidad pública y actualizaciones continuas. Se mantiene la estructura modular de componentes y se optimiza la carga mediante minificación y empaquetado de recursos estáticos. Se permiten formatos de imagen estándares como `.jpg`, `.png`, y `.webp`.
+  La landing page de **Glottia**, desarrollada con **React** y **Tailwind CSS**, se despliega utilizando **GitHub Pages**, garantizando accesibilidad pública y actualizaciones continuas. Se mantiene la estructura modular de componentes y se optimiza la carga mediante minificación y empaquetado de recursos estáticos. Se permiten formatos de imagen estándares como `.jpg` y `.png`.
 
 * **Despliegue del Backend (API – Spring Boot):**  
   El servicio backend, implementado en **Java con Spring Boot**, se despliega en un entorno local de pruebas y puede ser adaptado a servicios en la nube (como **Render**, **Railway**, o **AWS**) según los requerimientos del proyecto. Se configuraron variables de entorno para credenciales y se estableció una estructura de endpoints REST bajo buenas prácticas de seguridad y modularidad.
@@ -2661,13 +2667,7 @@ Para la landing page, se utilizará Netlify para el despliegue de la página.
 <img  src="https://i.postimg.cc/W3d0tjSX/9789789.png"/>
 <img  src="https://i.postimg.cc/6qd2GQZL/567567.png"/>
 <img  src="https://i.postimg.cc/3Jtrfp30/876876.png"/>
-<img  src="https://i.postimg.cc/FRTnX9zp/87876.png"/>
 
-<img  src="https://i.postimg.cc/tg2zYBbC/5456.png"/>
-
-<img  src="https://i.postimg.cc/KvPpmr14/45345.png"/>
-
-<img  src="https://i.postimg.cc/prNkHpxD/32143.png"/>
 
 
 Tras definir el repositorio , conectamos este mismo con el servicio de netlify para realizar el despliegue.
@@ -2781,10 +2781,10 @@ El propósito de la entrevista fue **evaluar la percepción y usabilidad de la l
 
 
 2. Adriana Calderón  <br>
-   <img  src="https://i.ibb.co/V09GMF8T/imagen.png" style="width:800px; height:400px;"/>
-   _Entrevista de la Landing Page a Adriana Calderón_
+   <img  src="https://i.postimg.cc/W3xFQ5T5/adas.png" style="width:800px; height:400px;"/>
+  
 
-   Enlace: [https://i.postimg.cc/W3xFQ5T5/adas.png](https://i.postimg.cc/W3xFQ5T5/adas.png) <br>
+   Enlace: [https://www.youtube.com/watch?v=cxfxIXlFF2I](https://www.youtube.com/watch?v=cxfxIXlFF2I) <br>
    Duración: 5:08 min<br>
    Empieza: 00:00<br>
    
@@ -2910,7 +2910,7 @@ Se buscó conocer su opinión sobre la **landing page**, la **usabilidad percibi
 - Explorar el registro y roles de usuario (aprendiz / guía).  
 - Interactuar con el sistema de práctica oral y visualización de progreso.  
 - Evaluar claridad, accesibilidad y diseño visual.  
-- Revisar facilidad de uso en la versión móvil y web.  
+- Revisar facilidad de uso en la versión móvil.  
 - Probar flujo de registro y autenticación de usuarios.  
 - Evaluar retroalimentación del sistema tras completar acciones.  
 - Comprobar la consistencia visual y la alineación con la identidad Glottia.  
