@@ -57,7 +57,7 @@
 |   TB1   | 16/09/2025  | **Arnold Gabriel Morales Sosa**               | Configuración del repositorio en GitHub. Propuesta de flujo de control de versiones (*branching strategy*). Documentación del uso de herramientas colaborativas. Apoyo en la integración de *Software Architecture Diagrams*. |
 |   TP1   | 07/10/2025  | **Ethan Matías Aliaga Aguirre**               | Implementación y planificación del Sprint 1 . Desarrollo del Backend API |
 |   TP1   | 07/10/2025  | **Leandro Saúl Contreras López**              | Desarrollo del Backend API. Desarrollo en el diseño de los Wireframes y Mockups |
-|   TP1   | 07/10/2025  | **Ítalo Ludwing Sánchez Manrique**            | Configuración general del documento, apoyo en el diseño de los wireframes y mockups. |
+|   TP1   | 07/10/2025  | **Ítalo Ludwing Sánchez Manrique**            | Configuración general del documento, Desarrollo en el diseño de los wireframes y mockups. |
 |   TP1   | 07/10/2025  | **Ivo Marcelo Machado Bracamonte**            | Desarrollo de la landing page y aplicación movil en Android. |
 
 ---
@@ -92,6 +92,15 @@ Captura de commits semanales por integrante:
 
 
 ---
+
+### TP – Profundización Técnica y Análisis de Arquitectura
+Durante la entrega de prototipo y landing page , el equipo se enfocó en documentar las decisiones arquitectónicas, la estructura de carpetas, herramientas utilizadas y descripción de cada módulo.
+
+Se evidenció un aumento en la frecuencia de commits.
+Se añadieron nuevas secciones técnicas, validaciones y gráficos de arquitectura.
+La colaboración se mantuvo balanceada entre mobile y backend.
+
+<img src="https://i.postimg.cc/jjNBmwPP/commitsss.png"/>
 
 # Contenido
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -205,9 +214,10 @@ En esta sección se evidencia cómo las actividades realizadas en el **Trabajo F
 
 > *Adquiere y aplica nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
 
-| **Criterio específico** | **Acciones realizadas (TB1)** | **Conclusiones (TB1)** |
+| **Criterio específico** | **Acciones realizadas ** | **Conclusiones ** |
 |-------------------------|-------------------------------|-------------------------|
-| **Demuestra capacidad de adquirir y aplicar nuevos conocimientos según sea necesario.** | **Aliaga Aguirre, Ethan Matías**<br>- Investigó y redactó la **Descripción de la Startup** y **Perfiles de Integrantes del Equipo**, aplicando metodologías de documentación empresarial.<br>- Contribuyó en la **Especificación de Requerimientos (User Stories, Impact Mapping, Product Backlog)**, investigando buenas prácticas en gestión de requisitos.<br><br>**Contreras López, Leandro Saúl**<br>- Elaboró la sección de **Antecedentes y Problemática**, contextualizando la solución en el marco de la industria EdTech.<br>- Participó en el **Diseño de Entrevistas y Registro**, aplicando técnicas de levantamiento de información para identificar necesidades reales de los usuarios.<br><br>**Machado Bracamonte, Ivo Marcelo**<br>- Desarrolló los entregables de **Lean UX Process** (Problem Statements, Assumptions, Hypothesis, Canvas), aprendiendo a aplicar esta metodología centrada en el usuario.<br>- Contribuyó en la construcción de **User Personas** y **User Task Matrix**, profundizando en técnicas de experiencia de usuario.<br><br>**Miraval Pomalaya, Rodrigo Jesús**<br>- Se encargó del **Análisis Competitivo** y de proponer **Estrategias frente a Competidores**, explorando marcos de referencia estratégicos en el desarrollo de software.<br>- Colaboró en la elaboración de **Context Mapping** y **EventStorming**, asimilando conceptos de Domain-Driven Design.<br><br>**Morales Sosa, Arnold Gabriel**<br>- Documentó y diagramó los apartados de **Arquitectura de Software** (Context Level, Container Level, Deployment), aprendiendo notación C4 y su aplicación en ingeniería de software.<br>- Participó en la redacción de **Ubiquitous Language**, vinculando conceptos técnicos con el dominio del negocio.<br><br>**Sánchez Manrique, Italo Ludwing**<br>- Lideró el diseño de **User Journey Mapping y Empathy Mapping**, investigando métodos de análisis de experiencia de usuario.<br>- Contribuyó en la construcción de los **Bounded Context Canvases** y en el modelado de capas de DDD (Domain, Interface, Application, Infrastructure). | **TB1:** El equipo demostró su capacidad de **aprender de manera autónoma** para abordar nuevas metodologías (Lean UX, Domain-Driven Design, C4, Needfinding) y herramientas de modelado. La investigación y aplicación práctica de estos enfoques redujo la incertidumbre en el diseño de la solución, permitió consolidar una base conceptual sólida y garantizó que cada entregable esté alineado con buenas prácticas de Ingeniería de Software. |
+| **Demuestra capacidad de adquirir y aplicar nuevos conocimientos según sea necesario.** | **Aliaga Aguirre, Ethan Matías**<br>- Investigó y redactó la **Descripción de la Startup** y **Perfiles de Integrantes del Equipo**, aplicando metodologías de documentación empresarial.<br>- Contribuyó en la **Especificación de Requerimientos (User Stories, Impact Mapping, Product Backlog)**, investigando buenas prácticas en gestión de requisitos.<br><br>**Contreras López, Leandro Saúl**<br>- Elaboró la sección de **Antecedentes y Problemática**, contextualizando la solución en el marco de la industria EdTech.<br>- Participó en el **Diseño de Entrevistas y Registro**, aplicando técnicas de levantamiento de información para identificar necesidades reales de los usuarios.<br><br>**Machado Bracamonte, Ivo Marcelo**<br>- Desarrolló los entregables de **Lean UX Process** (Problem Statements, Assumptions, Hypothesis, Canvas), aprendiendo a aplicar esta metodología centrada en el usuario.<br>- Contribuyó en la construcción de **User Personas** y **User Task Matrix**, profundizando en técnicas de experiencia de usuario.<br><br>**Miraval Pomalaya, Rodrigo Jesús**<br>- Se encargó del **Análisis Competitivo** y de proponer **Estrategias frente a Competidores**, explorando marcos de referencia estratégicos en el desarrollo de software.<br>- Colaboró en la elaboración de **Context Mapping** y **EventStorming**, asimilando conceptos de Domain-Driven Design.<br><br>**Morales Sosa, Arnold Gabriel**<br>- Documentó y diagramó los apartados de **Arquitectura de Software** (Context Level, Container Level, Deployment), aprendiendo notación C4 y su aplicación en ingeniería de software.<br>- Participó en la redacción de **Ubiquitous Language**, vinculando conceptos técnicos con el dominio del negocio.<br><br>**Sánchez Manrique, Italo Ludwing**<br>- Lideró el diseño de **User Journey Mapping y Empathy Mapping**, investigando métodos de análisis de experiencia de usuario.<br>- Contribuyó en la construcción de los **Bounded Context Canvases** y en el modelado de capas de DDD (Domain, Interface, Application, Infrastructure). | **TB1:** El equipo demostró su capacidad de **aprender de manera autónoma** para abordar nuevas metodologías (Lean UX, Domain-Driven Design, C4, Needfinding) y herramientas de modelado. La investigación y aplicación práctica de estos enfoques redujo la incertidumbre en el diseño de la solución, permitió consolidar una base conceptual sólida y garantizó que cada entregable esté alineado con buenas prácticas de Ingeniería de Software.**TP:** En el Trabajo Final (TP), los integrantes aplicaron un enfoque de aprendizaje continuo y aplicado, profundizando en herramientas y tecnologías relacionadas con el desarrollo backend, el avance del aplicativo móvil, y la creación de prototipos, wireframes y mockups. Este proceso implicó la exploración de nuevos lenguajes, frameworks y técnicas de integración entre capas del sistema, fortaleciendo sus competencias técnicas. El equipo consolidó su capacidad de adaptarse a nuevos desafíos tecnológicos, evidenciando un crecimiento profesional sostenido y una aplicación práctica del conocimiento adquirido a lo largo del ciclo.
+|
 
 ---
 
@@ -2421,7 +2431,6 @@ Se definen las herramientas, plataformas y productos de software utilizados a lo
 | **Lucidchart** | Herramienta de diagramación que facilita la creación de **diagramas de flujo**, **diagramas de clases**, **user flows** y **wireflows**. Ideal para la documentación visual y el análisis de procesos. | [https://lucidchart.com](https://lucidchart.com) |
 | **Structurizr** | Herramienta especializada para modelar **diagramas C4** de arquitectura de software. Permite representar de manera jerárquica los componentes del sistema y su relación con el entorno tecnológico. | [https://structurizr.com](https://structurizr.com) |
 | **C4 Model** | Modelo conceptual para documentar arquitecturas de software en diferentes niveles de abstracción (contexto, contenedor, componente y código), ayudando a comunicar decisiones de diseño de forma estructurada. | [https://c4model.com](https://c4model.com) |
-| **HTML5 / CSS3 / JavaScript** | Conjunto de tecnologías empleadas para el desarrollo de la **Landing Page** del proyecto. Permiten construir interfaces web responsivas y visualmente atractivas, integrando elementos interactivos y multimedia. | — |
 | **GitHub** | Plataforma de control de versiones basada en Git que permite la colaboración en el desarrollo del código fuente, manejo de ramas, control de cambios y despliegue continuo. | [https://github.com](https://github.com) |
 | **Postman** | Herramienta para **pruebas y validación de APIs REST**. Permite enviar solicitudes HTTP, automatizar test cases y analizar respuestas del servidor durante la etapa de integración del sistema. | [https://www.postman.com](https://www.postman.com) |
 | **Firebase / AWS IoT Core (opcional)** | Plataformas en la nube para el **despliegue y gestión de soluciones IoT**, ofreciendo servicios de base de datos en tiempo real, autenticación, almacenamiento y comunicación entre dispositivos conectados. | [https://firebase.google.com](https://firebase.google.com) / [https://aws.amazon.com/iot-core](https://aws.amazon.com/iot-core) |
@@ -2441,7 +2450,7 @@ El ecosistema Glottia está estructurado en tres repositorios principales, cada 
 | **Componente / Producto** | **Descripción** | **Repositorio (GitHub URL)** |
 |----------------------------|-----------------|-------------------------------|
 | **Landing Page** | Contiene el código fuente de la página principal del proyecto, desarrollada con HTML, CSS y JavaScript. Su objetivo es brindar información general sobre Glottia, sus funcionalidades y acceso a la plataforma. | [https://github.com/Hampcoders-Glottia/glottia-landing-page](https://github.com/Hampcoders-Glottia/glottia-landing-page) |
-| **Web Services (Back-End)** | Incluye la lógica del servidor, controladores de API REST, base de datos, autenticación y servicios IoT. Contiene también los archivos de **pruebas unitarias e integración**, asegurando la correcta funcionalidad del sistema. | [https://github.com/Hampcoders-Glottia/glottia-back-end](https://github.com/Hampcoders-Glottia/glottia-back-end) |
+| **Mobile Services (Back-End)** | Incluye la lógica del servidor, controladores de API REST, base de datos, autenticación y servicios IoT. Contiene también los archivos de **pruebas unitarias e integración**, asegurando la correcta funcionalidad del sistema. | [https://github.com/Hampcoders-Glottia/glottia-back-end](https://github.com/Hampcoders-Glottia/glottia-back-end) |
 | **Documentación Técnica (Docs)** | Contiene la documentación técnica, manuales de uso, diagramas, reportes y archivos Markdown relacionados con la planificación y desarrollo del proyecto. | [https://github.com/Hampcoders-Glottia/glottia-docs](https://github.com/Hampcoders-Glottia/glottia-docs) |
 
 #### **Modelo de Ramas — GitFlow Workflow**
@@ -2468,26 +2477,18 @@ Se adopta el principio de **Clean Code** y se exige el uso consistente del **idi
 
 El ecosistema Glottia utiliza múltiples lenguajes de programación y tecnologías para diferentes componentes del sistema. Cada uno adopta convenciones reconocidas y guías oficiales:
 
+#### **Lenguajes y Estándares Aplicados**
+
+El ecosistema **Glottia** emplea diversos lenguajes de programación, frameworks y estándares reconocidos para garantizar la calidad, consistencia y mantenibilidad del sistema. Cada componente del proyecto adopta guías oficiales de estilo y buenas prácticas de la industria.
+
 | **Lenguaje / Tecnología** | **Guía de Estilo Adoptada** | **Referencia Oficial** |
 |----------------------------|------------------------------|-------------------------|
-| **HTML5 / CSS3** | Se siguen las convenciones de indentación, nombramiento semántico y estructura modular sugeridas por **Google HTML/CSS Style Guide**. | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
-| **JavaScript (Frontend)** | Uso del estándar **Airbnb JavaScript Style Guide**, promoviendo consistencia en variables, funciones y estructuras. | [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) |
-| **TypeScript (Frontend WebApp)** | Se adopta la **Google TypeScript Style Guide**, que enfatiza tipado estricto, uso de `interface` y separación clara de responsabilidades. | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
-| **Java (Backend - Spring Boot)** | Basado en las convenciones de **Google Java Style Guide** y las **Spring Boot Best Practices**, priorizando modularidad, claridad y consistencia. | [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) |
-| **SQL / Modelado de Datos (Vertabelo)** | Uso de nombres descriptivos en inglés, en singular, con prefijos claros según entidad. Palabras clave en mayúsculas. | [SQL Style Guide](https://www.sqlstyle.guide/) |
-| **Gherkin (.feature files - QA / BDD)** | Se siguen las convenciones de **Gherkin Conventions for Readable Specifications**, priorizando la claridad en los escenarios de prueba. | [Gherkin Syntax](https://cucumber.io/docs/gherkin/reference/) |
-| **HTML + CSS (Landing Page)** | Estructura jerárquica, uso de **BEM (Block-Element-Modifier)** para clases CSS y componentes reutilizables. | [BEM Naming Convention](http://getbem.com/naming/) |
+| **JavaScript / React (Landing Page)** | Implementación basada en **Airbnb JavaScript Style Guide**, complementada con componentes estilizados mediante **Tailwind CSS**, priorizando legibilidad y reutilización. | [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) <br> [Tailwind CSS Documentation](https://tailwindcss.com/docs) |
+| **Java (Backend – Spring Boot)** | Basado en la **Google Java Style Guide** y las **Spring Boot Best Practices**, asegurando modularidad, claridad y un código orientado a la mantenibilidad. | [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) <br> [Spring Boot Best Practices](https://spring.io/guides) |
+| **SQL / Modelado de Datos (Vertabelo)** | Uso de nombres en inglés, en singular y con prefijos según entidad. Palabras reservadas en mayúsculas y consistencia en relaciones entre tablas. | [SQL Style Guide](https://www.sqlstyle.guide/) |
+| **Kotlin / XML (Aplicativo móvil – Android Studio)** | Se adoptan las **Android Kotlin Style Guidelines** y convenciones oficiales de **JetBrains**, priorizando código limpio, reutilizable y seguro. | [Android Kotlin Style Guide](https://developer.android.com/kotlin/style-guide) |
+| **Gherkin (.feature files – QA / BDD)** | Se aplican las convenciones de **Gherkin Readable Specifications**, enfocadas en claridad, estructura y comprensión de escenarios de prueba. | [Gherkin Syntax](https://cucumber.io/docs/gherkin/reference/) |
 
-#### **Indentación y Estructura**
-
-- **Indentación:** 2 espacios para HTML, CSS, JavaScript y TypeScript; **4 espacios para Java**.  
-- **Longitud máxima de línea:** 120 caracteres.  
-- **Comillas:** Simples (`'`) por defecto en JavaScript/TypeScript; dobles (`"`) en Java y HTML.  
-- **Llaves:** En Java, se abren **en la misma línea** del bloque (`K&R style`).  
-- **Comentarios:**
-  - `//` para comentarios breves.
-  - `/** ... */` para documentación de métodos o clases.
-- **Bloques de código:** No más de 30 líneas por función o método. Se prioriza la modularidad y reutilización.
 
 ---
 
@@ -2495,9 +2496,19 @@ El ecosistema Glottia utiliza múltiples lenguajes de programación y tecnologí
 
 **Consideraciones Preliminares al Despliegue:**
 
-* **Implementación de Archivos Web:** Se requiere la implementación completa de la página web utilizando archivos HTML, CSS y JS para garantizar su correcta operatividad. Se autoriza el uso de diversos formatos para los archivos de imagen (jpg, png, webp, etc.).
-* **Mecanismo de Publicación en Github:** En virtud del servicio Github Pages, todos los archivos necesarios para la funcionalidad de la aplicación se cargarán al repositorio compartido de Github, facilitando la colaboración simultánea entre los miembros del equipo.
-* **Protocolo de Pruebas de Funcionamiento:** Tras cada actualización e integración al repositorio, se ejecutarán pruebas internas para asegurar la correcta operación de la página. Asimismo, se someterá la página a pruebas por parte de usuarios externos al grupo de trabajo para obtener una evaluación imparcial.
+* **Despliegue del Frontend (Landing Page):**  
+  La landing page de **Glottia**, desarrollada con **React** y **Tailwind CSS**, se despliega utilizando **GitHub Pages**, garantizando accesibilidad pública y actualizaciones continuas. Se mantiene la estructura modular de componentes y se optimiza la carga mediante minificación y empaquetado de recursos estáticos. Se permiten formatos de imagen estándares como `.jpg`, `.png`, y `.webp`.
+
+* **Despliegue del Backend (API – Spring Boot):**  
+  El servicio backend, implementado en **Java con Spring Boot**, se despliega en un entorno local de pruebas y puede ser adaptado a servicios en la nube (como **Render**, **Railway**, o **AWS**) según los requerimientos del proyecto. Se configuraron variables de entorno para credenciales y se estableció una estructura de endpoints REST bajo buenas prácticas de seguridad y modularidad.
+
+* **Configuración del Aplicativo Móvil (Android):**  
+  La aplicación móvil, desarrollada en **Android Studio** utilizando **Kotlin** y **XML**, se ejecuta inicialmente en un entorno de desarrollo local mediante emuladores Android. El despliegue futuro está previsto mediante empaquetado **.apk** y distribución controlada para pruebas internas (closed testing). Se mantiene conexión directa con los endpoints del backend para la sincronización de datos.
+
+* **Protocolo de Pruebas y Validación:**  
+  Tras cada integración o actualización en los repositorios, se ejecutan pruebas funcionales y de integración para validar la comunicación entre frontend, backend y móvil. Asimismo, se realizan **pruebas de usuario externas** con el objetivo de evaluar la experiencia de uso, el rendimiento y la estabilidad general del sistema.
+
+
 
 ## 4.2. Landing Page & Mobile Application Implementation
 ### 4.2.1. Sprint 1
@@ -2512,7 +2523,7 @@ El enfoque principal fue **implementar la Landing Page y los primeros módulos f
 
 | **Sprint #** | Sprint 1 |
 |--------------|-----------|
-| **Date** | 2025-04-22 |
+| **Date** | 2025-9-22 |
 | **Time** | 3:00 PM |
 | **Location** | Virtual – Google Meet |
 | **Prepared By** | Matías Aliaga |
@@ -2725,9 +2736,245 @@ Comprender el nivel de interés, las expectativas y las percepciones sobre la co
 ---
 
 ### 4.3.2. Registro de Entrevistas
-### 4.3.3. Evaluaciones según heurísticas
+1. Alexandra Becerra<br>
+
+   <img src="https://i.postimg.cc/T37GHZ3R/entre.png" style="width:800px; height:400px;"/>
+
+   Duración: 8:20 min<br>
+   Empieza: 00:00
+   
+*Resumen de la opinión del entrevistado sobre la aplicación Glottia*
+
+#### **1. Contexto de la Entrevista**
+El propósito de la entrevista fue **evaluar la percepción y usabilidad de la landing page de Glottia**, destinada a presentar el concepto de la plataforma y captar el interés de potenciales usuarios. Se buscó comprender la **primera impresión, claridad del contenido, atractivo visual y diferenciación frente a alternativas tradicionales** de aprendizaje de idiomas.
 
 ---
+
+#### **2. Resumen de Respuestas Principales**
+
+- **Primera impresión:**  
+  La entrevistada consideró que la página es **llamativa y clara**, destacando el uso del color blanco y la buena organización del contenido. Señaló que los valores y beneficios de Glottia se presentan de forma comprensible y atractiva.
+
+- **Estructura de la información:**  
+  Indicó que la estructura le pareció **coherente y bien organizada**, con secciones que diferencian claramente los beneficios para **aprendices** y **locales aliados**. Apreció la jerarquía visual de los títulos y la distribución del contenido paso a paso, lo que facilita la comprensión del flujo de uso.
+
+- **Experiencia ofrecida:**  
+  Valoró positivamente que Glottia proponga una **interacción presencial y real entre personas**, diferenciándose de las clases o aplicaciones tradicionales. Mencionó que practicar cara a cara mejora la **confianza y fluidez oral**, aspectos que suelen ser limitados en entornos virtuales o académicos formales.
+
+- **Aspectos de mejora:**  
+  Sugirió **incluir más imágenes o material visual** (por ejemplo, fotos de encuentros, capturas o representaciones de la experiencia) para equilibrar el contenido visual y textual. Considera que esto ayudaría a que la página sea más dinámica y contextual.
+
+- **Intención de uso y recomendación:**  
+  Manifestó que **sí utilizaría y recomendaría Glottia** a otros interesados en practicar idiomas, principalmente por el enfoque social, práctico y presencial que promueve. Considera que esta propuesta resuelve la falta de espacios seguros y accesibles para la práctica oral real.
+
+---
+
+#### **3. Principales Hallazgos**
+
+1. **Claridad y estructura:** La landing page comunica de manera efectiva la propuesta de valor y permite diferenciar los roles de los usuarios (aprendices y locales).  
+2. **Atractivo visual:** Los colores y disposición del contenido generan una buena primera impresión, aunque se recomienda mejorar el equilibrio entre texto e imágenes.  
+3. **Valor percibido:** La posibilidad de practicar idiomas cara a cara representa un **elemento diferenciador clave** frente a plataformas tradicionales.  
+4. **Confianza y motivación:** Los usuarios perciben Glottia como una experiencia **más auténtica, social y cercana**, lo que refuerza la motivación para participar.  
+5. **Sugerencia visual:** Incrementar el uso de recursos gráficos que reflejen la experiencia de los encuentros presenciales aumentaría la conexión emocional con el usuario.  
+
+---
+
+
+2. Adriana Calderón  <br>
+   <img  src="https://i.ibb.co/V09GMF8T/imagen.png" style="width:800px; height:400px;"/>
+   _Entrevista de la Landing Page a Adriana Calderón_
+
+   Enlace: [https://i.postimg.cc/W3xFQ5T5/adas.png](https://i.postimg.cc/W3xFQ5T5/adas.png) <br>
+   Duración: 5:08 min<br>
+   Empieza: 00:00<br>
+   
+*Resumen de la opinión del entrevistado sobre la aplicación Glottia*
+
+#### **1. Contexto de la Entrevista**
+El propósito de la entrevista fue **validar el interés, las expectativas y las condiciones de colaboración** de administradores de establecimientos que podrían ofrecer su espacio como punto de reunión para las prácticas de idiomas promovidas por Glottia.  
+Asimismo, se buscó identificar los beneficios esperados, preocupaciones logísticas y percepciones sobre la alineación de la propuesta con la identidad de sus negocios.
+
+---
+
+#### **2. Resumen de Respuestas Principales**
+
+- **Conocimiento de la propuesta:**  
+  La entrevistada conoció la iniciativa a través de una entrevista previa y mostró entusiasmo por la idea. Considera que la propuesta encaja muy bien con la filosofía de su cafetería, que busca ser un espacio cómodo y social para conversar, leer o compartir experiencias.
+
+- **Percepción general de la idea:**  
+  Opinó que convertir su local en un punto de encuentro para prácticas de idiomas es una **excelente idea**, ya que promueve un ambiente cultural y participativo, en sintonía con los valores de su negocio.
+
+- **Atractivo comercial:**  
+  Reconoce que las actividades lingüísticas podrían **atraer nuevos clientes** y **aumentar el consumo**, especialmente en horarios de baja afluencia. Además, considera que Glottia podría atraer públicos jóvenes, estudiantes y viajeros, enriqueciendo la clientela habitual.
+
+- **Alineación con la identidad del local:**  
+  Expresó que Glottia está **altamente alineada con el espíritu cultural y relajado** de su cafetería. Destacó que la app aportaría valor al convertir el espacio en un **punto de encuentro intercultural**, fortaleciendo la imagen del local como lugar inclusivo y creativo.
+
+- **Condiciones importantes para la colaboración:**  
+  Señaló que los grupos no deberían ser demasiado grandes y que es esencial una **coordinación previa de horarios**. También enfatizó la importancia del **respeto y buen comportamiento de los usuarios**, así como la supervisión por parte de Glottia para mantener un ambiente cordial.
+
+- **Beneficios esperados:**  
+  Mencionó la **visibilidad digital**, el **flujo de nuevos clientes** y la **reputación del local** como principales incentivos. Considera que aparecer en el mapa interactivo de la app sería una gran oportunidad de posicionamiento dentro de una comunidad cultural y diversa.
+
+- **Valor del posicionamiento digital:**  
+  Considera que la presencia en redes sociales es **fundamental para el crecimiento del negocio**, ya que la mayoría de sus clientes llegan a través de Instagram o Google Maps. Por ello, valoró positivamente cualquier iniciativa que mejore la visibilidad digital.
+
+- **Preferencias sobre la presentación del local:**  
+  Sugirió que en la plataforma se utilicen **fotografías reales del ambiente y de personas disfrutando del espacio**, junto con textos **cercanos y amigables** que reflejen el carácter acogedor y cultural del lugar.
+
+- **Experiencias previas:**  
+  Ha participado en **eventos culturales** como exposiciones o lecturas, por lo que ve la propuesta de Glottia como una **extensión natural** de las actividades que ya promueve.
+
+- **Preocupaciones y expectativas:**  
+  Su principal preocupación es la **logística** (coordinación de horarios y tamaño de grupos). Además, espera que los usuarios mantengan **respeto, puntualidad y comportamiento amable**, evitando interrumpir la dinámica del local.
+
+- **Sugerencias para la alianza:**  
+  Propuso crear **beneficios mutuos**, como descuentos especiales para los participantes o eventos temáticos (noches de idiomas, microencuentros culturales) que fortalezcan la colaboración y promoción conjunta entre Glottia y el establecimiento.
+
+---
+
+
+3. Diego Pina <br>
+   <img  src="https://i.postimg.cc/JhnLjmZh/land.png" style="width:800px; height:400px;"/>
+
+   Enlace: [https://www.youtube.com/watch?v=spXOO3ED5ws](https://www.youtube.com/watch?v=spXOO3ED5ws) <br>
+   Duración: 5:08 min<br>
+   Empieza: 00:00<br>
+   
+*Resumen de la opinión del entrevistado sobre la aplicación Glottia*
+
+#### **1. Contexto de la Entrevista**
+El propósito de esta entrevista fue **recoger percepciones y validar la propuesta de valor de Glottia desde el punto de vista de los aprendices de idiomas**.  
+Se buscó conocer su opinión sobre la **landing page**, la **usabilidad percibida**, las **emociones asociadas a la práctica con otros usuarios** y su **nivel de disposición a usar o recomendar la aplicación**.
+
+---
+
+#### **2. Resumen de Respuestas Principales**
+
+- **Conocimiento de la propuesta:**  
+  El entrevistado conoció Glottia a través de un amigo que le comentó sobre la iniciativa y decidió revisar la landing page. Percibió la propuesta como **novedosa y diferente** frente a otras soluciones existentes.
+
+- **Primera impresión de la landing page:**  
+  Destacó el **diseño limpio, ordenado y visualmente agradable**. Mencionó que a diferencia de otras plataformas con exceso de elementos, Glottia ofrece una **interfaz clara y sin sobrecarga visual**, lo que facilita la comprensión del mensaje.
+
+- **Percepción sobre la utilidad:**  
+  Considera que Glottia puede **facilitar la práctica de idiomas de manera accesible**, con una experiencia centrada en el usuario. Resaltó que la información presentada es comprensible, directa y funcional para un usuario común.
+
+- **Aspectos que más llamaron su atención:**  
+  Valoró que la aplicación permita **conectarse con personas de un nivel lingüístico similar**, lo que considera un punto diferenciador frente a otras apps. Lo percibe como un elemento clave para generar confianza y fluidez en la práctica real.
+
+- **Motivaciones para usar Glottia:**  
+  Expresó su interés por **mejorar su fluidez** y **conocer nuevas personas**. Indicó que planea viajar y que Glottia le resultaría útil para fortalecer sus competencias comunicativas antes de hacerlo.
+
+- **Claridad de la información en la landing:**  
+  Afirmó que el contenido es **efectivo, pertinente y no abrumador**. Mencionó que la distribución de la información favorece una experiencia agradable y permite al usuario orientarse sin dificultad.
+
+- **Emociones antes y después de la sesión de práctica:**  
+  Inicialmente sintió **nervios**, algo natural al enfrentar nuevas experiencias. Sin embargo, durante la sesión la sensación evolucionó hacia **curiosidad y confianza**, destacando la posibilidad de interactuar con personas afines en nivel e intereses.
+
+- **Comparación con clases o aplicaciones tradicionales:**  
+  Considera que Glottia ofrece una **experiencia distinta y más personalizada** que las academias o apps convencionales. Resaltó que, a diferencia de los entornos formales donde hay niveles muy dispares, Glottia **promueve encuentros homogéneos y equilibrados** entre los participantes.
+
+- **Disposición a recomendar la aplicación:**  
+  Indicó que **sí recomendaría Glottia** a otras personas que estén aprendiendo un idioma, ya que le parece una propuesta **atractiva, funcional y diferente**. Destacó que su enfoque social y práctico la hace más cercana y motivadora.
+
+---
+
+#### **3. Principales Hallazgos**
+
+1. **Diseño y usabilidad:** La landing page fue percibida como **limpia, clara y visualmente coherente**, lo que genera una experiencia positiva desde el primer contacto.  
+2. **Valor diferencial:** Los usuarios aprecian la posibilidad de **conectarse con otros aprendices del mismo nivel**, lo que fomenta confianza y reduce barreras sociales.  
+3. **Motivaciones claras:** El público objetivo busca **fluidez, conexión social y experiencias reales de conversación**, más allá del aprendizaje académico.  
+4. **Emociones positivas:** La curiosidad y la motivación superan el nerviosismo inicial, reforzando la disposición a participar activamente.  
+5. **Intención de recomendación:** La percepción general fue altamente favorable, evidenciando un **interés genuino por la propuesta** y su potencial diferenciador.
+
+---
+
+### 4.3.3. Evaluaciones según heurísticas
+
+
+**Evaluación Heurística de Glottia**
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Aplicaciones para Dispositivos Móviles
+**Auditor:** Glottia Team  
+**Plataforma evaluada:** Glottia – Aplicación Mobile y Landing Page
+
+---
+
+## Tareas evaluadas
+
+- Comprender el propósito principal de Glottia al ingresar.  
+- Navegar por la interfaz principal (inicio, práctica, comunidades).  
+- Identificar cómo participar en sesiones de conversación.  
+- Explorar el registro y roles de usuario (aprendiz / guía).  
+- Interactuar con el sistema de práctica oral y visualización de progreso.  
+- Evaluar claridad, accesibilidad y diseño visual.  
+- Revisar facilidad de uso en la versión móvil y web.  
+- Probar flujo de registro y autenticación de usuarios.  
+- Evaluar retroalimentación del sistema tras completar acciones.  
+- Comprobar la consistencia visual y la alineación con la identidad Glottia.  
+
+---
+
+## Tabla resumen de problemas detectados
+
+| #  | Problema detectado                                                                      | Severidad | Heurística / Principio violado                         |
+|----|------------------------------------------------------------------------------------------|-----------|---------------------------------------------------------|
+| 1  | La descripción inicial de la app no comunica de inmediato el propósito de Glottia       | 2         | Correspondencia entre sistema y el mundo real           |
+| 2  | Algunos botones y textos clave presentan bajo contraste visual                          | 3         | Diseño inclusivo / Accesibilidad visual                 |
+| 3  | Falta de confirmación visual o sonora al unirse a una sesión de práctica                 | 3         | Visibilidad del estado del sistema                      |
+| 4  | No hay indicaciones claras sobre el progreso o nivel del usuario                        | 2         | Retroalimentación / Reconocer antes que recordar        |
+| 5  | Algunos íconos no son intuitivos ni cuentan con etiquetas descriptivas (`aria-label`)   | 3         | Ayuda y documentación / Diseño inclusivo                |
+| 6  | El flujo de registro no detalla los beneficios de cada rol (aprendiz vs guía)           | 2         | Reconocer antes que recordar / Correspondencia real     |
+| 7  | En dispositivos móviles, algunos elementos se solapan visualmente                       | 3         | Diseño adaptable / Consistencia                         |
+| 8  | No se muestra mensaje de confirmación al finalizar una práctica                         | 3         | Visibilidad del estado del sistema                      |
+| 9  | Los textos de ayuda o tutorial inicial son limitados y poco visibles                    | 2         | Ayuda y documentación                                   |
+| 10 | El sistema no advierte antes de abandonar una práctica sin guardar progreso             | 3         | Prevención de errores                                   |
+
+---
+
+## Descripción de problemas clave
+
+### Problema #2: Bajo contraste en elementos de interfaz  
+**Severidad:** 3  
+**Heurística violada:** Diseño inclusivo / Accesibilidad visual  
+**Descripción:** En algunas secciones (botones secundarios o textos sobre fondos degradados), el contraste no cumple las pautas de accesibilidad WCAG.  
+**Recomendación:** Ajustar colores siguiendo el contraste mínimo 4.5:1 y habilitar modo de alto contraste para usuarios con visión reducida.
+
+---
+
+### Problema #3: Falta de retroalimentación al unirse a una sesión  
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** Cuando el usuario se une a una sesión de práctica, la interfaz no muestra de inmediato que la acción fue exitosa.  
+**Recomendación:** Implementar mensajes “toast” o animaciones de confirmación para indicar la conexión activa.
+
+---
+
+### Problema #7: Desajuste visual en versión móvil  
+**Severidad:** 3  
+**Heurística violada:** Diseño adaptable / Consistencia  
+**Descripción:** En pantallas pequeñas, algunos elementos como botones o cuadros de texto se superponen o pierden alineación.  
+**Recomendación:** Aplicar revisiones de diseño responsive (breakpoints en Tailwind o Android Studio) para mantener legibilidad y consistencia.
+
+---
+
+### Problema #10: Falta de advertencia al cerrar una práctica  
+**Severidad:** 3  
+**Heurística violada:** Prevención de errores  
+**Descripción:** Si el usuario sale de una sesión sin guardar su progreso o evaluación, el sistema no emite una alerta.  
+**Recomendación:** Agregar una ventana de confirmación (“¿Deseas salir sin guardar?”) antes de cerrar o cambiar de vista.
+
+---
+
+## Conclusión general
+
+En general, Glottia presenta una interfaz limpia, moderna y alineada con su identidad visual, pero requiere optimizar la **retroalimentación del sistema**, **accesibilidad visual**, y **claridad de los roles** para reforzar la experiencia del usuario.  
+Las mejoras recomendadas priorizan **inclusividad**, **feedback inmediato**, y **diseño adaptativo**, factores clave para mantener la motivación y usabilidad en una plataforma orientada al aprendizaje de idiomas.
+
+---
+
 
 # Conclusiones
 
@@ -2758,3 +3005,11 @@ Cobos Guillén, C. G. (2023). Azuay Café: propuesta de una escuela cafetería e
 Dueñas-Mendoza, A. S., & Zaldumbide-Peralvo, D. A. Estrategias de marketing digital para cafeterías-restaurantes en Esmeraldas, Ecuador. Obtenido de, 593.
 [https://www.academia.edu/download/117711219/2011.pdf/](https://www.academia.edu/download/117711219/2011.pdf/)
 # Anexos
+
+- Enlace de Landing Page : 
+[https://github.com/Hampcoders-Glottia/glottia-landing-page](https://github.com/Hampcoders-Glottia/glottia-landing-page)
+[https://glottia-landing-page-master.vercel.app/]
+
+-Drive de las entrevistas realizadas en el proyecto 
+[https://drive.google.com/drive/folders/1XoQLnfGc5-C0vPBBMoQjuvYeWK71VKOd](https://drive.google.com/drive/folders/1XoQLnfGc5-C0vPBBMoQjuvYeWK71VKOd)
+<hr>
