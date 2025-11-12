@@ -2986,6 +2986,195 @@ Las mejoras recomendadas priorizan **inclusividad**, **feedback inmediato**, y *
 
 ---
 
+## 4.4.1 Sprint 2  
+
+Esta sección presenta los detalles de la segunda reunión de planificación de Sprint del equipo **Hampcoders**, correspondiente al desarrollo del proyecto **Glottia**.  
+Durante esta sesión se definieron los objetivos principales del Sprint, la capacidad del equipo y las historias de usuario priorizadas para esta iteración.  
+
+El enfoque principal fue **construir y validar el flujo de usuario principal** dentro de una **primera versión funcional de la aplicación móvil en Kotlin**, soportada por los módulos de backend correspondientes.  
+Además, se incluyó un **Spike de investigación en Flutter** para evaluar la viabilidad técnica de una alternativa multiplataforma.
+
+---
+
+### 4.4.1.1. Sprint Planning 2  
+
+| **Sprint #** | Sprint 2 |
+|--------------|-----------|
+| **Date** | 2025-10-13 |
+| **Time** | 3:00 PM |
+| **Location** | Virtual – Google Meet |
+| **Prepared By** | Matías Aliaga |
+| **Attendees (Planning Meeting)** | Matías Aliaga, Ivo Machado, Leandro Contreras, Ítalo Sánchez |
+| **Sprint n - 1 Review Summary** | En el Sprint 1, el equipo completó con éxito la **Landing Page** y la configuración inicial del **backend en Spring Boot**, logrando desplegar la primera versión funcional del sistema. Se validó la conexión entre el frontend y los endpoints de autenticación y registro, generando una base sólida para las siguientes iteraciones. |
+| **Sprint n - 1 Retrospective Summary** | El equipo destacó la buena coordinación en la ejecución del Sprint 1, especialmente en el uso de herramientas colaborativas. Se identificó la necesidad de **mejorar la documentación técnica y la calidad del README.md**, así como de **optimizar la estimación de tiempo** en tareas de integración backend–frontend. Se acordó reforzar las pruebas unitarias y la revisión de código entre pares. |
+| **Sprint 2 Goal** | **Our focus is on** building and validating the core user flow (Registration, Login, Profile Completion, Event Browsing, and Reservation) in the first functional version of the **Kotlin mobile app**, supported by backend modules. **We believe it delivers** an end-to-end user experience that allows early functional testing of the main interaction model. **This will be confirmed when** a new user can register, log in, complete their profile, view available encounters, and reserve a spot successfully.<br><br>**Outcome:** Primer flujo funcional del usuario completado en la app móvil.<br>**Impact:** Validación del flujo base y experiencia del usuario.<br>**Customer(s):** Aprendices que usan la aplicación por primera vez.<br>**Event:** Usuarios pueden registrarse, iniciar sesión, explorar encuentros y reservar su participación. |
+| **Sprint 2 Velocity** | El equipo mantiene una capacidad estimada de **28 Story Points**. |
+| **Sum of Story Points** | La suma de Story Points planificados para este sprint es de **28 Story Points**. |
+
+---
+
+### 4.4.1.2. Sprint Backlog 2  
+
+El objetivo principal del Sprint 2 es implementar el **flujo principal del usuario aprendiz** en la aplicación móvil desarrollada en Kotlin, abarcando registro, autenticación, gestión de perfil, búsqueda de encuentros y reserva.  
+Asimismo, se destina un espacio a la **investigación técnica (Spike)** en Flutter para evaluar una posible ruta alternativa multiplataforma.  
+
+El equipo también destina horas de trabajo a **mejorar la calidad de la documentación entregada (README.md)**, en respuesta a las observaciones del Sprint anterior.  
+
+| **Sprint #** | Sprint 2 |  |  |  |  |  |  |
+|---------|---------|---------|---------|---------|---------|---------|---------|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation (hrs)** | **Assigned To** | **Status** |
+| **Trabajo Pendiente del Sprint 1** | | | | | | | |
+| US-LP-04 | Explicación de Cómo Funciona | T04-3 | Integrar con backend | Conectar sección de pasos con el backend. | 4 | Leandro Contreras | In Progress |
+| US-LP-05 | Visualización de Testimonios | T05-3 | Crear endpoint de testimonios | Endpoint REST para cargar testimonios dinámicos desde la base de datos. | 2 | Leandro Contreras | In Progress |
+| **Flujo Core – App Móvil (Kotlin)** | | | | | | | |
+| US01 | Registro de nuevo aprendiz | TS-01 | Implementar pantalla y conexión API | Crear UI de registro en Kotlin y conectar con endpoint de backend. | 5 | Ítalo Sánchez | To Do |
+| US03 | Inicio de sesión general | TS-02 | Implementar pantalla y conexión API | Desarrollar pantalla de login en Kotlin y vincularla con el backend. | 4 | Ítalo Sánchez | To Do |
+| US06 | Completar perfil de aprendiz | TS-04 | Crear formulario y conexión API | Desarrollar interfaz para el llenado inicial de perfil y guardado en base de datos. | 4 | Matías Aliaga | To Do |
+| US15 | Buscar encuentros disponibles | TS-10 | Crear listado y filtros | Implementar pantalla que liste encuentros activos con filtros básicos. | 3 | Matías Aliaga | To Do |
+| US16 | Ver detalles de un encuentro | TS-12 | Implementar vista detallada | Crear pantalla con información completa del encuentro seleccionado. | 2 | Ivo Machado | To Do |
+| US17 | Reservar un cupo en un encuentro | TS-13 | Implementar flujo de reserva | Agregar botón y proceso de reserva con confirmación. | 5 | Leandro Contreras | To Do |
+| **Investigación (Spike)** | | | | | | | |
+| SP-01 | (Spike) Prueba de Concepto en Flutter | SP-01-1 | Desarrollar pantallas Login y Home | Crear una versión simple en Flutter para comparar productividad y rendimiento con Kotlin. | 3 | Ítalo Sánchez | To Do |
+
+---
+
+### 4.4.1.3. Justificación del Backlog  
+
+El backlog seleccionado busca **maximizar el valor entregado al usuario** y **dar continuidad al flujo funcional del producto**, siguiendo criterios de prioridad técnica y de validación temprana.
+
+1. **Completa el flujo de valor:**  
+   Permite que un nuevo aprendiz pueda **registrarse, autenticarse, completar su perfil, buscar encuentros y reservar un cupo**, cerrando el primer flujo end-to-end dentro del entorno móvil.
+
+2. **Cumple con los objetivos del Sprint:**  
+   - **Aplicación en Kotlin:** Historias US01, US03, US06, US15, US16 y US17.  
+   - **Backend de soporte:** Implementación de endpoints y servicios correspondientes a los módulos IAM, Profiles y Events.  
+   - **Investigación en Flutter:** Spike SP-01 ofrece evidencia comparativa sobre el esfuerzo y rendimiento en un framework multiplataforma.
+
+3. **Carga de trabajo balanceada:**  
+   El total de **28 Story Points** mantiene la misma velocidad de entrega que el Sprint anterior, garantizando consistencia en la planificación y un desafío alcanzable para el equipo.
+
+4. **Mejora continua:**  
+   Se incluye tiempo para refinar la documentación (`README.md`) y reforzar la calidad del código entregado.
+
+#### 4.4.1.4. Development Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de desarrollo correspondiente a la creación y actualización  del proyecto **Glottia** en mobile.  
+El trabajo se realizó dentro del repositorio principal de frontend en Kotlin:
+
+**Repositorio:** [Hampcoders-Glottia / glottia-front-end-kotlin](https://github.com/Hampcoders-Glottia/glottia-front-end-kotlin)
+
+##### Flujo de trabajo
+Durante el sprint se gestionaron los cambios mediante ramas feature específicas, integradas posteriormente a la rama principal (`main`) a través de *pull requests*.  
+El proceso se llevó a cabo siguiendo las prácticas de control de versiones GitFlow.
+
+### Evidencia de Desarrollo por Ramas
+
+| Repository | Branch | Commit ID | Feature / Context | Description | Committed on (Date) |
+|-------------|---------|------------|-------------------|--------------|---------------------|
+| glottia-front-end-kotlin | `main` | 01 | Base App | Configuración inicial del proyecto, estructura DDD y setup de Jetpack Compose. | 26/10/2025 |
+| glottia-front-end-kotlin | `feature/iam` | 05 | Identity & Access Management | Implementación del flujo de autenticación y persistencia de sesión de usuario. | 28/10/2025 |
+| glottia-front-end-kotlin | `feature/profiles` | 09 | Profiles Context | Creación del módulo de perfiles de usuario (UI, domain, data). | 02/11/2025 |
+| glottia-front-end-kotlin | `feature/venues` | 17 | Venues Context | Módulo de locales y puntos de encuentro, con búsqueda, detalle y componentes Compose. | 09/11/2025 |
+| glottia-front-end-kotlin | `develop` | 14 | Integration | Integración de ramas `feature/venues` y `feature/profiles`, pruebas y ajustes de navegación global. | 10/11/2025 |
+
+---
+>  **Nota:**  
+> Cada rama representa un *Bounded Context* o funcionalidad específica del dominio.  
+> Se siguió la convención `feature/{context}` para mantener independencia modular y trazabilidad en los commits.
+---
+
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta la **evidencia de pruebas de aceptación realizadas durante el Sprint 2** del proyecto **Glottia**, centradas en validar las funcionalidades principales de la **aplicación móvil (Kotlin)** y la **integración dinámica del backend con nuevas secciones del frontend**.  
+
+El enfoque de este sprint fue garantizar la **conectividad entre capas**, la **correcta manipulación de datos provenientes de la base de datos**, y la **usabilidad de las nuevas interfaces móviles** desarrolladas.
+
+| Epic / Story ID | Título | Criterios de Aceptación | Resultado |
+|----------------|--------|--------------------------|-----------|
+| US-LP-04 | Explicación de Cómo Funciona (Frontend–Backend Integration) | **Escenario #1: Conexión de la sección con API**<br>Given que el usuario accede a la sección “Cómo funciona Glottia”<br>When el frontend solicita los pasos al backend mediante API REST<br>Then deben mostrarse los pasos actualizados correctamente desde la base de datos<br>And no deben presentarse errores de conexión. | Pasado |
+| US-LP-05 | Visualización de Testimonios Dinámicos | **Escenario #1: Carga desde backend**<br>Given que el usuario visualiza la sección de testimonios<br>When la página obtiene los datos del endpoint `/api/testimonios`<br>Then deben mostrarse testimonios reales almacenados en la base de datos<br>And los datos deben corresponder al formato esperado. | Pasado |
+| US01 | Registro de Nuevo Aprendiz (App Móvil – Kotlin) | **Escenario #1: Registro exitoso desde app móvil**<br>Given que un usuario completa el formulario de registro<br>When presiona el botón “Crear cuenta”<br>Then el sistema debe enviar los datos al endpoint `/api/auth/register`<br>And mostrar un mensaje de confirmación al recibir código 201. | Pasado |
+| US03 | Inicio de Sesión General (App Móvil – Kotlin) | **Escenario #1: Inicio de sesión correcto**<br>Given que el usuario ingresa credenciales válidas<br>When presiona el botón “Iniciar sesión”<br>Then el sistema debe autenticarlo y devolver un token JWT<br>And el usuario debe ser redirigido a la pantalla principal. | Pasado |
+| US06 | Completar Perfil de Aprendiz | **Escenario #1: Llenado y guardado de datos**<br>Given que un usuario inicia sesión por primera vez<br>When completa el formulario de perfil<br>Then el sistema debe almacenar correctamente los datos en la base de datos<br>And mostrar una notificación de confirmación. | Pasado |
+| US15 | Buscar Encuentros Disponibles | **Escenario #1: Listado y filtrado de encuentros**<br>Given que el usuario abre la pantalla de búsqueda<br>When el sistema obtiene los datos del endpoint `/api/encuentros`<br>Then deben mostrarse los encuentros disponibles<br>And el usuario debe poder aplicar filtros básicos. | Pasado |
+| US16 | Ver Detalles de un Encuentro | **Escenario #1: Visualización del detalle**<br>Given que el usuario selecciona un encuentro del listado<br>When se abre la vista detallada<br>Then el sistema debe mostrar toda la información asociada (nombre, lugar, idioma, participantes)<br>And no deben ocurrir errores de carga. | Pasado |
+| US17 | Reservar un Cupo en un Encuentro | **Escenario #1: Reserva exitosa**<br>Given que el usuario visualiza un encuentro disponible<br>When selecciona “Reservar” y confirma la acción<br>Then el backend debe registrar la reserva<br>And devolver una respuesta con código 201 y mensaje de confirmación. | Pasado |
+| SP-01 | (Spike) Prueba de Concepto en Flutter | **Escenario #1: Validación de rendimiento**<br>Given que se desarrolló una versión de prueba del login y home en Flutter<br>When se ejecuta la app en distintos dispositivos<br>Then el rendimiento debe ser comparable con la versión en Kotlin<br>And los resultados deben documentarse para futuras decisiones técnicas. | Pasado |
+
+---
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+En esta entrega, nuestro equipo ha desplegado con éxito el backend y la aplicacion de **aplicación móvil (Kotlin)** .
+
+<img src="https://i.postimg.cc/NMsgXsmm/Whats-App-Image-2025-11-11-at-19-11-13.jpg" />
+
+<img src="https://i.postimg.cc/8kn1FV5p/Whats-App-Image-2025-11-11-at-19-11-12-1.jpg" />
+
+<img src="https://i.postimg.cc/MKCqDb1q/Whats-App-Image-2025-11-11-at-19-11-12.jpg" />
+
+<img src="https://i.postimg.cc/GtcwNqqH/Whats-App-Image-2025-11-11-at-22-58-59.jpg" />
+
+<img src="https://i.postimg.cc/VLkPWZJB/Whats-App-Image-2025-11-11-at-22-58-59-1.jpg" />
+
+<img src="https://i.postimg.cc/q7nPv9F6/Whats-App-Image-2025-11-11-at-22-59-00.jpg" />
+
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección, el equipo define los endpoints implementados en el desarrollo del Backend API
+
+Endpoints para el bounded context de IAM
+<img src="https://i.postimg.cc/YqTjvBMS/Screenshot-2025-10-08-001913.png" />
+
+Endpoints para el bounded context de Profiles Management
+<img src="https://i.postimg.cc/Gh694ndB/Screenshot-2025-10-08-001857.png" />
+
+Endpoints para el bounded context de Venues Management
+<img src="https://i.postimg.cc/BQRtjf4G/Screenshot-2025-10-08-002017.png" />
+
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para este primer Sprint , como equipo logramos implementar satisfactoriamente la aplicacion de **aplicación móvil (Kotlin)** .
+
+## Design
+
+Para realizar el diseño de los wireframes y mockups de la **Landing Page** para este Sprint, se hizo uso de la plataforma **Figma**.
+Para utilizar la plataforma:
+
+1. Se accede a través de la página oficial de Figma: https://www.figma.com/login
+    <img  src="https://i.postimg.cc/g2yX0rpY/65765.png"/>
+2. Luego, se crea un **Draft** que nos servirá como base para el proyecto colaborativo.
+   <img  src="https://i.postimg.cc/dQzjk7bd/76867.png"/>
+---
+
+## Deployment
+
+Para la landing page, se utilizará Netlify para el despliegue de la página.
+<img  src="https://i.postimg.cc/W3d0tjSX/9789789.png"/>
+<img  src="https://i.postimg.cc/6qd2GQZL/567567.png"/>
+<img  src="https://i.postimg.cc/3Jtrfp30/876876.png"/>
+
+
+
+Tras definir el repositorio , conectamos este mismo con el servicio de netlify para realizar el despliegue.
+
+<img  src="https://i.postimg.cc/kMxvSMqp/645.png"/>
+
+<img  src="https://i.postimg.cc/YqdgNhVb/44.png"/>
+
+
+Para nuestro proyecto se crearon **2 repositorios**, el cuál fue:
+
+- **Glottia** | https://github.com/Hampcoders-Glottia/glottia-landing-page: Este repositorio se usa para realizar el informe del proyecto de manera continua y subir la landing page. :
+- **Documentación** | https://github.com/Hampcoders-Glottia/glottia-docs : Este repositorio contiene el informe de nuestro proyecto.
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+A continuación, se muestran las capturas de los insights del repositorio.
+
+
 
 # Conclusiones
 
