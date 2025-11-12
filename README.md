@@ -3138,42 +3138,69 @@ Endpoints para el bounded context de Venues Management
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-Para este primer Sprint , como equipo logramos implementar satisfactoriamente la aplicacion de **aplicación móvil (Kotlin)** .
+Durante el **Sprint 2**, el equipo logró implementar y desplegar satisfactoriamente las nuevas versiones de la **aplicación móvil (Kotlin)** y el **backend** del proyecto **Glottia**, consolidando la integración entre las distintas capas del sistema.
 
-## Design
-
-Para realizar el diseño de los wireframes y mockups de la **Landing Page** para este Sprint, se hizo uso de la plataforma **Figma**.
-Para utilizar la plataforma:
-
-1. Se accede a través de la página oficial de Figma: https://www.figma.com/login
-    <img  src="https://i.postimg.cc/g2yX0rpY/65765.png"/>
-2. Luego, se crea un **Draft** que nos servirá como base para el proyecto colaborativo.
-   <img  src="https://i.postimg.cc/dQzjk7bd/76867.png"/>
 ---
+
 
 ## Deployment
 
-Para la landing page, se utilizará Netlify para el despliegue de la página.
-<img  src="https://i.postimg.cc/W3d0tjSX/9789789.png"/>
-<img  src="https://i.postimg.cc/6qd2GQZL/567567.png"/>
-<img  src="https://i.postimg.cc/3Jtrfp30/876876.png"/>
+Durante este sprint, se realizaron despliegues tanto del **backend** y las **aplicaciones móviles**.
+
+Una vez configurado el repositorio, se vinculó a Netlify para permitir el despliegue continuo (CI/CD).
+
+<img src="https://i.postimg.cc/kMxvSMqp/645.png" alt="Conexión con GitHub" width="500"/>
+<img src="https://i.postimg.cc/YqdgNhVb/44.png" alt="Deploy exitoso" width="500"/>
+
+---
+
+### Backend Deployment
+
+Durante el Sprint 2, el **backend** desarrollado en **Java Spring Boot** fue desplegado en un entorno remoto, asegurando la disponibilidad de los endpoints para su consumo desde la app móvil y la landing page.
+
+Evidencia del backend desplegado:  
+<img src="https://i.postimg.cc/PrmshLC7/0dc903ff-c2d4-45b3-b66f-4cf568ef507e.jpg" alt="Backend desplegado" width="500"/>
+
+---
+
+###  Aplicaciones Móviles
+
+En este sprint se trabajó en dos entornos móviles:
+
+- **App Glottia (Kotlin – Android)**  
+  Aplicación oficial destinada al uso principal de usuarios aprendices.
+
+- **App Glottia (Flutter – Prueba de concepto)**  
+  Versión experimental utilizada como *spike* para comparar productividad y rendimiento multiplataforma.
+
+  
+| Repositorio | Descripción | URL |
+|--------------|-------------|-----|
+| **glottia-back-end** | Contiene la API REST principal del sistema, desarrollada en Java Spring Boot. | [https://github.com/Hampcoders-Glottia/glottia-back-end](https://github.com/Hampcoders-Glottia/glottia-back-end) |
+| **glottia-front-end-kotlin** | Repositorio de la aplicación móvil principal desarrollada en Kotlin (Android). | [https://github.com/Hampcoders-Glottia/glottia-front-end-kotlin](https://github.com/Hampcoders-Glottia/glottia-front-end-kotlin) |
+| **glottia-mobile-app-flutter** | Prueba de concepto en Flutter como exploración tecnológica alternativa. | [https://github.com/Hampcoders-Glottia/glottia-mobile-app-flutter](https://github.com/Hampcoders-Glottia/glottia-mobile-app-flutter) |
+| **glottia-docs** | Repositorio destinado a la documentación técnica y evidencia de desarrollo. | [https://github.com/Hampcoders-Glottia/glottia-docs](https://github.com/Hampcoders-Glottia/glottia-docs) |
 
 
 
-Tras definir el repositorio , conectamos este mismo con el servicio de netlify para realizar el despliegue.
 
-<img  src="https://i.postimg.cc/kMxvSMqp/645.png"/>
-
-<img  src="https://i.postimg.cc/YqdgNhVb/44.png"/>
-
-
-Para nuestro proyecto se crearon **2 repositorios**, el cuál fue:
-
-- **Glottia** | https://github.com/Hampcoders-Glottia/glottia-landing-page: Este repositorio se usa para realizar el informe del proyecto de manera continua y subir la landing page. :
-- **Documentación** | https://github.com/Hampcoders-Glottia/glottia-docs : Este repositorio contiene el informe de nuestro proyecto.
 #### 4.2.1.8. Team Collaboration Insights during Sprint
-A continuación, se muestran las capturas de los insights del repositorio.
 
+A continuación, se presentan los **insights de colaboración** obtenidos desde GitHub, reflejando la participación activa del equipo durante el desarrollo y despliegue del **Sprint 2**.
+
+- Se registraron commits continuos en los repositorios de **frontend**, **backend** y **app móvil**.  
+- Se mantuvo una comunicación efectiva mediante *branches* y *pull requests*.  
+- Los miembros del equipo aplicaron buenas prácticas de control de versiones y documentación técnica.  
+
+<img src="https://i.postimg.cc/90w4zd6D/insigth.png"/>
+
+<img src="https://i.postimg.cc/sfbmmwDT/imsigth2.png"/>
+
+
+---
+
+**Conclusión:**  
+El **Sprint 2** marcó un hito en la madurez técnica del proyecto, consolidando los procesos de **diseño, despliegue y colaboración**. Los componentes principales del ecosistema Glottia quedaron correctamente integrados y operativos, preparando el entorno para la validación funcional completa en el siguiente sprint.
 
 
 # Conclusiones
