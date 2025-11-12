@@ -2624,6 +2624,52 @@ Para nuestro proyecto se crearon **2 repositorios**, el cuál fue:
 A continuación, se muestran las capturas de los insights del repositorio.
 
 
+### 4.2.2. Sprint 2 (Sprint Goal)
+
+El objetivo principal propuesto es:
+
+> "Construir y validar el flujo de usuario principal (Registro, Login, Ver y Reservar Encuentros) en una primera versión funcional de la **aplicación móvil en Kotlin**, soportada por los **módulos de backend** necesarios. Paralelamente, desarrollar un prototipo simple en **Flutter** para evaluar su viabilidad."
+
+#### 4.2.2.1. Capacidad y Enfoque
+
+* **Capacidad del Equipo (Velocidad):** Asumiendo la misma velocidad que el Sprint 1, el equipo puede completar **28 Story Points**.
+* **Tareas Administrativas:** Tal como mencionaste, un objetivo de este sprint es "mejorar la calidad del reporte entregado previamente" (el documento `README.md`). Esta es una tarea importante del equipo que se realiza en paralelo.
+
+#### 4.2.2.2. Sprint 2 Backlog
+
+Para alcanzar el objetivo, este backlog prioriza las historias de usuario que construyen la primera experiencia funcional de la app móvil.
+
+| Story ID | Título de la Historia | Story Points | Épica (Epic) | Notas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Trabajo Pendiente (Sprint 1)** | | **6** | | |
+| US-LP-04 | Explicación de Cómo Funciona | 3 | Landing Page | Tarea T04-3: Integrar con el backend (backend). |
+| US-LP-05 | Visualización de Testimonios | 3 | Landing Page | Tarea T05-3: Crear y conectar endpoint de testimonios (backend). |
+| **Flujo Core - App Móvil (Kotlin)** | | **19** | | |
+| US01 | Registro de nuevo aprendiz | 3 | IAM | Desarrollo de la UI en Kotlin y conexión con API (TS-01). |
+| US03 | Inicio de sesión general | 3 | IAM | UI en Kotlin y conexión con API (TS-02). |
+| US06 | Completar perfil de aprendiz | 3 | Profiles | UI en Kotlin para el primer llenado de perfil (TS-04). |
+| US15 | Buscar encuentros disponibles | 3 | Event | UI en Kotlin para la lista de encuentros y filtros (TS-10). |
+| US16 | Ver detalles de un encuentro | 2 | Event | UI en Kotlin para mostrar los detalles de un evento (TS-12). |
+| US17 | Reservar un cupo en un encuentro | 5 | Event | UI en Kotlin para el botón de reserva y flujo (TS-13). |
+| **Investigación (Spike)** | | **3** | | |
+| **SP-XX** | (Spike) Prueba de Concepto en Flutter | 3 | Mobile | Desarrollar 1 o 2 pantallas (ej. Login y Home) en Flutter para comparar el esfuerzo y la experiencia de desarrollo con Kotlin. |
+| **TOTAL** | | **28 Puntos** | | |
+
+*Nota: El "Story ID" `SP-XX` es una nueva historia de tipo Spike que he añadido basándome en tu solicitud de "una version simple en Flutter". La he estimado en 3 puntos, que es un valor común para una investigación técnica.*
+
+---
+
+#### Justificación de este Backlog
+
+Este conjunto de historias fue seleccionado por las siguientes razones:
+
+1.  **Completa el Flujo de Valor:** Permite que un usuario nuevo (Aprendiz) pueda **registrarse, iniciar sesión, completar su perfil, buscar un encuentro y reservarlo**. Este es el "Happy Path" fundamental para validar la aplicación móvil.
+2.  **Cubre tus Objetivos:**
+    * **App en Kotlin:** Las historias US01, US03, US06, US15, US16 y US17 forman la "primera versión funcional de la aplicación mobile en Kotlin".
+    * **Módulos de Backend:** Para que esas historias funcionen, el backend debe implementar las Historias Técnicas (TS) correspondientes (como TS-01, 02, 04, 10, 12, 13) que les dan soporte.
+    * **Versión en Flutter:** El Spike (SP-XX) aborda formalmente tu objetivo de explorar Flutter sin comprometer el sprint con una funcionalidad completa, permitiendo tomar una decisión basada en evidencia.
+3.  **Carga de Trabajo Realista:** El total de **28 Story Points** coincide con la velocidad establecida en el Sprint 1, haciendo que el plan sea desafiante pero alcanzable.
+
 ## 4.3. Validation Interviews
 En esta sección, el equipo presenta la entrevistas de validación
 
