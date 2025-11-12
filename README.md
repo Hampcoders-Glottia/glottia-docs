@@ -1,43 +1,46 @@
-<h2 align="center">
+<h2 align="center" style="border:none;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo-upc" width="200px" height="200px" align="center">
 </h2>
 
-<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
+<h1 align="center" style="border:none;">Universidad Peruana de Ciencias Aplicadas</h1>
+<hr style="width: 85%; margin: 0 auto;">
 
-<h3 align="center">
-  Ingeniería de Software
-  <br><br>
-  Curso: Aplicaciones para Dispositivos Móviles
-  <br><br>
-  Sección: 1818
-  <br><br>
-  Profesor: Eduardo Martin Reyes Rodriguez
-  <br><br>
-  Semestre: 2025-20
-  <br><br>
-  Informe del Trabajo Final
-  <br><br>
-  Startup: Hampcoders
-  <br><br>
-  Producto: Glottia
-</h3>
+
+<div align="center" size="30">
+  <h2 style="border:none;">Ingeniería de Software</h2>
+  <h4 style="border:none;">Periodo: 202520</h4>
+  <h4 style="border:none;">1ACC0238 | Aplicaciones para Dispositivos Moviles</h4>
+  <h4 style="border:none;">NRC: 1818</h4>
+  <h4 style="border:none;">Docente: Eduarto Martin Reyes Rodriguez</h4>
+</div>
+
+<hr style="width: 50%; margin: 0 auto;">
+<hr style="width: 50%; margin: 0 auto;">
+
+<br>
+<br>
+
+<h2 align="center" style="border:none;"> Informe del Trabajo Final</h2>
+<hr style="width: 38%; margin: 0 auto;">
+<div align="center" size="30">
+  <h4>Startup: HampCoders</h4>
+  <h4>Producto: Glottia</h4>
+</div>
+
+</br>
 
 <div align="center">
 
-| <div style="width:300px">Alumno</div>       | <div style="width:125px">Código</div>       |
-|:-------------------------------------------:|:-------------------------------------------:|
-|       Ethan Matias Aliaga Aguirre           |            u202318323                       |
-|       Leandro Saul Contreras López          |            u20231E215                       |
-|       Italo Ludwing Sanchez Manrique        |            u202316967                       |
-|       Ivo Marcelo Machado Bracamonte        |            u20231C368                       |
-|       Rodrigo Jesus Miraval Pomalaya        |            u202311082                       |
-|       Arnold Gabriel Morales Sosa           |            u201822516                       |
 
+`(u202318323)` - Ethan Matias Aliaga Aguirre                      
+`(u20231E215)` - Leandro Saul Contreras López                                         
+`(u202316967)` - Italo Ludwing Sanchez Manrique                                          
+`(20231C368)` - Ivo Marcelo Machado Bracamonte                        
 </div>
 
-<div align="center"> Septiembre 2025 </div>
+<div align="center"> Noviembre 2025 </div>
 
-<hr>
+<br>
 
 <div style="page-break-after: always;"></div>
 
@@ -234,7 +237,7 @@ En esta sección se evidencia cómo las actividades realizadas en el **Trabajo F
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| **Demuestra capacidad de adquirir y aplicar nuevos conocimientos según sea necesario.** | **Aliaga Aguirre, Ethan Matías**<br>- Investigó y redactó la **Descripción de la Startup** y **Perfiles de Integrantes del Equipo**, aplicando metodologías de documentación empresarial.<br>- Contribuyó en la **Especificación de Requerimientos (User Stories, Impact Mapping, Product Backlog)**, investigando buenas prácticas en gestión de requisitos.<br><br>**Contreras López, Leandro Saúl**<br>- Elaboró la sección de **Antecedentes y Problemática**, contextualizando la solución en el marco de la industria EdTech.<br>- Participó en el **Diseño de Entrevistas y Registro**, aplicando técnicas de levantamiento de información para identificar necesidades reales de los usuarios.<br><br>**Machado Bracamonte, Ivo Marcelo**<br>- Desarrolló los entregables de **Lean UX Process** (Problem Statements, Assumptions, Hypothesis, Canvas), aprendiendo a aplicar esta metodología centrada en el usuario.<br>- Contribuyó en la construcción de **User Personas** y **User Task Matrix**, profundizando en técnicas de experiencia de usuario.<br><br>**Miraval Pomalaya, Rodrigo Jesús**<br>- Se encargó del **Análisis Competitivo** y de proponer **Estrategias frente a Competidores**, explorando marcos de referencia estratégicos en el desarrollo de software.<br>- Colaboró en la elaboración de **Context Mapping** y **EventStorming**, asimilando conceptos de Domain-Driven Design.<br><br>**Morales Sosa, Arnold Gabriel**<br>- Documentó y diagramó los apartados de **Arquitectura de Software** (Context Level, Container Level, Deployment), aprendiendo notación C4 y su aplicación en ingeniería de software.<br>- Participó en la redacción de **Ubiquitous Language**, vinculando conceptos técnicos con el dominio del negocio.<br><br>**Sánchez Manrique, Italo Ludwing**<br>- Lideró el diseño de **User Journey Mapping y Empathy Mapping**, investigando métodos de análisis de experiencia de usuario.<br>- Contribuyó en la construcción de los **Bounded Context Canvases** y en el modelado de capas de DDD (Domain, Interface, Application, Infrastructure). | **TB1:** El equipo demostró su capacidad de **aprender de manera autónoma** para abordar nuevas metodologías (Lean UX, Domain-Driven Design, C4, Needfinding) y herramientas de modelado. La investigación y aplicación práctica de estos enfoques redujo la incertidumbre en el diseño de la solución, permitió consolidar una base conceptual sólida y garantizó que cada entregable esté alineado con buenas prácticas de Ingeniería de Software.<br><br>**TP:** En el Trabajo Final (TP), los integrantes aplicaron un enfoque de aprendizaje continuo y aplicado, profundizando en herramientas y tecnologías relacionadas con el desarrollo backend, el avance del aplicativo móvil, y la creación de prototipos, wireframes y mockups. Este proceso implicó la exploración de nuevos lenguajes, frameworks y técnicas de integración entre capas del sistema, fortaleciendo sus competencias técnicas. El equipo consolidó su capacidad de adaptarse a nuevos desafíos tecnológicos, evidenciando un crecimiento profesional sostenido y una aplicación práctica del conocimiento adquirido a lo largo del ciclo.<br><br>**TB2:** Durante el segundo bloque (TB2), el equipo demostró una evolución significativa en el **aprendizaje técnico autónomo**, abordando con profundidad aspectos de **arquitectura, implementación y documentación técnica**. Se fortaleció la comprensión de **frameworks de frontend (Kotlin Multiplatform, Compose)**, el uso de **Git y control de versiones** en entornos colaborativos, y la integración de **arquitecturas modulares y componentes desacoplados**. Además, se documentaron las **decisiones arquitectónicas y estructuras de carpetas** mediante la práctica de **ADR (Architectural Decision Records)**, evidenciando un aprendizaje estructurado y reflexivo. Este bloque consolidó la capacidad del equipo para **aprender mediante la práctica**, resolver problemas de integración, y optimizar la calidad técnica del código a través del trabajo colaborativo. |
+| **Demuestra capacidad de adquirir y aplicar nuevos conocimientos según sea necesario.** | **Aliaga Aguirre, Ethan Matías**<br>- Investigó y redactó la **Descripción de la Startup** y **Perfiles de Integrantes del Equipo**, aplicando metodologías de documentación empresarial.<br>- Contribuyó en la **Especificación de Requerimientos (User Stories, Impact Mapping, Product Backlog)**, investigando buenas prácticas en gestión de requisitos.<br><br>**Contreras López, Leandro Saúl**<br>- Elaboró la sección de **Antecedentes y Problemática**, contextualizando la solución en el marco de la industria EdTech.<br>- Participó en el **Diseño de Entrevistas y Registro**, aplicando técnicas de levantamiento de información para identificar necesidades reales de los usuarios.<br><br>**Machado Bracamonte, Ivo Marcelo**<br>- Desarrolló los entregables de **Lean UX Process** (Problem Statements, Assumptions, Hypothesis, Canvas), aprendiendo a aplicar esta metodología centrada en el usuario.<br>- Contribuyó en la construcción de **User Personas** y **User Task Matrix**, profundizando en técnicas de experiencia de usuario.<br>- Colaboró en la elaboración de **Context Mapping** y **EventStorming**, asimilando conceptos de Domain-Driven Design.<br><br>**Sánchez Manrique, Italo Ludwing**<br>- Lideró el diseño de **User Journey Mapping y Empathy Mapping**, investigando métodos de análisis de experiencia de usuario.<br>- Contribuyó en la construcción de los **Bounded Context Canvases** y en el modelado de capas de DDD (Domain, Interface, Application, Infrastructure). | **TB1:** El equipo demostró su capacidad de **aprender de manera autónoma** para abordar nuevas metodologías (Lean UX, Domain-Driven Design, C4, Needfinding) y herramientas de modelado. La investigación y aplicación práctica de estos enfoques redujo la incertidumbre en el diseño de la solución, permitió consolidar una base conceptual sólida y garantizó que cada entregable esté alineado con buenas prácticas de Ingeniería de Software.<br><br>**TP:** En el Trabajo Final (TP), los integrantes aplicaron un enfoque de aprendizaje continuo y aplicado, profundizando en herramientas y tecnologías relacionadas con el desarrollo backend, el avance del aplicativo móvil, y la creación de prototipos, wireframes y mockups. Este proceso implicó la exploración de nuevos lenguajes, frameworks y técnicas de integración entre capas del sistema, fortaleciendo sus competencias técnicas. El equipo consolidó su capacidad de adaptarse a nuevos desafíos tecnológicos, evidenciando un crecimiento profesional sostenido y una aplicación práctica del conocimiento adquirido a lo largo del ciclo.<br><br>**TB2:** Durante el segundo bloque (TB2), el equipo demostró una evolución significativa en el **aprendizaje técnico autónomo**, abordando con profundidad aspectos de **arquitectura, implementación y documentación técnica**. Se fortaleció la comprensión de **frameworks de frontend (Kotlin Multiplatform, Compose)**, el uso de **Git y control de versiones** en entornos colaborativos, y la integración de **arquitecturas modulares y componentes desacoplados**. Además, se documentaron las **decisiones arquitectónicas y estructuras de carpetas** mediante la práctica de **ADR (Architectural Decision Records)**, evidenciando un aprendizaje estructurado y reflexivo. Este bloque consolidó la capacidad del equipo para **aprender mediante la práctica**, resolver problemas de integración, y optimizar la calidad técnica del código a través del trabajo colaborativo. |
 
 
 <div style="page-break-after: always;"></div>
