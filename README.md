@@ -3248,8 +3248,13 @@ Dueñas-Mendoza, A. S., & Zaldumbide-Peralvo, D. A. Estrategias de marketing dig
 # Anexos
 
 - Enlace de Landing Page : 
-[https://github.com/Hampcoders-Glottia/glottia-landing-page](https://github.com/Hampcoders-Glottia/glottia-landing-page)
-[https://glottia-landing-page-master.vercel.app/]
+- [https://github.com/Hampcoders-Glottia/glottia-landing-page](https://github.com/Hampcoders-Glottia/glottia-landing-page)
+- [https://glottia-landing-page-master.vercel.app/](https://glottia-landing-page-master.vercel.app/)
+
+
+- Enlace del Backend  : 
+- [https://glottia-back-end.onrender.com/swagger-ui/index.html#/](https://glottia-back-end.onrender.com/swagger-ui/index.html#/)
+- [https://github.com/Hampcoders-Glottia/glottia-back-end/](https://github.com/Hampcoders-Glottia/glottia-back-end/)
 
 -Drive de las entrevistas realizadas en el proyecto 
 [https://drive.google.com/drive/folders/1XoQLnfGc5-C0vPBBMoQjuvYeWK71VKOd](https://drive.google.com/drive/folders/1XoQLnfGc5-C0vPBBMoQjuvYeWK71VKOd)
