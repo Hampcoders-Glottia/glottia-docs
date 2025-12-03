@@ -3174,6 +3174,206 @@ Durante el **Sprint 2**, el equipo logró implementar y desplegar satisfactoriam
 ---
 
 
+## 4.4.1 Sprint 3 
+
+Esta sección presenta los detalles de la tercera reunión de planificación de Sprint del equipo **Hampcoders**, correspondiente al desarrollo del proyecto **Glottia**.  
+
+Durante esta iteración, el equipo centró sus esfuerzos en **construir, estabilizar y validar el flujo completo de usuario para el segmento de Aprendiz**, pero ahora **desarrollado íntegramente en Flutter**, consolidando la alternativa multiplataforma evaluada previamente.  
+
+El objetivo principal fue entregar una **versión funcional del aplicativo Flutter**, con pantallas interactivas, navegación completa y conexión a los servicios principales del backend, asegurando una experiencia fluida y coherente para los usuarios que desean practicar idiomas.
+
+---
+
+### 4.4.2.1. Sprint Planning 3  
+
+| **Sprint #** | Sprint 3 |
+|--------------|-----------|
+| **Date** | 2025-11-04 |
+| **Time** | 3:00 PM |
+| **Location** | Virtual – Google Meet |
+| **Prepared By** | Leandro Contreras |
+| **Attendees (Planning Meeting)** | Matías Aliaga, Ivo Machado, Leandro Contreras, Ítalo Sánchez |
+| **Sprint n - 1 Review Summary** | En el Sprint 2 se completó con éxito el flujo funcional inicial en Kotlin y se realizó un Spike técnico en Flutter que confirmó la viabilidad de migrar el desarrollo hacia una plataforma multiplataforma. El equipo obtuvo una primera versión estable de registro, login y navegación base, además de la validación del backend para manejo de perfiles, encuentros y reservas. |
+| **Sprint n - 1 Retrospective Summary** | El equipo reconoció avances claves en la integración de backend–frontend, pero también identificó la necesidad de **unificar componentes visuales**, mejorar la **coherencia en el diseño**, y optimizar la **navegación interna** en Flutter. Se acordó que la prioridad del siguiente sprint sería consolidar el ecosistema Flutter y dejarlo funcional para el usuario aprendiz. |
+| **Sprint 3 Goal** | **Our focus is on** building a fully functional user experience for the **Learner segment** within the Flutter application, including Home, Search, Event Details, Reservation, Community, and Profile views, all integrated with backend services. **We believe it delivers** a polished cross-platform experience that allows learners to explore encounters, reserve conversations, track progress, and connect with the community. **This will be confirmed when** a user can navigate through the entire app, explore eventos disponibles, registrarse en uno de ellos, ver su historial y acceder a la comunidad sin errores.<br><br>**Outcome:** Aplicación Flutter funcional con flujo completo del aprendiz.<br>**Impact:** Consolidación de la aplicación multiplataforma como base para los siguientes módulos.<br>**Customer(s):** Aprendices interesados en practicar idiomas mediante encuentros presenciales o virtuales.<br>**Event:** Usuarios pueden explorar espacios, ver promociones, reservar mesas o encuentros y navegar toda la app sin interrupciones. |
+| **Sprint 3 Velocity** | El equipo mantiene una capacidad estimada de **30 Story Points**. |
+| **Sum of Story Points** | La suma total de Story Points planificados para el sprint es de **30 Story Points**. |
+
+---
+
+### 4.4.1.2. Sprint Backlog 3  
+
+El objetivo principal del Sprint 3 es construir la versión completa del flujo del proyecto en Flutter, replicando y optimizando las vistas previamente implementadas en Kotlin.
+Incluye autenticación, seleccion de idiomas , reservas , horarios y panel general del aprendiz .
+
+Este sprint consolida Flutter como alternativa real para la app móvil, avanzando desde el Spike del sprint anterior hacia una implementación funcional multi-pantalla.
+
+El equipo destina además horas para sincro de UI/UX, asegurando coherencia visual entre Kotlin y Flutter.
+
+
+| **Sprint #** | Sprint 3 |  |  |  |  |  |  |
+|---------|---------|---------|---------|---------|---------|---------|---------|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation (hrs)** | **Assigned To** | **Status** |
+
+| **Flujo Core – App Móvil (Flutter)** | | | | | | | |
+| US-F01 | Registro de aprendiz | F01-1 | Pantalla + conexión API | Implementar UI de registro en Flutter y conectarla al backend IAM. | 5 | Matías Aliaga | To Do |
+| US-F02 | Inicio de sesión | F02-1 | Pantalla + login API | Implementar UI de login y manejo de sesión con tokens. | 4 | Ítalo Sánchez | To Do |
+| US-F03 | Completar Perfil | F03-1 | Formulario + API Profile | Crear formulario inicial del perfil del aprendiz y guardar en backend. | 4 | Ivo Machado | To Do |
+| US-F04 | Ver Comunidad / Encuentros | F04-1 | Listado de encuentros | Crear pantalla con lista de encuentros, salas o actividades del día. | 3 | Leandro Contreras | To Do |
+| US-F05 | Ver Detalles del Encuentro | F05-1 | Pantalla de detalle | Mostrar información completa del encuentro o mesa disponible. | 2 | Matías Aliaga | To Do |
+| US-F06 | Reservar Mesa o Encuentro | F06-1 | Flujo de reserva | Implementar botón y flujo de reserva con confirmación en Flutter + API. | 5 | Ivo Machado | To Do |
+| US-F07 | Explorar Locales / Venues | F07-1 | Pantalla de venues | Mostrar locales aliados donde se realizan reuniones. | 3 | Leandro Contreras | To Do |
+| US-F08 | Navegación Global | F08-1 | Bottom Navigation | Implementar navegación principal para Home – Comunidad – Perfil. | 3 | Ítalo Sánchez | To Do |
+
+| **Soporte Técnico y Optimización** | | | | | | | |
+| TECH-F01 | Manejo de Estado | TF01-1 | Implementar Riverpod/Provider | Configurar manejo global de estado en la app. | 4 | Matías Aliaga | To Do |
+| TECH-F02 | Integración con Backend | TF02-1 | Servicios HTTP | Implementar capa de servicios + interceptores. | 3 | Ítalo Sánchez | To Do |
+| TECH-F03 | Diseño UI/UX | TF03-1 | Componentes globales | Crear componentes reutilizables (buttons, cards, layouts). | 3 | Ivo Machado | To Do |
+
+| **Documentación y Calidad** | | | | | | | |
+| DOC-F01 | Documentación Técnica | D01-1 | Actualizar README | Documentar arquitectura general del proyecto Flutter. | 2 | Leandro Contreras | To Do |
+
+
+
+---
+
+### 4.4.1.3. Justificación del Backlog  
+
+La selección del backlog responde a criterios de valor directo para el aprendiz, continuidad técnica, y construcción del MVP multiplataforma.
+
+#### 1. Completa el flujo integral del aprendiz en Flutter
+
+El Sprint permite que un aprendiz pueda:
+
+- ingresar y navegar por su **Home**  
+- ver **reservas**, **horarios** y **locales disponibles**  
+- explorar en **mapa** y en **vista detallada**  
+- **reservar un encuentro**  
+- revisar y editar su **perfil**
+
+Con esto se obtiene un flujo funcional equivalente al implementado previamente en la app Kotlin.
+
+---
+
+#### 2. Alineado con el Objetivo del Sprint
+
+El objetivo del **Sprint 3** es construir la **versión Flutter del flujo del aprendiz**, preparando el terreno para decidir entre:
+
+- continuar únicamente con **Kotlin**, o  
+- adoptar **Flutter** como tecnología principal **multiplataforma**
+
+Este backlog entrega la funcionalidad mínima necesaria para realizar una evaluación técnica seria y fundamentada.
+
+---
+
+#### 3. Balance y viabilidad
+
+La suma de tareas mantiene una carga equilibrada entre:
+
+- **UI/UX**  
+- **integración con API REST**  
+- **navegación y manejo de estado**
+
+Además, se incluye trabajo de estandarización visual para garantizar una experiencia coherente entre ambas plataformas.
+
+---
+
+#### 4. Mejora continua
+
+El backlog incluye tareas orientadas a:
+
+- optimizar el **UI Kit**  
+- mejorar la **consistencia de navegación**  
+- establecer una **base visual sólida y escalable** para futuras iteraciones  
+
+Esto contribuye a la calidad del producto y asegura una evolución ordenada del proyecto.
+
+
+#### 4.4.1.4. Development Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de desarrollo correspondiente a la creación y actualización  del proyecto **Glottia** en mobile.  
+El trabajo se realizó dentro del repositorio principal de frontend en Flutter:
+
+**Repositorio:** [https://github.com/Hampcoders-Glottia/glottia-front-end-dart](https://github.com/Hampcoders-Glottia/glottia-front-end-dart)
+
+##### Flujo de trabajo
+Durante el sprint se gestionaron los cambios mediante ramas feature específicas, integradas posteriormente a la rama principal (`main`) a través de *pull requests*.  
+El proceso se llevó a cabo siguiendo las prácticas de control de versiones GitFlow.
+
+### Evidencia de Desarrollo por Ramas
+
+| Repository | Branch | Commit ID | Feature / Context | Description | Committed on (Date) |
+|-----------|--------|-----------|-------------------|-------------|---------------------|
+| glottia-front-end-dart | `main` | 01 | Base App | Configuración inicial del proyecto Flutter, estructura modular, setup de rutas y UI Kit inicial. | 02/12/2025 |
+| glottia-front-end-dart | `feat/auth` | 25 | Identity & Access Management | Implementación del flujo de **Login**, **Registro** y persistencia básica de sesión usando Provider. | 28/11/2025 |
+| glottia-front-end-dart | `feat/dashboard` | 08 | Dashboard del aprendiz | Desarrollo de la pantalla principal del aprendiz (Home), navegación inicial y widgets principales. | 30/11/2025 |
+| glottia-front-end-dart | `feat/venue` | 08 | Venues Context | Listado de locales, detalle de venue, integración con el backend para obtener puntos disponibles. | 02/12/2025 |
+| glottia-front-end-dart | `develop` | 00 | Integration | Integración de las ramas `feat/auth`, `feat/dashboard` y `feat/venue`. Ajustes de navegación global y fijación de estados. | 02/12/2025 |
+
+---
+
+> **Nota:**  
+> Cada rama se enfocó en un *feature* clave del flujo del aprendiz.  
+> Se empleó la convención `feat/{module}` para mantener independencia por contexto, siguiendo buenas prácticas multiplataforma.
+
+#### 4.4.3.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta la **evidencia de pruebas de aceptación realizadas durante el Sprint 3** del proyecto **Glottia**, centradas en validar las funcionalidades principales de la **aplicación móvil desarrollada en Flutter**, así como su correcta integración con los servicios del backend.
+
+El foco de este sprint fue asegurar que la nueva versión en Flutter ofreciera un **flujo completo, estable y equivalente al de la app Kotlin**, validando conectividad API, navegación, manejo de estado y experiencia del usuario aprendiz.
+
+| Epic / Story ID | Título | Criterios de Aceptación | Resultado |
+|----------------|--------|--------------------------|-----------|
+| US-FL-01 | Login de Aprendiz en Flutter | **Escenario #1: Autenticación exitosa**<br>Given que el aprendiz ingresa credenciales válidas en la app Flutter<br>When presiona el botón “Iniciar sesión”<br>Then la app debe solicitar autenticación al endpoint `/api/auth/login`<br>And redirigir al dashboard del aprendiz mostrando su nombre. | Pasado |
+| US-FL-02 | Dashboard del Aprendiz (Home) | **Escenario #1: Carga dinámica de datos**<br>Given que el usuario accede al dashboard<br>When la app obtiene datos de promociones, idiomas y locales<br>Then debe mostrarse contenido actualizado sin errores<br>And la actualización debe ser fluida. | Pasado |
+| US-FL-03 | Exploración de Venues | **Escenario #1: Listado visible**<br>Given que el aprendiz abre la sección “Locales disponibles”<br>When se obtienen datos desde `/api/venues`<br>Then deben aparecer locales con su nombre, distancia e idioma disponible<br>And el usuario debe poder seleccionar uno. | Pasado |
+| US-FL-04 | Vista de Detalle de Venue | **Escenario #1: Visualización del detalle**<br>Given que el aprendiz selecciona un venue<br>When se carga la pantalla detallada<br>Then la app debe mostrar información completa: ubicación, idioma, horarios y disponibilidad<br>And no debe haber errores de renderizado. | Pasado |
+| US-FL-05 | Mapa Interactivo de Venues | **Escenario #1: Mostrar marcadores**<br>Given que el aprendiz abre la vista de mapa<br>When la app obtiene coordenadas de venues<br>Then debe mostrarlos en un mapa interactivo<br>And el usuario debe poder pulsar un venue para ver su detalle. | Pasado |
+| US-FL-06 | Reserva de Encuentro | **Escenario #1: Reserva exitosa**<br>Given que el aprendiz visualiza un venue y elige un horario<br>When presiona “Reservar”<br>Then la app debe enviar la reserva al endpoint `/api/reservas`<br>And mostrar mensaje de confirmación con código 201. | Pasado |
+| US-FL-07 | Visualización de Perfil | **Escenario #1: Mostrar perfil del aprendiz**<br>Given que el usuario entra a “Mi Perfil”<br>When la app consulta `/api/perfiles/{id}`<br>Then debe mostrar nombre, idioma, nivel y foto<br>And permitir navegación a “Editar Perfil”. | Pasado |
+| US-FL-08 | Estilo y UI Kit Unificado | **Escenario #1: Consistencia visual**<br>Given que se utilizan componentes unificados del UI Kit<br>When se navega entre pantallas en Flutter<br>Then todos los estilos deben ser consistentes con la guía visual del proyecto. | Pasado |
+| SP-02 | (Spike) Comparación Flutter vs Kotlin | **Escenario #1: Evaluación técnica**<br>Given que se completó el flujo del aprendiz en Flutter<br>When se comparan tiempos, rendimiento y complejidad con Kotlin<br>Then debe documentarse un análisis para decidir la tecnología principal del proyecto. | Pasado |
+
+---
+
+
+#### 4.4.3.5. Execution Evidence for Sprint Review
+
+En esta entrega, nuestro equipo ha desplegado con éxito el backend y la aplicacion de **aplicación móvil (Flutter)** .
+
+<img src="https://i.postimg.cc/nc1BgbxZ/Whats-App-Image-2025-12-02-at-22-39-38.jpg" />
+
+<img src="https://i.postimg.cc/XY7d0HjT/Whats-App-Image-2025-12-02-at-22-39-29.jpg" />
+
+<img src="https://i.postimg.cc/qvMydbJS/Whats-App-Image-2025-12-02-at-22-39-14.jpg" />
+
+<img src="https://i.postimg.cc/SxNCpTSH/Whats-App-Image-2025-12-02-at-22-39-02.jpg" />
+
+<img src="https://i.postimg.cc/qvMydbJS/Whats-App-Image-2025-12-02-at-22-39-14.jpg" />
+
+<img src="https://i.postimg.cc/nc1BgbxZ/Whats-App-Image-2025-12-02-at-22-39-38.jpg" />
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección, el equipo define los endpoints implementados en el desarrollo del Backend API
+
+Endpoints para el bounded context de IAM
+<img src="https://i.postimg.cc/YqTjvBMS/Screenshot-2025-10-08-001913.png" />
+
+Endpoints para el bounded context de Profiles Management
+<img src="https://i.postimg.cc/Gh694ndB/Screenshot-2025-10-08-001857.png" />
+
+Endpoints para el bounded context de Venues Management
+<img src="https://i.postimg.cc/BQRtjf4G/Screenshot-2025-10-08-002017.png" />
+
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el **Sprint 2**, el equipo logró implementar y desplegar satisfactoriamente las nuevas versiones de la **aplicación móvil (Kotlin)** y el **backend** del proyecto **Glottia**, consolidando la integración entre las distintas capas del sistema.
+
+---
+
 ## Deployment
 
 Durante este sprint, se realizaron despliegues tanto del **backend** y las **aplicaciones móviles**.
