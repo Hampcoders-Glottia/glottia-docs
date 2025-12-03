@@ -3342,7 +3342,6 @@ El foco de este sprint fue asegurar que la nueva versión en Flutter ofreciera u
 
 En esta entrega, nuestro equipo ha desplegado con éxito el backend y la aplicacion de **aplicación móvil (Flutter)** .
 
-<img src="https://i.postimg.cc/nc1BgbxZ/Whats-App-Image-2025-12-02-at-22-39-38.jpg" />
 
 <img src="https://i.postimg.cc/XY7d0HjT/Whats-App-Image-2025-12-02-at-22-39-29.jpg" />
 
@@ -3352,7 +3351,9 @@ En esta entrega, nuestro equipo ha desplegado con éxito el backend y la aplicac
 
 <img src="https://i.postimg.cc/qvMydbJS/Whats-App-Image-2025-12-02-at-22-39-14.jpg" />
 
-<img src="https://i.postimg.cc/nc1BgbxZ/Whats-App-Image-2025-12-02-at-22-39-38.jpg" />
+
+
+
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3370,7 +3371,7 @@ Endpoints para el bounded context de Venues Management
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el **Sprint 2**, el equipo logró implementar y desplegar satisfactoriamente las nuevas versiones de la **aplicación móvil (Kotlin)** y el **backend** del proyecto **Glottia**, consolidando la integración entre las distintas capas del sistema.
+Durante el **Sprint 3**, el equipo logró implementar y desplegar satisfactoriamente las nuevas versiones de la **aplicación móvil (Kotlin)** y el **backend** del proyecto **Glottia**, consolidando la integración entre las distintas capas del sistema.
 
 ---
 
