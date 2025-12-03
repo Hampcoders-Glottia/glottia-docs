@@ -127,6 +127,26 @@ La colaboración se distribuyó de forma balanceada entre los módulos **móvil*
 
 ---
 
+### TF – Desarrollo de la Aplicación Mobile en Flutter
+
+En esta ultima entrega (TF), el equipo avanzó desde las primeras etapas de estructura y configuración hacia una fase de **implementación funcional en Flutter**, integrando vistas, navegación, manejo de estado y conexión preliminar con los servicios del backend.  
+
+A diferencia del TB1, donde las actividades se centraron en diseño, planificación y construcción de la arquitectura base, en el TB2 se evidenció una **mayor actividad colaborativa**, reflejada en:
+
+- Incremento notable en la frecuencia de *commits* y *pushes* al repositorio móvil.  
+- Trabajo equilibrado entre los módulos de **Flutter** (UI, domain, data) y el **backend** (endpoints, autenticación, perfiles).  
+- Integración constante entre ramas `feature` mediante *pull requests*, asegurando un flujo de trabajo ordenado y revisado.  
+- Mejoras progresivas en la arquitectura, siguiendo principios de **clean architecture**, control de versiones y buenas prácticas del equipo.
+
+<img src="https://i.ibb.co/V0vhMP9t/CONTRIBURAS.png"/>
+
+> **Análisis:**  
+> El equipo demostró una consolidación técnica y organizacional significativa durante el TB2. Se mantuvo una dinámica de desarrollo ágil con  
+> commits frecuentes, revisiones cruzadas y una integración constante del código.  
+> La aplicación en Flutter alcanzó un nivel de estabilidad adecuado para habilitar las próximas etapas del proyecto, como pruebas funcionales, integración con servicios en vivo y la construcción de nuevas funcionalidades orientadas al usuario.
+
+---
+
 
 # Contenido
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -3353,95 +3373,98 @@ En esta entrega, nuestro equipo ha desplegado con éxito el backend y la aplicac
 
 
 
-
-
-#### 4.2.1.6. Services Documentation Evidence for Sprint Review
-
-En esta sección, el equipo define los endpoints implementados en el desarrollo del Backend API
-
-Endpoints para el bounded context de IAM
-<img src="https://i.postimg.cc/YqTjvBMS/Screenshot-2025-10-08-001913.png" />
-
-Endpoints para el bounded context de Profiles Management
-<img src="https://i.postimg.cc/Gh694ndB/Screenshot-2025-10-08-001857.png" />
-
-Endpoints para el bounded context de Venues Management
-<img src="https://i.postimg.cc/BQRtjf4G/Screenshot-2025-10-08-002017.png" />
-
-
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el **Sprint 3**, el equipo logró implementar y desplegar satisfactoriamente las nuevas versiones de la **aplicación móvil (Kotlin)** y el **backend** del proyecto **Glottia**, consolidando la integración entre las distintas capas del sistema.
+Durante el **Sprint 3**, el equipo logró implementar y desplegar satisfactoriamente la nueva versión de la **aplicación móvil desarrollada en Flutter**, junto con las actualizaciones del **backend** del proyecto **Glottia**, asegurando una integración completa entre frontend y servicios remotos.
 
 ---
 
 ## Deployment
 
-Durante este sprint, se realizaron despliegues tanto del **backend** y las **aplicaciones móviles**.
+En este sprint se realizaron despliegues tanto del **backend** como de la **aplicación móvil en Flutter**.
 
-Una vez configurado el repositorio, se vinculó a Netlify para permitir el despliegue continuo (CI/CD).
+La aplicación Flutter se configuró para generar builds internas destinadas a pruebas funcionales y validación del flujo de usuario en dispositivos Android e iOS.  
+Se habilitó también un flujo de integración continua (CI/CD) conectado al repositorio principal.
 
-<img src="https://i.postimg.cc/kMxvSMqp/645.png" alt="Conexión con GitHub" width="500"/>
-<img src="https://i.postimg.cc/YqdgNhVb/44.png" alt="Deploy exitoso" width="500"/>
+---
+
+### Mobile Deployment (Flutter)
+
+Durante el Sprint 3 se generaron y entregaron builds internas (APK / IPA) para los testers del equipo, permitiendo validar:
+
+- Nuevas pantallas del Dashboard  
+- Flujo de Autenticación (Firebase Auth)  
+- Listado de Venues y detalles  
+- Integración con el backend actualizado  
+- Ajustes de UI/UX del diseño oficial de Glottia  
+
+Las builds se generaron desde el repositorio:
+
+**Repositorio Flutter:**  
+https://github.com/Hampcoders-Glottia/glottia-front-end-dart
+
+Evidencia de ramas activas durante el Sprint 3:
+
+- `feat/auth`
+- `feat/dashboard`
+- `feat/venue`
+- `develop`
+- `main`
 
 ---
 
 ### Backend Deployment
 
-Durante el Sprint 2, el **backend** desarrollado en **Java Spring Boot** fue desplegado en un entorno remoto, asegurando la disponibilidad de los endpoints para su consumo desde la app móvil y la landing page.
+Durante el Sprint 3, el **backend en Spring Boot** fue actualizado y desplegado en el entorno remoto utilizado por el equipo, garantizando estabilidad y disponibilidad para su consumo desde la aplicación Flutter.
 
-Evidencia del backend desplegado:  
+**Evidencia del backend desplegado:**  
 <img src="https://i.postimg.cc/PrmshLC7/0dc903ff-c2d4-45b3-b66f-4cf568ef507e.jpg" alt="Backend desplegado" width="500"/>
 
 ---
 
-###  Aplicaciones Móviles
+### Evidencia de Integración CI/CD
 
-En este sprint se trabajó en dos entornos móviles:
+Una vez configurado el repositorio Flutter, se integró a un servicio de CI/CD para permitir automatizar los procesos de build y validación.
 
-- **App Glottia (Kotlin – Android)**  
-  Aplicación oficial destinada al uso principal de usuarios aprendices.
+**Conexión con GitHub:**  
+<img src="https://i.postimg.cc/kMxvSMqp/645.png" alt="Conexión con GitHub" width="500"/>
 
-- **App Glottia (Flutter – Prueba de concepto)**  
-  Versión experimental utilizada como *spike* para comparar productividad y rendimiento multiplataforma.
+**Deploy exitoso / Validación del pipeline:**  
+<img src="https://i.postimg.cc/YqdgNhVb/44.png" alt="Deploy exitoso" width="500"/>
 
-  
-| Repositorio | Descripción | URL |
-|--------------|-------------|-----|
-| **glottia-back-end** | Contiene la API REST principal del sistema, desarrollada en Java Spring Boot. | [https://github.com/Hampcoders-Glottia/glottia-back-end](https://github.com/Hampcoders-Glottia/glottia-back-end) |
-| **glottia-front-end-kotlin** | Repositorio de la aplicación móvil principal desarrollada en Kotlin (Android). | [https://github.com/Hampcoders-Glottia/glottia-front-end-kotlin](https://github.com/Hampcoders-Glottia/glottia-front-end-kotlin) |
-| **glottia-mobile-app-flutter** | Prueba de concepto en Flutter como exploración tecnológica alternativa. | [https://github.com/Hampcoders-Glottia/glottia-mobile-app-flutter](https://github.com/Hampcoders-Glottia/glottia-mobile-app-flutter) |
-| **glottia-docs** | Repositorio destinado a la documentación técnica y evidencia de desarrollo. | [https://github.com/Hampcoders-Glottia/glottia-docs](https://github.com/Hampcoders-Glottia/glottia-docs) |
-
-
+---
 
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
-A continuación, se presentan los **insights de colaboración** obtenidos desde GitHub, reflejando la participación activa del equipo durante el desarrollo y despliegue del **Sprint 2**.
+A continuación, se presentan los **insights de colaboración** obtenidos desde GitHub, reflejando la participación activa del equipo durante el desarrollo y despliegue del **Sprint 3**.
 
 - Se registraron commits continuos en los repositorios de **frontend**, **backend** y **app móvil**.  
 - Se mantuvo una comunicación efectiva mediante *branches* y *pull requests*.  
-- Los miembros del equipo aplicaron buenas prácticas de control de versiones y documentación técnica.  
+- Los miembros del equipo aplicaron buenas prácticas de control de versiones, gestión de ramas y documentación técnica.  
 
-<img src="https://i.postimg.cc/90w4zd6D/insigth.png"/>
+<img src="https://i.ibb.co/9k9xss8z/pp.png"/>
 
-<img src="https://i.postimg.cc/sfbmmwDT/imsigth2.png"/>
-
+<img src="https://i.ibb.co/dw7WsSHD/network.png"/>
 
 ---
 
 **Conclusión:**  
-El **Sprint 2** marcó un hito en la madurez técnica del proyecto, consolidando los procesos de **diseño, despliegue y colaboración**. Los componentes principales del ecosistema Glottia quedaron correctamente integrados y operativos, preparando el entorno para la validación funcional completa en el siguiente sprint.
+El **Sprint 3** representó un avance significativo en la madurez técnica del proyecto, fortaleciendo los procesos de **desarrollo colaborativo, integración y despliegue**.  
+Gracias a la coordinación del equipo y al uso disciplinado de herramientas de control de versiones, los componentes principales del ecosistema Glottia quedaron correctamente integrados y listos para la validación funcional en el próximo sprint.
 
 
 # Conclusiones
 
-El análisis de entrevistas y hallazgos evidencia que existe una necesidad real y no cubierta en torno a la práctica de idiomas en contextos sociales. Los usuarios aprendices de idiomas expresan entusiasmo por mejorar su fluidez y confianza, pero enfrentan limitaciones en el acceso a espacios seguros, accesibles y organizados donde practicar. Asimismo, aunque utilizan tecnología en su vida diaria, la mayoría no cuenta con plataformas específicas para encuentros lingüísticos, lo que posiciona a Glottia como una oportunidad innovadora para liderar este nicho.
+El análisis de entrevistas y hallazgos evidencia que existe una **necesidad real y no cubierta** en torno a la práctica de idiomas en contextos sociales. Los usuarios aprendices expresan entusiasmo por mejorar su fluidez y confianza, pero enfrentan **limitaciones en el acceso a espacios seguros, accesibles y organizados** donde practicar. Aunque utilizan tecnología de manera cotidiana, la mayoría no cuenta con plataformas específicas para encuentros lingüísticos, lo que posiciona a **Glottia como una oportunidad innovadora** para liderar este nicho.
 
-Por otro lado, los administradores de locales (cafeterías, restaurantes, coworkings y espacios culturales) perciben un valor positivo en ofrecer sus establecimientos como puntos de encuentro, ya que les permite atraer un público diverso, aumentar la afluencia en horarios valle y reforzar el posicionamiento cultural de sus marcas. Sin embargo, muestran preocupaciones claras respecto al consumo mínimo, control del tiempo y manejo del ruido, aspectos que deben ser regulados mediante las políticas de la plataforma para generar confianza y sostenibilidad en las alianzas.
+Por otro lado, los **administradores de locales** (cafeterías, restaurantes, coworkings y espacios culturales) perciben un valor positivo en ofrecer sus establecimientos como puntos de encuentro, ya que les permite atraer un público diverso, **incrementar la afluencia en horarios valle** y reforzar el posicionamiento cultural de sus marcas. Sin embargo, también expresan preocupaciones respecto al **consumo mínimo, control del tiempo y manejo del ruido**, elementos que deben ser regulados mediante políticas claras dentro de la plataforma para asegurar confianza y sostenibilidad en las alianzas.
 
-En conjunto, los hallazgos indican que Glottia puede convertirse en un ecosistema de confianza y beneficio mutuo, donde los usuarios encuentren oportunidades inclusivas y accesibles para practicar idiomas, mientras los establecimientos ganan visibilidad y fidelización de clientes. La propuesta se fortalece al estar orientada a la construcción de comunidad, la seguridad de los espacios y la experiencia cultural compartida, factores que la diferencian de academias tradicionales y de aplicaciones exclusivamente virtuales.
+De forma complementaria, se identifica que tanto usuarios como administradores valoran la presencia de **mecanismos de seguridad, verificación de perfiles y gestión transparente de reservas**, lo que refuerza la necesidad de una plataforma que priorice confianza, claridad y experiencias positivas.
+
+En conjunto, los hallazgos indican que **Glottia puede convertirse en un ecosistema de confianza y beneficio mutuo**, donde los usuarios encuentren oportunidades inclusivas y accesibles para practicar idiomas, mientras los establecimientos ganan visibilidad, flujo constante de personas y fidelización de clientes.  
+
+La propuesta se fortalece al estar orientada a la **construcción de comunidad**, la **seguridad de los espacios** y la **experiencia cultural compartida**, factores que la diferencian tanto de academias tradicionales como de aplicaciones exclusivamente virtuales. Además, el concepto abre puertas a **expansiones futuras**, como eventos temáticos, programas de membresías y alianzas educativas, consolidando a Glottia como un actor relevante en el aprendizaje experiencial de idiomas.
 
 ---
 #  Recomendaciones
@@ -3473,6 +3496,19 @@ Dueñas-Mendoza, A. S., & Zaldumbide-Peralvo, D. A. Estrategias de marketing dig
 - Enlace del Backend  : 
 - [https://glottia-back-end.onrender.com/swagger-ui/index.html#/](https://glottia-back-end.onrender.com/swagger-ui/index.html#/)
 - [https://github.com/Hampcoders-Glottia/glottia-back-end/](https://github.com/Hampcoders-Glottia/glottia-back-end/)
+
+- Enlace de la Aplicacion en Kotlin:
+- [https://github.com/Hampcoders-Glottia/glottia-front-end-kotlin/](https://github.com/Hampcoders-Glottia/glottia-front-end-kotlin/)
+
+-  Enlace de la Aplicacion en Flutter:
+- [https://github.com/Hampcoders-Glottia/glottia-front-end-dart/](https://github.com/Hampcoders-Glottia/glottia-front-end-dart/)
+
+- Video About the Team:
+- [https://youtu.be/S2RB1lCP13c/](https://youtu.be/S2RB1lCP13c/)
+
+- Video About the Product:
+- [https://www.youtube.com/watch?v=inAOO-xbTYc&feature=youtu.be/](https://www.youtube.com/watch?v=inAOO-xbTYc&feature=youtu.be/)
+
 
 -Drive de las entrevistas realizadas en el proyecto 
 [https://drive.google.com/drive/folders/1XoQLnfGc5-C0vPBBMoQjuvYeWK71VKOd](https://drive.google.com/drive/folders/1XoQLnfGc5-C0vPBBMoQjuvYeWK71VKOd)
